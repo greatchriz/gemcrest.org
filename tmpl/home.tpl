@@ -396,12 +396,7 @@
               <p class="mb-0 ps-3">Yearly</p>
             </div>
             <div class="row gy-6 mt-3 mt-md-5">
-                {foreach from=$index_plans item=p}
-                    {if !$p.closed}
-                  
-                {include file="index.plans.tpl"}
-                    {/if}
-                {/foreach}
+                {include file="plan.tpl"}
 
             </div>
             <!--/.row -->
