@@ -1,4 +1,4 @@
-{include file="header.tpl"}
+{include file="main_header.tpl"}
 
 Our program is intended for people willing to achieve their financial freedom but unable to do so because they're not financial experts.<br>
 
@@ -47,4 +47,4 @@ Level {$ref_levels[rl].level}: <b>{$ref_levels[rl].percent}%</b><br>
 
 
 
-{include file="footer.tpl"}
+{include file="main_footer.tpl"}

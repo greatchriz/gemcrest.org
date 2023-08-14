@@ -1,0 +1,18 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: built_titling_bd
+font link: https://www.fontspring.com/fonts/typodermic/built-titling
+font author: Typodermic
+font author site: http://typodermicfonts.com/
+
+
+icon designer: icon 54
+icon designer link: /icon54app
+        
+
+fontColor: {"hex":"#ffffff"}
+bgColor: {"hex":""}
+iconColor: {"hex":"#ffffff"}
+
+      
