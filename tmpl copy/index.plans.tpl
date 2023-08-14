@@ -1,50 +1,68 @@
-{literal}
-<script language="javascript"><!--
-function openCalculator(id)
-{
-  w = 225; h = 400;
-  t = (screen.height-h-30)/2;
-  l = (screen.width-w-30)/2;
-  window.open('?a=calendar&type=' + id, 'calculator' + id, "top="+t+",left="+l+",width="+w+",height="+h+",resizable=1,scrollbars=0");
-}
---></script>
-{/literal}
-
 {foreach from=$index_plans item=p}
-{if !$p.closed}
-<table cellspacing=1 cellpadding=2 border=0 width=100%>
-<tr>
- <td colspan=3 align=center>{if $p.dsc != ''}<a href="{"?a=show_package_info&id=`$p.id`"|encurl}">{/if}<b>{$p.name|escape:html}</b></a></td>
-</tr>
-{if $p.plans}
-<tr>
- <td class=inheader>Plan</td>
- <td class=inheader width=200>Spent Amount ({$currency_sign})</td>
- <td class=inheader width=100 nowrap><nobr>{$p.period} Profit (%)</nobr></td>
-</tr>
-{foreach from=$p.plans item=o}
-<tr>
- <td class=item>{$o.name|escape:html}</td>
- <td class=item align=right>{$o.deposit}</td>
- <td class=item align=right>{$o.percent|string_format:"%.2f"}</td>
-</tr>
-{/foreach}
-{if $settings.enable_calculator and $p.period != 'Floating'}
-<tr>
- <td colspan=3 align=right><a href="javascript:openCalculator('{$p.id}')">Calculate your profit &gt;&gt;</a></td>
-</tr>
-{/if}
-{/if}
-</table>
+  {if !$p.closed}
 
-{if $userinfo.logged}
-<br>
-<form method=post>
-<input type=hidden name=a value=deposit>
-<input type=submit value="Make deposit" class=sbmt>
-<input type=hidden name=h_id value={$p.id}>
-</form>
-<br><br>
-{/if}
-{/if}
+
+          <div class="col-md-6 col-lg-4">
+              <div class="pricing card text-center">
+                  <div class="card-body">
+                      <img
+                          src="./assets/img/icons/lineal/shopping-basket.svg"
+                          class="svg-inject icon-svg icon-svg-md text-primary mb-3"
+                          alt=""
+                      />
+                      <h4 class="card-title">{$p.name|escape:html}</h4>
+                      <div class="prices text-dark">
+                          <div class="price price-show"><span class="price-currency">$</span><span class="price-value">9</span>
+                              <span class="price-duration">mo</span>
+                          </div>
+                          <div class="price price-hide price-hidden"><span class="price-currency">$</span><span
+                                  class="price-value"
+                              >99</span> <span class="price-duration">yr</span></div>
+                      </div>
+                      <!--/.prices -->
+                      {foreach from=$p.plans item=o}
+
+                      <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
+                          <li><i class="uil uil-check"></i><span><strong>1</strong> {$o.name|escape:html} </span></li>
+                          <li><i class="uil uil-check"></i><span><strong>100K</strong> {$o.deposit} </span></li>
+                          <li><i class="uil uil-check"></i><span><strong>100MB</strong> {$o.percent|string_format:"%.2f"} </span></li>
+                          <li><i class="uil uil-times bullet-soft-red"></i><span> Weekly <strong>Reports</strong> </span></li>
+                          <li><i class="uil uil-times bullet-soft-red"></i><span> 7/24 <strong>Support</strong></span></li>
+                      </ul>
+
+                      <a
+                          href="#"
+                          class="btn btn-primary rounded-pill"
+                      >Choose Plan</a>
+                  {/foreach}
+
+                  </div>
+                  <!--/.card-body -->
+              </div>
+              <!--/.pricing -->
+          </div>
+  {/if}
 {/foreach}
+
+    {if $userinfo.logged}
+      <br>
+      <form method=post>
+        <input
+          type=hidden
+          name=a
+          value=deposit
+        >
+        <input
+          type=submit
+          value="Make deposit"
+          class=sbmt
+        >
+        <input
+          type=hidden
+          name=h_id
+          value={$p.id}
+        >
+      </form>
+      <br><br>
+    {/if}
+ 

@@ -1,103 +1,416 @@
 {include file="main_header.tpl"}
 
-    <section class="video-wrapper bg-overlay bg-overlay-gradient px-0 mt-0 min-vh-80">
-        <video
-            poster="assets/img/photos/movie2.jpg"
-            src="assets/media/movie2.mp4"
-            autoplay=""
-            loop=""
-            playsinline=""
-            muted=""
-        ></video>
-        <div class="video-content">
-            <div class="container text-center">
-                <div class="row">
-                    <div class="col-lg-8 col-xl-6 text-center text-white mx-auto">
-                        <h1 class="display-1 fs-54 text-white mb-5"><span class="rotator-zoom">Rapid Solutions,Innovative
-                                Thinking,Top-Notch Support</span></h1>
-                        <p class="lead fs-24 mb-0 mx-xxl-8">We are a digital agency specializing in web design, mobile
-                            development and seo optimization.</p>
-                    </div>
-                    <!-- /column -->
-                </div>
+    {include file="home_video.tpl"}
+
+
+    <section class="wrapper bg-light">
+        <div class="container py-15 py-md-17">
+          <div class="row text-center mb-10">
+            <div class="col-md-10 col-lg-9 col-xxl-8 mx-auto">
+              <h2 class="fs-16 text-uppercase text-muted mb-3">What We Do?</h2>
+              <h3 class="display-3 px-xl-10 mb-0">The service we offer is specifically designed to meet your needs.</h3>
             </div>
-            <!-- /.video-content -->
+            <!-- /column -->
+          </div>
+          <!-- /.row -->
+          <div class="row gx-lg-0 gy-10 mb-15 mb-md-17 align-items-center">
+            <div class="col-lg-6">
+              <figure class="rounded mb-0"><img class="img-fluid" src="assets/img/illustrations/ui4.png" srcset="assets/img/illustrations/ui4%402x.png 2x" alt=""></figure>
+            </div>
+            <!--/column -->
+            <div class="col-lg-5 ms-auto">
+              <h3 class="fs-28 mb-3">Web Design</h3>
+              <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna risus varius.</p>
+              <ul class="icon-list bullet-bg bullet-soft-primary">
+                <li><span><i class="uil uil-check"></i></span><span>Aenean quam ornare curabitur blandit.</span></li>
+                <li><span><i class="uil uil-check"></i></span><span>Nullam quis risus eget urna mollis ornare leo.</span></li>
+                <li><span><i class="uil uil-check"></i></span><span>Etiam porta euismod mollis natoque ornare.</span></li>
+              </ul>
+              <a href="#" class="btn btn-soft-primary rounded-pill mt-2 mb-0">More Details</a>
+            </div>
+            <!--/column -->
+          </div>
+          <!--/.row -->
+          <div class="row gx-lg-0 gy-10 mb-15 mb-md-17 align-items-center">
+            <div class="col-lg-6 order-lg-2 ms-auto">
+              <figure class="rounded mb-0"><img class="img-fluid" src="assets/img/illustrations/ui1.png" srcset="assets/img/illustrations/ui1%402x.png 2x" alt=""></figure>
+            </div>
+            <!--/column -->
+            <div class="col-lg-5">
+              <h3 class="fs-28 mb-3">Mobile Development</h3>
+              <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna risus varius.</p>
+              <ul class="icon-list bullet-bg bullet-soft-primary">
+                <li><span><i class="uil uil-check"></i></span><span>Aenean quam ornare curabitur blandit.</span></li>
+                <li><span><i class="uil uil-check"></i></span><span>Nullam quis risus eget urna mollis ornare leo.</span></li>
+                <li><span><i class="uil uil-check"></i></span><span>Etiam porta euismod mollis natoque ornare.</span></li>
+              </ul>
+              <a href="#" class="btn btn-soft-primary rounded-pill mt-2 mb-0">More Details</a>
+            </div>
+            <!--/column -->
+          </div>
+          <!--/.row -->
+          <div class="row gx-lg-0 gy-10 align-items-center">
+            <div class="col-lg-6">
+              <figure class="rounded mb-0"><img class="img-fluid" src="assets/img/illustrations/ui5.png" srcset="assets/img/illustrations/ui5%402x.png 2x" alt=""></figure>
+            </div>
+            <!--/column -->
+            <div class="col-lg-5 ms-auto">
+              <h3 class="fs-28 mb-3">SEO Optimization</h3>
+              <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna risus varius.</p>
+              <ul class="icon-list bullet-bg bullet-soft-primary">
+                <li><span><i class="uil uil-check"></i></span><span>Aenean quam ornare curabitur blandit.</span></li>
+                <li><span><i class="uil uil-check"></i></span><span>Nullam quis risus eget urna mollis ornare leo.</span></li>
+                <li><span><i class="uil uil-check"></i></span><span>Etiam porta euismod mollis natoque ornare.</span></li>
+              </ul>
+              <a href="#" class="btn btn-soft-primary rounded-pill mt-2 mb-0">More Details</a>
+            </div>
+            <!--/column -->
+          </div>
+          <!--/.row -->
         </div>
-        <!-- /.content-overlay -->
-    </section>
+        <!-- /.container -->
+      </section>
+      <!-- /section -->
+      <section class="wrapper bg-light">
+        <div class="container py-15 py-md-17">
+          <div class="row text-center">
+            <div class="col-lg-10 mx-auto position-relative">
+              <div class="position-relative">
+                <div class="shape pale-pink rellax w-18 h-18" data-rellax-speed="1" style="top: 1rem; left: -4.2rem;">
+                  <img src="assets/img/svg/hex.svg" class="svg-inject icon-svg w-100 h-100" alt="">
+                </div>
+                <div class="shape pale-primary rellax w-18 h-18" data-rellax-speed="1" style="bottom: 2rem; right: -3.5rem;">
+                  <img src="assets/img/svg/circle.svg" class="svg-inject icon-svg w-100 h-100" alt="">
+                </div>
+                <video poster="assets/img/photos/movie.jpg" class="player" playsinline="" controls="" preload="none">
+                  <source src="assets/media/movie.mp4" type="video/mp4">
+                  <source src="./assets/media/movie.webm" type="video/webm">
+                </video>
+              </div>
+            </div>
+            <!--/column -->
+          </div>
+          <!--/.row -->
+          <div class="row text-center mt-12">
+            <div class="col-lg-10 mx-auto">
+              <h2 class="fs-16 text-uppercase text-muted mb-3">Our Working Process</h2>
+              <h3 class="display-3 text-center px-xl-10 px-xxl-15 mb-10">Find out everything you need to know about creating a business process model</h3>
+              <div class="row gx-lg-8 gx-xl-12 process-wrapper arrow text-center">
+                <div class="col-md-4"> <img src="assets/img/icons/solid/bulb.svg" class="svg-inject icon-svg icon-svg-sm solid-duo text-purple-pink mb-4" alt="">
+                  <h3 class="fs-22">1. Collect Ideas</h3>
+                  <p>Etiam porta malesuada magna mollis euismod consectetur leo elit.</p>
+                </div>
+                <!--/column -->
+                <div class="col-md-4"> <img src="assets/img/icons/solid/compare.svg" class="svg-inject icon-svg icon-svg-sm solid-duo text-purple-pink mb-4" alt="">
+                  <h3 class="fs-22">2. Data Analysis</h3>
+                  <p>Etiam porta malesuada magna mollis euismod consectetur leo elit.</p>
+                </div>
+                <!--/column -->
+                <div class="col-md-4"> <img src="assets/img/icons/solid/delivery-box.svg" class="svg-inject icon-svg icon-svg-sm solid-duo text-purple-pink mb-4" alt="">
+                  <h3 class="fs-22">3. Finalize Product</h3>
+                  <p>Etiam porta malesuada magna mollis euismod consectetur leo elit.</p>
+                </div>
+                <!--/column -->
+              </div>
+              <!--/.row -->
+            </div>
+            <!-- /column -->
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.container -->
+      </section>
+      <!-- /section -->
+      <section class="wrapper bg-light">
+        <div class="container py-15 py-md-17">
+          <div class="row">
+            <div class="col-lg-11 col-xl-10 mx-auto mb-10">
+              <h2 class="fs-16 text-uppercase text-muted text-center mb-3">Our Projects</h2>
+              <h3 class="display-3 text-center px-lg-5 px-xl-10 px-xxl-16 mb-0">Check out some of our awesome projects with creative ideas and great design.</h3>
+            </div>
+            <!-- /column -->
+          </div>
+          <!-- /.row -->
+          <div class="grid grid-view projects-masonry">
+            <div class="row gx-md-8 gy-10 gy-md-13 isotope">
+              <div class="project item col-md-6 col-xl-4">
+                <figure class="rounded mb-6"><img src="assets/img/photos/pd7.jpg" srcset="assets/img/photos/pd7%402x.jpg 2x" alt=""><a class="item-link" href="assets/img/photos/pd7-full.jpg" data-glightbox="" data-gallery="projects-group"><i class="uil uil-focus-add"></i></a></figure>
+                <div class="project-details d-flex justify-content-center flex-column">
+                  <div class="post-header">
+                    <h2 class="post-title h3 fs-22"><a href="single-project.html" class="link-dark">Cras Fermentum Sem</a></h2>
+                    <div class="post-category text-ash">Stationary</div>
+                  </div>
+                  <!-- /.post-header -->
+                </div>
+                <!-- /.project-details -->
+              </div>
+              <!-- /.item -->
+              <div class="project item col-md-6 col-xl-4">
+                <figure class="rounded mb-6"><img src="assets/img/photos/pd8.jpg" srcset="assets/img/photos/pd8%402x.jpg 2x" alt=""><a class="item-link" href="assets/img/photos/pd8-full.jpg" data-glightbox="" data-gallery="projects-group"><i class="uil uil-focus-add"></i></a></figure>
+                <div class="project-details d-flex justify-content-center flex-column">
+                  <div class="post-header">
+                    <h2 class="post-title h3 fs-22"><a href="single-project2.html" class="link-dark">Mollis Ipsum Mattis</a></h2>
+                    <div class="post-category text-ash">Magazine, Book</div>
+                  </div>
+                  <!-- /.post-header -->
+                </div>
+                <!-- /.project-details -->
+              </div>
+              <!-- /.item -->
+              <div class="project item col-md-6 col-xl-4">
+                <figure class="rounded mb-6"><img src="assets/img/photos/pd9.jpg" srcset="assets/img/photos/pd9%402x.jpg 2x" alt=""><a class="item-link" href="assets/img/photos/pd9-full.jpg" data-glightbox="" data-gallery="projects-group"><i class="uil uil-focus-add"></i></a></figure>
+                <div class="project-details d-flex justify-content-center flex-column">
+                  <div class="post-header">
+                    <h2 class="post-title h3 fs-22"><a href="single-project3.html" class="link-dark">Ipsum Ultricies Cursus</a></h2>
+                    <div class="post-category text-ash">Packaging</div>
+                  </div>
+                  <!-- /.post-header -->
+                </div>
+                <!-- /.project-details -->
+              </div>
+              <!-- /.item -->
+              <div class="project item col-md-6 col-xl-4">
+                <figure class="rounded mb-6"><img src="assets/img/photos/pd10.jpg" srcset="assets/img/photos/pd10%402x.jpg 2x" alt=""><a class="item-link" href="assets/img/photos/pd10-full.jpg" data-glightbox="" data-gallery="projects-group"><i class="uil uil-focus-add"></i></a></figure>
+                <div class="project-details d-flex justify-content-center flex-column">
+                  <div class="post-header">
+                    <h2 class="post-title h3 fs-22"><a href="single-project.html" class="link-dark">Inceptos Euismod Egestas</a></h2>
+                    <div class="post-category text-ash">Stationary, Branding</div>
+                  </div>
+                  <!-- /.post-header -->
+                </div>
+                <!-- /.project-details -->
+              </div>
+              <!-- /.item -->
+              <div class="project item col-md-6 col-xl-4">
+                <figure class="rounded mb-6"><img src="assets/img/photos/pd11.jpg" srcset="assets/img/photos/pd11%402x.jpg 2x" alt=""><a class="item-link" href="assets/img/photos/pd11-full.jpg" data-glightbox="" data-gallery="projects-group"><i class="uil uil-focus-add"></i></a></figure>
+                <div class="project-details d-flex justify-content-center flex-column">
+                  <div class="post-header">
+                    <h2 class="post-title h3 fs-22"><a href="single-project2.html" class="link-dark">Ipsum Mollis Vulputate</a></h2>
+                    <div class="post-category text-ash">Packaging</div>
+                  </div>
+                  <!-- /.post-header -->
+                </div>
+                <!-- /.project-details -->
+              </div>
+              <!-- /.item -->
+              <div class="project item col-md-6 col-xl-4">
+                <figure class="rounded mb-6"><img src="assets/img/photos/pd12.jpg" srcset="assets/img/photos/pd12%402x.jpg 2x" alt=""><a class="item-link" href="assets/img/photos/pd12-full.jpg" data-glightbox="" data-gallery="projects-group"><i class="uil uil-focus-add"></i></a></figure>
+                <div class="project-details d-flex justify-content-center flex-column">
+                  <div class="post-header">
+                    <h2 class="post-title h3 fs-22"><a href="single-project3.html" class="link-dark">Porta Ornare Cras</a></h2>
+                    <div class="post-category text-ash">Branding</div>
+                  </div>
+                  <!-- /.post-header -->
+                </div>
+                <!-- /.project-details -->
+              </div>
+              <!-- /.item -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.grid -->
+          <div class="text-center mt-10">
+            <a href="#" class="btn btn-lg btn-primary rounded-pill">Start a Project</a>
+          </div>
+        </div>
+        <!-- /.container -->
+      </section>
+      <!-- /section -->
+      <section class="wrapper bg-light">
+        <div class="container py-15 py-md-17">
+          <div class="row gx-lg-8 gx-xl-12 gy-10 gy-lg-0">
+            <div class="col-lg-4 mt-lg-2">
+              <h2 class="fs-16 text-uppercase text-muted mb-3">Our Clients</h2>
+              <h3 class="display-3 mb-3 pe-xxl-5">Trusted by over 300+ clients</h3>
+              <p class="lead fs-lg mb-0 pe-xxl-7">We bring solutions to make life easier for our customers.</p>
+            </div>
+            <!-- /column -->
+            <div class="col-lg-8">
+              <div class="row row-cols-2 row-cols-md-4 gx-0 gx-md-8 gx-xl-12 gy-12">
+                <div class="col">
+                  <figure class="px-3 px-md-0 px-xxl-2"><img src="assets/img/brands/z1.png" alt=""></figure>
+                </div>
+                <!--/column -->
+                <div class="col">
+                  <figure class="px-3 px-md-0 px-xxl-2"><img src="assets/img/brands/z2.png" alt=""></figure>
+                </div>
+                <!--/column -->
+                <div class="col">
+                  <figure class="px-3 px-md-0 px-xxl-2"><img src="assets/img/brands/z3.png" alt=""></figure>
+                </div>
+                <!--/column -->
+                <div class="col">
+                  <figure class="px-3 px-md-0 px-xxl-2"><img src="assets/img/brands/z4.png" alt=""></figure>
+                </div>
+                <!--/column -->
+                <div class="col">
+                  <figure class="px-3 px-md-0 px-xxl-2"><img src="assets/img/brands/z5.png" alt=""></figure>
+                </div>
+                <!--/column -->
+                <div class="col">
+                  <figure class="px-3 px-md-0 px-xxl-2"><img src="assets/img/brands/z6.png" alt=""></figure>
+                </div>
+                <!--/column -->
+                <div class="col">
+                  <figure class="px-3 px-md-0 px-xxl-2"><img src="assets/img/brands/z7.png" alt=""></figure>
+                </div>
+                <!--/column -->
+                <div class="col">
+                  <figure class="px-3 px-md-0 px-xxl-2"><img src="assets/img/brands/z8.png" alt=""></figure>
+                </div>
+                <!--/column -->
+              </div>
+              <!--/.row -->
+            </div>
+            <!-- /column -->
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.container -->
+      </section>
+      <!-- /section -->
+      <section class="wrapper bg-light">
+        <div class="container pt-15 pt-md-17">
+          <div class="row gy-10 gy-sm-13 gx-md-8 gx-xl-12 align-items-center mb-15 mb-md-17">
+            <div class="col-lg-6 position-relative">
+              <a href="assets/media/movie.mp4" class="btn btn-circle btn-white btn-play ripple mx-auto mb-5 position-absolute" style="top:50%; left: 50%; transform: translate(-50%,-50%); z-index:3;" data-glightbox=""><i class="icn-caret-right"></i></a>
+              <figure class="rounded"><img src="assets/img/photos/about12.jpg" srcset="assets/img/photos/about12%402x.jpg 2x" alt=""></figure>
+            </div>
+            <!--/column -->
+            <div class="col-lg-6">
+              <h2 class="fs-16 text-uppercase text-muted mb-3">What Makes Us Different?</h2>
+              <h3 class="display-3 mb-8">We make spending stress free so you have the perfect control.</h3>
+              <div class="row gy-6">
+                <div class="col-md-6">
+                  <div class="d-flex flex-row">
+                    <div>
+                      <img src="assets/img/icons/solid/lamp.svg" class="svg-inject icon-svg icon-svg-xs solid-duo text-purple-pink me-4" alt="">
+                    </div>
+                    <div>
+                      <h4 class="mb-1">Creativity</h4>
+                      <p class="mb-0">Curabitur blandit lacus porttitor ridiculus mus.</p>
+                    </div>
+                  </div>
+                </div>
+                <!--/column -->
+                <div class="col-md-6">
+                  <div class="d-flex flex-row">
+                    <div>
+                      <img src="assets/img/icons/solid/bulb.svg" class="svg-inject icon-svg icon-svg-xs solid-duo text-purple-pink me-4" alt="">
+                    </div>
+                    <div>
+                      <h4 class="mb-1">Innovative Thinking</h4>
+                      <p class="mb-0">Curabitur blandit lacus porttitor ridiculus mus.</p>
+                    </div>
+                  </div>
+                </div>
+                <!--/column -->
+                <div class="col-md-6">
+                  <div class="d-flex flex-row">
+                    <div>
+                      <img src="assets/img/icons/solid/puzzle.svg" class="svg-inject icon-svg icon-svg-xs solid-duo text-purple-pink me-4" alt="">
+                    </div>
+                    <div>
+                      <h4 class="mb-1">Rapid Solutions</h4>
+                      <p class="mb-0">Curabitur blandit lacus porttitor ridiculus mus.</p>
+                    </div>
+                  </div>
+                </div>
+                <!--/column -->
+                <div class="col-md-6">
+                  <div class="d-flex flex-row">
+                    <div>
+                      <img src="assets/img/icons/solid/headphone.svg" class="svg-inject icon-svg icon-svg-xs solid-duo text-purple-pink me-4" alt="">
+                    </div>
+                    <div>
+                      <h4 class="mb-1">Top-Notch Support</h4>
+                      <p class="mb-0">Curabitur blandit lacus porttitor ridiculus mus.</p>
+                    </div>
+                  </div>
+                </div>
+                <!--/column -->
+              </div>
+              <!--/.row -->
+            </div>
+            <!--/column -->
+          </div>
+          <!--/.row -->
+          <div class="row text-center mb-7">
+            <div class="col-lg-11 col-xl-10 col-xxl-9 mx-auto">
+              <h2 class="fs-16 text-uppercase text-muted mb-3">Join Our Community</h2>
+              <h3 class="display-3 px-lg-12 px-xxl-14">We are trusted by over 5000+ clients. Join them now and grow your business.</h3>
+            </div>
+            <!-- /column -->
+          </div>
+          <!-- /.row -->
+          <div class="row mb-6">
+            <div class="col-md-10 col-lg-9 col-xl-7 mx-auto">
+              <div class="row align-items-center counter-wrapper gy-4 gy-md-0">
+                <div class="col-md-4 text-center">
+                  <h3 class="counter counter-lg text-primary">1000+</h3>
+                  <p>Completed Projects</p>
+                </div>
+                <!--/column -->
+                <div class="col-md-4 text-center">
+                  <h3 class="counter counter-lg text-primary">50K+</h3>
+                  <p>Happy Customers</p>
+                </div>
+                <!--/column -->
+                <div class="col-md-4 text-center">
+                  <h3 class="counter counter-lg text-primary">4x</h3>
+                  <p>Revenue Growth</p>
+                </div>
+                <!--/column -->
+              </div>
+              <!--/.row -->
+            </div>
+            <!-- /column -->
+          </div>
+          <!-- /.row -->
+          <figure><img src="assets/img/photos/about26.png" srcset="assets/img/photos/about26%402x.png 2x" alt=""></figure>
+        </div>
+        <!-- /.container -->
+      </section>
+      <!-- /section -->
 
+      <section class="wrapper bg-light">
+        <div class="container py-14 py-md-16">
+          <div class="row">
+            <div class="col-lg-10 col-xl-9 col-xxl-8 mx-auto text-center">
+              <h2 class="fs-15 text-uppercase text-muted mb-3">Our Pricing</h2>
+              <h3 class="display-4 mb-15 mb-md-6 px-lg-10">We offer great prices, premium products and quality service for your business.</h3>
+            </div>
+            <!--/column -->
+          </div>
+          <!--/.row -->
+          <div class="pricing-wrapper position-relative">
+            <div class="shape bg-dot primary rellax w-16 h-18" data-rellax-speed="1" style="top: 2rem; right: -2.4rem;"></div>
+            <div class="shape rounded-circle bg-line red rellax w-18 h-18 d-none d-lg-block" data-rellax-speed="1" style="bottom: 0.5rem; left: -2.5rem;"></div>
+            <div class="pricing-switcher-wrapper switcher">
+              <p class="mb-0 pe-3">Monthly</p>
+              <div class="pricing-switchers">
+                <div class="pricing-switcher pricing-switcher-active"></div>
+                <div class="pricing-switcher"></div>
+                <div class="switcher-button bg-primary"></div>
+              </div>
+              <p class="mb-0 ps-3">Yearly</p>
+            </div>
+            <div class="row gy-6 mt-3 mt-md-5">
+                {include file="index.plans.tpl"}
 
-    {include file="section_header.tpl"}
-
-        Our program is intended for people willing to achieve their financial freedom but unable to do so because they're not
-        financial experts.<br>
-
-        {$settings.site_name} is a long term high yield private loan program, backed up by Forex market trading and investing in
-        various funds and activities.
-        Profits from these investments are used to enhance our program and increase its stability for the long term.
-    {include file="section_footer.tpl"}
+            </div>
+            <!--/.row -->
+          </div>
+          <!--/.pricing-wrapper -->
+        </div>
+        <!-- /.container -->
+      </section>
+      <!-- /section -->
 
     {include file="section_header.tpl"}
 
         {include file="index.plans.tpl"}
 
     {include file="section_footer.tpl"}
-
-    {include file="section_header.tpl"}
-
-        All payments are made to your account Daily. <br>
-        Minimum spend is {$currency_sign}10 and there is no maximum. <br>
-        You may make an additional spend as many times as you like. <br>
-        {*All transactions are handled via e-gold. If you don't have an e-gold account, you need to get one.<br>*}
-            
-    {include file="section_footer.tpl"}
-
-    {include file="section_header.tpl"}
-
-        {if $settings.use_referal_program == 1 && $ref_plans}
-            Use our referral program and earn up to {$percent}% of referral deposits!<br><br>
-            <b>Our first level referral bonuses:</b>
-            <table
-                cellspacing=0
-                cellpadding=2
-                border=0
-                width=100%
-            >
-                <tr>
-                    <td class=inheader>Name</td>
-                    <td class=inheader>From</td>
-                    <td class=inheader>To</td>
-                    <td class=inheader>Commision (%)</td>
-                </tr>
-                {section name=r loop=$ref_plans}
-                    <tr>
-                        <td class=item>{$ref_plans[r].name}</td>
-                        <td
-                            class=item
-                            align=center
-                        >{$ref_plans[r].from_value}</td>
-                        <td
-                            class=item
-                            align=center
-                        >{if $ref_plans[r].to_value == 0}and more{else}{$ref_plans[r].to_value}{/if}</td>
-                        <td
-                            class=item
-                            align=right
-                        >{$ref_plans[r].percent}</td>
-                    </tr>
-                {/section}
-            </table>
-            <br><br>
-            {if $ref_levels}
-                Our other levels referral bonuses (not depending on the number of referrals):<br>
-                {section name=rl loop=$ref_levels}
-                    Level {$ref_levels[rl].level}: <b>{$ref_levels[rl].percent}%</b><br>
-                {/section}
-            {/if}
-        {/if}              
-
-    {include file="section_footer.tpl"}
-        
-
 
 {include file="main_footer.tpl"}
