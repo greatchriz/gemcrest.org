@@ -3,7 +3,7 @@
   <div class="pricing card text-center">
       <div class="card-body">
           <img
-              src="./assets/img/icons/lineal/shopping-basket.svg"
+              src="assets/img/icons/lineal/shopping-basket.svg"
               class="svg-inject icon-svg icon-svg-md text-primary mb-3"
               alt=""
           />
