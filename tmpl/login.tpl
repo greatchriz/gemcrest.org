@@ -1,4 +1,4 @@
-{include file="auth_header.tpl"}
+{include file="auth_header.tpl" subheader="Log in to Explore Your Financial Potential" title="Login"}
 
 {literal}
   <script language=javascript>
@@ -65,48 +65,6 @@
     <button type="submit" class="cmn-btn">Login</button>
   </div>
 
-
-
-{* 
-  <table
-    cellspacing=0
-    cellpadding=2
-    border=0
-  >
-    <tr>
-      <td>Username:</td>
-      <td><input
-          type=text
-          name=username
-          value='{$frm.username|escape:"html"}'
-          value='{$value|escape:"html"}'
-          value="$frm.username"
-          class=inpts
-          size=30
-          autofocus="autofocus"
-        ></td>
-    </tr>
-    <tr>
-      <td>Password:</td>
-      <td><input
-          type=password
-          name=password
-          value=''
-          class=inpts
-          size=30
-        ></td>
-    </tr>
-    {include file="captcha.tpl" action="login"}
-    <tr>
-      <td>&nbsp;</td>
-      <td><input
-          type=submit
-          value="Login"
-          class=sbmt
-        ></td>
-    </tr>
-  </table> *}
-  
 </form>
 
 

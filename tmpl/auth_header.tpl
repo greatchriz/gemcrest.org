@@ -52,8 +52,8 @@
                   <div class="col-xl-5 col-lg-7">
                     <div class="account-card">
                       <div class="account-card__header bg_img overlay--one" data-background="assets/images/bg/bg-6.jpg">
-                        <h2 class="section-title">Welcome to <span class="base--color">HYIPLAB</span></h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus distinctio deserunt impedit similique debitis voluptatum enim.</p>
+                        <h2 class="section-title">Welcome to <span class="base--color">GENCREST</span></h2>
+                        <p>{$subheader}</p>
                       </div>
                       <div class="account-card__body">
-                        <h3 class="text-center">Login</h3>
+                        <h3 class="text-center">{$title}</h3>

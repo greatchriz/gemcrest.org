@@ -1,4 +1,4 @@
-{include file="header.tpl"}
+{include file="auth_header.tpl" subheader="Unlock Opportunities, Sign Up Today." title="Signup"}
 
 <h3>Registration at {$settings.site_name}:</h3><br>
 
@@ -348,4 +348,4 @@
 </tr></table>
 </form>
 {/if}
-{include file="footer.tpl"}
+{include file="auth_footer.tpl"}
