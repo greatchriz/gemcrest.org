@@ -1,4 +1,4 @@
 <div class="form-group">
-    <label>Password</label>
-    <input type="email" class="form-control" placeholder="Enter password">
+    <label>{$label}</label>
+    <input type="password" class="form-control" placeholder="{$placeholder}" name="{$name}">
   </div>
