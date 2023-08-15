@@ -45,9 +45,9 @@
     value='{$frm.follow_id}'
   >
 
-  {include file="form_text.tpl" label="User Name" placeholder="Enter Your Username" name="username"}
+  {include file="form_text.tpl" type="text" label="User Name" placeholder="Enter Your Username" name="username" value=$frm.username}
 
-  {include file="form_password.tpl" label="Password" placeholder="Enter Password" name="password"}
+  {include file="form_text.tpl" type="password" label="Password" placeholder="Enter Password" name="password"}
 
   <div class="form-row">
     <div class="col-sm-6">
