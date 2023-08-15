@@ -11,13 +11,13 @@
       <meta
         name="description"
         content="A powerful and conceptual apps base dashboard template that especially build for developers and programmers." />
-      <link rel="shortcut icon" href="../images/favicon.png" />
+      <link rel="shortcut icon" href="dashlite/images/favicon.png" />
       <title>Investment Dashboard | DashLite Admin Template</title>
-      <link rel="stylesheet" href="../assets/css/dashlite.css?ver=3.2.1" />
+      <link rel="stylesheet" href="dashlite/assets/css/dashlite.css?ver=3.2.1" />
       <link
         id="skin-default"
         rel="stylesheet"
-        href="../assets/css/theme.css?ver=3.2.1" />
+        href="dashlite/assets/css/theme.css?ver=3.2.1" />
       <script async="" src="../../gtag/js?id=UA-91615293-4"></script>
       <script>
         window.dataLayer = window.dataLayer || [];
@@ -47,12 +47,12 @@
                   <a href="../index.html" class="logo-link"
                     ><img
                       class="logo-light logo-img"
-                      src="../images/logo.png"
-                      srcset="../images/logo2x.png 2x"
+                      src="dashlite/images/logo.png"
+                      srcset="dashlite/images/logo2x.png 2x"
                       alt="logo" /><img
                       class="logo-dark logo-img"
-                      src="../images/logo-dark.png"
-                      srcset="../images/logo-dark2x.png 2x"
+                      src="dashlite/images/logo-dark.png"
+                      srcset="dashlite/images/logo-dark2x.png 2x"
                       alt="logo-dark" /><span class="nio-version">Invest</span></a
                   >
                 </div>
@@ -62,12 +62,12 @@
                       <a href="../index.html" class="logo-link"
                         ><img
                           class="logo-light logo-img"
-                          src="../images/logo.png"
-                          srcset="../images/logo2x.png 2x"
+                          src="dashlite/images/logo.png"
+                          srcset="dashlite/images/logo2x.png 2x"
                           alt="logo" /><img
                           class="logo-dark logo-img"
-                          src="../images/logo-dark.png"
-                          srcset="../images/logo-dark2x.png 2x"
+                          src="dashlite/images/logo-dark.png"
+                          srcset="dashlite/images/logo-dark2x.png 2x"
                           alt="logo-dark" /><span class="nio-version"
                           >Invest</span
                         ></a
@@ -265,7 +265,7 @@
                         ><div class="quick-icon">
                           <img
                             class="icon"
-                            src="../images/flags/english-sq.png"
+                            src="dashlite/images/flags/english-sq.png"
                             alt="" /></div
                       ></a>
                       <div
@@ -274,7 +274,7 @@
                           <li>
                             <a href="#" class="language-item"
                               ><img
-                                src="../images/flags/english.png"
+                                src="dashlite/images/flags/english.png"
                                 alt=""
                                 class="language-flag" /><span
                                 class="language-name"
@@ -285,7 +285,7 @@
                           <li>
                             <a href="#" class="language-item"
                               ><img
-                                src="../images/flags/spanish.png"
+                                src="dashlite/images/flags/spanish.png"
                                 alt=""
                                 class="language-flag" /><span
                                 class="language-name"
@@ -296,7 +296,7 @@
                           <li>
                             <a href="#" class="language-item"
                               ><img
-                                src="../images/flags/french.png"
+                                src="dashlite/images/flags/french.png"
                                 alt=""
                                 class="language-flag" /><span
                                 class="language-name"
@@ -307,7 +307,7 @@
                           <li>
                             <a href="#" class="language-item"
                               ><img
-                                src="../images/flags/turkey.png"
+                                src="dashlite/images/flags/turkey.png"
                                 alt=""
                                 class="language-flag" /><span
                                 class="language-name"

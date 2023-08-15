@@ -68,7 +68,7 @@
         <li>
           <a href="#" class="country-item"
             ><img
-              src="../images/flags/arg.png"
+              src="dashlite/images/flags/arg.png"
               alt=""
               class="country-flag" /><span class="country-name"
               >Argentina</span
@@ -78,7 +78,7 @@
         <li>
           <a href="#" class="country-item"
             ><img
-              src="../images/flags/aus.png"
+              src="dashlite/images/flags/aus.png"
               alt=""
               class="country-flag" /><span class="country-name"
               >Australia</span
@@ -88,7 +88,7 @@
         <li>
           <a href="#" class="country-item"
             ><img
-              src="../images/flags/bangladesh.png"
+              src="dashlite/images/flags/bangladesh.png"
               alt=""
               class="country-flag" /><span class="country-name"
               >Bangladesh</span
@@ -98,7 +98,7 @@
         <li>
           <a href="#" class="country-item"
             ><img
-              src="../images/flags/canada.png"
+              src="dashlite/images/flags/canada.png"
               alt=""
               class="country-flag" /><span class="country-name"
               >Canada <small>(English)</small></span
@@ -108,7 +108,7 @@
         <li>
           <a href="#" class="country-item"
             ><img
-              src="../images/flags/china.png"
+              src="dashlite/images/flags/china.png"
               alt=""
               class="country-flag" /><span class="country-name"
               >Centrafricaine</span
@@ -118,7 +118,7 @@
         <li>
           <a href="#" class="country-item"
             ><img
-              src="../images/flags/china.png"
+              src="dashlite/images/flags/china.png"
               alt=""
               class="country-flag" /><span class="country-name"
               >China</span
@@ -128,7 +128,7 @@
         <li>
           <a href="#" class="country-item"
             ><img
-              src="../images/flags/french.png"
+              src="dashlite/images/flags/french.png"
               alt=""
               class="country-flag" /><span class="country-name"
               >France</span
@@ -138,7 +138,7 @@
         <li>
           <a href="#" class="country-item"
             ><img
-              src="../images/flags/germany.png"
+              src="dashlite/images/flags/germany.png"
               alt=""
               class="country-flag" /><span class="country-name"
               >Germany</span
@@ -148,7 +148,7 @@
         <li>
           <a href="#" class="country-item"
             ><img
-              src="../images/flags/iran.png"
+              src="dashlite/images/flags/iran.png"
               alt=""
               class="country-flag" /><span class="country-name"
               >Iran</span
@@ -158,7 +158,7 @@
         <li>
           <a href="#" class="country-item"
             ><img
-              src="../images/flags/italy.png"
+              src="dashlite/images/flags/italy.png"
               alt=""
               class="country-flag" /><span class="country-name"
               >Italy</span
@@ -168,7 +168,7 @@
         <li>
           <a href="#" class="country-item"
             ><img
-              src="../images/flags/mexico.png"
+              src="dashlite/images/flags/mexico.png"
               alt=""
               class="country-flag" /><span class="country-name"
               >México</span
@@ -178,7 +178,7 @@
         <li>
           <a href="#" class="country-item"
             ><img
-              src="../images/flags/philipine.png"
+              src="dashlite/images/flags/philipine.png"
               alt=""
               class="country-flag" /><span class="country-name"
               >Philippines</span
@@ -188,7 +188,7 @@
         <li>
           <a href="#" class="country-item"
             ><img
-              src="../images/flags/portugal.png"
+              src="dashlite/images/flags/portugal.png"
               alt=""
               class="country-flag" /><span class="country-name"
               >Portugal</span
@@ -198,7 +198,7 @@
         <li>
           <a href="#" class="country-item"
             ><img
-              src="../images/flags/s-africa.png"
+              src="dashlite/images/flags/s-africa.png"
               alt=""
               class="country-flag" /><span class="country-name"
               >South Africa</span
@@ -208,7 +208,7 @@
         <li>
           <a href="#" class="country-item"
             ><img
-              src="../images/flags/spanish.png"
+              src="dashlite/images/flags/spanish.png"
               alt=""
               class="country-flag" /><span class="country-name"
               >Spain</span
@@ -218,7 +218,7 @@
         <li>
           <a href="#" class="country-item"
             ><img
-              src="../images/flags/switzerland.png"
+              src="dashlite/images/flags/switzerland.png"
               alt=""
               class="country-flag" /><span class="country-name"
               >Switzerland</span
@@ -228,7 +228,7 @@
         <li>
           <a href="#" class="country-item"
             ><img
-              src="../images/flags/uk.png"
+              src="dashlite/images/flags/uk.png"
               alt=""
               class="country-flag" /><span class="country-name"
               >United Kingdom</span
@@ -238,7 +238,7 @@
         <li>
           <a href="#" class="country-item"
             ><img
-              src="../images/flags/english.png"
+              src="dashlite/images/flags/english.png"
               alt=""
               class="country-flag" /><span class="country-name"
               >United State</span
@@ -310,8 +310,8 @@ data-toggle-screen="any">
     ><div class="nk-demo-image bg-blue">
       <img
         class="bg-purple"
-        src="../../images/landing/layout-1d.jpg"
-        srcset="../../images/landing/layout-1d2x.jpg 2x"
+        src="../dashlite/images/landing/layout-1d.jpg"
+        srcset="../dashlite/images/landing/layout-1d2x.jpg 2x"
         alt="Demo Layout 1" />
     </div>
     <span class="nk-demo-title"><strong>Demo Layout 1</strong></span></a
@@ -321,8 +321,8 @@ data-toggle-screen="any">
   <a href="https://dashlite.net/demo2/index.html"
     ><div class="nk-demo-image bg-purple">
       <img
-        src="../../images/landing/layout-2d.jpg"
-        srcset="../../images/landing/layout-2d2x.jpg 2x"
+        src="../dashlite/images/landing/layout-2d.jpg"
+        srcset="../dashlite/images/landing/layout-2d2x.jpg 2x"
         alt="Demo Layout 2" />
     </div>
     <span class="nk-demo-title"><strong>Demo Layout 2</strong></span></a
@@ -332,8 +332,8 @@ data-toggle-screen="any">
   <a href="https://dashlite.net/demo3/index.html"
     ><div class="nk-demo-image bg-success">
       <img
-        src="../../images/landing/layout-3d.jpg"
-        srcset="../../images/landing/layout-3d2x.jpg 2x"
+        src="../dashlite/images/landing/layout-3d.jpg"
+        srcset="../dashlite/images/landing/layout-3d2x.jpg 2x"
         alt="Demo Layout 3" />
     </div>
     <span class="nk-demo-title"><strong>Demo Layout 3</strong></span></a
@@ -343,8 +343,8 @@ data-toggle-screen="any">
   <a href="https://dashlite.net/demo4/index.html"
     ><div class="nk-demo-image bg-indigo">
       <img
-        src="../../images/landing/layout-4d.jpg"
-        srcset="../../images/landing/layout-4d2x.jpg 2x"
+        src="../dashlite/images/landing/layout-4d.jpg"
+        srcset="../dashlite/images/landing/layout-4d2x.jpg 2x"
         alt="Demo Layout 4" />
     </div>
     <span class="nk-demo-title"><strong>Demo Layout 4</strong></span></a
@@ -354,8 +354,8 @@ data-toggle-screen="any">
   <a href="https://dashlite.net/demo5/index.html"
     ><div class="nk-demo-image bg-orange">
       <img
-        src="../../images/landing/layout-5d.jpg"
-        srcset="../../images/landing/layout-5d2x.jpg 2x"
+        src="../dashlite/images/landing/layout-5d.jpg"
+        srcset="../dashlite/images/landing/layout-5d2x.jpg 2x"
         alt="Demo Layout 5" />
     </div>
     <span class="nk-demo-title"><strong>Demo Layout 5</strong></span></a
@@ -365,8 +365,8 @@ data-toggle-screen="any">
   <a href="../index.html"
     ><div class="nk-demo-image bg-purple">
       <img
-        src="../../images/landing/layout-6d.jpg"
-        srcset="../../images/landing/layout-6d2x.jpg 2x"
+        src="../dashlite/images/landing/layout-6d.jpg"
+        srcset="../dashlite/images/landing/layout-6d2x.jpg 2x"
         alt="Demo Layout 6" />
     </div>
     <span class="nk-demo-title"><strong>Demo Layout 6</strong></span></a
@@ -376,8 +376,8 @@ data-toggle-screen="any">
   <a href="https://dashlite.net/demo7/index.html"
     ><div class="nk-demo-image bg-teal">
       <img
-        src="../../images/landing/layout-7d.jpg"
-        srcset="../../images/landing/layout-7d2x.jpg 2x"
+        src="../dashlite/images/landing/layout-7d.jpg"
+        srcset="../dashlite/images/landing/layout-7d2x.jpg 2x"
         alt="Demo Layout 7" />
     </div>
     <span class="nk-demo-title"><strong>Demo Layout 7</strong></span></a
@@ -387,8 +387,8 @@ data-toggle-screen="any">
   <a href="https://dashlite.net/demo8/index.html"
     ><div class="nk-demo-image bg-azure">
       <img
-        src="../../images/landing/layout-8d.jpg"
-        srcset="../../images/landing/layout-8d2x.jpg 2x"
+        src="../dashlite/images/landing/layout-8d.jpg"
+        srcset="../dashlite/images/landing/layout-8d2x.jpg 2x"
         alt="Demo Layout 8" />
     </div>
     <span class="nk-demo-title"><strong>Demo Layout 8</strong></span></a
@@ -398,8 +398,8 @@ data-toggle-screen="any">
   <a href="https://dashlite.net/demo9/index.html"
     ><div class="nk-demo-image bg-pink">
       <img
-        src="../../images/landing/layout-9d.jpg"
-        srcset="../../images/landing/layout-9d2x.jpg 2x"
+        src="../dashlite/images/landing/layout-9d.jpg"
+        srcset="../dashlite/images/landing/layout-9d2x.jpg 2x"
         alt="Demo Layout 9" />
     </div>
     <span class="nk-demo-title"><strong>Demo Layout 9</strong></span></a
@@ -409,8 +409,8 @@ data-toggle-screen="any">
   <a href="https://dashlite.net/landing/index.html"
     ><div class="nk-demo-image bg-red">
       <img
-        src="../../images/landing/main-landing.jpg"
-        srcset="../../images/landing/main-landing2x.jpg 2x"
+        src="../dashlite/images/landing/main-landing.jpg"
+        srcset="../dashlite/images/landing/main-landing2x.jpg 2x"
         alt="Landing Page" />
     </div>
     <span class="nk-demo-title"
@@ -441,8 +441,8 @@ data-toggle-screen="any">
   <a href="https://dashlite.net/demo9/copywriter/index.html"
     ><div class="nk-demo-image bg-indigo">
       <img
-        src="../../images/landing/demo-ai-copywriter.jpg"
-        srcset="../../images/landing/demo-ai-copywriter2x.jpg 2x"
+        src="../dashlite/images/landing/demo-ai-copywriter.jpg"
+        srcset="../dashlite/images/landing/demo-ai-copywriter2x.jpg 2x"
         alt="ai-copywriter" />
     </div>
     <span class="nk-demo-title"
@@ -456,8 +456,8 @@ data-toggle-screen="any">
   <a href="https://dashlite.net/demo7/pharmacy/index.html"
     ><div class="nk-demo-image bg-warning">
       <img
-        src="../../images/landing/demo-pharmacy.jpg"
-        srcset="../../images/landing/demo-pharmacy2x.jpg 2x"
+        src="../dashlite/images/landing/demo-pharmacy.jpg"
+        srcset="../dashlite/images/landing/demo-pharmacy2x.jpg 2x"
         alt="pharmacy" />
     </div>
     <span class="nk-demo-title"
@@ -471,8 +471,8 @@ data-toggle-screen="any">
   <a href="https://dashlite.net/demo5/loan/index.html"
     ><div class="nk-demo-image bg-purple">
       <img
-        src="../../images/landing/demo-loan.jpg"
-        srcset="../../images/landing/demo-loan2x.jpg 2x"
+        src="../dashlite/images/landing/demo-loan.jpg"
+        srcset="../dashlite/images/landing/demo-loan2x.jpg 2x"
         alt="loan" />
     </div>
     <span class="nk-demo-title"
@@ -486,8 +486,8 @@ data-toggle-screen="any">
   <a href="https://dashlite.net/demo2/ecommerce/index.html"
     ><div class="nk-demo-image bg-dark">
       <img
-        src="../../images/landing/demo-ecommerce.jpg"
-        srcset="../../images/landing/demo-ecommerce2x.jpg 2x"
+        src="../dashlite/images/landing/demo-ecommerce.jpg"
+        srcset="../dashlite/images/landing/demo-ecommerce2x.jpg 2x"
         alt="Ecommerce" />
     </div>
     <span class="nk-demo-title"
@@ -501,8 +501,8 @@ data-toggle-screen="any">
   <a href="https://dashlite.net/demo2/lms/index.html"
     ><div class="nk-demo-image bg-danger">
       <img
-        src="../../images/landing/demo-lms.jpg"
-        srcset="../../images/landing/demo-lms2x.jpg 2x"
+        src="../dashlite/images/landing/demo-lms.jpg"
+        srcset="../dashlite/images/landing/demo-lms2x.jpg 2x"
         alt="LMS" />
     </div>
     <span class="nk-demo-title"
@@ -516,8 +516,8 @@ data-toggle-screen="any">
   <a href="https://dashlite.net/demo1/crm/index.html"
     ><div class="nk-demo-image bg-info">
       <img
-        src="../../images/landing/demo-crm.jpg"
-        srcset="../../images/landing/demo-crm2x.jpg 2x"
+        src="../dashlite/images/landing/demo-crm.jpg"
+        srcset="../dashlite/images/landing/demo-crm2x.jpg 2x"
         alt="CRM / Customer Relationship" />
     </div>
     <span class="nk-demo-title"
@@ -531,8 +531,8 @@ data-toggle-screen="any">
   <a href="https://dashlite.net/demo7/hospital/index.html"
     ><div class="nk-demo-image bg-indigo">
       <img
-        src="../../images/landing/demo-hospital.jpg"
-        srcset="../../images/landing/demo-hospital2x.jpg 2x"
+        src="../dashlite/images/landing/demo-hospital.jpg"
+        srcset="../dashlite/images/landing/demo-hospital2x.jpg 2x"
         alt="Hospital Managemen" />
     </div>
     <span class="nk-demo-title"
@@ -546,8 +546,8 @@ data-toggle-screen="any">
   <a href="https://dashlite.net/demo1/hotel/index.html"
     ><div class="nk-demo-image bg-pink">
       <img
-        src="../../images/landing/demo-hotel.jpg"
-        srcset="../../images/landing/demo-hotel2x.jpg 2x"
+        src="../dashlite/images/landing/demo-hotel.jpg"
+        srcset="../dashlite/images/landing/demo-hotel2x.jpg 2x"
         alt="Hotel Managemen" />
     </div>
     <span class="nk-demo-title"
@@ -561,8 +561,8 @@ data-toggle-screen="any">
   <a href="https://dashlite.net/demo3/cms/index.html"
     ><div class="nk-demo-image bg-dark">
       <img
-        src="../../images/landing/demo-cms.jpg"
-        srcset="../../images/landing/demo-cms2x.jpg 2x"
+        src="../dashlite/images/landing/demo-cms.jpg"
+        srcset="../dashlite/images/landing/demo-cms2x.jpg 2x"
         alt="cms" />
     </div>
     <span class="nk-demo-title"
@@ -576,8 +576,8 @@ data-toggle-screen="any">
   <a href="https://dashlite.net/demo5/crypto/index.html"
     ><div class="nk-demo-image bg-warning">
       <img
-        src="../../images/landing/demo-buysell.jpg"
-        srcset="../../images/landing/demo-buysell2x.jpg 2x"
+        src="../dashlite/images/landing/demo-buysell.jpg"
+        srcset="../dashlite/images/landing/demo-buysell2x.jpg 2x"
         alt="Crypto BuySell / Wallet" />
     </div>
     <span class="nk-demo-title"
@@ -591,8 +591,8 @@ data-toggle-screen="any">
   <a href="index.html"
     ><div class="nk-demo-image bg-indigo">
       <img
-        src="../../images/landing/demo-invest.jpg"
-        srcset="../../images/landing/demo-invest2x.jpg 2x"
+        src="../dashlite/images/landing/demo-invest.jpg"
+        srcset="../dashlite/images/landing/demo-invest2x.jpg 2x"
         alt="HYIP / Investment" />
     </div>
     <span class="nk-demo-title"
@@ -606,8 +606,8 @@ data-toggle-screen="any">
   <a href="https://dashlite.net/demo3/apps/file-manager.html"
     ><div class="nk-demo-image bg-purple">
       <img
-        src="../../images/landing/demo-file-manager.jpg"
-        srcset="../../images/landing/demo-file-manager2x.jpg 2x"
+        src="../dashlite/images/landing/demo-file-manager.jpg"
+        srcset="../dashlite/images/landing/demo-file-manager2x.jpg 2x"
         alt="File Manager" />
     </div>
     <span class="nk-demo-title"
@@ -621,8 +621,8 @@ data-toggle-screen="any">
   <a href="https://dashlite.net/demo4/subscription/index.html"
     ><div class="nk-demo-image bg-primary">
       <img
-        src="../../images/landing/demo-subscription.jpg"
-        srcset="../../images/landing/demo-subscription2x.jpg 2x"
+        src="../dashlite/images/landing/demo-subscription.jpg"
+        srcset="../dashlite/images/landing/demo-subscription2x.jpg 2x"
         alt="SAAS / Subscription" />
     </div>
     <span class="nk-demo-title"
@@ -636,8 +636,8 @@ data-toggle-screen="any">
   <a href="https://dashlite.net/covid/index.html"
     ><div class="nk-demo-image bg-danger">
       <img
-        src="../../images/landing/demo-covid19.jpg"
-        srcset="../../images/landing/demo-covid192x.jpg 2x"
+        src="../dashlite/images/landing/demo-covid19.jpg"
+        srcset="../dashlite/images/landing/demo-covid192x.jpg 2x"
         alt="Covid Situation" />
     </div>
     <span class="nk-demo-title"
@@ -651,8 +651,8 @@ data-toggle-screen="any">
   <a href="https://dashlite.net/demo3/apps/messages.html"
     ><div class="nk-demo-image bg-success">
       <img
-        src="../../images/landing/demo-messages.jpg"
-        srcset="../../images/landing/demo-messages2x.jpg 2x"
+        src="../dashlite/images/landing/demo-messages.jpg"
+        srcset="../dashlite/images/landing/demo-messages2x.jpg 2x"
         alt="Messages" />
     </div>
     <span class="nk-demo-title"
@@ -666,8 +666,8 @@ data-toggle-screen="any">
   <a href="https://dashlite.net/demo3/apps/mailbox.html"
     ><div class="nk-demo-image bg-purple">
       <img
-        src="../../images/landing/demo-inbox.jpg"
-        srcset="../../images/landing/demo-inbox2x.jpg 2x"
+        src="../dashlite/images/landing/demo-inbox.jpg"
+        srcset="../dashlite/images/landing/demo-inbox2x.jpg 2x"
         alt="Inbox" />
     </div>
     <span class="nk-demo-title"
@@ -681,8 +681,8 @@ data-toggle-screen="any">
   <a href="https://dashlite.net/demo3/apps/chats.html"
     ><div class="nk-demo-image bg-purple">
       <img
-        src="../../images/landing/demo-chats.jpg"
-        srcset="../../images/landing/demo-chats2x.jpg 2x"
+        src="../dashlite/images/landing/demo-chats.jpg"
+        srcset="../dashlite/images/landing/demo-chats2x.jpg 2x"
         alt="Chats / Messenger" />
     </div>
     <span class="nk-demo-title"
@@ -885,16 +885,16 @@ class="pmo-st pmo-dark"
 target="_blank"
 href="https://softnio.com/get-early-access/"
 ><div class="pmo-st-img">
-<img src="../../images/landing/promo-investorm.png" alt="Investorm" />
+<img src="../dashlite/images/landing/promo-investorm.png" alt="Investorm" />
 </div>
 <div class="pmo-st-text">
 Looking for Advanced <br />
 HYIP Investment Platform?
 </div></a
 >
-<script src="../assets/js/bundle.js?ver=3.2.1"></script>
-<script src="../assets/js/scripts.js?ver=3.2.1"></script>
-<script src="../assets/js/demo-settings.js?ver=3.2.1"></script>
-<script src="../assets/js/charts/chart-invest.js?ver=3.2.1"></script>
+<script src="dashlite/assets/js/bundle.js?ver=3.2.1"></script>
+<script src="dashlite/assets/js/scripts.js?ver=3.2.1"></script>
+<script src="dashlite/assets/js/demo-settings.js?ver=3.2.1"></script>
+<script src="dashlite/assets/js/charts/chart-invest.js?ver=3.2.1"></script>
 </body>
 </html>
