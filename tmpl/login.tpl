@@ -108,7 +108,6 @@
   </table> *}
   
 </form>
-<br><br>
-or <a href="{"?a=forgot_password"|encurl}">remember your login information</a>.
+
 
 {include file="auth_footer.tpl"}
