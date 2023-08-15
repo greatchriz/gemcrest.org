@@ -1,21 +1,7 @@
 {include file="main_header.tpl"}
 
-    <!-- inner hero start -->
-        <section class="inner-hero bg_img" data-background="assets/images/bg/bg-1.jpg">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6">
-              <h2 class="page-title">All Plans</h2>
-              <ul class="page-breadcrumb">
-                <li><a href="index.html">Home</a></li>
-                <li>Plan</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- inner hero end -->
-  
+{include file="inner-hero.tpl" title="Investment Plans" title2="Plans" bg="bg-1.jpg"}
+
   
       <!-- package section start -->
       <section class="pt-120 pb-120">
