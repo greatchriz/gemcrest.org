@@ -67,19 +67,19 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav main-menu m-auto">
-                  <li> {include file="nav-item.tpl" link="/?=home" title="Home"}</li>
-                  <li> {include file="nav-item.tpl" link="/?=about" title="About Us"}</li>
-                  <li> {include file="nav-item.tpl" link="/?=plans" title="Investment Plans"}</li>
-                  <li> {include file="nav-item.tpl" link="/?=services" title="Our Services"}</li>
-                  <li> {include file="nav-item.tpl" link="/?=faq" title="F.A.Q."}</li>
-                  <li> {include file="nav-item.tpl" link="/?=support" title="Contact Us"}</li>
+                  <li> {include file="nav-item.tpl" link="/?a=home" title="Home"}</li>
+                  <li> {include file="nav-item.tpl" link="/?a=about" title="About Us"}</li>
+                  <li> {include file="nav-item.tpl" link="/?a=plans" title="Investment Plans"}</li>
+                  <li> {include file="nav-item.tpl" link="/?a=services" title="Our Services"}</li>
+                  <li> {include file="nav-item.tpl" link="/?a=faq" title="F.A.Q."}</li>
+                  <li> {include file="nav-item.tpl" link="/?a=support" title="Contact Us"}</li>
 
 
                   <li class="menu_has_children"><a href="#">Information</a>
                     <ul class="sub-menu">
-                      <li> {include file="nav-item.tpl" link="/?=faq" title="F.A.Q."}</li>
-                      <li> {include file="nav-item.tpl" link="/?=support" title="Contact Us"}</li>
-                      <li> {include file="nav-item.tpl" link="/?=rules" title="Terms & Condition"}</li>
+                      <li> {include file="nav-item.tpl" link="/?a=faq" title="F.A.Q."}</li>
+                      <li> {include file="nav-item.tpl" link="/?a=support" title="Contact Us"}</li>
+                      <li> {include file="nav-item.tpl" link="/?a=rules" title="Terms & Condition"}</li>
                     </ul>
                   </li>
 
