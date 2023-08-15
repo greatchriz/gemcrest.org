@@ -60,34 +60,30 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav main-menu m-auto">
-                  <li> <a href="index.html">Home</a></li>
-                  <li> <a href="about.html">About Us</a></li>
-                  <li> <a href="plan.html">Plan</a></li>
-                  <li><a href="dashboard.html">Dashboard</a></li>
-                  <li class="menu_has_children"><a href="#0">Blog</a>
+                  <li> {include file="nav-item.tpl" link="/?=home" title="Home"}</li>
+                  <li> {include file="nav-item.tpl" link="/?=about" title="About Us"}</li>
+                  <li> {include file="nav-item.tpl" link="/?=plans" title="Investment Plans"}</li>
+                  <li> {include file="nav-item.tpl" link="/?=services" title="Our Services"}</li>
+                  <li> {include file="nav-item.tpl" link="/?=insights" title="Insights"}</li>
+                  <li> {include file="nav-item.tpl" link="/?=faq" title="F.A.Q."}</li>
+                  <li> {include file="nav-item.tpl" link="/?=support" title="Contact Us"}</li>
+
+
+                  <li class="menu_has_children"><a href="#">Information</a>
                     <ul class="sub-menu">
-                      <li><a href="blog.html">Blog Posts</a></li>
-                      <li><a href="blog-details.html">Blog Details</a></li>
+                      <li> {include file="nav-item.tpl" link="/?=faq" title="F.A.Q."}</li>
+                      <li> {include file="nav-item.tpl" link="/?=support" title="Contact Us"}</li>
+                      <li> {include file="nav-item.tpl" link="/?=rules" title="Terms & Condition"}</li>
                     </ul>
                   </li>
-                  <li class="menu_has_children"><a href="#0">Page</a>
-                    <ul class="sub-menu">
-                      <li><a href="error-404.html">Error - 404</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="contact.html">Contact</a></li>
+
                 </ul>
                 <div class="nav-right">
                   <ul class="account-menu ml-3">
-                    <li class="icon">
-                      <a href="login.html"><i class="las la-user"></i></a>
-                    </li>
+                    <li class="icon"> {include file="nav-item.tpl" link="/?=login" title="Login"}</li>
+                    <li class="icon"> {include file="nav-item.tpl" link="/?=signup" title="Register"}</li>
                   </ul> 
-                  <select class="select d-inline-block w-auto ml-xl-3">
-                    <option>Eng</option>
-                    <option>Ban</option>
-                    <option>Hin</option>
-                  </select>
+                 
                 </div>
               </div> 
             </nav>
