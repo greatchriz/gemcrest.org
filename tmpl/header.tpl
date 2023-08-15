@@ -83,79 +83,88 @@
                     </div>
                   </div>
                   <ul class="nk-menu nk-menu-main">
+
+
                     <li class="nk-menu-item">
-                      <a href="index.html" class="nk-menu-link"
-                        ><span class="nk-menu-text">Overview</span></a
-                      >
+                      {include file="nav-item.tpl" link="/?a=account" title="Dashboard"}
                     </li>
+
                     <li class="nk-menu-item">
-                      <a href="schemes.html" class="nk-menu-link"
-                        ><span class="nk-menu-text">MY Plan</span></a
-                      >
+                      {include file="nav-item.tpl" link="/?a=deposit" title="Deposit"}
                     </li>
+
+                    {if $settings.use_add_funds}
                     <li class="nk-menu-item">
-                      <a href="invest.html" class="nk-menu-link"
-                        ><span class="nk-menu-text">Invest</span></a
-                      >
+                      {include file="nav-item.tpl" link="/?a=add_funds" title="Add Funds"}
                     </li>
+                    {/if}
+
                     <li class="nk-menu-item">
-                      <a href="profile.html" class="nk-menu-link"
-                        ><span class="nk-menu-text">Profile</span></a
-                      >
+                      {include file="nav-item.tpl" link="/?a=deposit_list" title="Investments"}
                     </li>
-                    <li class="nk-menu-item active has-sub">
-                      <a href="#" class="nk-menu-link nk-menu-toggle"
-                        ><span class="nk-menu-text">Pages</span></a
-                      >
-                      <ul class="nk-menu-sub">
-                        <li class="nk-menu-item">
-                          <a href="welcome.html" class="nk-menu-link"
-                            ><span class="nk-menu-text">Welcome / Intro</span></a
-                          >
-                        </li>
-                        <li class="nk-menu-item">
-                          <a href="invest-form.html" class="nk-menu-link"
-                            ><span class="nk-menu-text"
-                              >Investment Process</span
-                            ></a
-                          >
-                        </li>
-                        <li class="nk-menu-item">
-                          <a href="scheme-details.html" class="nk-menu-link"
-                            ><span class="nk-menu-text"
-                              >Investment Details</span
-                            ></a
-                          >
-                        </li>
-                        <li class="nk-menu-item">
-                          <a href="kyc-application.html" class="nk-menu-link"
-                            ><span class="nk-menu-text"
-                              >KYC - Get Started</span
-                            ></a
-                          >
-                        </li>
-                        <li class="nk-menu-item">
-                          <a href="kyc-form.html" class="nk-menu-link"
-                            ><span class="nk-menu-text"
-                              >KYC - Application Form</span
-                            ></a
-                          >
-                        </li>
-                        <li class="nk-menu-item">
-                          <a href="../index.html" class="nk-menu-link"
-                            ><span class="nk-menu-text"
-                              >Main Dashboard
-                              <em class="icon ni ni-external"></em> </span
-                          ></a>
-                        </li>
-                        <li class="nk-menu-item">
-                          <a href="../components.html" class="nk-menu-link"
-                            ><span class="nk-menu-text"
-                              >All Components
-                              <em class="icon ni ni-external"></em></span
-                          ></a>
-                        </li>
-                      </ul>
+
+
+                    <li class="nk-menu-item">
+                      {include file="nav-item.tpl" link="/?a=deposit_history" title="Deposit History"}
+                    </li>
+
+
+                    <li class="nk-menu-item">
+                      {include file="nav-item.tpl" link="/?a=history&type=earning" title="Earning History"}
+                    </li>
+
+                    {if $settings.use_referal_program == 1}
+                    <li class="nk-menu-item">
+                      {include file="nav-item.tpl" link="/?a=history&type=commissions" title="Referrals History"}
+                    </li>
+                    {/if}
+
+
+                    <li class="nk-menu-item">
+                      {include file="nav-item.tpl" link="/?a=withdraw" title="Withdraw"}
+                    </li>
+
+                    <li class="nk-menu-item">
+                      {include file="nav-item.tpl" link="/?a=withdraw_history" title="Withdrawals History"}
+                    </li>
+
+                    {if $settings.enable_exchange == 1}
+                    <li class="nk-menu-item">
+                      {include file="nav-item.tpl" link="/?a=exchange" title="Currency Exchange"}
+                    </li>
+                    {/if}
+
+
+                    {if $settings.internal_transfer_enabled}
+                    <li class="nk-menu-item">
+                      {include file="nav-item.tpl" link="/?a=internal_transfer" title="Internal Transfer"}
+                    </li>
+                    {/if}
+
+                    {if $settings.use_referal_program == 1}
+                      <li class="nk-menu-item">
+                        {include file="nav-item.tpl" link="/?a=referals" title="Your Referrals"}
+                      </li>
+
+                      <li class="nk-menu-item">
+                        {include file="nav-item.tpl" link="/?a=referallinks" title="Referrals Links"}
+                      </li>
+                    {/if}
+
+
+                    <li class="nk-menu-item">
+                      {include file="nav-item.tpl" link="/?a=edit_account" title="Profile"}
+                    </li>
+
+
+
+                    <li class="nk-menu-item">
+                      {include file="nav-item.tpl" link="/?a=security" title="Security"}
+                    </li>
+
+
+                    <li class="nk-menu-item">
+                      {include file="nav-item.tpl" link="/?a=logout" title="Logout"}
                     </li>
                   </ul>
                 </div>
