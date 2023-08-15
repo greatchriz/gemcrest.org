@@ -1,7 +1,24 @@
 {include file="main_header.tpl"}
 
-<!-- package section start -->
-    <section class="pt-120 pb-120">
+    <!-- inner hero start -->
+        <section class="inner-hero bg_img" data-background="assets/images/bg/bg-1.jpg">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <h2 class="page-title">All Plans</h2>
+              <ul class="page-breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li>Plan</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- inner hero end -->
+  
+  
+      <!-- package section start -->
+      <section class="pt-120 pb-120">
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-lg-6 text-center">
@@ -117,15 +134,8 @@
               </div><!-- package-card end -->
             </div>
           </div><!-- row end -->
-          <div class="row mt-50">
-            <div class="col-lg-12 text-center">
-              <a href="#0" class="cmn-btn">View All Packages</a>
-            </div>
-          </div>
         </div>
       </section>
       <!-- package section end  -->
-      
-
-
+  
 {include file="main_footer.tpl"}
