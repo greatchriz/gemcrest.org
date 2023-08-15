@@ -49,12 +49,17 @@
         <div class="header__bottom">
           <div class="container">
             <nav class="navbar navbar-expand-xl p-0 align-items-center">
-              <a class="site-logo site-title" href="index.html"><img src="assets/images/logo.png" alt="site-logo"></a>
-              <ul class="account-menu mobile-acc-menu">
+              <a class="site-logo site-title" href="/?a=home"><img src="assets/images/logo.png" alt="site-logo"></a>
+              {* <ul class="account-menu mobile-acc-menu">
                 <li class="icon">
                   <a href="login.html"><i class="las la-user"></i></a>
                 </li>
               </ul> 
+              <ul class="account-menu mobile-acc-menu">
+                <li class="icon">
+                  <a href="login.html"><i class="las la-user"></i></a>
+                </li>
+              </ul>  *}
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="menu-toggle"></span>
               </button>
@@ -78,7 +83,9 @@
                   </li>
 
                 </ul>
-                <div class="nav-right">
+                <a href="/?a=login" class="cmn-btn btn-md mt-4">Login</a>
+                <a href="/?a=signup" class="cmn-btn btn-md mt-4">Register</a>
+                {* <div class="nav-right">
                   <ul class="account-menu ml-3">
                     <li class="icon"><a href="/?a=login"><i class="las la-user"></i></a></li>
                   </ul>
@@ -87,7 +94,7 @@
                     <li class="icon"><a href="/?a=signup"><i class="las la-user"></i></a></li>
                   </ul>
                  
-                </div>
+                </div> *}
               </div> 
             </nav>
           </div>
