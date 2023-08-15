@@ -52,7 +52,7 @@
                   <div class="col-xl-5 col-lg-7">
                     <div class="account-card">
                       <div class="account-card__header bg_img overlay--one" data-background="assets/images/bg/bg-6.jpg">
-                        <h2 class="section-title">Welcome to <span class="base--color"><a href="/?a=home">GENCREST</a></span></h2>
+                        <h2 class="section-title">Welcome to <span ><a class="base--color" href="/?a=home">GENCREST</a></span></h2>
                         <p>{$subheader}</p>
                       </div>
                       <div class="account-card__body">
