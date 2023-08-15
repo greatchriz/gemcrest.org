@@ -418,4 +418,8 @@
               </div>
             </div>
           </div>
+          <div class="nk-content nk-content-lg nk-content-fluid">
+            <div class="container-xl wide-lg">
+              <div class="nk-content-inner">
+                <div class="nk-content-body">
   
