@@ -49,7 +49,7 @@
         <div class="header__bottom">
           <div class="container">
             <nav class="navbar navbar-expand-xl p-0 align-items-center">
-              <a class="site-logo site-title" href="/?a=home"><img src="assets/images/logo.png" alt="site-logo"></a>
+              <a class="site-logo site-title" href="/?a=home"><img src="assets/images/logo.svg" width="375px" height="75px" alt="site-logo"></a>
               {* <ul class="account-menu mobile-acc-menu">
                 <li class="icon">
                   <a href="login.html"><i class="las la-user"></i></a>

@@ -1,0 +1,18 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: unb-office_bold
+font link: http://www.marca.unb.br/fontesunb.php
+font author: Universidade de Brasilia
+font author site: http://www.marca.unb.br/introducao.php
+Slogan Font: SpaceMono-Regular.ttf
+
+icon designer: Brennan Novak
+icon designer link: /bnvk
+        
+
+fontColor: {"hex":"#fff"}
+bgColor: {"hex":"#"}
+iconColor: {"hex":"#fff"}
+sloganColor: {"hex":"#B9944C"}
+      
