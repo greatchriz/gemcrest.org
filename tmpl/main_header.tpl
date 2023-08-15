@@ -83,8 +83,8 @@
                   </li>
 
                 </ul>
-                <a href="/?a=login" class="cmn-btn btn-md mt-4">Login</a>
-                <a href="/?a=signup" class="cmn-btn btn-md mt-4">Register</a>
+                <a href="/?a=login" class="cmn-btn btn-md" style="margin-right: 1.5px;">Login</a>
+                <a href="/?a=signup" class="cmn-btn btn-md">Register</a>
                 {* <div class="nav-right">
                   <ul class="account-menu ml-3">
                     <li class="icon"><a href="/?a=login"><i class="las la-user"></i></a></li>
