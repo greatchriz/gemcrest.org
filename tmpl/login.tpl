@@ -59,6 +59,8 @@
           type=text
           name=username
           value='{$frm.username|escape:"html"}'
+          value='{$value|escape:"html"}'
+          value="$frm.username"
           class=inpts
           size=30
           autofocus="autofocus"
