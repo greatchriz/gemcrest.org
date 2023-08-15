@@ -45,7 +45,27 @@
     value='{$frm.follow_id}'
   >
 
-  {include file="form_text.tpl" label="User Name" placeholder="Enter Your Username ..." name="username" value="$frm.username"}
+  {include file="form_text.tpl" label="User Name" placeholder="Enter Your Username" name="username"}
+
+  {include file="form_password.tpl" label="Password" placeholder="Enter Password" name="password"}
+
+  <div class="form-row">
+    <div class="col-sm-6">
+      <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Remmber me</label>
+      </div>
+    </div>
+    <div class="col-sm-6 text-sm-right">
+      <p class="f-size-14">Haven't an account? <a href="/?a=signup" class="base--color">Sign Up</a></p>
+      <p class="f-size-14 mt-4">Did you forget your password? <a href="/?a=forgot_password" class="base--color">remember your login information</a></p>
+    </div>
+  </div>
+  <div class="mt-3">
+    <button type="submit" class="cmn-btn">Login</button>
+  </div>
+
+
 
 {* 
   <table
