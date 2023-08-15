@@ -65,247 +65,122 @@
 </section>
 <!-- about section end -->
 
-<!-- package section start -->
-<section class="pt-120 pb-120">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-6 text-center">
-        <div class="section-header">
-          <h2 class="section-title"><span class="font-weight-normal">Investment</span> <b class="base--color">Plans</b></h2>
-          <p>To make a solid investment, you have to know where you are investing. Find a plan which is best for you.</p>
-        </div>
-      </div>
-    </div><!-- row end -->
-    <div class="row justify-content-center mb-none-30">
-      <div class="col-xl-3 col-lg-4 col-md-6 mb-30">
-        <div class="package-card text-center bg_img" data-background="assets/images/bg/bg-4.png">
-          <h4 class="package-card__title base--color mb-2">Slivesto</h4>
-          <ul class="package-card__features mt-4">
-            <li>Return 6%</li>
-            <li>Every Week</li>
-            <li>For 5 Week</li>
-            <li>Total 30% + <span class="badge base--bg text-dark">Capital</span></li>
-          </ul>
-          <div class="package-card__range mt-5 base--color">$200</div>
-          <a href="#0" class="cmn-btn btn-md mt-4">Invest Now</a>
-        </div><!-- package-card end -->
-      </div>
-      <div class="col-xl-3 col-lg-4 col-md-6 mb-30">
-        <div class="package-card text-center bg_img" data-background="assets/images/bg/bg-4.png">
-          <h4 class="package-card__title base--color mb-2">Life Time</h4>
-          <ul class="package-card__features mt-4">
-            <li>Return 0.2%</li>
-            <li>Every Day</li>
-            <li>For Lifetime</li>
-            <li>Lifetime Earning</li>
-          </ul>
-          <div class="package-card__range mt-5 base--color">$100 - $200</div>
-          <a href="#0" class="cmn-btn btn-md mt-4">Invest Now</a>
-        </div><!-- package-card end -->
-      </div>
-      <div class="col-xl-3 col-lg-4 col-md-6 mb-30">
-        <div class="package-card text-center bg_img" data-background="assets/images/bg/bg-4.png">
-          <h4 class="package-card__title base--color mb-2">Black Horse</h4>
-          <ul class="package-card__features mt-4">
-            <li>Return 5%</li>
-            <li>Every Week</li>
-            <li>For 40 Week</li>
-            <li>Total 200%</li>
-          </ul>
-          <div class="package-card__range mt-5 base--color">$500 - $5000</div>
-          <a href="#0" class="cmn-btn btn-md mt-4">Invest Now</a>
-        </div><!-- package-card end -->
-      </div>
-      <div class="col-xl-3 col-lg-4 col-md-6 mb-30">
-        <div class="package-card text-center bg_img" data-background="assets/images/bg/bg-4.png">
-          <h4 class="package-card__title base--color mb-2">Silver</h4>
-          <ul class="package-card__features mt-4">
-            <li>Return 5%</li>
-            <li>Every Day</li>
-            <li>For 25 Day</li>
-            <li>Total 125%</li>
-          </ul>
-          <div class="package-card__range mt-5 base--color">$500</div>
-          <a href="#0" class="cmn-btn btn-md mt-4">Invest Now</a>
-        </div><!-- package-card end -->
-      </div>
-      <div class="col-xl-3 col-lg-4 col-md-6 mb-30">
-        <div class="package-card text-center bg_img" data-background="assets/images/bg/bg-4.png">
-          <h4 class="package-card__title base--color mb-2">Elephant</h4>
-          <ul class="package-card__features mt-4">
-            <li>Return 1.1USD</li>
-            <li>Every Day</li>
-            <li>For 50 Day</li>
-            <li>Total 55USD + <span class="badge base--bg">Capital</span></li>
-          </ul>
-          <div class="package-card__range mt-5 base--color">$500 - $700</div>
-          <a href="#0" class="cmn-btn btn-md mt-4">Invest Now</a>
-        </div><!-- package-card end -->
-      </div>
-      <div class="col-xl-3 col-lg-4 col-md-6 mb-30">
-        <div class="package-card text-center bg_img" data-background="assets/images/bg/bg-4.png">
-          <h4 class="package-card__title base--color mb-2">Cobra</h4>
-          <ul class="package-card__features mt-4">
-            <li>Return 10USD</li>
-            <li>Every Hour</li>
-            <li>For 150 Hour</li>
-            <li>Total 1500USD + <span class="badge base--bg">Capital</span></li>
-          </ul>
-          <div class="package-card__range mt-5 base--color">$1000</div>
-          <a href="#0" class="cmn-btn btn-md mt-4">Invest Now</a>
-        </div><!-- package-card end -->
-      </div>
-      <div class="col-xl-3 col-lg-4 col-md-6 mb-30">
-        <div class="package-card text-center bg_img" data-background="assets/images/bg/bg-4.png">
-          <h4 class="package-card__title base--color mb-2">Lion</h4>
-          <ul class="package-card__features mt-4">
-            <li>Return 0.2%</li>
-            <li>Every Day</li>
-            <li>For Lifetime</li>
-            <li>Lifetime Earning</li>
-          </ul>
-          <div class="package-card__range mt-5 base--color">$100 - $500</div>
-          <a href="#0" class="cmn-btn btn-md mt-4">Invest Now</a>
-        </div><!-- package-card end -->
-      </div>
-      <div class="col-xl-3 col-lg-4 col-md-6 mb-30">
-        <div class="package-card text-center bg_img" data-background="assets/images/bg/bg-4.png">
-          <h4 class="package-card__title base--color mb-2">Tiger</h4>
-          <ul class="package-card__features mt-4">
-            <li>Return 0.2%</li>
-            <li>Every Day</li>
-            <li>For Lifetime</li>
-            <li>Lifetime Earning</li>
-          </ul>
-          <div class="package-card__range mt-5 base--color">$100 - $500</div>
-          <a href="#0" class="cmn-btn btn-md mt-4">Invest Now</a>
-        </div><!-- package-card end -->
-      </div>
-    </div><!-- row end -->
-    <div class="row mt-50">
-      <div class="col-lg-12 text-center">
-        <a href="#0" class="cmn-btn">View All Packages</a>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- package section end  -->
 
-<!-- choose us section start -->
-<section class="pt-120 pb-120 overlay--radial bg_img" data-background="assets/images/bg/bg-3.jpg">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-6 text-center">
-        <div class="section-header">
-          <h2 class="section-title"><span class="font-weight-normal">Why Choose</span> <b class="base--color">Hyiplab</b></h2>
-          <p>Our goal is to provide our investors with a reliable source of high income, while minimizing any possible risks and offering a high-quality service.</p>
+      <!-- choose us section start -->
+        <section class="pt-120 pb-120 overlay--radial bg_img" data-background="assets/images/bg/bg-3.jpg">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-6 text-center">
+              <div class="section-header">
+                <h2 class="section-title"><span class="font-weight-normal">Why Choose</span> <b class="base--color">Hyiplab</b></h2>
+                <p>Our goal is to provide our investors with a reliable source of high income, while minimizing any possible risks and offering a high-quality service.</p>
+              </div>
+            </div>
+          </div><!-- row end -->
+          <div class="row justify-content-center mb-none-30">
+            <div class="col-xl-4 col-md-6 mb-30">
+              <div class="choose-card border-radius--5">
+                <div class="choose-card__header mb-3">
+                  <div class="choose-card__icon">
+                    <i class="lar la-copy"></i>
+                  </div>
+                  <h4 class="choose-card__title base--color">Legal Company</h4>
+                </div>
+                <p>Our company conducts absolutely legal activities in the legal field. We are certified to operate investment business, we are legal and safe.</p>
+              </div><!-- choose-card end -->
+            </div>
+            <div class="col-xl-4 col-md-6 mb-30">
+              <div class="choose-card border-radius--5">
+                <div class="choose-card__header mb-3">
+                  <div class="choose-card__icon">
+                    <i class="las la-lock"></i>
+                  </div>
+                  <h4 class="choose-card__title base--color">High reliability</h4>
+                </div>
+                <p>We are trusted by a huge number of people. We are working hard constantly to improve the level of our security system and minimize possible risks.</p>
+              </div><!-- choose-card end -->
+            </div>
+            <div class="col-xl-4 col-md-6 mb-30">
+              <div class="choose-card border-radius--5">
+                <div class="choose-card__header mb-3">
+                  <div class="choose-card__icon">
+                    <i class="las la-user-lock"></i>
+                  </div>
+                  <h4 class="choose-card__title base--color">Anonymity</h4>
+                </div>
+                <p>Anonymity and using cryptocurrency as a payment instrument. In the era of electronic money – this is one of the most convenient ways of cooperation.</p>
+              </div><!-- choose-card end -->
+            </div>
+            <div class="col-xl-4 col-md-6 mb-30">
+              <div class="choose-card border-radius--5">
+                <div class="choose-card__header mb-3">
+                  <div class="choose-card__icon">
+                    <i class="las la-shipping-fast"></i>
+                  </div>
+                  <h4 class="choose-card__title base--color">Quick Withdrawal</h4>
+                </div>
+                <p>Our all retreats are treated spontaneously once requested. There are high maximum limits. The minimum withdrawal amount is only $10.</p>
+              </div><!-- choose-card end -->
+            </div>
+            <div class="col-xl-4 col-md-6 mb-30">
+              <div class="choose-card border-radius--5">
+                <div class="choose-card__header mb-3">
+                  <div class="choose-card__icon">
+                    <i class="las la-users"></i>
+                  </div>
+                  <h4 class="choose-card__title base--color">Referral Program</h4>
+                </div>
+                <p>We are offering a certain level of referral income through our referral program. you can increase your income by simply refer a few people.</p>
+              </div><!-- choose-card end -->
+            </div>
+            <div class="col-xl-4 col-md-6 mb-30">
+              <div class="choose-card border-radius--5">
+                <div class="choose-card__header mb-3">
+                  <div class="choose-card__icon">
+                    <i class="las la-headset"></i>
+                  </div>
+                  <h4 class="choose-card__title base--color">24/7 Support</h4>
+                </div>
+                <p>We provide 24/7 customer support through e-mail and telegram. Our support representatives are periodically available to elucidate any difficulty..</p>
+              </div><!-- choose-card end -->
+            </div>
+            <div class="col-xl-4 col-md-6 mb-30">
+              <div class="choose-card border-radius--5">
+                <div class="choose-card__header mb-3">
+                  <div class="choose-card__icon">
+                    <i class="las la-server"></i>
+                  </div>
+                  <h4 class="choose-card__title base--color">Dedicated Server</h4>
+                </div>
+                <p>We are using a dedicated server for the website which allows us exclusive use of the resources of the entire server.</p>
+              </div><!-- choose-card end -->
+            </div>
+            <div class="col-xl-4 col-md-6 mb-30">
+              <div class="choose-card border-radius--5">
+                <div class="choose-card__header mb-3">
+                  <div class="choose-card__icon">
+                    <i class="fab fa-expeditedssl"></i>
+                  </div>
+                  <h4 class="choose-card__title base--color">SSL Secured</h4>
+                </div>
+                <p>Comodo Essential-SSL Security encryption confirms that the presented content is genuine and legitimate.</p>
+              </div><!-- choose-card end -->
+            </div>
+            <div class="col-xl-4 col-md-6 mb-30">
+              <div class="choose-card border-radius--5">
+                <div class="choose-card__header mb-3">
+                  <div class="choose-card__icon">
+                    <i class="las la-shield-alt"></i>
+                  </div>
+                  <h4 class="choose-card__title base--color">DDOS Protection</h4>
+                </div>
+                <p>We are using one of the most experienced, professional, and trusted DDoS Protection and mitigation provider.</p>
+              </div><!-- choose-card end -->
+            </div>
+          </div>
         </div>
-      </div>
-    </div><!-- row end -->
-    <div class="row justify-content-center mb-none-30">
-      <div class="col-xl-4 col-md-6 mb-30">
-        <div class="choose-card border-radius--5">
-          <div class="choose-card__header mb-3">
-            <div class="choose-card__icon">
-              <i class="lar la-copy"></i>
-            </div>
-            <h4 class="choose-card__title base--color">Legal Company</h4>
-          </div>
-          <p>Our company conducts absolutely legal activities in the legal field. We are certified to operate investment business, we are legal and safe.</p>
-        </div><!-- choose-card end -->
-      </div>
-      <div class="col-xl-4 col-md-6 mb-30">
-        <div class="choose-card border-radius--5">
-          <div class="choose-card__header mb-3">
-            <div class="choose-card__icon">
-              <i class="las la-lock"></i>
-            </div>
-            <h4 class="choose-card__title base--color">High reliability</h4>
-          </div>
-          <p>We are trusted by a huge number of people. We are working hard constantly to improve the level of our security system and minimize possible risks.</p>
-        </div><!-- choose-card end -->
-      </div>
-      <div class="col-xl-4 col-md-6 mb-30">
-        <div class="choose-card border-radius--5">
-          <div class="choose-card__header mb-3">
-            <div class="choose-card__icon">
-              <i class="las la-user-lock"></i>
-            </div>
-            <h4 class="choose-card__title base--color">Anonymity</h4>
-          </div>
-          <p>Anonymity and using cryptocurrency as a payment instrument. In the era of electronic money – this is one of the most convenient ways of cooperation.</p>
-        </div><!-- choose-card end -->
-      </div>
-      <div class="col-xl-4 col-md-6 mb-30">
-        <div class="choose-card border-radius--5">
-          <div class="choose-card__header mb-3">
-            <div class="choose-card__icon">
-              <i class="las la-shipping-fast"></i>
-            </div>
-            <h4 class="choose-card__title base--color">Quick Withdrawal</h4>
-          </div>
-          <p>Our all retreats are treated spontaneously once requested. There are high maximum limits. The minimum withdrawal amount is only $10.</p>
-        </div><!-- choose-card end -->
-      </div>
-      <div class="col-xl-4 col-md-6 mb-30">
-        <div class="choose-card border-radius--5">
-          <div class="choose-card__header mb-3">
-            <div class="choose-card__icon">
-              <i class="las la-users"></i>
-            </div>
-            <h4 class="choose-card__title base--color">Referral Program</h4>
-          </div>
-          <p>We are offering a certain level of referral income through our referral program. you can increase your income by simply refer a few people.</p>
-        </div><!-- choose-card end -->
-      </div>
-      <div class="col-xl-4 col-md-6 mb-30">
-        <div class="choose-card border-radius--5">
-          <div class="choose-card__header mb-3">
-            <div class="choose-card__icon">
-              <i class="las la-headset"></i>
-            </div>
-            <h4 class="choose-card__title base--color">24/7 Support</h4>
-          </div>
-          <p>We provide 24/7 customer support through e-mail and telegram. Our support representatives are periodically available to elucidate any difficulty..</p>
-        </div><!-- choose-card end -->
-      </div>
-      <div class="col-xl-4 col-md-6 mb-30">
-        <div class="choose-card border-radius--5">
-          <div class="choose-card__header mb-3">
-            <div class="choose-card__icon">
-              <i class="las la-server"></i>
-            </div>
-            <h4 class="choose-card__title base--color">Dedicated Server</h4>
-          </div>
-          <p>We are using a dedicated server for the website which allows us exclusive use of the resources of the entire server.</p>
-        </div><!-- choose-card end -->
-      </div>
-      <div class="col-xl-4 col-md-6 mb-30">
-        <div class="choose-card border-radius--5">
-          <div class="choose-card__header mb-3">
-            <div class="choose-card__icon">
-              <i class="fab fa-expeditedssl"></i>
-            </div>
-            <h4 class="choose-card__title base--color">SSL Secured</h4>
-          </div>
-          <p>Comodo Essential-SSL Security encryption confirms that the presented content is genuine and legitimate.</p>
-        </div><!-- choose-card end -->
-      </div>
-      <div class="col-xl-4 col-md-6 mb-30">
-        <div class="choose-card border-radius--5">
-          <div class="choose-card__header mb-3">
-            <div class="choose-card__icon">
-              <i class="las la-shield-alt"></i>
-            </div>
-            <h4 class="choose-card__title base--color">DDOS Protection</h4>
-          </div>
-          <p>We are using one of the most experienced, professional, and trusted DDoS Protection and mitigation provider.</p>
-        </div><!-- choose-card end -->
-      </div>
-    </div>
-  </div>
-</section>
-<!-- choose us section end  -->
+      </section>
+      <!-- choose us section end  -->
 
 <!-- profit calculator section start -->
 <section class="pt-120 pb-120">

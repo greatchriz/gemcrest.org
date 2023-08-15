@@ -71,7 +71,6 @@
                   <li> {include file="nav-item.tpl" link="/?=about" title="About Us"}</li>
                   <li> {include file="nav-item.tpl" link="/?=plans" title="Investment Plans"}</li>
                   <li> {include file="nav-item.tpl" link="/?=services" title="Our Services"}</li>
-                  <li> {include file="nav-item.tpl" link="/?=insights" title="Insights"}</li>
                   <li> {include file="nav-item.tpl" link="/?=faq" title="F.A.Q."}</li>
                   <li> {include file="nav-item.tpl" link="/?=support" title="Contact Us"}</li>
 
