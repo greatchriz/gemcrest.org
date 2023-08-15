@@ -80,8 +80,8 @@
                 </ul>
                 <div class="nav-right">
                   <ul class="account-menu ml-3">
-                    <li class="icon"> {include file="nav-item.tpl" link="/?=login" title="Login"}</li>
-                    <li class="icon"> {include file="nav-item.tpl" link="/?=signup" title="Register"}</li>
+                    <li class="icon"><a href="/?a=login"><i class="las la-user"></i></a></li>
+                    <li class="icon"><a href="/?a=signup"><i class="las la-user"></i></a></li>
                   </ul> 
                  
                 </div>
@@ -91,3 +91,9 @@
         </div><!-- header__bottom end -->
       </header>
       <!-- header-section end  -->
+
+        <ul class="account-menu ml-3">
+          <li class="icon">
+            <a href="login.html"><i class="las la-user"></i></a>
+          </li>
+        </ul>
