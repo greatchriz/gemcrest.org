@@ -45,7 +45,7 @@
     value='{$frm.follow_id}'
   >
 
-  {include file="form_text.tpl" label="User Name" placeholder="Enter Your Username ..." name="username" value='{$frm.username|escape:"html"}'}
+  {include file="form_text.tpl" label="User Name" placeholder="Enter Your Username ..." name="username" value="$frm.username"}
 
 {* 
   <table
