@@ -395,19 +395,19 @@
                           <div class="user-card">
                             <div class="user-avatar"><span>AB</span></div>
                             <div class="user-info">
-                              <span class="lead-text">Abu Bin Ishtiyak</span
-                              ><span class="sub-text">info@softnio.com</span>
+                              <span class="lead-text">{$userinfo.name}</span
+                              ><span class="sub-text">{$userinfo.email}</span>
                             </div>
                             <div class="user-action">
                               <a
                                 class="btn btn-icon me-n2"
-                                href="profile-setting.html"
+                                href="/?a=security"
                                 ><em class="icon ni ni-setting"></em
                               ></a>
                             </div>
                           </div>
                         </div>
-                        <div class="dropdown-inner user-account-info">
+                        {* <div class="dropdown-inner user-account-info">
                           <h6 class="overline-title-alt">Account Balance</h6>
                           <div class="user-balance">
                             1,494.23
@@ -424,25 +424,20 @@
                             ><span>Withdraw Balance</span>
                             <em class="icon ni ni-wallet-out"></em
                           ></a>
-                        </div>
+                        </div> *}
                         <div class="dropdown-inner">
                           <ul class="link-list">
+                           
                             <li>
-                              <a href="profile.html"
-                                ><em class="icon ni ni-user-alt"></em
-                                ><span>View Profile</span></a
-                              >
-                            </li>
-                            <li>
-                              <a href="profile-setting.html"
+                              <a href="/?a=edit_account"
                                 ><em class="icon ni ni-setting-alt"></em
                                 ><span>Account Setting</span></a
                               >
                             </li>
                             <li>
-                              <a href="profile-activity.html"
+                              <a href="/?a=security"
                                 ><em class="icon ni ni-activity-alt"></em
-                                ><span>Login Activity</span></a
+                                ><span>Security Activity</span></a
                               >
                             </li>
                           </ul>
