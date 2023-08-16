@@ -89,83 +89,120 @@
                       {include file="nav-item.tpl" link="/?a=account" title="Dashboard"}
                     </li>
 
-                    <li class="nk-menu-item">
-                      {include file="nav-item.tpl" link="/?a=deposit" title="Deposit"}
+                    <li class="nk-menu-item active has-sub">
+                      <a href="#" class="nk-menu-link nk-menu-toggle"
+                        ><span class="nk-menu-text">Deposit</span></a
+                      >
+                      <ul class="nk-menu-sub">
+                        <li class="nk-menu-item">
+                          <a href="/?a=deposit" class="nk-menu-link"
+                            ><span class="nk-menu-text">Deposit</span></a
+                          >
+                        </li>
+                        {if $settings.use_add_funds}
+                        <li class="nk-menu-item">
+                          <a href="/?a=add_funds" class="nk-menu-link"
+                            ><span class="nk-menu-text"
+                              >Deposit to Account</span
+                            ></a
+                          >
+                        </li>
+                        {/if}
+                        <li class="nk-menu-item">
+                          <a href="/?a=deposit_list" class="nk-menu-link"
+                            ><span class="nk-menu-text"
+                              >Deposit List</span
+                            ></a
+                          >
+                        </li>
+
+                        <li class="nk-menu-item">
+                          <a href="/?a=deposit_history" class="nk-menu-link"
+                            ><span class="nk-menu-text"
+                              >Deposit History</span
+                            ></a
+                          >
+                        </li>
+
+
+          
+                      </ul>
                     </li>
 
-                    {if $settings.use_add_funds}
-                    <li class="nk-menu-item">
-                      {include file="nav-item.tpl" link="/?a=add_funds" title="Add Funds"}
+
+                    <li class="nk-menu-item active has-sub">
+                      <a href="#" class="nk-menu-link nk-menu-toggle"
+                        ><span class="nk-menu-text">Widthdrawl</span></a
+                      >
+                      <ul class="nk-menu-sub">
+                        <li class="nk-menu-item">
+                          <a href="/?a=withdraw" class="nk-menu-link"
+                            ><span class="nk-menu-text">Withdraw</span></a
+                          >
+                        </li>
+              
+                        <li class="nk-menu-item">
+                          <a href="/?a=withdraw_history" class="nk-menu-link"
+                            ><span class="nk-menu-text"
+                              >Withdrawals History</span
+                            ></a
+                          >
+                        </li>
+          
+                      </ul>
                     </li>
+
+                    {if $settings.use_referal_program == 1}
+
+                    <li class="nk-menu-item active has-sub">
+                      <a href="#" class="nk-menu-link nk-menu-toggle"
+                        ><span class="nk-menu-text">Referrals</span></a
+                      >
+                      <ul class="nk-menu-sub">
+                        <li class="nk-menu-item">
+                          {include file="nav-item.tpl" link="/?a=referals" title="Your Referrals"}
+                        </li>
+              
+                        <li class="nk-menu-item">
+                          {include file="nav-item.tpl" link="/?a=referallinks" title="Referrals Links"}
+                        </li>
+
+                        <li class="nk-menu-item">
+                          {include file="nav-item.tpl" link="/?a=history&type=commissions" title="Referrals History"}
+                        </li>
+          
+                      </ul>
+                    </li>
+
                     {/if}
-
-                    <li class="nk-menu-item">
-                      {include file="nav-item.tpl" link="/?a=deposit_list" title="Investments"}
-                    </li>
-
-
-                    <li class="nk-menu-item">
-                      {include file="nav-item.tpl" link="/?a=deposit_history" title="Deposit History"}
-                    </li>
-
 
                     <li class="nk-menu-item">
                       {include file="nav-item.tpl" link="/?a=history&type=earning" title="Earning History"}
                     </li>
 
-                    {if $settings.use_referal_program == 1}
-                    <li class="nk-menu-item">
-                      {include file="nav-item.tpl" link="/?a=history&type=commissions" title="Referrals History"}
+                    <li class="nk-menu-item active has-sub">
+                      <a href="#" class="nk-menu-link nk-menu-toggle"
+                        ><span class="nk-menu-text">Account</span></a
+                      >
+                      <ul class="nk-menu-sub">
+
+                        <li class="nk-menu-item">
+                          {include file="nav-item.tpl" link="/?a=edit_account" title="Profile"}
+                        </li>
+
+
+
+                        <li class="nk-menu-item">
+                          {include file="nav-item.tpl" link="/?a=security" title="Security"}
+                        </li>
+
+
+                        <li class="nk-menu-item">
+                          {include file="nav-item.tpl" link="/?a=logout" title="Logout"}
+                        </li>
+                      </ul>
                     </li>
-                    {/if}
-
-
-                    <li class="nk-menu-item">
-                      {include file="nav-item.tpl" link="/?a=withdraw" title="Withdraw"}
-                    </li>
-
-                    <li class="nk-menu-item">
-                      {include file="nav-item.tpl" link="/?a=withdraw_history" title="Withdrawals History"}
-                    </li>
-
-                    {if $settings.enable_exchange == 1}
-                    <li class="nk-menu-item">
-                      {include file="nav-item.tpl" link="/?a=exchange" title="Currency Exchange"}
-                    </li>
-                    {/if}
-
-
-                    {if $settings.internal_transfer_enabled}
-                    <li class="nk-menu-item">
-                      {include file="nav-item.tpl" link="/?a=internal_transfer" title="Internal Transfer"}
-                    </li>
-                    {/if}
-
-                    {if $settings.use_referal_program == 1}
-                      <li class="nk-menu-item">
-                        {include file="nav-item.tpl" link="/?a=referals" title="Your Referrals"}
-                      </li>
-
-                      <li class="nk-menu-item">
-                        {include file="nav-item.tpl" link="/?a=referallinks" title="Referrals Links"}
-                      </li>
-                    {/if}
-
-
-                    <li class="nk-menu-item">
-                      {include file="nav-item.tpl" link="/?a=edit_account" title="Profile"}
-                    </li>
-
-
-
-                    <li class="nk-menu-item">
-                      {include file="nav-item.tpl" link="/?a=security" title="Security"}
-                    </li>
-
-
-                    <li class="nk-menu-item">
-                      {include file="nav-item.tpl" link="/?a=logout" title="Logout"}
-                    </li>
+                   
                   </ul>
                 </div>
                 <div class="nk-header-tools">
@@ -413,7 +450,7 @@
                         <div class="dropdown-inner">
                           <ul class="link-list">
                             <li>
-                              <a href="#"
+                              <a href="/?a=logout"
                                 ><em class="icon ni ni-signout"></em
                                 ><span>Sign out</span></a
                               >
