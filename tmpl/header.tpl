@@ -180,29 +180,6 @@
                       {include file="nav-item.tpl" link="/?a=history&type=earning" title="Earning History"}
                     </li>
 
-                    <li class="nk-menu-item active has-sub">
-                      <a href="#" class="nk-menu-link nk-menu-toggle"
-                        ><span class="nk-menu-text">Account</span></a
-                      >
-                      <ul class="nk-menu-sub">
-
-                        <li class="nk-menu-item">
-                          {include file="nav-item.tpl" link="/?a=edit_account" title="Profile"}
-                        </li>
-
-
-
-                        <li class="nk-menu-item">
-                          {include file="nav-item.tpl" link="/?a=security" title="Security"}
-                        </li>
-
-
-                        <li class="nk-menu-item">
-                          {include file="nav-item.tpl" link="/?a=logout" title="Logout"}
-                        </li>
-                      </ul>
-                    </li>
-                   
                   </ul>
                 </div>
                 <div class="nk-header-tools">
@@ -378,14 +355,7 @@
                           <div class="user-avatar sm">
                             <em class="icon ni ni-user-alt"></em>
                           </div>
-                          <div class="user-info d-none d-xl-block">
-                            <div class="user-status user-status-unverified">
-                              Unverified
-                            </div>
-                            <div class="user-name dropdown-indicator">
-                              Abu Bin Ishityak
-                            </div>
-                          </div>
+                     
                         </div></a
                       >
                       <div
