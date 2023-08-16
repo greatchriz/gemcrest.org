@@ -1,398 +1,104 @@
-<!DOCTYPE html>
-<html lang="zxx">
-
-
-    <!-- Mirrored from www.polticventure.co/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 10 Jul 2023 13:36:50 GMT -->
-    <!-- Added by HTTrack -->
-    <meta
-        http-equiv="content-type"
-        content="text/html;charset=UTF-8"
-    /><!-- /Added by HTTrack -->
-
+<!-- meta tags and other links -->
+  <!DOCTYPE html>
+    <html lang="en">
     <head>
-        <!-- meta tag -->
-        <meta charset="utf-8">
-        <title>Polticventure | Trading For You</title>
-        <meta
-            name="description"
-            content=""
-        >
-        <!-- responsive tag -->
-        <meta
-            http-equiv="x-ua-compatible"
-            content="ie=edge"
-        >
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1"
-        >
-        <!-- favicon -->
-        <link
-            rel="apple-touch-icon"
-            href="apple-touch-icon.html"
-        >
-        <link
-            rel="shortcut icon"
-            type="image/x-icon"
-            href="assets/images/fav.png"
-        >
-        <!-- Bootstrap v4.4.1 css -->
-        <link
-            rel="stylesheet"
-            type="text/css"
-            href="assets/css/bootstrap.min.css"
-        >
-        <!-- font-awesome css -->
-        <link
-            rel="stylesheet"
-            type="text/css"
-            href="assets/css/font-awesome.min.css"
-        >
-        <!-- flaticon css -->
-        <link
-            rel="stylesheet"
-            type="text/css"
-            href="assets/fonts/flaticon.css"
-        >
-        <!-- animate css -->
-        <link
-            rel="stylesheet"
-            type="text/css"
-            href="assets/css/animate.css"
-        >
-        <!-- owl.carousel css -->
-        <link
-            rel="stylesheet"
-            type="text/css"
-            href="assets/css/owl.carousel.css"
-        >
-        <!-- off canvas css -->
-        <link
-            rel="stylesheet"
-            type="text/css"
-            href="assets/css/off-canvas.css"
-        >
-        <!-- magnific popup css -->
-        <link
-            rel="stylesheet"
-            type="text/css"
-            href="assets/css/magnific-popup.css"
-        >
-        <!-- Main Menu css -->
-        <link
-            rel="stylesheet"
-            href="assets/css/rsmenu-main.css"
-        >
-        <link
-            rel="stylesheet"
-            href="assets/css/SGWidget.css"
-        >
-        <!-- spacing css -->
-        <link
-            rel="stylesheet"
-            type="text/css"
-            href="assets/css/rs-spacing.css"
-        >
-        <!-- style css -->
-        <link
-            rel="stylesheet"
-            type="text/css"
-            href="style.css"
-        > <!-- This stylesheet dynamically changed from style.less -->
-        <!-- responsive css -->
-        <link
-            rel="stylesheet"
-            type="text/css"
-            href="assets/css/responsive.css"
-        >
-
-        {literal}
-           <!-- Smartsupp Live Chat script -->
-<script type="text/javascript">
-var _smartsupp = _smartsupp || {};
-_smartsupp.key = 'b71d43ec904d796ce5be144e6bfa053e09ca4fe7';
-window.smartsupp||(function(d) {
-  var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
-  s=d.getElementsByTagName('script')[0];c=d.createElement('script');
-  c.type='text/javascript';c.charset='utf-8';c.async=true;
-  c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
-})(document);
-</script>
-<noscript> Powered by <a href=“https://www.smartsupp.com” target=“_blank”>Smartsupp</a></noscript>
-        {/literal}
-
-        <style>
-            .deposit-item {
-                display: flex;
-                padding: 25px 25px 25px 25px;
-                background-color: #15181D;
-                margin: 0 -4px 0 0;
-            }
-
-            .deposit-icon-img {
-                height: 65px;
-                width: 65px;
-                max-width: unset;
-                padding: 5px 5px 0px 0px;
-            }
-
-            .deposit-text {
-                padding: 0px 0px 0px 15px;
-            }
-
-            .deposit-title {
-                font-size: 20px;
-                font-weight: 700;
-                line-height: 30px;
-                margin: 0 0 10px;
-            }
-
-            .deposit-txt {
-                margin: 0;
-                color: #F4F4F4;
-            }
-        </style>
-
-        
-
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>HYIPLAB - HYIP Investment HTML template</title>
+      <link rel="icon" type="image/png" href="assets/images/favicon.png" sizes="16x16">
+      <!-- bootstrap 4  -->
+      <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+      <!-- fontawesome 5  -->
+      <link rel="stylesheet" href="assets/css/all.min.css">
+      <!-- line-awesome webfont -->
+      <link rel="stylesheet" href="assets/css/line-awesome.min.css">
+      <link rel="stylesheet" href="assets/css/vendor/animate.min.css">
+      <!-- slick slider css -->
+      <link rel="stylesheet" href="assets/css/vendor/slick.css">
+      <link rel="stylesheet" href="assets/css/vendor/dots.css">
+      <!-- dashdoard main css -->
+      <link rel="stylesheet" href="assets/css/main.css">
     </head>
-
-    <body class="defult-home">
-
-        <div class="offwrap"></div>
-
-        <!--Preloader start here-->
-        {* <div id="pre-load">
-            <div
-                id="loader"
-                class="loader"
-            >
-                <div class="loader-container">
-                    <div class='loader-icon'><img
-                            src="assets/images/fav.png"
-                            alt=""
-                        ></div>
-                </div>
-            </div>
-        </div> *}
-        <!--Preloader area end here-->
-
-        <!-- Main content Start -->
-        <div class="main-content">
-
-            <!--Full width header Start-->
-            <div class="full-width-header">
-                <!--Header Start-->
-                <header
-                    id="rs-header"
-                    class="rs-header header-transparent"
-                >
-                    <!-- Topbar Area Start -->
-                    <div class="topbar-area style1">
-                        <div class="container custom">
-                            <div class="row y-middle">
-                                <div class="col-lg-12">
-                                    <div class="topbar-contact">
-                                        <ul>
-                                            <li>
-                                                <i class="flaticon-email"></i>
-                                                <a href="mailto:support@polticventure.co">support@polticventure.co</a>
-                                            </li>
-                                            <li>
-                                                <i class="flaticon-call"></i>
-                                                <a href="tel:+447951359365"> +447951359365</a>
-                                            </li>
-
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Topbar Area End -->
-
-                    <!-- Menu Start -->
-                    <div class="menu-area menu-sticky">
-                        <div class="container custom">
-                            <div class="row-table">
-                                <div class="col-cell header-logo">
-                                    <div class="logo-area">
-                                        <a href="/">
-                                            <img
-                                                class="normal-logo"
-                                                src="assets/images/logo.png"
-                                                alt="logo"
-                                            >
-                                            <img
-                                                class="sticky-logo"
-                                                src="assets/images/logo-dark.png"
-                                                alt="logo"
-                                            >
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-cell">
-                                    <div class="rs-menu-area">
-                                        <div class="main-menu">
-                                            <nav class="rs-menu hidden-md">
-                                                <ul class="nav-menu">
-                                                    <li class="menu-item-has-children">
-                                                    <li class="">
-                                                        <a href="/">Home</a>
-
-                                                    </li>
-                                                    <li class="current-menu-item">
-                                                        <a href="/?a=about">About Us</a>
-
-                                                    </li>
-                                                    <li class="">
-                                                        <a href="/?a=safe">Safety of Funds</a>
-
-                                                    </li>
-                                                    <li class="">
-                                                    <li><a href="/?a=packages">Investment Plans</a></li>
-
-                                                    </li>
-                                                    <li class="menu-item-has-children">
-                                                        <a href="#">Information</a>
-                                                        <ul class="sub-menu">
-                                                            <li><a href="/?a=faq">FAQ</a></li>
-                                                            <li><a href="/?a=privacy">Privacy Policy</a></li>
-                                                            <li><a href="/?a=our-team">Our Team</a></li>
-                                                            <li><a href="/?a=terms">Terms & Condition</a></li>
-                                                            <li>
-                                                            <a href="/?a=funds-recovery"> Funds Recovery Page</a>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                    <li>
-                                                        <a href="/?a=support">Contact</a>
-                                                    </li>
-                                                    <li class="menu-item-has-children">
-                                                        <a href="#">Account</a>
-                                                        <ul class="sub-menu">
-                                                            <li><a href="/?a=login">Sign In</a></li>
-                                                            <li><a href="/?a=signup">Register</a></li>
-
-                                                        </ul>
-                                                    </li>
-                                                </ul> <!-- //.nav-menu -->
-                                            </nav>
-                                        </div> <!-- //.main-menu -->
-                                    </div>
-                                </div>
-                                <div class="col-cell">
-                                    <div class="expand-btn-inner">
-                                        <ul>
-                                            <li class="search-parent">
-                                                <a
-                                                    class="hidden-xs rs-search"
-                                                    data-bs-toggle="modal"
-                                                    data-bs-target="#searchModal"
-                                                    href="#"
-                                                >
-                                                    <i class="flaticon-search"></i>
-                                                </a>
-                                            </li>
-                                            <li class="humburger">
-                                                <a
-                                                    id="nav-expander"
-                                                    class="nav-expander bar"
-                                                    href="#"
-                                                >
-                                                    <div class="bar">
-                                                        <span class="dot1"></span>
-                                                        <span class="dot2"></span>
-                                                        <span class="dot3"></span>
-                                                        <span class="dot4"></span>
-                                                        <span class="dot5"></span>
-                                                        <span class="dot6"></span>
-                                                        <span class="dot7"></span>
-                                                        <span class="dot8"></span>
-                                                        <span class="dot9"></span>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Menu End -->
+      <body>
+        <div class="preloader">
+          <div class="preloader-container">
+            <span class="animated-preloader"></span>
+          </div>
+        </div>
+      
+        <!-- scroll-to-top start -->
+        <div class="scroll-to-top">
+          <span class="scroll-icon">
+            <i class="fa fa-rocket" aria-hidden="true"></i>
+          </span>
+        </div>
+        <!-- scroll-to-top end -->
+    
+      <div class="full-wh">
+        <!-- STAR ANIMATION -->
+        <div class="bg-animation">
+          <div id='stars'></div>
+          <div id='stars2'></div>
+          <div id='stars3'></div>
+          <div id='stars4'></div>
+        </div><!-- / STAR ANIMATION -->
+      </div>
+      <div class="page-wrapper">
+          <!-- header-section start  -->
+      <header class="header">
+        <div class="header__bottom">
+          <div class="container">
+            <nav class="navbar navbar-expand-xl p-0 align-items-center">
+              <a class="site-logo site-title" href="/?a=home" style="margin-top: 12px">
+                <img src="assets/images/logo.svg" width="375px" height="95px" alt="site-logo">
+              </a>
+              {* <ul class="account-menu mobile-acc-menu">
+                <li class="icon">
+                  <a href="login.html"><i class="las la-user"></i></a>
+                </li>
+              </ul> 
+              <ul class="account-menu mobile-acc-menu">
+                <li class="icon">
+                  <a href="login.html"><i class="las la-user"></i></a>
+                </li>
+              </ul>  *}
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="menu-toggle"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav main-menu m-auto">
+                  <li> {include file="nav-item.tpl" link="/?a=home" title="Home"}</li>
+                  <li> {include file="nav-item.tpl" link="/?a=about" title="About Us"}</li>
+                  <li> {include file="nav-item.tpl" link="/?a=plans" title="Investment Plans"}</li>
+                  <li> {include file="nav-item.tpl" link="/?a=services" title="Our Services"}</li>
+                  <li> {include file="nav-item.tpl" link="/?a=faq" title="F.A.Q."}</li>
+                  <li> {include file="nav-item.tpl" link="/?a=support" title="Contact Us"}</li>
 
 
+                  <li class="menu_has_children"><a href="#">Information</a>
+                    <ul class="sub-menu">
+                      <li> {include file="nav-item.tpl" link="/?a=faq" title="F.A.Q."}</li>
+                      <li> {include file="nav-item.tpl" link="/?a=support" title="Contact Us"}</li>
+                      <li> {include file="nav-item.tpl" link="/?a=rules" title="Terms & Condition"}</li>
+                    </ul>
+                  </li>
 
-                    <!-- Canvas Mobile Menu start -->
-                    <nav
-                        class="right_menu_togle mobile-navbar-menu"
-                        id="mobile-navbar-menu"
-                    >
-                        <div class="close-btn">
-                            <a
-                                id="nav-close2"
-                                class="nav-close"
-                            >
-                                <div class="line">
-                                    <span class="line1"></span>
-                                    <span class="line2"></span>
-                                </div>
-                            </a>
-                        </div>
-                        <ul class="nav-menu">
-                            <li class="menu-item-has-children current-menu-item">
-                            <li class="current-menu-item">
-                                <a href="/">Home</a>
-
-                            </li>
-                            <li class="">
-                                <a href="/?a=about">About Us</a>
-
-                            </li>
-                            <li class="">
-                                <a href="/?a=safe">Safety of Funds</a>
-
-                            </li>
-                            <li class="">
-                            <li><a href="/?a=packages">Investment Plans</a></li>
-
-                            </li>
-                            <li class="menu-item-has-children">
-                                <a href="#">Information</a>
-                                <ul class="sub-menu">
-                                    <li><a href="/?a=faq">FAQ</a></li>
-                                    <li><a href="/?a=privacy">Privacy Policy</a></li>
-                                    <li><a href="/?a=our-team">Our Team</a></li>
-                                    <li><a href="/?a=terms">Terms & Condition</a></li>
-                                    <li>
-                                        <a href="/?a=funds-recovery"> Funds Recovery Page</a>
-                                        </li>
-
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="/?a=support">Contact</a>
-                            </li>
-                            <li class="menu-item-has-children">
-                                <a href="#">Account</a>
-                                <ul class="sub-menu">
-                                    <li><a href="/?a=login">Sign In</a></li>
-                                    <li><a href="/?a=signup">Register</a></li>
-
-                                </ul>
-
-                            </li>
-                        </ul> <!-- //.nav-menu -->
-                        <div class="canvas-contact">
-                            <div class="address-area">
-                                <div class="address-list">
-
-                                </div>
-                            </div>
-                        </div>
-                    </nav>
-                    <!-- Canvas Menu end -->
-                </header>
-                <!--Header End-->
-            </div>
-            <!--Full width header End-->
+                </ul>
+                <a href="/?a=login" class="cmn-btn btn-md" style="margin-right: 5px;">Login</a>
+                <a href="/?a=signup" class="cmn-btn btn-md">Register</a>
+                {* <div class="nav-right">
+                  <ul class="account-menu ml-3">
+                    <li class="icon"><a href="/?a=login"><i class="las la-user"></i></a></li>
+                  </ul>
+                  
+                  <ul class="account-menu ml-3">
+                    <li class="icon"><a href="/?a=signup"><i class="las la-user"></i></a></li>
+                  </ul>
+                 
+                </div> *}
+              </div> 
+            </nav>
+          </div>
+        </div><!-- header__bottom end -->
+      </header>
+      <!-- header-section end  -->

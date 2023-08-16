@@ -1,183 +1,49 @@
-</div>
-<!-- Main content End -->
-<!-- Footer Start -->
-<footer
-    id="rs-footer"
-    class="rs-footer style1"
->
-    <div class="footer-top">
+
+    <!-- footer section start -->
+      <footer class="footer bg_img" data-background="assets/images/bg/bg-7.jpg">
+      <div class="footer__top">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-12 col-sm-12 md-mb-10">
-                    <div class="footer-logo mb-40">
-                        <a href="/"><img
-                                src="assets/images/logo.png"
-                                alt=""
-                            ></a>
-                    </div>
-                    <div class="textwidget white-color pb-40">
-                        <p>With decades of trading experience across a variety of assets we know what it takes to become
-                            successful in the trading markets.</p>
-                    </div>
-
-                </div>
-                <div class="col-lg-3 col-md-12 col-sm-12 md-mb-10 pl-55 md-pl-15">
-                    <h3 class="footer-title">Our Services</h3>
-                    <ul class="site-map">
-                        <li><a href="/?a=safe">Safety of Funds</a></li>
-                        <li><a href="/?a=rules">Terms of Use</a></li>
-                        <li><a href="/?a=privacy">Privacy Policy</a></li>
-                        <li><a href="/?a=signup">Sign Up</a></li>
-                        <li><a href="/?a=login">Login</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 col-md-12 col-sm-12 md-mb-10">
-                    <h3 class="footer-title">Contact Info</h3>
-                    <ul class="address-widget">
-                        <li>
-                            <i class="flaticon-location"></i>
-                            <div class="desc">Douglas Houghton House, 231 Vauxhall Bridge Road, SW1V 1AD, United Kingdom
-                            </div>
-                        </li>
-                        <li>
-                            <i class="flaticon-call"></i>
-                            <div class="desc">
-                                <a href="tel:+447951359365">+447951359365</a>
-                            </div>
-                        </li>
-                        <li>
-                            <i class="flaticon-email"></i>
-                            <div class="desc">
-                                <a href="mailto:support@polticventure.co">support@polticventure.co</a>
-                            </div>
-                        </li>
-
-                    </ul>
-                </div>
-
+          <div class="row justify-content-center">
+            <div class="col-lg-12 text-center">
+              <a href="#0" class="footer-logo"><img src="assets/images/logo.png" alt="image"></a>
+              <ul class="footer-short-menu d-flex flex-wrap justify-content-center mt-4">
+                <li><a href="#0">Home</a></li>
+                <li><a href="#0">Privacy & Policy</a></li>
+                <li><a href="#0">Terms & Conditions</a></li>
+              </ul>
             </div>
+          </div>
         </div>
-    </div>
-    <div class="footer-bottom">
+      </div>
+      <div class="footer__bottom">
         <div class="container">
-            <div class="row y-middle">
-                <div class="col-lg-6 md-mb-10 text-lg-end text-center order-last">
-                    <ul class="copy-right-menu">
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/?a=about">About</a></li>
-                        <li><a href="/?a=faq">Faqs</a></li>
-                        <li><a href="index38e1.html?a=contact">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-6">
-                    <div class="copyright text-lg-start text-center ">
-                        {literal}
-                            <p>
-                                <script>
-                                    document.write(new Date().getFullYear())
-                                </script> © Pinnaclegem. All Rights Reserved.
-                            </p>
-                        {/literal}
-                    </div>
-                </div>
+          <div class="row">
+            <div class="col-md-6 text-md-left text-center">
+              <p>© 2020 <a href="index.html" class="base--color">HYIPLAB</a>. All rights reserved</p>
             </div>
-        </div>
-    </div>
-</footer>
-<!-- Footer End -->
-
-<!-- start scrollUp  -->
-<div
-    id="scrollUp"
-    class="orange-color"
->
-    <i class="fa fa-angle-up"></i>
-</div>
-<!-- End scrollUp  -->
-
-
-<!-- Search Modal Start -->
-<div
-    class="modal fade search-modal"
-    id="searchModal"
-    tabindex="-1"
->
-    <button
-        type="button"
-        class="close"
-        data-bs-dismiss="modal"
-    >
-        <span class="flaticon-cross"></span>
-    </button>
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-            <div class="search-block clearfix">
-                <form>
-                    <div class="form-group">
-                        <input
-                            class="form-control"
-                            placeholder="Search Here..."
-                            type="text"
-                        >
-                        <button
-                            type="submit"
-                            value="Search"
-                        ><i class="flaticon-search"></i></button>
-                    </div>
-                </form>
+            <div class="col-md-6">
+              <ul class="social-link-list d-flex flex-wrap justify-content-md-end justify-content-center">
+                <li><a href="#0" data-toggle="tooltip" data-placement="top" title="facebook"><i class="lab la-facebook-f"></i></a></li>
+                <li><a href="#0" data-toggle="tooltip" data-placement="top" title="twitter"><i class="lab la-twitter"></i></a></li>
+                <li><a href="#0" data-toggle="tooltip" data-placement="top" title="pinterest"><i class="lab la-pinterest-p"></i></a></li>
+                <li><a href="#0" data-toggle="tooltip" data-placement="top" title="pinterest"><i class="lab la-pinterest-in"></i></a></li>
+              </ul>
             </div>
+          </div>
         </div>
-    </div>
-</div>
-<!-- Search Modal End -->
-
-<!-- modernizr js -->
-<script src="assets/js/modernizr-2.8.3.min.js"></script>
-<!-- jquery latest version -->
-<script src="assets/js/jquery.min.js"></script>
-<!-- Bootstrap v4.4.1 js -->
-<script src="assets/js/bootstrap.min.js"></script>
-<!-- op nav js -->
-<script src="assets/js/jquery.nav.js"></script>
-<!-- isotope.pkgd.min js -->
-<script src="assets/js/isotope.pkgd.min.js"></script>
-<!-- owl.carousel js -->
-<script src="assets/js/owl.carousel.min.js"></script>
-<!-- wow js -->
-<script src="assets/js/wow.min.js"></script>
-<!-- Skill bar js -->
-<script src="assets/js/skill.bars.jquery.js"></script>
-<!-- imagesloaded js -->
-<script src="assets/js/imagesloaded.pkgd.min.js"></script>
-<!-- waypoints.min js -->
-<script src="assets/js/waypoints.min.js"></script>
-<!-- counterup.min js -->
-<script src="assets/js/jquery.counterup.min.js"></script>
-<!-- magnific popup js -->
-<script src="assets/js/jquery.magnific-popup.min.js"></script>
-<!-- contact form js -->
-<script src="assets/js/contact.form.js"></script>
-<!-- main js -->
-<script src="assets/js/main.js"></script>
-
-
-
-
-{literal}
-    <div class="gtranslate_wrapper"></div>
-    <script>
-        window.gtranslateSettings = {"default_language":"en","detect_browser_language":true,"wrapper_selector":".gtranslate_wrapper","alt_flags":{"en":"usa"}}
-    </script>
-    <script
-        src="https://cdn.gtranslate.net/widgets/latest/float.js"
-        defer
-    ></script>
-
-{/literal}
-
-</body>
-
-
-<!-- Mirrored from www.polticventure.co/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 10 Jul 2023 13:37:09 GMT -->
-
-</html>
+      </div>
+    </footer>
+    <!-- footer section end -->
+      </div> <!-- page-wrapper end -->
+        <!-- jQuery library -->
+      <script src="assets/js/vendor/jquery-3.5.1.min.js"></script>
+      <!-- bootstrap js -->
+      <script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
+      <!-- slick slider js -->
+      <script src="assets/js/vendor/slick.min.js"></script>
+      <script src="assets/js/vendor/wow.min.js"></script>
+      <script src="assets/js/contact.js"></script>
+      <!-- dashboard custom js -->
+      <script src="assets/js/app.js"></script>
+      </body>
+    </html> 

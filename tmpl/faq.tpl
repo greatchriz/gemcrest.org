@@ -1,155 +1,103 @@
-{include file="main_header.tpl" current_page="home"}
+{include file="main_header.tpl"}
 
-<!-- Breadcrumbs Start -->
-  <div class="rs-breadcrumbs img10">
-    <div class="container">
-        <div class="breadcrumbs-inner">
-            <h1 class="page-title">
-                Frequently Asked Question
-                <span class="watermark">FAQ</span>
-            </h1>
-            
-        </div>
-    </div>
-</div>
-<!-- Breadcrumbs End -->
+{include file="inner-hero.tpl" title="F.A.Q." title2="F.A.Q." bg="bg-1.jpg"}
 
-<!-- Faq Section Start -->
-<div id="rs-faq" class="rs-faq pt-100 pb-100 md-pt-70 md-pb-70">
-    <div class="container">
-        <div class="row y-middle">
-           <div class="col-lg-5 pr-40 md-pr-15 md-mb-50">
-               <div class="sec-title">
-                   <h2 class="title pb-30">
-                       Do you have<br>
-                        questions?
-                   </h2>
-                                                 
-                   <div class="btn-part mt-50">
-                       <a class="readon consultant discover" href="/?a=support">Contact Us</a>
-                   </div>
-               </div>
-           </div>
-           <div class="col-lg-7 pl-30 md-pl-15">
-               <div class="faq-content">
-                   <div id="accordion" class="accordion">
-                      <div class="card">
-                          <div class="card-header">
-                              <a class="card-link" href="#" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true">How do we Generate Profits?</a>
-                          </div>
-                          <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
-                              <div class="card-body">
-                                    Having said it before, we are an investment company that relies on trading of digital assets to generate excellent revenues.
-                              </div>
-                          </div>
-                      </div>
-                       <div class="card">
-                           <div class="card-header">
-                               <a class="card-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false">How Safe & Secure is your Investment with us?</a>
-                           </div>
-                           <div id="collapseTwo" class="collapse" data-bs-parent="#accordion" style="">
-                               <div class="card-body">
-                                    Our website has several levels of encryption and protection from security companies.
-                               </div>
-                           </div>
-                       </div>
-                       <div class="card">
-                           <div class="card-header">
-                              
-                               <a class="card-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false">Can i open an Account for free?</a>
-                           </div>
-                           <div id="collapseThree" class="collapse" data-bs-parent="#accordion" style="">
-                               <div class="card-body">
-                                   Setting up an account doesn't come at any price. It's free of charge.
-                               </div>
-                           </div>
-                       </div>     
-                       <div class="card">
-                           <div class="card-header">
-                              
-                               <a class="card-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false">What are the Minimum and Maximum Investment? </a>
-                           </div>
-                           <div id="collapsefour" class="collapse" data-bs-parent="#accordion" style="">
-                               <div class="card-body">
-                                    The minimum deposit limit is $50, while the maximum deposit amount is Unlimited.
-                               </div>
-                           </div>
-                       </div>
-                       <div class="card">
-                           <div class="card-header">
-                               <a class="card-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="false"> How Quickly are Payments made?</a>
-                           </div>
-                           <div id="collapsefive" class="collapse" data-bs-parent="#accordion" style="">
-                               <div class="card-body">
-                                    All payments are instant.
-                               </div>
-                           </div>
-                       </div>
-                       <div class="card">
-                           <div class="card-header">
-                               <a class="card-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false"> Can i increase my Investment?</a>
-                           </div>
-                           <div id="collapseSix" class="collapse" data-bs-parent="#accordion" style="">
-                               <div class="card-body">
-                                    >Of course you can! You are free to increase your investments at any time and the increment will be added to your deposit after the payment system confirms it.
-                               </div>
-                           </div>
-                       </div>
-                       <div class="card">
-                           <div class="card-header">
-                               <a class="card-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false">Minimum withdrawal Amount?</a>
-                           </div>
-                           <div id="collapseSeven" class="collapse" data-bs-parent="#accordion" style="">
-                               <div class="card-body">
-                                    You can withdraw any remaining balance in your account that is not currently being used to secure open trades.
-                               </div>
-                           </div>
-                       </div>
-                       <div class="card">
-                           <div class="card-header">
-                               <a class="card-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false">Guide on how to Withdraw Money from your Account</a>
-                           </div>
-                           <div id="collapseEight" class="collapse" data-bs-parent="#accordion" style="">
-                               <div class="card-body">
-                                    Login to your account and click on withdraw. Specify the amount and receiving account.
-                               </div>
-                           </div>
-                       </div>
-                       <div class="card">
-                           <div class="card-header">
-                               <a class="card-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false">Benefit(s) Of choosing Us?</a>
-                           </div>
-                           <div id="collapseNine" class="collapse" data-bs-parent="#accordion" style="">
-                               <div class="card-body">
-                                   The primary benefit of getting along with us is Stable ROI. We monitor the financial markets every day and regularly review your portfolio to ensure that an optimal blend of investments is being used to meet your individual goals.
-                               </div>
-                           </div>
-                       </div>
-                       <div class="card">
-                           <div class="card-header">
-                               <a class="card-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false"> What payment methods can i use to make Deposit?</a>
-                           </div>
-                           <div id="collapseTen" class="collapse" data-bs-parent="#accordion" style="">
-                               <div class="card-body">
-                                    At the moment, we accept Bitcoin, Ethereum, Tron, USDT, Litecoin & Dogecoin. We're looking forward to expand the list of the accepted payment methods soon.
-                               </div>
-                           </div>
-                       </div>
-                       <div class="card">
-                           <div class="card-header">
-                               <a class="card-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false">Can I make several deposits on the same investment plan?</a>
-                           </div>
-                           <div id="collapseEleven" class="collapse" data-bs-parent="#accordion" style="">
-                               <div class="card-body">
-                                   Yes, all deposits are handled separately, but no reinvestment more than twice on the first plan.
-                               </div>
-                           </div>
-                       </div>
-                   </div>
-               </div>
-           </div>  
+
+<!-- faq section start -->
+    <section class="pt-120 pb-120">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-6 text-center">
+              <div class="section-header">
+                <h2 class="section-title"><span class="font-weight-normal">Frequently Asked</span> <b class="base--color">Questions</b></h2>
+                <p>We answer some of your Frequently Asked Questions regarding our platform. If you have a query that is not answered here, Please contact us.</p>
+              </div>
+            </div>
+          </div><!-- row end -->
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="accordion cmn-accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <i class="las la-question-circle"></i>
+                        <span>When can I deposit/withdraw from my Investment account?</span>
+                      </button>
+                    </h2>
+                  </div>
+              
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Deposit and withdrawal are available for at any time. Be sure, that your funds are not used in any ongoing trade before the withdrawal. The available amount is shown in your dashboard on the main page of Investing platform. Deposit and withdrawal are available for at any time. Be sure, that your funds are not used in any ongoing trade before the withdrawal. The available amount is shown in your dashboard on the main page of Investing platform.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <i class="las la-question-circle"></i>
+                        <span>How do I check my account balance?</span>
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                      You can see this anytime on your accounts dashboard. You can see this anytime on your accounts dashboard.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <i class="las la-question-circle"></i>
+                        <span>I forgot my password, what should I do?</span>
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Visit the password reset page, type in your email address and click the `Reset` button. Visit the password reset page, type in your email address and click the `Reset` button.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingFour">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        <i class="las la-question-circle"></i>
+                        <span>How will I know that the withdrawal has been successful?</span>
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                    <div class="card-body">
+                      You will get an automatic notification once we send the funds and you can always check your transactions or account balance. Your chosen payment system dictates how long it will take for the funds to reach you. You will get an automatic notification once we send the funds and you can always check your transactions or account balance. Your chosen payment system dictates how long it will take for the funds to reach you.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingFive">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        <i class="las la-question-circle"></i>
+                        <span>How much can I withdraw?</span>
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                    <div class="card-body">
+                      You can withdraw the full amount of your account balance minus the funds that are used currently for supporting opened positions. You can withdraw the full amount of your account balance minus the funds that are used currently for supporting opened positions.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
-</div>
-<!-- Faq Section End -->
+      </section>
+      <!-- faq section end -->
+
 {include file="main_footer.tpl"}
