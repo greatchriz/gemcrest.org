@@ -1,682 +1,1067 @@
 {include file="main_header.tpl"}
-
-{literal}
-
-    <!-- Banner Section Start -->
-    <div class="rs-banner main-home">
-        <div class="container custom">
-            <div class="content-wrap">
-                <div class="border-line"></div>
-                <h1 class="title">We maximize</h1>
-                <h3 class="sub-title">your portfolio growth</h3>
-                <div class="btn-part">
-                    <a
-                        class="readon consultant"
-                        href="indexcca3.html?a=signup"
-                    >Get Started</a>
-                </div>
-            </div>
+ <!-- hero start -->
+  <section class="hero bg_img" data-background="assets/images/bg/hero.jpg">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-5 col-lg-8">
+        <div class="hero__content">
+          <h2 class="hero__title"><span class="text-white font-weight-normal">Invest for Future in Stable Platform</span> <b class="base--color">and Make Fast Money</b></h2>
+          <p class="text-white f-size-18 mt-3">Invest in an Industry Leader, Professional, and Reliable Company. We provide you with the most necessary features that will make your experience better. Not only we guarantee the fastest and the most exciting returns on your investments, but we also guarantee the security of your investment.</p>
+          <a href="#0" class="cmn-btn text-uppercase font-weight-600 mt-4">Sign Up</a>
         </div>
-        <div class="animate-part">
-            <div class="spiner dot">
-                <img
-                    class="rotate_Y"
-                    src="assets/images/banner/style1/dot-rect.png"
-                    alt="images"
-                >
-            </div>
-            <div class="spiner tri-circle">
-                <img
-                    class="up-down"
-                    src="assets/images/banner/style1/tri-circle1.png"
-                    alt="images"
-                >
-            </div>
-            <div class="spiner circle">
-                <img
-                    class="up-down"
-                    src="assets/images/banner/style1/circle1.png"
-                    alt="images"
-                >
-            </div>
-            <div class="spiner line">
-                <img
-                    class="up-down"
-                    src="assets/images/banner/style1/line1.png"
-                    alt="images"
-                >
-            </div>
-        </div>
-        <div
-            class="tradingview-widget-container"
-            style="width: 100%; height: 74px;"
-        >
-            <iframe
-                scrolling="no"
-                allowtransparency="true"
-                frameborder="0"
-                src="https://s.tradingview.com/embed-widget/ticker-tape/?locale=en#%7B%22symbols%22%3A%5B%7B%22proName%22%3A%22BITSTAMP%3ABTCUSD%22%2C%22title%22%3A%22BTC%2FUSD%22%7D%2C%7B%22proName%22%3A%22BITSTAMP%3AETHUSD%22%2C%22title%22%3A%22ETH%2FUSD%22%7D%2C%7B%22description%22%3A%22DOGE%2FUSD%22%2C%22proName%22%3A%22BITFINEX%3ADOGEUSD%22%7D%2C%7B%22description%22%3A%22BNB%2FUSD%22%2C%22proName%22%3A%22BINANCE%3ABNBUSD%22%7D%2C%7B%22description%22%3A%22XRP%2FUSD%22%2C%22proName%22%3A%22BITSTAMP%3AXRPUSD%22%7D%2C%7B%22description%22%3A%22ADA%2FUSD%22%2C%22proName%22%3A%22KRAKEN%3AADAUSD%22%7D%5D%2C%22showSymbolLogo%22%3Afalse%2C%22colorTheme%22%3A%22light%22%2C%22isTransparent%22%3Afalse%2C%22displayMode%22%3A%22adaptive%22%2C%22width%22%3A%22100%25%22%2C%22height%22%3A46%2C%22utm_source%22%3A%22bitriver.net%22%2C%22utm_medium%22%3A%22widget%22%2C%22utm_campaign%22%3A%22ticker-tape%22%7D"
-                style="box-sizing: border-box; height: 74px; width: 100%;"
-            ></iframe>
-
-
-
-            <style>
-                .tradingview-widget-copyright {
-                    font-size: 13px !important;
-                    line-height: 32px !important;
-                    text-align: center !important;
-                    vertical-align: middle !important;
-                    font-family: 'Trebuchet MS', Arial, sans-serif !important;
-                    color: #9db2bd !important;
-                }
-
-                .tradingview-widget-copyright .blue-text {
-                    color: #2962FF !important;
-                }
-
-                .tradingview-widget-copyright a {
-                    text-decoration: none !important;
-                    color: #9db2bd !important;
-                }
-
-                .tradingview-widget-copyright a:visited {
-                    color: #9db2bd !important;
-                }
-
-                .tradingview-widget-copyright a:hover .blue-text {
-                    color: #1E53E5 !important;
-                }
-
-                .tradingview-widget-copyright a:active .blue-text {
-                    color: #1848CC !important;
-                }
-
-                .tradingview-widget-copyright a:visited .blue-text {
-                    color: #2962FF !important;
-                }
-            </style>
-        </div>
+      </div>
     </div>
-    <!-- Banner Section End -->
+  </div>
+</section>
+<!-- hero end -->
 
-    <!-- About Section Start -->
-    <div class="rs-about main-home bg1 pt-110 pb-110 md-pt-70 md-pb-65">
+<!-- cureency section start -->
+<div class="cureency-section">
+  <div class="container">
+    <div class="row mb-none-30">
+      <div class="col-lg-3 col-sm-6 cureency-item mb-30">
+        <div class="cureency-card text-center">
+          <h6 class="cureency-card__title text-white">BITCOIN PRICE</h6>
+          <span class="cureency-card__amount h-font-family font-weight-600 base--color">3150.00 USD</span>
+        </div><!-- cureency-card end -->
+      </div><!-- cureency-item end -->
+      <div class="col-lg-3 col-sm-6 cureency-item mb-30">
+        <div class="cureency-card text-center">
+          <h6 class="cureency-card__title text-white">BITCOIN PRICE</h6>
+          <span class="cureency-card__amount h-font-family font-weight-600 base--color">2850.00 EUR</span>
+        </div><!-- cureency-card end -->
+      </div><!-- cureency-item end -->
+      <div class="col-lg-3 col-sm-6 cureency-item mb-30">
+        <div class="cureency-card text-center">
+          <h6 class="cureency-card__title text-white">24 VOLUME</h6>
+          <span class="cureency-card__amount h-font-family font-weight-600 base--color">2,547.35 BTC</span>
+        </div><!-- cureency-card end -->
+      </div><!-- cureency-item end -->
+      <div class="col-lg-3 col-sm-6 cureency-item mb-30">
+        <div class="cureency-card text-center">
+          <h6 class="cureency-card__title text-white">ACTIVE TRADES</h6>
+          <span class="cureency-card__amount h-font-family font-weight-600 base--color">2,545,875</span>
+        </div><!-- cureency-card end -->
+      </div><!-- cureency-item end -->
+    </div>
+  </div>
+</div>
+<!-- cureency section end  -->
+
+<!-- about section start -->
+<section class="about-section pt-120 pb-120 bg_img" data-background="assets/images/bg/bg-2.jpg">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 offset-lg-6">
+        <div class="about-content">
+          <h2 class="section-title mb-3"><span class="font-weight-normal">About</span> <b class="base--color">Us</b></h2>
+          <p>We are an international financial company engaged in investment activities, which are related to trading on financial markets and cryptocurrency exchanges performed by qualified professional traders.</p>
+          <p class="mt-4">Our goal is to provide our investors with a reliable source of high income, while minimizing any possible risks and offering a high-quality service, allowing us to automate and simplify the relations between the investors and the trustees. We work towards increasing your profit margin by profitable investment. We look forward to you being part of our community.</p>
+          <a href="#0" class="cmn-btn mt-4">MORE INFO</a>
+        </div><!-- about-content end -->
+      </div>
+    </div>
+  </div>
+</section>
+<!-- about section end -->
+
+
+      <!-- choose us section start -->
+        <section class="pt-120 pb-120 overlay--radial bg_img" data-background="assets/images/bg/bg-3.jpg">
         <div class="container">
-            <div class="row y-middle">
-                <div class="col-lg-6 md-mb-50">
-                    <div class="images-part">
-                        <img
-                            src="assets/images/about/about.png"
-                            alt="Images"
-                        >
-                    </div>
-                </div>
-                <div class="col-lg-6 pl-60 md-pl-15">
-                    <div class="sec-title">
-
-                        <span class="sub-text">Pinnaclegem is a global equity funding and trading platform. We
-                            connect a diverse investor network with highly vetted growth companies across
-                            international markets and, through The Marketplace, allow private investments to be
-                            traded.</span>
-
-                        <p class="margin-0">With our marketplace, you can trade your investments, offering
-                            balance to your portfolio and liquidity when you need it. By saying goodbye to
-                            frustrating holding periods, you'll be in control of your investments like never
-                            before.
-                            <br><br />
-                            Historical and live trading information is offered alongside company quarterly
-                            reports, empowering your investing decisions with relevant company KPIs, metrics and
-                            results.
-                        </p>
-                        <div class="btn-part mt-45">
-                            <a
-                                class="readon consultant discover"
-                                href="about.html"
-                            >Discover More</a>
-                        </div>
-                    </div>
-                </div>
+          <div class="row justify-content-center">
+            <div class="col-lg-6 text-center">
+              <div class="section-header">
+                <h2 class="section-title"><span class="font-weight-normal">Why Choose</span> <b class="base--color">Hyiplab</b></h2>
+                <p>Our goal is to provide our investors with a reliable source of high income, while minimizing any possible risks and offering a high-quality service.</p>
+              </div>
             </div>
+          </div><!-- row end -->
+          <div class="row justify-content-center mb-none-30">
+            <div class="col-xl-4 col-md-6 mb-30">
+              <div class="choose-card border-radius--5">
+                <div class="choose-card__header mb-3">
+                  <div class="choose-card__icon">
+                    <i class="lar la-copy"></i>
+                  </div>
+                  <h4 class="choose-card__title base--color">Legal Company</h4>
+                </div>
+                <p>Our company conducts absolutely legal activities in the legal field. We are certified to operate investment business, we are legal and safe.</p>
+              </div><!-- choose-card end -->
+            </div>
+            <div class="col-xl-4 col-md-6 mb-30">
+              <div class="choose-card border-radius--5">
+                <div class="choose-card__header mb-3">
+                  <div class="choose-card__icon">
+                    <i class="las la-lock"></i>
+                  </div>
+                  <h4 class="choose-card__title base--color">High reliability</h4>
+                </div>
+                <p>We are trusted by a huge number of people. We are working hard constantly to improve the level of our security system and minimize possible risks.</p>
+              </div><!-- choose-card end -->
+            </div>
+            <div class="col-xl-4 col-md-6 mb-30">
+              <div class="choose-card border-radius--5">
+                <div class="choose-card__header mb-3">
+                  <div class="choose-card__icon">
+                    <i class="las la-user-lock"></i>
+                  </div>
+                  <h4 class="choose-card__title base--color">Anonymity</h4>
+                </div>
+                <p>Anonymity and using cryptocurrency as a payment instrument. In the era of electronic money – this is one of the most convenient ways of cooperation.</p>
+              </div><!-- choose-card end -->
+            </div>
+            <div class="col-xl-4 col-md-6 mb-30">
+              <div class="choose-card border-radius--5">
+                <div class="choose-card__header mb-3">
+                  <div class="choose-card__icon">
+                    <i class="las la-shipping-fast"></i>
+                  </div>
+                  <h4 class="choose-card__title base--color">Quick Withdrawal</h4>
+                </div>
+                <p>Our all retreats are treated spontaneously once requested. There are high maximum limits. The minimum withdrawal amount is only $10.</p>
+              </div><!-- choose-card end -->
+            </div>
+            <div class="col-xl-4 col-md-6 mb-30">
+              <div class="choose-card border-radius--5">
+                <div class="choose-card__header mb-3">
+                  <div class="choose-card__icon">
+                    <i class="las la-users"></i>
+                  </div>
+                  <h4 class="choose-card__title base--color">Referral Program</h4>
+                </div>
+                <p>We are offering a certain level of referral income through our referral program. you can increase your income by simply refer a few people.</p>
+              </div><!-- choose-card end -->
+            </div>
+            <div class="col-xl-4 col-md-6 mb-30">
+              <div class="choose-card border-radius--5">
+                <div class="choose-card__header mb-3">
+                  <div class="choose-card__icon">
+                    <i class="las la-headset"></i>
+                  </div>
+                  <h4 class="choose-card__title base--color">24/7 Support</h4>
+                </div>
+                <p>We provide 24/7 customer support through e-mail and telegram. Our support representatives are periodically available to elucidate any difficulty..</p>
+              </div><!-- choose-card end -->
+            </div>
+            <div class="col-xl-4 col-md-6 mb-30">
+              <div class="choose-card border-radius--5">
+                <div class="choose-card__header mb-3">
+                  <div class="choose-card__icon">
+                    <i class="las la-server"></i>
+                  </div>
+                  <h4 class="choose-card__title base--color">Dedicated Server</h4>
+                </div>
+                <p>We are using a dedicated server for the website which allows us exclusive use of the resources of the entire server.</p>
+              </div><!-- choose-card end -->
+            </div>
+            <div class="col-xl-4 col-md-6 mb-30">
+              <div class="choose-card border-radius--5">
+                <div class="choose-card__header mb-3">
+                  <div class="choose-card__icon">
+                    <i class="fab fa-expeditedssl"></i>
+                  </div>
+                  <h4 class="choose-card__title base--color">SSL Secured</h4>
+                </div>
+                <p>Comodo Essential-SSL Security encryption confirms that the presented content is genuine and legitimate.</p>
+              </div><!-- choose-card end -->
+            </div>
+            <div class="col-xl-4 col-md-6 mb-30">
+              <div class="choose-card border-radius--5">
+                <div class="choose-card__header mb-3">
+                  <div class="choose-card__icon">
+                    <i class="las la-shield-alt"></i>
+                  </div>
+                  <h4 class="choose-card__title base--color">DDOS Protection</h4>
+                </div>
+                <p>We are using one of the most experienced, professional, and trusted DDoS Protection and mitigation provider.</p>
+              </div><!-- choose-card end -->
+            </div>
+          </div>
         </div>
-    </div>
-    <!-- About Section End -->
+      </section>
+      <!-- choose us section end  -->
 
-    <!-- Services Section Start -->
-    <div class="rs-services main-home bg2 pt-100 pb-100 md-pt-70 md-pb-70">
-        <div class="container">
-            <div class="row y-middle">
-                <div class="col-lg-7">
-                    <div class="sec-title mb-70 md-mb-30">
-                        <h2 class="title white-color">
-                            Fuel your growth
-                        </h2>
-                    </div>
-                </div>
-
-                <h6 style="color:white;">We’ve helped dozens of clients raise funds, but we know that each one
-                    has a unique story to tell and specific needs and requirements. That’s why we’re more than
-                    just a source of funding.</h6>
-            </div>
-
-
-            <div class="row">
-                <div class="col-lg-4 mb-55 col-md-6">
-                    <div class="services-item">
-                        <div class="services-icon">
-                            <img
-                                src="assets/images/services/main-home/1.png"
-                                alt="Services"
-                            >
-                        </div>
-                        <div class="services-text">
-                            <h2 class="title"><a href="#">Cost and time effective</a></h2>
-                            <p class="services-txt">Our simple four phase Fundraising process reduces admin and
-                                lowers costs, whilst our fee’s remain competitive and transparent.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 mb-55 col-md-6">
-                    <div class="services-item">
-                        <div class="services-icon">
-                            <img
-                                src="assets/images/services/main-home/2.png"
-                                alt="Services"
-                            >
-                        </div>
-                        <div class="services-text">
-                            <h2 class="title"><a href="#">Global investor exposure</a></h2>
-                            <p class="services-txt">We offer you diverse sources of capital including Angels and
-                                VC’s. With investors from 130 countries, our truly international network
-                                promotes cross-border investing.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 mb-55 col-md-6">
-                    <div class="services-item">
-                        <div class="services-icon">
-                            <img
-                                src="assets/images/services/main-home/3.png"
-                                alt="Services"
-                            >
-                        </div>
-                        <div class="services-text">
-                            <h2 class="title"><a href="#">Robust Technology</a></h2>
-                            <p class="services-txt">For each of the blockchain algorithms that we have proposed,
-                                we are providing some of the highest performance systems available.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 md-mb-55 col-md-6">
-                    <div class="services-item">
-                        <div class="services-icon">
-                            <img
-                                src="assets/images/services/main-home/4.png"
-                                alt="Services"
-                            >
-                        </div>
-                        <div class="services-text">
-                            <h2 class="title"><a href="#">Secure And Private</a></h2>
-                            <p class="services-txt">We support cryptocurrencies that promote privacy, so we try
-                                to keep user data collected to a minimum and will only require information.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 sm-mb-55 col-md-6">
-                    <div class="services-item">
-                        <div class="services-icon">
-                            <img
-                                src="assets/images/services/main-home/5.png"
-                                alt="Services"
-                            >
-                        </div>
-                        <div class="services-text">
-                            <h2 class="title"><a href="#">Support beyond Capital</a></h2>
-                            <p class="services-txt">With a dedicated Funding Manager and in-house legal,
-                                marketing and PR support, our team of experts help to build a compelling
-                                investment offer.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="services-item">
-                        <div class="services-icon">
-                            <img
-                                src="assets/images/services/main-home/6.png"
-                                alt="Services"
-                            >
-                        </div>
-                        <div class="services-text">
-                            <h2 class="title"><a href="#">Corporate Governance</a></h2>
-                            <p class="services-txt"> We offer our clients regular account statements. Our
-                                financial accounts are audited by external audit firms, to ensure constant
-                                compliance with regulations across operations.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<!-- profit calculator section start -->
+<section class="pt-120 pb-120">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <div class="section-header text-center">
+          <h2 class="section-title"><span class="font-weight-normal">Profit</span> <b class="base--color">Calculator</b></h2>
+          <p>You must know the calculation before investing in any plan, so you never make mistakes. Check the calculation and you will get as our calculator says.</p>
         </div>
+      </div>
     </div>
-    <!-- Services Section End -->
-        {/literal}
-    
-   <!-- Blog Start -->
-    <div id="rs-blog" class="rs-blog blog-main-home bg7 pt-100 pb-100 md-pt-70 md-pb-70">
-        <div class="container">  
-            <div class="sec-title text-center mb-60 md-mb-40">
-                <h2 class="title title2">
-                    Latest Deposits
-                </h2>
+    <div class="row justify-content-center">
+      <div class="col-xl-8">
+        <div class="profit-calculator-wrapper">
+          <form class="profit-calculator">
+            <div class="row mb-none-30">
+              <div class="col-lg-6 mb-30">
+                <label>Choose Plan</label>
+                <select class="base--bg">
+                  <option>Basic Package</option>
+                  <option>Standard Package</option>
+                  <option>Silver Package</option>
+                  <option>Premium Package</option>
+                  <option>Platinum Package</option>
+                </select>
+              </div>
+              <div class="col-lg-6 mb-30">
+                <label>Invest Amount</label>
+                <input type="text" name="invest_amount" id="invest_amount" placeholder="0.00" class="form-control base--bg">
+              </div>
+              <div class="col-lg-12 mb-30">
+                <label>Profit Amount</label>
+                <input type="text" name="profit_amount" id="profit_amount" placeholder="0.00" class="form-control base--bg" disabled>
+              </div>
             </div>
-            {include file="index_last_deposits.tpl"}
-            <div class="rs-carousel owl-carousel" data-loop="true" data-items="3" data-margin="30" data-autoplay="true" data-hoverpause="true" data-autoplay-timeout="5000" data-smart-speed="800" data-dots="true" data-nav="false" data-nav-speed="false" data-center-mode="false" data-mobile-device="1" data-mobile-device-nav="false" data-mobile-device-dots="true" data-ipad-device="2" data-ipad-device-nav="false" data-ipad-device-dots="true" data-ipad-device2="2" data-ipad-device-nav2="false" data-ipad-device-dots2="true" data-md-device="3" data-md-device-nav="false" data-md-device-dots="true">
-
-                {include file="stat-item.tpl"}
-                {include file="stat-item.tpl"}
-                {include file="stat-item.tpl"}
-                {include file="stat-item.tpl"}
-
-
-            </div>
+          </form>
         </div>
+      </div>
     </div>
-    <!-- Blog End -->
+  </div>
+</section>
+<!-- profit calculator section end -->
 
-
-        {literal}
-
-    <!-- Project Section Start -->
-    <div class="rs-project style1 bg3 pt-100 pb-100 md-pt-70 md-pb-70">
-        <div class="container">
-            <div class="sec-title text-center mb-60 md-mb-40">
-                <h2 class="title title2">
-                    Market Live Update
-                </h2>
-            </div>
-
-
-
-            <div
-                class="SGWidget"
-                style="width:100%;height:auto;"
-            ></div>
-
-
-            <script src="jswidget2.1/widget.js">
-                {
-                    "symbols": {
-                        "forex": ["EURUSD", "GBPUSD", "AUDUSD", "USDJPY", "USDCAD", "EURGBP", "EURAUD",
-                            "EURCAD", "GBPAUD", "GBPJPY"
-                        ],
-                        "commodities": ["XAUUSD", "XAGUSD", "XAUEUR", "XAGEUR"],
-                        "indices": ["US500", "GER30", "DJ30", "UK100", "AUS200", "FRA40", "EU50", "HK50"],
-                        "stocks": ["Apple", "Amazon", "Facebook", "Google", "Netflix", "Ford", "Microsoft",
-                            "Tesla"
-                        ],
-                        "crypto": ["BTCUSD", "ETHUSD", "XRPUSD", "LTCUSD"]
-                    },
-                    "type": "1",
-                    "width": "0",
-                    "height": "0"
-                }
-            </script>
-
-            <style>
-                .SGWidget .bg-light {
-                    background-color: #bb0b0b !important;
-                    color: white !important;
-                }
-
-                .SGWidget .text-muted {
-                    color: #ffffff !important;
-                }
-
-                .SGWidget .text-muted.active {
-                    color: #6c757d !important;
-                }
-
-                .SGWidget .symbol,
-                .SGWidget .spread {
-                    color: black;
-                }
-            </style>
-
+<!-- how work section start -->
+<section class="pt-120 pb-120 bg_img" data-background="assets/images/bg/bg-5.jpg">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6 text-center">
+        <div class="section-header">
+          <h2 class="section-title"><span class="font-weight-normal">How</span> <b class="base--color">Hyiplab</b> <span class="font-weight-normal">Works</span></h2>
+          <p>Get involved in our tremendous platform and Invest. We will utilize your money and give you profit in your wallet automatically.</p>
         </div>
+      </div>
+    </div><!-- row end -->
+    <div class="row justify-content-center mb-none-30">
+      <div class="col-lg-4 col-md-6 work-item mb-30">
+        <div class="work-card text-center">
+          <div class="work-card__icon">
+            <i class="las la-user base--color"></i>
+            <span class="step-number">01</span>
+          </div>
+          <div class="work-card__content">
+            <h4 class="base--color mb-3">Create Account</h4>
+          </div>
+        </div><!-- work-card end -->
+      </div>
+      <div class="col-lg-4 col-md-6 work-item mb-30">
+        <div class="work-card text-center">
+          <div class="work-card__icon">
+            <i class="las la-hand-holding-usd base--color"></i>
+            <span class="step-number">02</span>
+          </div>
+          <div class="work-card__content">
+            <h4 class="base--color mb-3">Invest To Plan</h4>
+          </div>
+        </div><!-- work-card end -->
+      </div>
+      <div class="col-lg-4 col-md-6 work-item mb-30">
+        <div class="work-card text-center">
+          <div class="work-card__icon">
+            <i class="las la-wallet base--color"></i>
+            <span class="step-number">03</span>
+          </div>
+          <div class="work-card__content">
+            <h4 class="base--color mb-3">Get Profit</h4>
+          </div>
+        </div><!-- work-card end -->
+      </div>
     </div>
-    </div>
-    <!-- Project Section End -->
-
-    <!-- Team Section Start -->
-    <div class="rs-team style1 bg4 pt-100 pb-100 md-pt-70 md-pb-70">
-        <div class="container">
-            <div class="row y-middle">
-                <div class="col-lg-5">
-                    <div class="sec-title mb-50 md-mb-35">
-                        <h2 class="title white-color">
-                            We’re experienced professionals
-                        </h2>
-                    </div>
-                </div>
-                <div class="col-lg-7 text-right md-left">
-                    <div class="btn-part mb-90 md-mb-50">
-                        <a
-                            class="readon consultant discover"
-                            href="/?a=packages"
-                        >Package List</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Blog Section Start -->
-            <div
-                id="rs-blog"
-                class="rs-blog blog-main-home pt-100 pb-100 md-pt-70 md-pb-70"
-            >
-                <div class="container">
-
-                    <div
-                        class="rs-carousel owl-carousel"
-                        data-loop="true"
-                        data-items="3"
-                        data-margin="30"
-                        data-autoplay="true"
-                        data-hoverpause="true"
-                        data-autoplay-timeout="5000"
-                        data-smart-speed="800"
-                        data-dots="true"
-                        data-nav="false"
-                        data-nav-speed="false"
-                        data-center-mode="false"
-                        data-mobile-device="1"
-                        data-mobile-device-nav="false"
-                        data-mobile-device-dots="true"
-                        data-ipad-device="2"
-                        data-ipad-device-nav="false"
-                        data-ipad-device-dots="true"
-                        data-ipad-device2="2"
-                        data-ipad-device-nav2="false"
-                        data-ipad-device-dots2="true"
-                        data-md-device="3"
-                        data-md-device-nav="false"
-                        data-md-device-dots="true"
-                    >
-                        <div class="blog-item">
-
-                            <div class="blog-content">
-
-                                <h3 class="blog-title">High performance trading platform</h3>
-                                <p class="desc">We designed and built a streamlined tading platform for newcomers
-                                    and experts. Make easy deposits and hassle free withdrawals. keep track of your
-                                    portfolio and grow your digital assets.</p>
-
-                            </div>
-                        </div>
-                        <div class="blog-item">
-
-                            <div class="blog-content">
-
-                                <h3 class="blog-title">Platform security</h3>
-                                <p class="desc">Our servers reside in secure cages under 24/7 surveillance by armed
-                                    guards and video monitors. Physical access and code deployment are strictly
-                                    controlled.</p>
-
-                            </div>
-                        </div>
-                        <div class="blog-item">
-
-                            <div class="blog-content">
-
-                                <h3 class="blog-title">Information security</h3>
-                                <p class="desc">All sensitive account information is encrypted at rest at both the
-                                    system and data level. Access is strictly controlled and monitored. Nothing
-                                    ships without intensive review.</p>
-
-                            </div>
-                        </div>
-                        <div class="blog-item">
-
-                            <div class="blog-content">
-
-                                <h3 class="blog-title">Safe coin storage</h3>
-                                <p class="desc">95% of all deposits are kept in offline, air-gapped, geographically
-                                    distributed cold storage. We keep full reserves so that you can always withdraw
-                                    immediately on demand.</p>
-
-                            </div>
-                        </div>
-                        <div class="blog-item">
-
-                            <div class="blog-content">
-
-                                <h3 class="blog-title">Global 24/7 support</h3>
-                                <p class="desc">We pair our global 24/7 live chat with an extensive Support Center
-                                    to help ensure your questions are answered and your needs are met around the
-                                    clock no matter who or where you are.</p>
-
-                            </div>
-                        </div>
+  </div>
+</section>
+<!-- how work section end  -->
 
 
-
-                    </div>
-                </div>
-            </div>
-            <!-- Blog Section End -->
+<!-- faq section start -->
+<section class="pt-120 pb-120">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6 text-center">
+        <div class="section-header">
+          <h2 class="section-title"><span class="font-weight-normal">Frequently Asked</span> <b class="base--color">Questions</b></h2>
+          <p>We answer some of your Frequently Asked Questions regarding our platform. If you have a query that is not answered here, Please contact us.</p>
         </div>
-    </div>
-    </div>
-    <!-- Team Section Start -->
-
-
-    <!-- Why Choose Section Start -->
-    <div class="rs-choose bg5 pt-100 pb-100 md-pt-70 md-pb-70">
-        <div class="container">
-            <div class="row y-middle">
-                <div class="col-lg-6 pr-70 md-pr-15 md-mb-50">
-                    <div class="sec-title mb-35">
-
-                        <p class="margin-0">For investors, we’re giving you control over your investments like never
-                            before. With ‘The Marketplace’, you can trade investments, anytime, anywhere. So whether
-                            you want to gain liquidity from your current investments, or you're looking to join an
-                            opportunity that you thought you'd missed out on, you stay in control.</p>
-                    </div>
-                    <!-- Skillbar Section Start -->
-                    <div class="rs-skillbar style1">
-                        <div class="cl-skill-bar">
-                            <!-- Start Skill Bar -->
-                            <span class="skillbar-title">Trusted Trading Strategie</span>
-                            <div
-                                class="skillbar"
-                                data-percent="98"
-                            >
-                                <p class="skillbar-bar"></p>
-                                <span class="skill-bar-percent"></span>
-                            </div>
-                            <!-- Start Skill Bar -->
-                            <span class="skillbar-title">Partnership</span>
-                            <div
-                                class="skillbar"
-                                data-percent="90"
-                            >
-                                <p class="skillbar-bar"></p>
-                                <span class="skill-bar-percent"></span>
-                            </div>
-                            <!-- Start Skill Bar -->
-                            <span class="skillbar-title">System all Time Online</span>
-                            <div
-                                class="skillbar"
-                                data-percent="99"
-                            >
-                                <p class="skillbar-bar"></p>
-                                <span class="skill-bar-percent"></span>
-                            </div>
-
-                        </div>
-                    </div>
-                    <!-- Skillbar Section End -->
-                </div>
-                <div class="col-lg-6">
-                    <div class="rs-videos choose-video">
-                        <div class="images-video">
-                            <img
-                                src="assets/images/choose/chosse-video.jpg"
-                                alt="images"
-                            >
-                        </div>
-                        <div class="animate-border">
-                            <a
-                                class="popup-border"
-                                href="assets/images/video/video.mp4"
-                            >
-                                <i class="fa fa-play"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+      </div>
+    </div><!-- row end -->
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="accordion cmn-accordion" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <i class="las la-question-circle"></i>
+                  <span>When can I deposit/withdraw from my Investment account?</span>
+                </button>
+              </h2>
             </div>
-        </div>
-        <!-- Services Section Start -->
-        <div
-            id="rs-services"
-            class="rs-services chooseus-style pt-100 md-pt-70"
-        >
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 md-mb-30">
-                        <div class="services-item">
-                            <div class="services-icon">
-                                <img
-                                    src="assets/images/choose/icons/1.png"
-                                    alt="Images"
-                                >
-                            </div>
-                            <div class="services-text">
-                                <h3 class="title"><a href="#">Effective trading strategy</a></h3>
-                                <p class="services-txt">We implement trading strategy that has been tried, tested
-                                    and perfected and pair it with a wide selection of cryptocurrencies and trading
-                                    options to maximize profits.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 md-mb-30">
-                        <div class="services-item">
-                            <div class="services-icon">
-                                <img
-                                    src="assets/images/choose/icons/2.png"
-                                    alt="Images"
-                                >
-                            </div>
-                            <div class="services-text">
-                                <h3 class="title"><a href="#">Efficient, easy, transparent process</a></h3>
-                                <p class="services-txt">We’ve made investing a simple, transparent process, with
-                                    built in channels to keep you up to date with your investments.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="services-item">
-                            <div class="services-icon">
-                                <img
-                                    src="assets/images/choose/icons/3.png"
-                                    alt="Images"
-                                >
-                            </div>
-                            <div class="services-text">
-                                <h3 class="title"><a href="#">Licensed & Regulated</a></h3>
-                                <p class="services-txt">Authorised and regulated by the Estonian Financial
-                                    Supervision Authority in the EU, by the Financial Conduct Authority in the UK
-                                    and licensed as a Recognised Market Operator and as a Capital Markets Services
-                                    entity by the Monetary Authority of Singapore.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Services Section End -->
-    </div>
-
-    <!-- Partner Section Start -->
-    <div class="rs-patter-section black-bg pt-80 pb-75">
-        <div class="container custom">
-            <div
-                class="rs-carousel owl-carousel"
-                data-loop="true"
-                data-items="5"
-                data-margin="30"
-                data-autoplay="true"
-                data-hoverpause="true"
-                data-autoplay-timeout="5000"
-                data-smart-speed="800"
-                data-dots="false"
-                data-nav="false"
-                data-nav-speed="false"
-                data-md-device="5"
-                data-md-device-nav="false"
-                data-md-device-dots="false"
-                data-center-mode="false"
-                data-ipad-device2="4"
-                data-ipad-device-nav2="false"
-                data-ipad-device-dots2="false"
-                data-ipad-device="4"
-                data-ipad-device-nav="false"
-                data-ipad-device-dots="false"
-                data-mobile-device="2"
-                data-mobile-device-nav="false"
-                data-mobile-device-dots="false"
-            >
-                <div class="logo-img">
-
-                    <img
-                        class="hovers-logos rs-grid-img"
-                        src="assets/images/partner/main-home/1.png"
-                        title=""
-                        alt=""
-                    >
-
-                </div>
-                <div class="logo-img">
-
-                    <img
-                        class="hovers-logos rs-grid-img"
-                        src="assets/images/partner/main-home/2.png"
-                        title=""
-                        alt=""
-                    >
-
-                </div>
-                <div class="logo-img">
-
-                    <img
-                        class="hovers-logos rs-grid-img"
-                        src="assets/images/partner/main-home/3.png"
-                        title=""
-                        alt=""
-                    >
-
-                </div>
-                <div class="logo-img">
-
-                    <img
-                        class="hovers-logos rs-grid-img"
-                        src="assets/images/partner/main-home/4.png"
-                        title=""
-                        alt=""
-                    >
-
-
-                </div>
-
-            </div>
-        </div>
-    </div>
-    <!-- Partner Section End -->
         
-{/literal}
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                Deposit and withdrawal are available for at any time. Be sure, that your funds are not used in any ongoing trade before the withdrawal. The available amount is shown in your dashboard on the main page of Investing platform. Deposit and withdrawal are available for at any time. Be sure, that your funds are not used in any ongoing trade before the withdrawal. The available amount is shown in your dashboard on the main page of Investing platform.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <i class="las la-question-circle"></i>
+                  <span>How do I check my account balance?</span>
+                </button>
+              </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                You can see this anytime on your accounts dashboard. You can see this anytime on your accounts dashboard.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <i class="las la-question-circle"></i>
+                  <span>I forgot my password, what should I do?</span>
+                </button>
+              </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+                Visit the password reset page, type in your email address and click the `Reset` button. Visit the password reset page, type in your email address and click the `Reset` button.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingFour">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  <i class="las la-question-circle"></i>
+                  <span>How will I know that the withdrawal has been successful?</span>
+                </button>
+              </h2>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+              <div class="card-body">
+                You will get an automatic notification once we send the funds and you can always check your transactions or account balance. Your chosen payment system dictates how long it will take for the funds to reach you. You will get an automatic notification once we send the funds and you can always check your transactions or account balance. Your chosen payment system dictates how long it will take for the funds to reach you.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingFive">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  <i class="las la-question-circle"></i>
+                  <span>How much can I withdraw?</span>
+                </button>
+              </h2>
+            </div>
+            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+              <div class="card-body">
+                You can withdraw the full amount of your account balance minus the funds that are used currently for supporting opened positions. You can withdraw the full amount of your account balance minus the funds that are used currently for supporting opened positions.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- faq section end -->
 
 
-    <!-- Main content End -->
-            
+<!-- testimonial section start -->
+<section class="pt-120 pb-120 bg_img overlay--radial" data-background="assets/images/bg/bg-7.jpg">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6 text-center">
+        <div class="section-header">
+          <h2 class="section-title"><span class="font-weight-normal">What Users Say</span> <b class="base--color">About Us</b></h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse voluptatum eaque earum quos quia? Id aspernatur ratione, voluptas nulla rerum laudantium neque ipsam eaque</p>
+        </div>
+      </div>
+    </div><!-- row end -->
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="testimonial-slider">
+          <div class="single-slide">
+            <div class="testimonial-card">
+              <div class="testimonial-card__content">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos minus, assumenda soluta unde veritatis voluptatibus adipisci, aliquid, non officiis repudiandae rerum porro odio ea laborum veniam numquam doloribus obcaecati.</p>
+              </div>
+              <div class="testimonial-card__client">
+                <div class="thumb">
+                  <img src="assets/images/testimonial/1.jpg" alt="image">
+                </div>
+                <div class="content">
+                  <h6 class="name">Fahaddevs</h6>
+                  <span class="designation">CEO of fahaddevs</span>
+                  <div class="ratings">
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div><!-- testimonial-card end -->
+          </div><!-- single-slide end -->
+          <div class="single-slide">
+            <div class="testimonial-card">
+              <div class="testimonial-card__content">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos minus, assumenda soluta unde veritatis voluptatibus adipisci, aliquid, non officiis repudiandae rerum porro odio ea laborum veniam numquam doloribus obcaecati.</p>
+              </div>
+              <div class="testimonial-card__client">
+                <div class="thumb">
+                  <img src="assets/images/testimonial/2.jpg" alt="image">
+                </div>
+                <div class="content">
+                  <h6 class="name">Alina</h6>
+                  <span class="designation">CTO of fahaddevs</span>
+                  <div class="ratings">
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div><!-- testimonial-card end -->
+          </div><!-- single-slide end -->
+          <div class="single-slide">
+            <div class="testimonial-card">
+              <div class="testimonial-card__content">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos minus, assumenda soluta unde veritatis voluptatibus adipisci, aliquid, non officiis repudiandae rerum porro odio ea laborum veniam numquam doloribus obcaecati.</p>
+              </div>
+              <div class="testimonial-card__client">
+                <div class="thumb">
+                  <img src="assets/images/testimonial/3.jpg" alt="image">
+                </div>
+                <div class="content">
+                  <h6 class="name">Amir Khan</h6>
+                  <span class="designation">COO of fahaddevs</span>
+                  <div class="ratings">
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div><!-- testimonial-card end -->
+          </div><!-- single-slide end -->
+          <div class="single-slide">
+            <div class="testimonial-card">
+              <div class="testimonial-card__content">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos minus, assumenda soluta unde veritatis voluptatibus adipisci, aliquid, non officiis repudiandae rerum porro odio ea laborum veniam numquam doloribus obcaecati.</p>
+              </div>
+              <div class="testimonial-card__client">
+                <div class="thumb">
+                  <img src="assets/images/testimonial/4.jpg" alt="image">
+                </div>
+                <div class="content">
+                  <h6 class="name">Zohir Khan</h6>
+                  <span class="designation">Manager of fahaddevs</span>
+                  <div class="ratings">
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div><!-- testimonial-card end -->
+          </div><!-- single-slide end -->
+        </div>
+      </div>
+    </div><!-- row end -->
+  </div>
+</section>
+<!-- testimonial section end -->
+
+<!-- team section start -->
+<section class="pt-120 pb-120 bg_img" data-background="assets/images/bg/bg-5.jpg">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6 text-center">
+        <div class="section-header">
+          <h2 class="section-title"><span class="font-weight-normal">Our Expert</span> <b class="base--color">Team Members</b></h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse voluptatum eaque earum quos quia? Id aspernatur ratione, voluptas nulla rerum laudantium neque ipsam eaque</p>
+        </div>
+      </div>
+    </div><!-- row end -->
+    <div class="row justify-content-center mb-none-30">
+      <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
+        <div class="team-card">
+          <div class="team-card__thumb">
+            <img src="assets/images/investor/1.jpg" alt="image">
+          </div>
+          <div class="team-card__content">
+            <h4 class="name mb-1">Fahad Bin Faiz</h4>
+            <span class="designation">CEO</span>
+          </div>
+        </div><!-- team-card end -->
+      </div>
+      <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
+        <div class="team-card">
+          <div class="team-card__thumb">
+            <img src="assets/images/investor/2.jpg" alt="image">
+          </div>
+          <div class="team-card__content">
+            <h4 class="name mb-1">Danial K.</h4>
+            <span class="designation">CTO</span>
+          </div>
+        </div><!-- team-card end -->
+      </div>
+      <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
+        <div class="team-card">
+          <div class="team-card__thumb">
+            <img src="assets/images/investor/3.jpg" alt="image">
+          </div>
+          <div class="team-card__content">
+            <h4 class="name mb-1">Lew Son</h4>
+            <span class="designation">Marketing Head</span>
+          </div>
+        </div><!-- team-card end -->
+      </div>
+      <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
+        <div class="team-card">
+          <div class="team-card__thumb">
+            <img src="assets/images/investor/4.jpg" alt="image">
+          </div>
+          <div class="team-card__content">
+            <h4 class="name mb-1">Tend z Joe</h4>
+            <span class="designation">Designer</span>
+          </div>
+        </div><!-- team-card end -->
+      </div>
+      <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
+        <div class="team-card">
+          <div class="team-card__thumb">
+            <img src="assets/images/investor/5.jpg" alt="image">
+          </div>
+          <div class="team-card__content">
+            <h4 class="name mb-1">Sam Joe</h4>
+            <span class="designation">Developer</span>
+          </div>
+        </div><!-- team-card end -->
+      </div>
+      <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
+        <div class="team-card">
+          <div class="team-card__thumb">
+            <img src="assets/images/investor/6.jpg" alt="image">
+          </div>
+          <div class="team-card__content">
+            <h4 class="name mb-1">Alex Joe</h4>
+            <span class="designation">UX Expert</span>
+          </div>
+        </div><!-- team-card end -->
+      </div>
+      <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
+        <div class="team-card">
+          <div class="team-card__thumb">
+            <img src="assets/images/investor/7.jpg" alt="image">
+          </div>
+          <div class="team-card__content">
+            <h4 class="name mb-1">Juna Sun</h4>
+            <span class="designation">SEO Expert</span>
+          </div>
+        </div><!-- team-card end -->
+      </div>
+      <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
+        <div class="team-card">
+          <div class="team-card__thumb">
+            <img src="assets/images/investor/8.jpg" alt="image">
+          </div>
+          <div class="team-card__content">
+            <h4 class="name mb-1">Profed Laun</h4>
+            <span class="designation">Manager</span>
+          </div>
+        </div><!-- team-card end -->
+      </div>
+    </div>
+  </div>
+</section>
+<!-- team section end -->
+
+
+<!-- data section start -->
+<section class="pt-120 pb-120">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6 text-center">
+        <div class="section-header">
+          <h2 class="section-title"><span class="font-weight-normal">Our Latest</span> <b class="base--color">Transaction</b></h2>
+          <p>Here is the log of the most recent transactions including withdraw and deposit made by our users.</p>
+        </div>
+      </div>
+    </div><!-- row end -->
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
+        <ul class="nav nav-tabs custom--style-two justify-content-center" id="transactionTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <a class="nav-link active" id="deposit-tab" data-toggle="tab" href="#deposit" role="tab" aria-controls="deposit" aria-selected="true">Latest Deposit</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" id="withdraw-tab" data-toggle="tab" href="#withdraw" role="tab" aria-controls="withdraw" aria-selected="false">Latest Withdraw</a>
+          </li>
+        </ul>
+
+        <div class="tab-content mt-4" id="transactionTabContent">
+          <div class="tab-pane fade show active" id="deposit" role="tabpanel" aria-labelledby="deposit-tab">
+            <div class="table-responsive--sm">
+              <table class="table style--two">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Date</th>
+                    <th>Amount</th>
+                    <th>Gateway</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td data-label="Name">
+                      <div class="user">
+                        <div class="thumb"><img src="assets/images/investor/1.jpg" alt="image"></div>
+                        <span>fahaddevs</span>
+                      </div>
+                    </td>
+                    <td data-label="Date">Nov 22, 2020</td>
+                    <td data-label="Amount">$ 5000</td>
+                    <td data-label="Gateway">Stripe Hosted</td>
+                  </tr>
+                  <tr>
+                    <td data-label="Name">
+                      <div class="user">
+                        <div class="thumb"><img src="assets/images/investor/2.jpg" alt="image"></div>
+                        <span>Jon Tulsa</span>
+                      </div>
+                    </td>
+                    <td data-label="Date">Dec 11, 2020</td>
+                    <td data-label="Amount">$ 1000</td>
+                    <td data-label="Gateway">Stripe Hosted</td>
+                  </tr>
+                  <tr>
+                    <td data-label="Name">
+                      <div class="user">
+                        <div class="thumb"><img src="assets/images/investor/3.jpg" alt="image"></div>
+                        <span>Thomas Okeyson</span>
+                      </div>
+                    </td>
+                    <td data-label="Date">Dec 12, 2020</td>
+                    <td data-label="Amount">$ 10000</td>
+                    <td data-label="Gateway">Stripe Storefront</td>
+                  </tr>
+                  <tr>
+                    <td data-label="Name">
+                      <div class="user">
+                        <div class="thumb"><img src="assets/images/investor/6.jpg" alt="image"></div>
+                        <span>Thomas Okeyson</span>
+                      </div>
+                    </td>
+                    <td data-label="Date">Dec 12, 2020</td>
+                    <td data-label="Amount">$ 6500</td>
+                    <td data-label="Gateway">Stripe Hosted</td>
+                  </tr>
+                  <tr>
+                    <td data-label="Name">
+                      <div class="user">
+                        <div class="thumb"><img src="assets/images/investor/7.jpg" alt="image"></div>
+                        <span>Thomas Okeyson</span>
+                      </div>
+                    </td>
+                    <td data-label="Date">Dec 12, 2020</td>
+                    <td data-label="Amount">$ 6500</td>
+                    <td data-label="Gateway">Stripe Hosted</td>
+                  </tr>
+                  <tr>
+                    <td data-label="Name">
+                      <div class="user">
+                        <div class="thumb"><img src="assets/images/investor/8.jpg" alt="image"></div>
+                        <span>Thomas Okeyson</span>
+                      </div>
+                    </td>
+                    <td data-label="Date">Dec 12, 2020</td>
+                    <td data-label="Amount">$ 6500</td>
+                    <td data-label="Gateway">Stripe Hosted</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="withdraw" role="tabpanel" aria-labelledby="withdraw-tab">
+            <div class="table-responsive--md">
+              <table class="table style--two">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Date</th>
+                    <th>Amount</th>
+                    <th>Gateway</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td data-label="Name">
+                      <div class="user">
+                        <div class="thumb"><img src="assets/images/investor/1.jpg" alt="image"></div>
+                        <span>fahaddevs</span>
+                      </div>
+                    </td>
+                    <td data-label="Date">Nov 22, 2020</td>
+                    <td data-label="Amount">$ 5000</td>
+                    <td data-label="Gateway">Stripe Hosted</td>
+                  </tr>
+                  <tr>
+                    <td data-label="Name">
+                      <div class="user">
+                        <div class="thumb"><img src="assets/images/investor/2.jpg" alt="image"></div>
+                        <span>Jon Tulsa</span>
+                      </div>
+                    </td>
+                    <td data-label="Date">Dec 11, 2020</td>
+                    <td data-label="Amount">$ 1000</td>
+                    <td data-label="Gateway">Stripe Hosted</td>
+                  </tr>
+                  <tr>
+                    <td data-label="Name">
+                      <div class="user">
+                        <div class="thumb"><img src="assets/images/investor/3.jpg" alt="image"></div>
+                        <span>Thomas Okeyson</span>
+                      </div>
+                    </td>
+                    <td data-label="Date">Dec 12, 2020</td>
+                    <td data-label="Amount">$ 10000</td>
+                    <td data-label="Gateway">Stripe Storefront</td>
+                  </tr>
+                  <tr>
+                    <td data-label="Name">
+                      <div class="user">
+                        <div class="thumb"><img src="assets/images/investor/6.jpg" alt="image"></div>
+                        <span>Thomas Okeyson</span>
+                      </div>
+                    </td>
+                    <td data-label="Date">Dec 12, 2020</td>
+                    <td data-label="Amount">$ 6500</td>
+                    <td data-label="Gateway">Stripe Hosted</td>
+                  </tr>
+                  <tr>
+                    <td data-label="Name">
+                      <div class="user">
+                        <div class="thumb"><img src="assets/images/investor/7.jpg" alt="image"></div>
+                        <span>Thomas Okeyson</span>
+                      </div>
+                    </td>
+                    <td data-label="Date">Dec 12, 2020</td>
+                    <td data-label="Amount">$ 6500</td>
+                    <td data-label="Gateway">Stripe Hosted</td>
+                  </tr>
+                  <tr>
+                    <td data-label="Name">
+                      <div class="user">
+                        <div class="thumb"><img src="assets/images/investor/8.jpg" alt="image"></div>
+                        <span>Thomas Okeyson</span>
+                      </div>
+                    </td>
+                    <td data-label="Date">Dec 12, 2020</td>
+                    <td data-label="Amount">$ 6500</td>
+                    <td data-label="Gateway">Stripe Hosted</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div><!-- tab-content end -->
+      </div>
+    </div>
+  </div>
+</section>
+<!-- data section end -->
+
+
+<!-- top investor section start -->
+<section class="pt-120 pb-120 border-top-1">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-xl-6 col-lg-8 text-center">
+        <div class="section-header">
+          <h2 class="section-title"><span class="font-weight-normal">Our Top</span> <b class="base--color">Investor</b></h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse voluptatum eaque earum quos quia? Id aspernatur ratione, voluptas nulla rerum laudantium neque ipsam eaque</p>
+        </div>
+      </div>
+    </div><!-- row end -->
+    <div class="row justify-content-center mb-none-30">
+      <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
+        <div class="investor-card border-radius--5">
+          <div class="investor-card__thumb bg_img background-position-y-top" data-background="assets/images/investor/1.jpg"></div>
+          <div class="investor-card__content">
+            <h6 class="name">Fahad Bin Faiz</h6>
+            <span class="amount f-size-14">Investment - $1,500,355</span>
+          </div>
+        </div><!-- investor-card end -->
+      </div>
+      <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
+        <div class="investor-card border-radius--5">
+          <div class="investor-card__thumb bg_img background-position-y-top" data-background="assets/images/investor/2.jpg"></div>
+          <div class="investor-card__content">
+            <h6 class="name">Danial K</h6>
+            <span class="amount f-size-14">Investment - $1,500,355</span>
+          </div>
+        </div><!-- investor-card end -->
+      </div>
+      <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
+        <div class="investor-card border-radius--5">
+          <div class="investor-card__thumb bg_img background-position-y-top" data-background="assets/images/investor/3.jpg"></div>
+          <div class="investor-card__content">
+            <h6 class="name">Lew Son</h6>
+            <span class="amount f-size-14">Investment - $1,500,355</span>
+          </div>
+        </div><!-- investor-card end -->
+      </div>
+      <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
+        <div class="investor-card border-radius--5">
+          <div class="investor-card__thumb bg_img background-position-y-top" data-background="assets/images/investor/4.jpg"></div>
+          <div class="investor-card__content">
+            <h6 class="name">Tend z Joe</h6>
+            <span class="amount f-size-14">Investment - $1,500,355</span>
+          </div>
+        </div><!-- investor-card end -->
+      </div>
+      <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
+        <div class="investor-card border-radius--5">
+          <div class="investor-card__thumb bg_img background-position-y-top" data-background="assets/images/investor/5.jpg"></div>
+          <div class="investor-card__content">
+            <h6 class="name">Sam Joe</h6>
+            <span class="amount f-size-14">Investment - $1,500,355</span>
+          </div>
+        </div><!-- investor-card end -->
+      </div>
+      <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
+        <div class="investor-card border-radius--5">
+          <div class="investor-card__thumb bg_img background-position-y-top" data-background="assets/images/investor/6.jpg"></div>
+          <div class="investor-card__content">
+            <h6 class="name">Alex Joe</h6>
+            <span class="amount f-size-14">Investment - $1,500,355</span>
+          </div>
+        </div><!-- investor-card end -->
+      </div>
+      <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
+        <div class="investor-card border-radius--5">
+          <div class="investor-card__thumb bg_img background-position-y-top" data-background="assets/images/investor/7.jpg"></div>
+          <div class="investor-card__content">
+            <h6 class="name">Juna Sun</h6>
+            <span class="amount f-size-14">Investment - $1,500,355</span>
+          </div>
+        </div><!-- investor-card end -->
+      </div>
+      <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
+        <div class="investor-card border-radius--5">
+          <div class="investor-card__thumb bg_img background-position-y-top" data-background="assets/images/investor/8.jpg"></div>
+          <div class="investor-card__content">
+            <h6 class="name">Profed Laun</h6>
+            <span class="amount f-size-14">Investment - $1,500,355</span>
+          </div>
+        </div><!-- investor-card end -->
+      </div>
+    </div>
+  </div>
+</section>
+<!-- top investor section end -->
+
+
+<!-- cta section start -->
+<section class="pb-120">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-xl-8">
+        <div class="cta-wrapper bg_img border-radius--10 text-center" data-background="assets/images/bg/bg-8.jpg">
+          <h2 class="title mb-3">Get Started Today With Us</h2>
+          <p>This is a Revolutionary Money Making Platform! Invest for Future in Stable Platform and Make Fast Money. Not only we guarantee the fastest and the most exciting returns on your investments, but we also guarantee the security of your investment.</p>
+          <a href="registration.html" class="cmn-btn mt-4">Join Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- cta section end -->
+
+<!-- payment brand section start -->
+<section class="pb-120">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6 text-center">
+        <div class="section-header">
+          <h2 class="section-title"><span class="font-weight-normal">Payment We</span> <b class="base--color">Accept</b></h2>
+          <p>We accept all major cryptocurrencies and fiat payment methods to make your investment process easier with our platform.</p>
+        </div>
+      </div>
+    </div><!-- row end -->
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="payment-slider">
+          <div class="single-slide">
+            <div class="brand-item">
+              <img src="assets/images/brand/1.png" alt="image">
+            </div><!-- brand-item end -->
+          </div>
+          <div class="single-slide">
+            <div class="brand-item">
+              <img src="assets/images/brand/2.png" alt="image">
+            </div><!-- brand-item end -->
+          </div>
+          <div class="single-slide">
+            <div class="brand-item">
+              <img src="assets/images/brand/3.png" alt="image">
+            </div><!-- brand-item end -->
+          </div>
+          <div class="single-slide">
+            <div class="brand-item">
+              <img src="assets/images/brand/4.png" alt="image">
+            </div><!-- brand-item end -->
+          </div>
+          <div class="single-slide">
+            <div class="brand-item">
+              <img src="assets/images/brand/5.png" alt="image">
+            </div><!-- brand-item end -->
+          </div>
+          <div class="single-slide">
+            <div class="brand-item">
+              <img src="assets/images/brand/6.png" alt="image">
+            </div><!-- brand-item end -->
+          </div>
+          <div class="single-slide">
+            <div class="brand-item">
+              <img src="assets/images/brand/7.png" alt="image">
+            </div><!-- brand-item end -->
+          </div>
+          <div class="single-slide">
+            <div class="brand-item">
+              <img src="assets/images/brand/8.png" alt="image">
+            </div><!-- brand-item end -->
+          </div>
+        </div><!-- payment-slider end -->
+      </div>
+    </div>
+  </div>
+</section>
+<!-- payment brand section end -->
+
+
+<!-- blog section start -->
+<section class="pt-120 pb-120 border-top-1">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6 text-center">
+        <div class="section-header">
+          <h2 class="section-title"><span class="font-weight-normal">Our Latest</span> <b class="base--color">News</b></h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse voluptatum eaque earum quos quia Id aspernatur ratione, voluptas nulla rerum laudantium neque ipsam eaque</p>
+        </div>
+      </div>
+    </div><!-- row end -->
+    <div class="row justify-content-center mb-none-30">
+      <div class="col-lg-4 col-md-6 mb-30">
+        <div class="blog-card">
+          <div class="blog-card__thumb">
+            <img src="assets/images/blog/1.jpg" alt="image">
+          </div>
+          <div class="blog-card__content">
+            <h4 class="blog-card__title mb-3"><a href="#0">Laboriosam distinctio nisi debitis deleniti voluptatum corporis.</a></h4>
+            <ul class="blog-card__meta d-flex flex-wrap mb-4">
+              <li>
+                <i class="las la-user"></i>
+                <a href="#0">fahaddevs</a>
+              </li>
+              <li>
+                <i class="las la-calendar"></i>
+                <a href="#0">20 Nov, 2020</a>
+              </li>
+            </ul>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisic elit. Iusto eos rem ducimus nam! Optio, soluta. Laboriosam distinctio nisi debitis deleniti ducim.</p>
+            <a href="#0" class="cmn-btn btn-md mt-4">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 mb-30">
+        <div class="blog-card">
+          <div class="blog-card__thumb">
+            <img src="assets/images/blog/2.jpg" alt="image">
+          </div>
+          <div class="blog-card__content">
+            <h4 class="blog-card__title mb-3"><a href="#0">Laboriosam distinctio nisi debitis deleniti voluptatum corporis.</a></h4>
+            <ul class="blog-card__meta d-flex flex-wrap mb-4">
+              <li>
+                <i class="las la-user"></i>
+                <a href="#0">fahaddevs</a>
+              </li>
+              <li>
+                <i class="las la-calendar"></i>
+                <a href="#0">20 Nov, 2020</a>
+              </li>
+            </ul>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisic elit. Iusto eos rem ducimus nam! Optio, soluta. Laboriosam distinctio nisi debitis deleniti ducim.</p>
+            <a href="#0" class="cmn-btn btn-md mt-4">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 mb-30">
+        <div class="blog-card">
+          <div class="blog-card__thumb">
+            <img src="assets/images/blog/3.jpg" alt="image">
+          </div>
+          <div class="blog-card__content">
+            <h4 class="blog-card__title mb-3"><a href="#0">Laboriosam distinctio nisi debitis deleniti voluptatum corporis.</a></h4>
+            <ul class="blog-card__meta d-flex flex-wrap mb-4">
+              <li>
+                <i class="las la-user"></i>
+                <a href="#0">fahaddevs</a>
+              </li>
+              <li>
+                <i class="las la-calendar"></i>
+                <a href="#0">20 Nov, 2020</a>
+              </li>
+            </ul>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisic elit. Iusto eos rem ducimus nam! Optio, soluta. Laboriosam distinctio nisi debitis deleniti ducim.</p>
+            <a href="#0" class="cmn-btn btn-md mt-4">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- blog section end -->
+
+<!-- subscribe section start -->
+<section class="pb-120">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
+        <div class="subscribe-wrapper bg_img" data-background="assets/images/bg/bg-5.jpg">
+          <div class="row align-items-center">
+            <div class="col-lg-5">
+              <h2 class="title">Subscribe Our Newsletter</h2>
+            </div>
+            <div class="col-lg-7 mt-lg-0 mt-4">
+              <form class="subscribe-form">
+                <input type="email" class="form-control" placeholder="Email Address">
+                <button class="subscribe-btn"><i class="las la-envelope"></i></button>
+              </form>
+            </div>
+          </div>
+        </div><!-- subscribe-wrapper end -->
+      </div>
+    </div>
+  </div>
+</section>
+<!-- subscribe section end -->
 
 
 {include file="main_footer.tpl"}
