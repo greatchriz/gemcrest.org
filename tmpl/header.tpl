@@ -280,69 +280,8 @@
                         </div>
                       </div>
                     </li>
-                    <li class="dropdown language-dropdown d-none d-sm-flex me-n1">
-                      <a
-                        href="#"
-                        class="dropdown-toggle nk-quick-nav-icon"
-                        data-bs-toggle="dropdown"
-                        ><div class="quick-icon">
-                          <img
-                            class="icon"
-                            src="dashlite/images/flags/english-sq.png"
-                            alt="" /></div
-                      ></a>
-                      <div
-                        class="dropdown-menu dropdown-menu-end dropdown-menu-s1">
-                        <ul class="language-list">
-                          <li>
-                            <a href="#" class="language-item"
-                              ><img
-                                src="dashlite/images/flags/english.png"
-                                alt=""
-                                class="language-flag" /><span
-                                class="language-name"
-                                >English</span
-                              ></a
-                            >
-                          </li>
-                          <li>
-                            <a href="#" class="language-item"
-                              ><img
-                                src="dashlite/images/flags/spanish.png"
-                                alt=""
-                                class="language-flag" /><span
-                                class="language-name"
-                                >Español</span
-                              ></a
-                            >
-                          </li>
-                          <li>
-                            <a href="#" class="language-item"
-                              ><img
-                                src="dashlite/images/flags/french.png"
-                                alt=""
-                                class="language-flag" /><span
-                                class="language-name"
-                                >Français</span
-                              ></a
-                            >
-                          </li>
-                          <li>
-                            <a href="#" class="language-item"
-                              ><img
-                                src="dashlite/images/flags/turkey.png"
-                                alt=""
-                                class="language-flag" /><span
-                                class="language-name"
-                                >Türkçe</span
-                              ></a
-                            >
-                          </li>
-                        </ul>
-                      </div>
-                    </li>
                     <li class="hide-mb-sm">
-                      <a href="#" class="nk-quick-nav-icon"
+                      <a href="/?a=logout" class="nk-quick-nav-icon"
                         ><em class="icon ni ni-signout"></em
                       ></a>
                     </li>
