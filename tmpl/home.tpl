@@ -5,9 +5,9 @@
     <div class="row">
       <div class="col-xl-5 col-lg-8">
         <div class="hero__content">
-          <h2 class="hero__title"><span class="text-white font-weight-normal">Invest for Future in Stable Platform</span> <b class="base--color">and Make Fast Money</b></h2>
-          <p class="text-white f-size-18 mt-3">Invest in an Industry Leader, Professional, and Reliable Company. We provide you with the most necessary features that will make your experience better. Not only we guarantee the fastest and the most exciting returns on your investments, but we also guarantee the security of your investment.</p>
-          <a href="#0" class="cmn-btn text-uppercase font-weight-600 mt-4">Sign Up</a>
+          <h2 class="hero__title"><span class="text-white font-weight-normal">Empowering Your Crypto Investments</span> <b class="base--color">with AI Excellence</b></h2>
+          <p class="text-white f-size-18 mt-3">Discover a new era of investment precision with our cutting-edge crypto investment company. Harnessing the power of Artificial Intelligence, we analyze market trends, assess risk factors, and execute strategic trades with unmatched accuracy. Join us in shaping the future of finance, where technology meets opportunity, and elevate your crypto investments to unprecedented heights.</p>
+          <a href="/?a=signup" class="cmn-btn text-uppercase font-weight-600 mt-4">Sign Up</a>
         </div>
       </div>
     </div>
@@ -19,7 +19,10 @@
 <div class="cureency-section">
   <div class="container">
     <div class="row mb-none-30">
-      <div class="col-lg-3 col-sm-6 cureency-item mb-30">
+
+      <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinPriceBlock.js"></script><div id="coinmarketcap-widget-coin-price-block" coins="1,1027,825,1958" currency="USD" theme="light" transparent="false" show-symbol-logo="true"></div>
+
+      {* <div class="col-lg-3 col-sm-6 cureency-item mb-30">
         <div class="cureency-card text-center">
           <h6 class="cureency-card__title text-white">BITCOIN PRICE</h6>
           <span class="cureency-card__amount h-font-family font-weight-600 base--color">3150.00 USD</span>
@@ -42,7 +45,7 @@
           <h6 class="cureency-card__title text-white">ACTIVE TRADES</h6>
           <span class="cureency-card__amount h-font-family font-weight-600 base--color">2,545,875</span>
         </div><!-- cureency-card end -->
-      </div><!-- cureency-item end -->
+      </div><!-- cureency-item end --> *}
     </div>
   </div>
 </div>
