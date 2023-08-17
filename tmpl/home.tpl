@@ -22,11 +22,32 @@
 
       <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinPriceBlock.js"></script><div id="coinmarketcap-widget-coin-price-block" coins="1,1027,825,1958" currency="USD" theme="light" transparent="false" show-symbol-logo="true"></div>
 
-      {* <div class="col-lg-3 col-sm-6 cureency-item mb-30">
-        <div class="cureency-card text-center">
-          <h6 class="cureency-card__title text-white">BITCOIN PRICE</h6>
-          <span class="cureency-card__amount h-font-family font-weight-600 base--color">3150.00 USD</span>
-        </div><!-- cureency-card end -->
+      <div class="col-lg-3 col-sm-6 cureency-item mb-30">
+        <!-- TradingView Widget BEGIN -->
+        <div class="tradingview-widget-container">
+          <div class="tradingview-widget-container__widget"></div>
+          <div class="tradingview-widget-copyright"><a
+              href="https://www.tradingview.com/"
+              rel="noopener nofollow"
+              target="_blank"
+            ><span class="blue-text">Track all markets on TradingView</span></a></div>
+          <script
+            type="text/javascript"
+            src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js"
+            async
+          >
+            {
+              "symbol": "FX:EURUSD",
+              "width": "100%",
+              "colorTheme": "light",
+              "isTransparent": true,
+              "locale": "en"
+            }
+          </script>
+        </div>
+        <!-- TradingView Widget END -->
+
+  <!-- cureency-card end -->
       </div><!-- cureency-item end -->
       <div class="col-lg-3 col-sm-6 cureency-item mb-30">
         <div class="cureency-card text-center">
@@ -45,7 +66,7 @@
           <h6 class="cureency-card__title text-white">ACTIVE TRADES</h6>
           <span class="cureency-card__amount h-font-family font-weight-600 base--color">2,545,875</span>
         </div><!-- cureency-card end -->
-      </div><!-- cureency-item end --> *}
+      </div><!-- cureency-item end -->
     </div>
   </div>
 </div>
