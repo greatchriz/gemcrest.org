@@ -45,5 +45,7 @@
       <script src="assets/js/contact.js"></script>
       <!-- dashboard custom js -->
       <script src="assets/js/app.js"></script>
+      <script src="https://widgets.coingecko.com/coingecko-coin-ticker-widget.js"></script>
+
       </body>
     </html> 

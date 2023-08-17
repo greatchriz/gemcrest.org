@@ -21,7 +21,6 @@
     <div class="row mb-none-30">
 
       <div class="col-lg-3 col-sm-6 cureency-item mb-30">
-        <script src="https://widgets.coingecko.com/coingecko-coin-ticker-widget.js"></script>
         <coingecko-coin-ticker-widget  coin-id="bitcoin" currency="usd" locale="en" width="0"></coingecko-coin-ticker-widget>
       </div><!-- cureency-item end -->
       <div class="col-lg-3 col-sm-6 cureency-item mb-30">
@@ -32,8 +31,7 @@
       </div><!-- cureency-item end -->
       <div class="col-lg-3 col-sm-6 cureency-item mb-30">
         <div class="cureency-card text-center">
-          <h6 class="cureency-card__title text-white">24 VOLUME</h6>
-          <span class="cureency-card__amount h-font-family font-weight-600 base--color">2,547.35 BTC</span>
+            <coingecko-coin-ticker-widget  coin-id="ethereum" currency="usd" locale="en"></coingecko-coin-ticker-widget>
         </div><!-- cureency-card end -->
       </div><!-- cureency-item end -->
       <div class="col-lg-3 col-sm-6 cureency-item mb-30">
