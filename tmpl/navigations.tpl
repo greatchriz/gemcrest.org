@@ -61,28 +61,7 @@
                         title='Add Funds'
                     }
 
-                    
-
-                        {if $userinfo.username == 'Mallak183' || $userinfo.username == 'a' || $userinfo.username == 'ab'}
-
-                            {* {if $userinfo.username == 'a' || $userinfo.username == 'ab'} *}
-
-                               
-                       
-                        {include 
-                            'navigation_item.tpl' 
-                            link='/?a=joint-deposit'
-                            icon='images/svg/deposit-icon.svg'
-                            title='Joint Deposit'
-                        }
-
-                        {include 
-                            'navigation_item.tpl' 
-                            link='/?a=joint-deposit-list'
-                            icon='images/svg/deposit-icon.svg'
-                            title='Joint Deposit List'
-                        }
-                        {/if}
+                
 
                         
                         {include 
