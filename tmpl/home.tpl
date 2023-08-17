@@ -20,7 +20,7 @@
   <div class="container">
     <div class="row mb-none-30">
 
-      <div class="col-lg-3 col-sm-6 cureency-item mb-30">
+      <div class="col-lg-3 col-sm-6 cureency-item mb-30 border-radius--5">
         <coingecko-coin-ticker-widget  coin-id="bitcoin" currency="usd" locale="en" width="0"></coingecko-coin-ticker-widget>
       </div><!-- cureency-item end -->
       <div class="col-lg-3 col-sm-6 cureency-item mb-30">
