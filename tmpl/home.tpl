@@ -25,8 +25,8 @@
       </div><!-- cureency-item end -->
       <div class="col-lg-3 col-sm-6 cureency-item mb-30">
         <div class="cureency-card text-center">
-          <h6 class="cureency-card__title text-white">BITCOIN PRICE</h6>
-          <span class="cureency-card__amount h-font-family font-weight-600 base--color">2850.00 EUR</span>
+          
+          <coingecko-coin-ticker-widget  coin-id="tether" currency="usd" locale="en"></coingecko-coin-ticker-widget>
         </div><!-- cureency-card end -->
       </div><!-- cureency-item end -->
       <div class="col-lg-3 col-sm-6 cureency-item mb-30">
@@ -36,8 +36,7 @@
       </div><!-- cureency-item end -->
       <div class="col-lg-3 col-sm-6 cureency-item mb-30">
         <div class="cureency-card text-center">
-          <h6 class="cureency-card__title text-white">ACTIVE TRADES</h6>
-          <span class="cureency-card__amount h-font-family font-weight-600 base--color">2,545,875</span>
+            <coingecko-coin-ticker-widget  coin-id="tron" currency="usd" locale="en"></coingecko-coin-ticker-widget>
         </div><!-- cureency-card end -->
       </div><!-- cureency-item end -->
     </div>
