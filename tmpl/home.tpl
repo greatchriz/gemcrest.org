@@ -20,34 +20,9 @@
   <div class="container">
     <div class="row mb-none-30">
 
-      <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinPriceBlock.js"></script><div id="coinmarketcap-widget-coin-price-block" coins="1,1027,825,1958" currency="USD" theme="light" transparent="false" show-symbol-logo="true"></div>
-
       <div class="col-lg-3 col-sm-6 cureency-item mb-30">
-        <!-- TradingView Widget BEGIN -->
-        <div class="tradingview-widget-container">
-          <div class="tradingview-widget-container__widget"></div>
-          <div class="tradingview-widget-copyright"><a
-              href="https://www.tradingview.com/"
-              rel="noopener nofollow"
-              target="_blank"
-            ><span class="blue-text">Track all markets on TradingView</span></a></div>
-          <script
-            type="text/javascript"
-            src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js"
-            async
-          >
-            {
-              "symbol": "FX:EURUSD",
-              "width": "100%",
-              "colorTheme": "light",
-              "isTransparent": true,
-              "locale": "en"
-            }
-          </script>
-        </div>
-        <!-- TradingView Widget END -->
-
-  <!-- cureency-card end -->
+        <script src="https://widgets.coingecko.com/coingecko-coin-ticker-widget.js"></script>
+        <coingecko-coin-ticker-widget  coin-id="bitcoin" currency="usd" locale="en" width="0"></coingecko-coin-ticker-widget>
       </div><!-- cureency-item end -->
       <div class="col-lg-3 col-sm-6 cureency-item mb-30">
         <div class="cureency-card text-center">
