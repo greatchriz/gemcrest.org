@@ -51,8 +51,9 @@
       <div class="col-lg-6 offset-lg-6">
         <div class="about-content">
           <h2 class="section-title mb-3"><span class="font-weight-normal">About</span> <b class="base--color">Us</b></h2>
-          <p>We are an international financial company engaged in investment activities, which are related to trading on financial markets and cryptocurrency exchanges performed by qualified professional traders.</p>
-          <p class="mt-4">Our goal is to provide our investors with a reliable source of high income, while minimizing any possible risks and offering a high-quality service, allowing us to automate and simplify the relations between the investors and the trustees. We work towards increasing your profit margin by profitable investment. We look forward to you being part of our community.</p>
+          <p>Harness the collective intelligence of cutting-edge AI technology and the expertise of seasoned financial analysts at Gemcrest. Our AI-driven strategies provide you with actionable insights, highlighting investment opportunities in the dynamic world of cryptocurrencies. Experience a new level of precision and performance as we navigate the markets for you.</p>
+
+          <p class="mt-4">At Gemcrest, we're not just following trends, we're shaping them with AI-powered insights. Our commitment to innovation means staying steps ahead in the crypto landscape. Let us be your trusted partner in this digital frontier, using AI's analytical might to unlock the full potential of your crypto investments.</p>
           <a href="#0" class="cmn-btn mt-4">MORE INFO</a>
         </div><!-- about-content end -->
       </div>
@@ -68,8 +69,8 @@
           <div class="row justify-content-center">
             <div class="col-lg-6 text-center">
               <div class="section-header">
-                <h2 class="section-title"><span class="font-weight-normal">Why Choose</span> <b class="base--color">Hyiplab</b></h2>
-                <p>Our goal is to provide our investors with a reliable source of high income, while minimizing any possible risks and offering a high-quality service.</p>
+                <h2 class="section-title"><span class="font-weight-normal">Why Choose</span> <b class="base--color">Gencrest</b></h2>
+                <p>Elevate your crypto investment journey with Gencrest. Our unrivaled fusion of cutting-edge AI technology and financial expertise sets us apart in the world of crypto investment.</p>
               </div>
             </div>
           </div><!-- row end -->
@@ -80,9 +81,10 @@
                   <div class="choose-card__icon">
                     <i class="lar la-copy"></i>
                   </div>
-                  <h4 class="choose-card__title base--color">Legal Company</h4>
+                  <h4 class="choose-card__title base--color">AI-Powered Precision</h4>
                 </div>
-                <p>Our company conducts absolutely legal activities in the legal field. We are certified to operate investment business, we are legal and safe.</p>
+                <p>Our AI algorithms analyze market trends, news, and data at lightning speed, enabling us to make data-driven decisions that maximize your returns and minimize risks.
+                </p>
               </div><!-- choose-card end -->
             </div>
             <div class="col-xl-4 col-md-6 mb-30">
@@ -91,9 +93,10 @@
                   <div class="choose-card__icon">
                     <i class="las la-lock"></i>
                   </div>
-                  <h4 class="choose-card__title base--color">High reliability</h4>
+                  <h4 class="choose-card__title base--color">Expert Human Insight</h4>
                 </div>
-                <p>We are trusted by a huge number of people. We are working hard constantly to improve the level of our security system and minimize possible risks.</p>
+                <p>Our team of financial experts collaborates with AI, combining their deep industry knowledge with technological prowess to craft strategies that are both innovative and grounded in wisdom.
+                </p>
               </div><!-- choose-card end -->
             </div>
             <div class="col-xl-4 col-md-6 mb-30">
@@ -102,9 +105,10 @@
                   <div class="choose-card__icon">
                     <i class="las la-user-lock"></i>
                   </div>
-                  <h4 class="choose-card__title base--color">Anonymity</h4>
+                  <h4 class="choose-card__title base--color">Proven Track Record</h4>
                 </div>
-                <p>Anonymity and using cryptocurrency as a payment instrument. In the era of electronic money – this is one of the most convenient ways of cooperation.</p>
+                <p>Our track record speaks for itself. Our strategies have consistently outperformed the market, showcasing our ability to adapt and succeed in various market conditions.
+                </p>
               </div><!-- choose-card end -->
             </div>
             <div class="col-xl-4 col-md-6 mb-30">
@@ -113,11 +117,25 @@
                   <div class="choose-card__icon">
                     <i class="las la-shipping-fast"></i>
                   </div>
-                  <h4 class="choose-card__title base--color">Quick Withdrawal</h4>
+                  <h4 class="choose-card__title base--color">Tailored Approach</h4>
                 </div>
-                <p>Our all retreats are treated spontaneously once requested. There are high maximum limits. The minimum withdrawal amount is only $10.</p>
+                <p>We understand that every investor's goals are unique. Our personalized approach ensures that your investment strategy aligns with your risk tolerance and objectives.
+                </p>
               </div><!-- choose-card end -->
             </div>
+            
+            <div class="col-xl-4 col-md-6 mb-30">
+              <div class="choose-card border-radius--5">
+                <div class="choose-card__header mb-3">
+                  <div class="choose-card__icon">
+                    <i class="las la-headset"></i>
+                  </div>
+                  <h4 class="choose-card__title base--color">Continuous Innovation</h4>
+                </div>
+                <p>The crypto landscape is ever-evolving, and so are we. We're committed to staying ahead of the curve, leveraging the latest advancements in AI and finance to keep your investments optimized.</p>
+              </div><!-- choose-card end -->
+            </div>
+
             <div class="col-xl-4 col-md-6 mb-30">
               <div class="choose-card border-radius--5">
                 <div class="choose-card__header mb-3">
@@ -126,20 +144,10 @@
                   </div>
                   <h4 class="choose-card__title base--color">Referral Program</h4>
                 </div>
-                <p>We are offering a certain level of referral income through our referral program. you can increase your income by simply refer a few people.</p>
+                <p>Join our community and earn rewards through our referral program. Spread the word about our AI-driven investment solutions and reap the benefits as you help others unlock the potential of crypto investments.</p>
               </div><!-- choose-card end -->
             </div>
-            <div class="col-xl-4 col-md-6 mb-30">
-              <div class="choose-card border-radius--5">
-                <div class="choose-card__header mb-3">
-                  <div class="choose-card__icon">
-                    <i class="las la-headset"></i>
-                  </div>
-                  <h4 class="choose-card__title base--color">24/7 Support</h4>
-                </div>
-                <p>We provide 24/7 customer support through e-mail and telegram. Our support representatives are periodically available to elucidate any difficulty..</p>
-              </div><!-- choose-card end -->
-            </div>
+
             <div class="col-xl-4 col-md-6 mb-30">
               <div class="choose-card border-radius--5">
                 <div class="choose-card__header mb-3">
@@ -148,7 +156,7 @@
                   </div>
                   <h4 class="choose-card__title base--color">Dedicated Server</h4>
                 </div>
-                <p>We are using a dedicated server for the website which allows us exclusive use of the resources of the entire server.</p>
+                <p>Your data security and investment performance are paramount. Our dedicated servers ensure robust connectivity and uninterrupted access to real-time data, giving you a seamless investing experience.</p>
               </div><!-- choose-card end -->
             </div>
             <div class="col-xl-4 col-md-6 mb-30">
@@ -159,7 +167,7 @@
                   </div>
                   <h4 class="choose-card__title base--color">SSL Secured</h4>
                 </div>
-                <p>Comodo Essential-SSL Security encryption confirms that the presented content is genuine and legitimate.</p>
+                <p>Rest easy knowing that your sensitive information is safeguarded. Our SSL encryption provides an extra layer of security, ensuring that your interactions with our platform remain private and secure.</p>
               </div><!-- choose-card end -->
             </div>
             <div class="col-xl-4 col-md-6 mb-30">
@@ -170,7 +178,7 @@
                   </div>
                   <h4 class="choose-card__title base--color">DDOS Protection</h4>
                 </div>
-                <p>We are using one of the most experienced, professional, and trusted DDoS Protection and mitigation provider.</p>
+                <p>We take every measure to keep your investment journey smooth and uninterrupted. Our robust DDOS protection shields our platform from potential disruptions, allowing you to focus on your investments without worry.</p>
               </div><!-- choose-card end -->
             </div>
           </div>
@@ -227,8 +235,8 @@
     <div class="row justify-content-center">
       <div class="col-lg-6 text-center">
         <div class="section-header">
-          <h2 class="section-title"><span class="font-weight-normal">How</span> <b class="base--color">Hyiplab</b> <span class="font-weight-normal">Works</span></h2>
-          <p>Get involved in our tremendous platform and Invest. We will utilize your money and give you profit in your wallet automatically.</p>
+          <h2 class="section-title"><span class="font-weight-normal">How</span> <b class="base--color">Gencrest</b> <span class="font-weight-normal">Works</span></h2>
+          <p>At Gencrest, we've engineered a revolutionary approach to crypto investing that harnesses the power of AI and expert insights. Here's a glimpse into how Gencrest works.</p>
         </div>
       </div>
     </div><!-- row end -->
@@ -271,324 +279,26 @@
 </section>
 <!-- how work section end  -->
 
-
-<!-- faq section start -->
-<section class="pt-120 pb-120">
+  
+<!-- cta section start -->
+<section class="pb-120">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-lg-6 text-center">
-        <div class="section-header">
-          <h2 class="section-title"><span class="font-weight-normal">Frequently Asked</span> <b class="base--color">Questions</b></h2>
-          <p>We answer some of your Frequently Asked Questions regarding our platform. If you have a query that is not answered here, Please contact us.</p>
-        </div>
-      </div>
-    </div><!-- row end -->
-    <div class="row justify-content-center">
-      <div class="col-lg-8">
-        <div class="accordion cmn-accordion" id="accordionExample">
-          <div class="card">
-            <div class="card-header" id="headingOne">
-              <h2 class="mb-0">
-                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  <i class="las la-question-circle"></i>
-                  <span>When can I deposit/withdraw from my Investment account?</span>
-                </button>
-              </h2>
-            </div>
-        
-            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-              <div class="card-body">
-                Deposit and withdrawal are available for at any time. Be sure, that your funds are not used in any ongoing trade before the withdrawal. The available amount is shown in your dashboard on the main page of Investing platform. Deposit and withdrawal are available for at any time. Be sure, that your funds are not used in any ongoing trade before the withdrawal. The available amount is shown in your dashboard on the main page of Investing platform.
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-header" id="headingTwo">
-              <h2 class="mb-0">
-                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  <i class="las la-question-circle"></i>
-                  <span>How do I check my account balance?</span>
-                </button>
-              </h2>
-            </div>
-            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-              <div class="card-body">
-                You can see this anytime on your accounts dashboard. You can see this anytime on your accounts dashboard.
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-header" id="headingThree">
-              <h2 class="mb-0">
-                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  <i class="las la-question-circle"></i>
-                  <span>I forgot my password, what should I do?</span>
-                </button>
-              </h2>
-            </div>
-            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-              <div class="card-body">
-                Visit the password reset page, type in your email address and click the `Reset` button. Visit the password reset page, type in your email address and click the `Reset` button.
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-header" id="headingFour">
-              <h2 class="mb-0">
-                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                  <i class="las la-question-circle"></i>
-                  <span>How will I know that the withdrawal has been successful?</span>
-                </button>
-              </h2>
-            </div>
-            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
-              <div class="card-body">
-                You will get an automatic notification once we send the funds and you can always check your transactions or account balance. Your chosen payment system dictates how long it will take for the funds to reach you. You will get an automatic notification once we send the funds and you can always check your transactions or account balance. Your chosen payment system dictates how long it will take for the funds to reach you.
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-header" id="headingFive">
-              <h2 class="mb-0">
-                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                  <i class="las la-question-circle"></i>
-                  <span>How much can I withdraw?</span>
-                </button>
-              </h2>
-            </div>
-            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
-              <div class="card-body">
-                You can withdraw the full amount of your account balance minus the funds that are used currently for supporting opened positions. You can withdraw the full amount of your account balance minus the funds that are used currently for supporting opened positions.
-              </div>
-            </div>
-          </div>
+      <div class="col-xl-8">
+        <div class="cta-wrapper bg_img border-radius--10 text-center" data-background="assets/images/bg/bg-8.jpg">
+          <h2 class="title mb-3">Start Earning with Our Referral Program!</h2>
+          <p>Share the potential of AI-driven crypto investing with friends and earn rewards for every successful referral. Introduce them to Gencrest's innovative platform and embark on a journey of growth together. Join our Referral Program now and unlock exciting benefits for you and your network.
+          </p>
+          <a href="/?a=home" class="cmn-btn mt-4">Join Us</a>
         </div>
       </div>
     </div>
   </div>
 </section>
-<!-- faq section end -->
+<!-- cta section end -->
 
 
-<!-- testimonial section start -->
-<section class="pt-120 pb-120 bg_img overlay--radial" data-background="assets/images/bg/bg-7.jpg">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-6 text-center">
-        <div class="section-header">
-          <h2 class="section-title"><span class="font-weight-normal">What Users Say</span> <b class="base--color">About Us</b></h2>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse voluptatum eaque earum quos quia? Id aspernatur ratione, voluptas nulla rerum laudantium neque ipsam eaque</p>
-        </div>
-      </div>
-    </div><!-- row end -->
-    <div class="row">
-      <div class="col-lg-12">
-        <div class="testimonial-slider">
-          <div class="single-slide">
-            <div class="testimonial-card">
-              <div class="testimonial-card__content">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos minus, assumenda soluta unde veritatis voluptatibus adipisci, aliquid, non officiis repudiandae rerum porro odio ea laborum veniam numquam doloribus obcaecati.</p>
-              </div>
-              <div class="testimonial-card__client">
-                <div class="thumb">
-                  <img src="assets/images/testimonial/1.jpg" alt="image">
-                </div>
-                <div class="content">
-                  <h6 class="name">Fahaddevs</h6>
-                  <span class="designation">CEO of fahaddevs</span>
-                  <div class="ratings">
-                    <i class="las la-star"></i>
-                    <i class="las la-star"></i>
-                    <i class="las la-star"></i>
-                    <i class="las la-star"></i>
-                    <i class="las la-star"></i>
-                  </div>
-                </div>
-              </div>
-            </div><!-- testimonial-card end -->
-          </div><!-- single-slide end -->
-          <div class="single-slide">
-            <div class="testimonial-card">
-              <div class="testimonial-card__content">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos minus, assumenda soluta unde veritatis voluptatibus adipisci, aliquid, non officiis repudiandae rerum porro odio ea laborum veniam numquam doloribus obcaecati.</p>
-              </div>
-              <div class="testimonial-card__client">
-                <div class="thumb">
-                  <img src="assets/images/testimonial/2.jpg" alt="image">
-                </div>
-                <div class="content">
-                  <h6 class="name">Alina</h6>
-                  <span class="designation">CTO of fahaddevs</span>
-                  <div class="ratings">
-                    <i class="las la-star"></i>
-                    <i class="las la-star"></i>
-                    <i class="las la-star"></i>
-                    <i class="las la-star"></i>
-                    <i class="las la-star"></i>
-                  </div>
-                </div>
-              </div>
-            </div><!-- testimonial-card end -->
-          </div><!-- single-slide end -->
-          <div class="single-slide">
-            <div class="testimonial-card">
-              <div class="testimonial-card__content">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos minus, assumenda soluta unde veritatis voluptatibus adipisci, aliquid, non officiis repudiandae rerum porro odio ea laborum veniam numquam doloribus obcaecati.</p>
-              </div>
-              <div class="testimonial-card__client">
-                <div class="thumb">
-                  <img src="assets/images/testimonial/3.jpg" alt="image">
-                </div>
-                <div class="content">
-                  <h6 class="name">Amir Khan</h6>
-                  <span class="designation">COO of fahaddevs</span>
-                  <div class="ratings">
-                    <i class="las la-star"></i>
-                    <i class="las la-star"></i>
-                    <i class="las la-star"></i>
-                    <i class="las la-star"></i>
-                    <i class="las la-star"></i>
-                  </div>
-                </div>
-              </div>
-            </div><!-- testimonial-card end -->
-          </div><!-- single-slide end -->
-          <div class="single-slide">
-            <div class="testimonial-card">
-              <div class="testimonial-card__content">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos minus, assumenda soluta unde veritatis voluptatibus adipisci, aliquid, non officiis repudiandae rerum porro odio ea laborum veniam numquam doloribus obcaecati.</p>
-              </div>
-              <div class="testimonial-card__client">
-                <div class="thumb">
-                  <img src="assets/images/testimonial/4.jpg" alt="image">
-                </div>
-                <div class="content">
-                  <h6 class="name">Zohir Khan</h6>
-                  <span class="designation">Manager of fahaddevs</span>
-                  <div class="ratings">
-                    <i class="las la-star"></i>
-                    <i class="las la-star"></i>
-                    <i class="las la-star"></i>
-                    <i class="las la-star"></i>
-                    <i class="las la-star"></i>
-                  </div>
-                </div>
-              </div>
-            </div><!-- testimonial-card end -->
-          </div><!-- single-slide end -->
-        </div>
-      </div>
-    </div><!-- row end -->
-  </div>
-</section>
-<!-- testimonial section end -->
-
-<!-- team section start -->
-<section class="pt-120 pb-120 bg_img" data-background="assets/images/bg/bg-5.jpg">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-6 text-center">
-        <div class="section-header">
-          <h2 class="section-title"><span class="font-weight-normal">Our Expert</span> <b class="base--color">Team Members</b></h2>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse voluptatum eaque earum quos quia? Id aspernatur ratione, voluptas nulla rerum laudantium neque ipsam eaque</p>
-        </div>
-      </div>
-    </div><!-- row end -->
-    <div class="row justify-content-center mb-none-30">
-      <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
-        <div class="team-card">
-          <div class="team-card__thumb">
-            <img src="assets/images/investor/1.jpg" alt="image">
-          </div>
-          <div class="team-card__content">
-            <h4 class="name mb-1">Fahad Bin Faiz</h4>
-            <span class="designation">CEO</span>
-          </div>
-        </div><!-- team-card end -->
-      </div>
-      <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
-        <div class="team-card">
-          <div class="team-card__thumb">
-            <img src="assets/images/investor/2.jpg" alt="image">
-          </div>
-          <div class="team-card__content">
-            <h4 class="name mb-1">Danial K.</h4>
-            <span class="designation">CTO</span>
-          </div>
-        </div><!-- team-card end -->
-      </div>
-      <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
-        <div class="team-card">
-          <div class="team-card__thumb">
-            <img src="assets/images/investor/3.jpg" alt="image">
-          </div>
-          <div class="team-card__content">
-            <h4 class="name mb-1">Lew Son</h4>
-            <span class="designation">Marketing Head</span>
-          </div>
-        </div><!-- team-card end -->
-      </div>
-      <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
-        <div class="team-card">
-          <div class="team-card__thumb">
-            <img src="assets/images/investor/4.jpg" alt="image">
-          </div>
-          <div class="team-card__content">
-            <h4 class="name mb-1">Tend z Joe</h4>
-            <span class="designation">Designer</span>
-          </div>
-        </div><!-- team-card end -->
-      </div>
-      <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
-        <div class="team-card">
-          <div class="team-card__thumb">
-            <img src="assets/images/investor/5.jpg" alt="image">
-          </div>
-          <div class="team-card__content">
-            <h4 class="name mb-1">Sam Joe</h4>
-            <span class="designation">Developer</span>
-          </div>
-        </div><!-- team-card end -->
-      </div>
-      <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
-        <div class="team-card">
-          <div class="team-card__thumb">
-            <img src="assets/images/investor/6.jpg" alt="image">
-          </div>
-          <div class="team-card__content">
-            <h4 class="name mb-1">Alex Joe</h4>
-            <span class="designation">UX Expert</span>
-          </div>
-        </div><!-- team-card end -->
-      </div>
-      <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
-        <div class="team-card">
-          <div class="team-card__thumb">
-            <img src="assets/images/investor/7.jpg" alt="image">
-          </div>
-          <div class="team-card__content">
-            <h4 class="name mb-1">Juna Sun</h4>
-            <span class="designation">SEO Expert</span>
-          </div>
-        </div><!-- team-card end -->
-      </div>
-      <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
-        <div class="team-card">
-          <div class="team-card__thumb">
-            <img src="assets/images/investor/8.jpg" alt="image">
-          </div>
-          <div class="team-card__content">
-            <h4 class="name mb-1">Profed Laun</h4>
-            <span class="designation">Manager</span>
-          </div>
-        </div><!-- team-card end -->
-      </div>
-    </div>
-  </div>
-</section>
-<!-- team section end -->
-
-
+{* 
 <!-- data section start -->
 <section class="pt-120 pb-120">
   <div class="container">
@@ -874,21 +584,6 @@
 <!-- top investor section end -->
 
 
-<!-- cta section start -->
-<section class="pb-120">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-xl-8">
-        <div class="cta-wrapper bg_img border-radius--10 text-center" data-background="assets/images/bg/bg-8.jpg">
-          <h2 class="title mb-3">Get Started Today With Us</h2>
-          <p>This is a Revolutionary Money Making Platform! Invest for Future in Stable Platform and Make Fast Money. Not only we guarantee the fastest and the most exciting returns on your investments, but we also guarantee the security of your investment.</p>
-          <a href="registration.html" class="cmn-btn mt-4">Join Us</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- cta section end -->
 
 <!-- payment brand section start -->
 <section class="pb-120">
@@ -1057,7 +752,7 @@
     </div>
   </div>
 </section>
-<!-- subscribe section end -->
+<!-- subscribe section end --> *}
 
 
 {include file="main_footer.tpl"}
