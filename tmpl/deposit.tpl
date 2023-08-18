@@ -1,9 +1,4 @@
-{if $userinfo.home_phone == 1}
-  {include file="modal.tpl"}
-  
-  
-  {else}
-{include file="header.tpl" pagetitle="Deposit" pageurl="deposit"}
+
 
 {if $fatal}
 
@@ -222,6 +217,4 @@
       </script>
     {/literal}
 
-  {/if}
-  {include file="footer.tpl"}
   {/if}
