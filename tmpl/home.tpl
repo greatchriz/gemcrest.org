@@ -54,7 +54,7 @@
           <p>Harness the collective intelligence of cutting-edge AI technology and the expertise of seasoned financial analysts at Gemcrest. Our AI-driven strategies provide you with actionable insights, highlighting investment opportunities in the dynamic world of cryptocurrencies. Experience a new level of precision and performance as we navigate the markets for you.</p>
 
           <p class="mt-4">At Gemcrest, we're not just following trends, we're shaping them with AI-powered insights. Our commitment to innovation means staying steps ahead in the crypto landscape. Let us be your trusted partner in this digital frontier, using AI's analytical might to unlock the full potential of your crypto investments.</p>
-          <a href="#0" class="cmn-btn mt-4">MORE INFO</a>
+          <a href="/?a=about" class="cmn-btn mt-4">MORE INFO</a>
         </div><!-- about-content end -->
       </div>
     </div>
