@@ -400,7 +400,7 @@
 <section class="pb-120">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-xl-8">
+      <div class="col-12">
         <img src="assets/images/bg/certificate.png" class="img-fluid" alt="Responsive image">
 
 
