@@ -175,29 +175,69 @@
       <div class="col-lg-6 text-center">
         <div class="section-header">
           <h2 class="section-title"><span class="font-weight-normal">Frequently Asked</span> <b class="base--color">Questions</b></h2>
-          <p>We answer some of your Frequently Asked Questions regarding our platform. If you have a query that is not answered here, Please contact us.</p>
+          <p>Find quick answers to common questions about Gencrest's AI-powered investing platform, guiding you toward informed investment decisions. If you need further assistance, our support team is here to help.</p>
         </div>
       </div>
     </div><!-- row end -->
     <div class="row justify-content-center">
       <div class="col-lg-8">
         <div class="accordion cmn-accordion" id="accordionExample">
-          <div class="card">
-            <div class="card-header" id="headingOne">
-              <h2 class="mb-0">
-                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  <i class="las la-question-circle"></i>
-                  <span>When can I deposit/withdraw from my Investment account?</span>
-                </button>
-              </h2>
-            </div>
+          {php}
+            // Database connection settings
+            $servername = "localhost";
+            $username = "dexfpheh_contact";
+            $password = "QsxfT32.";
+            $dbname = "dexfpheh_contact";
         
-            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-              <div class="card-body">
-                Deposit and withdrawal are available for at any time. Be sure, that your funds are not used in any ongoing trade before the withdrawal. The available amount is shown in your dashboard on the main page of Investing platform. Deposit and withdrawal are available for at any time. Be sure, that your funds are not used in any ongoing trade before the withdrawal. The available amount is shown in your dashboard on the main page of Investing platform.
-              </div>
-            </div>
-          </div>
+            // Create connection
+            $conn = new mysqli($servername, $username, $password, $dbname);
+        
+            // Check connection
+            if ($conn->connect_error) {
+                die("Connection failed: " . $conn->connect_error);
+            }
+        
+            // Fetch data from the faq_table
+            $sql = "SELECT question_text, answer_text FROM faq_table";
+            $result = $conn->query($sql);
+        
+            // Check if there are any rows in the result
+            if ($result->num_rows > 0) {
+                // Fetch all rows as an associative array
+                $faq_data = mysqli_fetch_all($result, MYSQLI_ASSOC);
+        
+                // Output data using a foreach loop
+                foreach ($faq_data as $row) {
+                    echo "<h3>" . htmlspecialchars($row["question_text"]) . "</h3>";
+                    echo "<p>" . htmlspecialchars($row["answer_text"]) . "</p>";
+                    echo "<hr>";
+                }
+            } else {
+                echo "No results found.";
+            }
+        
+            // Close the connection
+            $conn->close();
+            {/php}
+
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <i class="las la-question-circle"></i>
+                        <span>When can I deposit/withdraw from my Investment account?</span>
+                      </button>
+                    </h2>
+                  </div>
+              
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Deposit and withdrawal are available for at any time. Be sure, that your funds are not used in any ongoing trade before the withdrawal. The available amount is shown in your dashboard on the main page of Investing platform. Deposit and withdrawal are available for at any time. Be sure, that your funds are not used in any ongoing trade before the withdrawal. The available amount is shown in your dashboard on the main page of Investing platform.
+                    </div>
+                  </div>
+                </div>
+
+      
           <div class="card">
             <div class="card-header" id="headingTwo">
               <h2 class="mb-0">
