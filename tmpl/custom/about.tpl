@@ -401,7 +401,7 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-xl-8">
-        <div class="cta-wrapper bg_img border-radius--10 text-center" data-background="assets/images/bg/certificate.png">
+        <div class="cta-wrapper bg_img border-radius--10 text-center" data-background="assets/images/bg/certificate.png" width="100%" hieght="100%">
           {* <h2 class="title mb-3">Unlock Your Investment Journey with a $50 Welcome Bonus!</h2>
           <p>Welcome to Gencrest, where your investment success begins with a $50 welcome bonus. Sign up, verify your identity, and claim your bonus to kickstart your AI-driven investment adventure. Let this bonus be your stepping stone towards smarter, more rewarding investments with Gencrest.</p>
           <a href="/?a=signup" class="cmn-btn mt-4">Join Us</a> *}
