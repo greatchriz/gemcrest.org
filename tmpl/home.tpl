@@ -50,7 +50,7 @@
     <div class="row">
       <div class="col-lg-6 offset-lg-6">
         <div class="about-content">
-          <h2 class="section-title mb-3"><span class="font-weight-normal">About</span> <b class="base--color">Us</b></h2>
+          <h2 class="section-title mb-3"><span class="font-weight-normal">AI-Driven</span> <b class="base--color">Trading</b></h2>
           <p>Harness the collective intelligence of cutting-edge AI technology and the expertise of seasoned financial analysts at Gemcrest. Our AI-driven strategies provide you with actionable insights, highlighting investment opportunities in the dynamic world of cryptocurrencies. Experience a new level of precision and performance as we navigate the markets for you.</p>
 
           <p class="mt-4">At Gemcrest, we're not just following trends, we're shaping them with AI-powered insights. Our commitment to innovation means staying steps ahead in the crypto landscape. Let us be your trusted partner in this digital frontier, using AI's analytical might to unlock the full potential of your crypto investments.</p>
