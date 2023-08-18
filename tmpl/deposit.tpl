@@ -1,3 +1,7 @@
+{include file="header.tpl" pagetitle="Deposit" pageurl="deposit"}
+
+
+<div class="dashboard-tab-content" id="deposit">
 
 
 {if $fatal}
@@ -22,8 +26,10 @@
 
         {/literal}
 
+
         
       {if $qplans > 1}
+
 
           
         {literal}
@@ -33,11 +39,14 @@
               }
             }
 
+
             
         {/literal}
 
+
           
       {/if}
+
 
         
       {literal}
@@ -177,20 +186,20 @@
               class="form-select mt-1.5 w-full rounded-lg border border-slate-300 bg-white px-3 py-2 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:bg-navy-700 dark:hover:border-navy-400 dark:focus:border-accent"
               name="type"
             >
-            <optgroup label="Spend funds from the Account Balance">
-              {section name=p loop=$ps}
-                {if $ps[p].balance > 0 and $ps[p].status == 1}
-                  <option value="account_{$ps[p].id}">{$ps[p].name}</option>
-                {/if}
-              {/section}
-            </optgroup>
-            <optgroup label="Spend funds from External Wallet">
-              {section name=p loop=$ps}
-                {if $ps[p].status}
-                  <option value="process_{$ps[p].id}">{$ps[p].name}</option>
-                {/if}
-              {/section}
-            </optgroup>
+              <optgroup label="Spend funds from the Account Balance">
+                {section name=p loop=$ps}
+                  {if $ps[p].balance > 0 and $ps[p].status == 1}
+                    <option value="account_{$ps[p].id}">{$ps[p].name}</option>
+                  {/if}
+                {/section}
+              </optgroup>
+              <optgroup label="Spend funds from External Wallet">
+                {section name=p loop=$ps}
+                  {if $ps[p].status}
+                    <option value="process_{$ps[p].id}">{$ps[p].name}</option>
+                  {/if}
+                {/section}
+              </optgroup>
             </select>
           </label>
         </div>
@@ -218,3 +227,6 @@
     {/literal}
 
   {/if}
+
+</div>
+{include file="footer.tpl"}
