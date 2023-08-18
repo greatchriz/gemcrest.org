@@ -271,9 +271,9 @@
     <div class="row justify-content-center">
       <div class="col-xl-8">
         <div class="cta-wrapper bg_img border-radius--10 text-center" data-background="assets/images/bg/bg-8.jpg">
-          <h2 class="title mb-3">Get Started Today With Us</h2>
-          <p>This is a Revolutionary Money Making Platform! Invest for Future in Stable Platform and Make Fast Money. Not only we guarantee the fastest and the most exciting returns on your investments, but we also guarantee the security of your investment.</p>
-          <a href="registration.html" class="cmn-btn mt-4">Join Us</a>
+          <h2 class="title mb-3">Unlock Your Investment Journey with a $50 Welcome Bonus!</h2>
+          <p>Welcome to Gencrest, where your investment success begins with a $50 welcome bonus. Sign up, verify your identity, and claim your bonus to kickstart your AI-driven investment adventure. Let this bonus be your stepping stone towards smarter, more rewarding investments with Gencrest.</p>
+          <a href="/?a=signup" class="cmn-btn mt-4">Join Us</a>
         </div>
       </div>
     </div>
@@ -288,8 +288,8 @@
     <div class="row justify-content-center">
       <div class="col-lg-6 text-center">
         <div class="section-header">
-          <h2 class="section-title"><span class="font-weight-normal">What Users Say</span> <b class="base--color">About Us</b></h2>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse voluptatum eaque earum quos quia? Id aspernatur ratione, voluptas nulla rerum laudantium neque ipsam eaque</p>
+          <h2 class="section-title"><span class="font-weight-normal">Real Stories</span> <b class="base--color">, Real Success</b></h2>
+          <p>At Gencrest, our impact is best reflected in the stories of our valued investors. Here's what they have to say about their experiences with our AI-driven investment platform.          </p>
         </div>
       </div>
     </div><!-- row end -->
@@ -299,7 +299,7 @@
           <div class="single-slide">
             <div class="testimonial-card">
               <div class="testimonial-card__content">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos minus, assumenda soluta unde veritatis voluptatibus adipisci, aliquid, non officiis repudiandae rerum porro odio ea laborum veniam numquam doloribus obcaecati.</p>
+                <p>Gencrest has been a game-changer for me. As someone who was skeptical about the crypto market, their AI insights provided me with a sense of confidence and understanding I never thought possible. The results have been beyond impressive, and I'm grateful for the guidance on this exciting investment journey.</p>
               </div>
               <div class="testimonial-card__client">
                 <div class="thumb">
@@ -307,7 +307,7 @@
                 </div>
                 <div class="content">
                   <h6 class="name">Fahaddevs</h6>
-                  <span class="designation">CEO of fahaddevs</span>
+                  <span class="designation">Investor since 2020</span>
                   <div class="ratings">
                     <i class="las la-star"></i>
                     <i class="las la-star"></i>
@@ -322,7 +322,7 @@
           <div class="single-slide">
             <div class="testimonial-card">
               <div class="testimonial-card__content">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos minus, assumenda soluta unde veritatis voluptatibus adipisci, aliquid, non officiis repudiandae rerum porro odio ea laborum veniam numquam doloribus obcaecati.</p>
+                <p>What sets Gencrest apart is their ability to combine AI-driven strategies with human expertise. It's not just about numbers; it's about making informed decisions. Their platform seamlessly integrates technology and personalized insights, making it an indispensable tool for investors like me.</p>
               </div>
               <div class="testimonial-card__client">
                 <div class="thumb">
@@ -330,7 +330,7 @@
                 </div>
                 <div class="content">
                   <h6 class="name">Alina</h6>
-                  <span class="designation">CTO of fahaddevs</span>
+                  <span class="designation">Experienced Investor</span>
                   <div class="ratings">
                     <i class="las la-star"></i>
                     <i class="las la-star"></i>
@@ -345,7 +345,7 @@
           <div class="single-slide">
             <div class="testimonial-card">
               <div class="testimonial-card__content">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos minus, assumenda soluta unde veritatis voluptatibus adipisci, aliquid, non officiis repudiandae rerum porro odio ea laborum veniam numquam doloribus obcaecati.</p>
+                <p>Being new to crypto, I was overwhelmed by the options and risks. Gencrest's user-friendly platform and personalized approach made my transition smooth. The regular updates and insights helped me make sense of market fluctuations, and I'm already seeing promising results.</p>
               </div>
               <div class="testimonial-card__client">
                 <div class="thumb">
@@ -353,7 +353,7 @@
                 </div>
                 <div class="content">
                   <h6 class="name">Amir Khan</h6>
-                  <span class="designation">COO of fahaddevs</span>
+                  <span class="designation">New Investor</span>
                   <div class="ratings">
                     <i class="las la-star"></i>
                     <i class="las la-star"></i>
@@ -368,7 +368,7 @@
           <div class="single-slide">
             <div class="testimonial-card">
               <div class="testimonial-card__content">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos minus, assumenda soluta unde veritatis voluptatibus adipisci, aliquid, non officiis repudiandae rerum porro odio ea laborum veniam numquam doloribus obcaecati.</p>
+                <p>Gencrest takes the guesswork out of crypto investing. Their AI algorithms seem to have an uncanny ability to predict trends and identify opportunities. It's a refreshing blend of innovation and tradition, and it's changed the way I approach investing.</p>
               </div>
               <div class="testimonial-card__client">
                 <div class="thumb">
@@ -376,7 +376,7 @@
                 </div>
                 <div class="content">
                   <h6 class="name">Zohir Khan</h6>
-                  <span class="designation">Manager of fahaddevs</span>
+                  <span class="designation">Crypto Enthusiast</span>
                   <div class="ratings">
                     <i class="las la-star"></i>
                     <i class="las la-star"></i>
