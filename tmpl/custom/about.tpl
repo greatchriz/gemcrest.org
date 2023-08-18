@@ -1,75 +1,54 @@
 {include file="main_header.tpl"}
 {include file="inner-hero.tpl" title="About Us" title2="About" bg="bg-1.jpg"}
 
-
-
-<!-- how work section start -->
-<section class="pt-120 pb-120 bg_img" data-background="assets/images/bg/bg-5.jpg">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-6 text-center">
-        <div class="section-header">
-          <h2 class="section-title"><span class="font-weight-normal">How</span> <b class="base--color">Hyiplab</b> <span class="font-weight-normal">Works</span></h2>
-          <p>Get involved in our tremendous platform and Invest. We will utilize your money and give you profit in your wallet automatically.</p>
-        </div>
-      </div>
-    </div><!-- row end -->
-    <div class="row justify-content-center mb-none-30">
-      <div class="col-lg-4 col-md-6 work-item mb-30">
-        <div class="work-card text-center">
-          <div class="work-card__icon">
-            <i class="las la-user base--color"></i>
-            <span class="step-number">01</span>
-          </div>
-          <div class="work-card__content">
-            <h4 class="base--color mb-3">Create Account</h4>
-          </div>
-        </div><!-- work-card end -->
-      </div>
-      <div class="col-lg-4 col-md-6 work-item mb-30">
-        <div class="work-card text-center">
-          <div class="work-card__icon">
-            <i class="las la-hand-holding-usd base--color"></i>
-            <span class="step-number">02</span>
-          </div>
-          <div class="work-card__content">
-            <h4 class="base--color mb-3">Invest To Plan</h4>
-          </div>
-        </div><!-- work-card end -->
-      </div>
-      <div class="col-lg-4 col-md-6 work-item mb-30">
-        <div class="work-card text-center">
-          <div class="work-card__icon">
-            <i class="las la-wallet base--color"></i>
-            <span class="step-number">03</span>
-          </div>
-          <div class="work-card__content">
-            <h4 class="base--color mb-3">Get Profit</h4>
-          </div>
-        </div><!-- work-card end -->
-      </div>
-    </div>
-  </div>
-</section>
-<!-- how work section end  -->
-
-
 <!-- about section start -->
 <section class="about-section pt-120 pb-120 bg_img" data-background="assets/images/bg/bg-2.jpg">
   <div class="container">
     <div class="row">
       <div class="col-lg-6 offset-lg-6">
         <div class="about-content">
-          <h2 class="section-title mb-3"><span class="font-weight-normal">About</span> <b class="base--color">Us</b></h2>
-          <p>We are an international financial company engaged in investment activities, which are related to trading on financial markets and cryptocurrency exchanges performed by qualified professional traders.</p>
-          <p class="mt-4">Our goal is to provide our investors with a reliable source of high income, while minimizing any possible risks and offering a high-quality service, allowing us to automate and simplify the relations between the investors and the trustees. We work towards increasing your profit margin by profitable investment. We look forward to you being part of our community.</p>
-          <a href="#0" class="cmn-btn mt-4">MORE INFO</a>
+          <h2 class="section-title mb-3"><span class="font-weight-normal">Our</span> <b class="base--color">Story</b></h2>
+          <p>Gencrest's journey began with a visionary fusion of financial expertise and AI technology. A group of industry veterans and tech enthusiasts converged around the idea of revolutionizing crypto investing. This concept led to the development of advanced AI algorithms that could decipher market patterns and empower investors.
+          </p>
+          <p class="mt-4">From inception, Gencrest's team worked tirelessly to refine algorithms, test strategies, and shape an investment landscape where AI-driven insights met human wisdom. As success stories emerged, our dedication to empowering investors deepened. The growth of our community affirmed the impact of our approach, strengthening our commitment to excellence.
+          </p>
+          <p class="mt-4">Trust has been the cornerstone of our journey. As we chart the path ahead, we're driven by a shared belief in the transformative potential of intelligent investing. Gencrest's story is one of innovation, collaboration, and an unwavering commitment to shaping a future where financial success is within everyone's reach.
+          </p>
+          <a href="/?a=signup" class="cmn-btn mt-4">Get Started</a>
         </div><!-- about-content end -->
       </div>
     </div>
   </div>
 </section>
 <!-- about section end -->
+
+<!-- choose us section start -->
+<section class="pt-120 pb-120 overlay--radial bg_img" data-background="assets/images/bg/bg-3.jpg">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6 text-center">
+        <div class="section-header">
+          <h2 class="section-title"><span class="font-weight-normal">Why Choose</span> <b class="base--color">Gencrest</b></h2>
+          <p>Elevate your crypto investment journey with Gencrest. Our unrivaled fusion of cutting-edge AI technology and financial expertise sets us apart in the world of crypto investment.</p>
+        </div>
+      </div>
+    </div><!-- row end -->
+    <div class="row justify-content-center mb-none-30">
+      <div class="col-12 mb-30">
+        <div class="choose-card border-radius--5">
+          <div class="choose-card__header mb-3">
+            <div class="choose-card__icon">
+              <i class="lar la-copy"></i>
+            </div>
+            <h4 class="choose-card__title base--color">AI-Powered Precision</h4>
+          </div>
+          <p>Our AI algorithms analyze market trends, news, and data at lightning speed, enabling us to make data-driven decisions that maximize your returns and minimize risks.
+          </p>
+        </div><!-- choose-card end -->
+      </div>
+    </div>
+  </div>
+</section>
 
 <!-- team section start -->
 <section class="pt-120 pb-120 bg_img" data-background="assets/images/bg/bg-5.jpg">
@@ -290,110 +269,118 @@
 <!-- cta section end -->
 
 
-<!-- team section start -->
-<section class="pt-120 pb-120 bg_img" data-background="assets/images/bg/bg-5.jpg">
-<div class="container">
-  <div class="row justify-content-center">
-    <div class="col-lg-6 text-center">
-      <div class="section-header">
-        <h2 class="section-title"><span class="font-weight-normal">Our Expert</span> <b class="base--color">Team Members</b></h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse voluptatum eaque earum quos quia? Id aspernatur ratione, voluptas nulla rerum laudantium neque ipsam eaque</p>
+<!-- testimonial section start -->
+  <section class="pt-120 pb-120 bg_img overlay--radial" data-background="assets/images/bg/bg-7.jpg">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6 text-center">
+        <div class="section-header">
+          <h2 class="section-title"><span class="font-weight-normal">What Users Say</span> <b class="base--color">About Us</b></h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse voluptatum eaque earum quos quia? Id aspernatur ratione, voluptas nulla rerum laudantium neque ipsam eaque</p>
+        </div>
       </div>
-    </div>
-  </div><!-- row end -->
-  <div class="row justify-content-center mb-none-30">
-    <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
-      <div class="team-card">
-        <div class="team-card__thumb">
-          <img src="assets/images/investor/1.jpg" alt="image">
+    </div><!-- row end -->
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="testimonial-slider">
+          <div class="single-slide">
+            <div class="testimonial-card">
+              <div class="testimonial-card__content">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos minus, assumenda soluta unde veritatis voluptatibus adipisci, aliquid, non officiis repudiandae rerum porro odio ea laborum veniam numquam doloribus obcaecati.</p>
+              </div>
+              <div class="testimonial-card__client">
+                <div class="thumb">
+                  <img src="assets/images/testimonial/1.jpg" alt="image">
+                </div>
+                <div class="content">
+                  <h6 class="name">Fahaddevs</h6>
+                  <span class="designation">CEO of fahaddevs</span>
+                  <div class="ratings">
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div><!-- testimonial-card end -->
+          </div><!-- single-slide end -->
+          <div class="single-slide">
+            <div class="testimonial-card">
+              <div class="testimonial-card__content">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos minus, assumenda soluta unde veritatis voluptatibus adipisci, aliquid, non officiis repudiandae rerum porro odio ea laborum veniam numquam doloribus obcaecati.</p>
+              </div>
+              <div class="testimonial-card__client">
+                <div class="thumb">
+                  <img src="assets/images/testimonial/2.jpg" alt="image">
+                </div>
+                <div class="content">
+                  <h6 class="name">Alina</h6>
+                  <span class="designation">CTO of fahaddevs</span>
+                  <div class="ratings">
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div><!-- testimonial-card end -->
+          </div><!-- single-slide end -->
+          <div class="single-slide">
+            <div class="testimonial-card">
+              <div class="testimonial-card__content">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos minus, assumenda soluta unde veritatis voluptatibus adipisci, aliquid, non officiis repudiandae rerum porro odio ea laborum veniam numquam doloribus obcaecati.</p>
+              </div>
+              <div class="testimonial-card__client">
+                <div class="thumb">
+                  <img src="assets/images/testimonial/3.jpg" alt="image">
+                </div>
+                <div class="content">
+                  <h6 class="name">Amir Khan</h6>
+                  <span class="designation">COO of fahaddevs</span>
+                  <div class="ratings">
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div><!-- testimonial-card end -->
+          </div><!-- single-slide end -->
+          <div class="single-slide">
+            <div class="testimonial-card">
+              <div class="testimonial-card__content">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos minus, assumenda soluta unde veritatis voluptatibus adipisci, aliquid, non officiis repudiandae rerum porro odio ea laborum veniam numquam doloribus obcaecati.</p>
+              </div>
+              <div class="testimonial-card__client">
+                <div class="thumb">
+                  <img src="assets/images/testimonial/4.jpg" alt="image">
+                </div>
+                <div class="content">
+                  <h6 class="name">Zohir Khan</h6>
+                  <span class="designation">Manager of fahaddevs</span>
+                  <div class="ratings">
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div><!-- testimonial-card end -->
+          </div><!-- single-slide end -->
         </div>
-        <div class="team-card__content">
-          <h4 class="name mb-1">Fahad Bin Faiz</h4>
-          <span class="designation">CEO</span>
-        </div>
-      </div><!-- team-card end -->
-    </div>
-    <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
-      <div class="team-card">
-        <div class="team-card__thumb">
-          <img src="assets/images/investor/2.jpg" alt="image">
-        </div>
-        <div class="team-card__content">
-          <h4 class="name mb-1">Danial K.</h4>
-          <span class="designation">CTO</span>
-        </div>
-      </div><!-- team-card end -->
-    </div>
-    <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
-      <div class="team-card">
-        <div class="team-card__thumb">
-          <img src="assets/images/investor/3.jpg" alt="image">
-        </div>
-        <div class="team-card__content">
-          <h4 class="name mb-1">Lew Son</h4>
-          <span class="designation">Marketing Head</span>
-        </div>
-      </div><!-- team-card end -->
-    </div>
-    <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
-      <div class="team-card">
-        <div class="team-card__thumb">
-          <img src="assets/images/investor/4.jpg" alt="image">
-        </div>
-        <div class="team-card__content">
-          <h4 class="name mb-1">Tend z Joe</h4>
-          <span class="designation">Designer</span>
-        </div>
-      </div><!-- team-card end -->
-    </div>
-    <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
-      <div class="team-card">
-        <div class="team-card__thumb">
-          <img src="assets/images/investor/5.jpg" alt="image">
-        </div>
-        <div class="team-card__content">
-          <h4 class="name mb-1">Sam Joe</h4>
-          <span class="designation">Developer</span>
-        </div>
-      </div><!-- team-card end -->
-    </div>
-    <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
-      <div class="team-card">
-        <div class="team-card__thumb">
-          <img src="assets/images/investor/6.jpg" alt="image">
-        </div>
-        <div class="team-card__content">
-          <h4 class="name mb-1">Alex Joe</h4>
-          <span class="designation">UX Expert</span>
-        </div>
-      </div><!-- team-card end -->
-    </div>
-    <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
-      <div class="team-card">
-        <div class="team-card__thumb">
-          <img src="assets/images/investor/7.jpg" alt="image">
-        </div>
-        <div class="team-card__content">
-          <h4 class="name mb-1">Juna Sun</h4>
-          <span class="designation">SEO Expert</span>
-        </div>
-      </div><!-- team-card end -->
-    </div>
-    <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
-      <div class="team-card">
-        <div class="team-card__thumb">
-          <img src="assets/images/investor/8.jpg" alt="image">
-        </div>
-        <div class="team-card__content">
-          <h4 class="name mb-1">Profed Laun</h4>
-          <span class="designation">Manager</span>
-        </div>
-      </div><!-- team-card end -->
-    </div>
+      </div>
+    </div><!-- row end -->
   </div>
-</div>
 </section>
-<!-- team section end -->
+<!-- testimonial section end -->
 
 
   {include file="main_footer.tpl"}

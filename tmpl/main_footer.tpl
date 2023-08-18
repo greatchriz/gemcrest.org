@@ -20,7 +20,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6 text-md-left text-center">
-              <p>© 2023<a href="/?a=home" class="base--color">Gemcrest</a>. All rights reserved</p>
+              <p>© 2023 <a href="/?a=home" class="base--color">Gemcrest</a>. All rights reserved</p>
             </div>
             <div class="col-md-6">
               <ul class="social-link-list d-flex flex-wrap justify-content-md-end justify-content-center">
