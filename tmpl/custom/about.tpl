@@ -28,8 +28,8 @@
     <div class="row justify-content-center">
       <div class="col-lg-6 text-center">
         <div class="section-header">
-          <h2 class="section-title"><span class="font-weight-normal">Why Choose</span> <b class="base--color">Gencrest</b></h2>
-          <p>Elevate your crypto investment journey with Gencrest. Our unrivaled fusion of cutting-edge AI technology and financial expertise sets us apart in the world of crypto investment.</p>
+          <h2 class="section-title"><span class="font-weight-normal">Guiding the Future</span> <b class="base--color">of Investing</b></h2>
+          <p>Our Vision and Mission for Transformative Financial Growth.</p>
         </div>
       </div>
     </div><!-- row end -->
@@ -40,9 +40,9 @@
             <div class="choose-card__icon">
               <i class="lar la-copy"></i>
             </div>
-            <h4 class="choose-card__title base--color">AI-Powered Precision</h4>
+            <h4 class="choose-card__title base--color">Our Vision</h4>
           </div>
-          <p>Our AI algorithms analyze market trends, news, and data at lightning speed, enabling us to make data-driven decisions that maximize your returns and minimize risks.
+          <p>At Gencrest, our vision is to redefine investing in the digital age. We envision a world where cutting-edge technology and expert insights converge seamlessly, empowering investors to navigate the complexities of the financial landscape with confidence. Our aim is to set new standards in investment excellence, where AI-driven innovation not only enhances performance but also creates opportunities that were previously unseen. We aspire to be the guiding light for individuals seeking to unlock the full potential of their financial future.
           </p>
         </div><!-- choose-card end -->
       </div>
@@ -53,9 +53,9 @@
             <div class="choose-card__icon">
               <i class="lar la-copy"></i>
             </div>
-            <h4 class="choose-card__title base--color">AI-Powered Precision</h4>
+            <h4 class="choose-card__title base--color">Our Mission</h4>
           </div>
-          <p>Our AI algorithms analyze market trends, news, and data at lightning speed, enabling us to make data-driven decisions that maximize your returns and minimize risks.
+          <p>Our mission at Gencrest is clear – to empower individuals from all walks of life to achieve financial success through innovative investment solutions. We're committed to leveraging AI technology to its fullest potential, transforming data into actionable insights that guide investment decisions. By combining the power of data-driven AI with human expertise, we provide a platform that not only delivers impressive results but also fosters financial literacy and empowerment. Our mission is to be your steadfast partner on the journey to financial prosperity, offering a new era of investing where opportunities are limitless and success is achievable for all.
           </p>
         </div><!-- choose-card end -->
       </div>
