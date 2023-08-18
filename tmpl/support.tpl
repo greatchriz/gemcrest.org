@@ -1,19 +1,19 @@
 {include file="main_header.tpl" current_page="home"}
- <!-- inner hero start -->
-  <section class="inner-hero bg_img" data-background="assets/images/bg/bg-1.jpg">
+{include file="inner-hero.tpl" title="Contact Us" title2="Contact" bg="bg-1.jpg"}
+
+<section class="pt-120 pb-120">
   <div class="container">
-    <div class="row">
-      <div class="col-lg-6">
-        <h2 class="page-title">Contact Us</h2>
-        <ul class="page-breadcrumb">
-          <li><a href="index.html">Home</a></li>
-          <li>Contact</li>
-        </ul>
+    <div class="contact-wrapper">
+      <div class="row">
+        <div class="col-12">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2484.05296636005!2d-0.14386401348153452!3d51.49389550275879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487605ed7b9caed1%3A0x73f8634756a20d7c!2sSpaces%20-%20London%2C%20Spaces%20Victoria!5e0!3m2!1sen!2sng!4v1692377165475!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
       </div>
     </div>
   </div>
 </section>
-<!-- inner hero end -->
 
 
 <!-- contact section start -->
