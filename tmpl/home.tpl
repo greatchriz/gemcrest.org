@@ -69,8 +69,8 @@
           <div class="row justify-content-center">
             <div class="col-lg-6 text-center">
               <div class="section-header">
-                <h2 class="section-title"><span class="font-weight-normal">Why Choose</span> <b class="base--color">Gencrest</b></h2>
-                <p>Elevate your crypto investment journey with Gencrest. Our unrivaled fusion of cutting-edge AI technology and financial expertise sets us apart in the world of crypto investment.</p>
+                <h2 class="section-title"><span class="font-weight-normal">Why Choose</span> <b class="base--color">Gemcrest</b></h2>
+                <p>Elevate your crypto investment journey with Gemcrest. Our unrivaled fusion of cutting-edge AI technology and financial expertise sets us apart in the world of crypto investment.</p>
               </div>
             </div>
           </div><!-- row end -->
@@ -235,8 +235,8 @@
     <div class="row justify-content-center">
       <div class="col-lg-6 text-center">
         <div class="section-header">
-          <h2 class="section-title"><span class="font-weight-normal">How</span> <b class="base--color">Gencrest</b> <span class="font-weight-normal">Works</span></h2>
-          <p>At Gencrest, we've engineered a revolutionary approach to crypto investing that harnesses the power of AI and expert insights. Here's a glimpse into how Gencrest works.</p>
+          <h2 class="section-title"><span class="font-weight-normal">How</span> <b class="base--color">Gemcrest</b> <span class="font-weight-normal">Works</span></h2>
+          <p>At Gemcrest, we've engineered a revolutionary approach to crypto investing that harnesses the power of AI and expert insights. Here's a glimpse into how Gemcrest works.</p>
         </div>
       </div>
     </div><!-- row end -->
@@ -287,7 +287,7 @@
       <div class="col-xl-8">
         <div class="cta-wrapper bg_img border-radius--10 text-center" data-background="assets/images/bg/bg-8.jpg">
           <h2 class="title mb-3">Start Earning with Our Referral Program!</h2>
-          <p>Share the potential of AI-driven crypto investing with friends and earn rewards for every successful referral. Introduce them to Gencrest's innovative platform and embark on a journey of growth together. Join our Referral Program now and unlock exciting benefits for you and your network.
+          <p>Share the potential of AI-driven crypto investing with friends and earn rewards for every successful referral. Introduce them to Gemcrest's innovative platform and embark on a journey of growth together. Join our Referral Program now and unlock exciting benefits for you and your network.
           </p>
           <a href="/?a=home" class="cmn-btn mt-4">Join Us</a>
         </div>
