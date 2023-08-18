@@ -70,12 +70,12 @@
                   <li> {include file="nav-item.tpl" link="/?a=home" title="Home"}</li>
                   <li> {include file="nav-item.tpl" link="/?a=about" title="About Us"}</li>
                   <li> {include file="nav-item.tpl" link="/?a=plans" title="Investment Plans"}</li>
-                  <li> {include file="nav-item.tpl" link="/?a=services" title="Our Services"}</li>
                   <li> {include file="nav-item.tpl" link="/?a=statistics" title="Statistics"}</li>
 
 
                   <li class="menu_has_children"><a href="#">Information</a>
                     <ul class="sub-menu">
+                      <li> {include file="nav-item.tpl" link="/?a=services" title="Our Services"}</li>
                       <li> {include file="nav-item.tpl" link="/?a=support" title="Contact Us"}</li>
                       <li> {include file="nav-item.tpl" link="/?a=rules" title="Terms & Condition"}</li>
                     </ul>
