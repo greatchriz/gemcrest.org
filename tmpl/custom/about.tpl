@@ -34,7 +34,20 @@
       </div>
     </div><!-- row end -->
     <div class="row justify-content-center mb-none-30">
-      <div class="col-12 mb-30">
+      <div class="col-xl-6 col-md-6 mb-30">
+        <div class="choose-card border-radius--5">
+          <div class="choose-card__header mb-3">
+            <div class="choose-card__icon">
+              <i class="lar la-copy"></i>
+            </div>
+            <h4 class="choose-card__title base--color">AI-Powered Precision</h4>
+          </div>
+          <p>Our AI algorithms analyze market trends, news, and data at lightning speed, enabling us to make data-driven decisions that maximize your returns and minimize risks.
+          </p>
+        </div><!-- choose-card end -->
+      </div>
+
+      <div class="col-xl-6 col-md-6 mb-30">
         <div class="choose-card border-radius--5">
           <div class="choose-card__header mb-3">
             <div class="choose-card__icon">
