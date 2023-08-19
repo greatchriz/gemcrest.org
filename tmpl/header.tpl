@@ -148,90 +148,33 @@
                                 class="logo"
                             > *}
                         </a>
+
                         <div class="d-flex flex-row align-items-center order-2 order-lg-3">
-                            <select
-                                class="language-select"
-                                style="display: none;"
-                            >
+                            <select class="language-select" style="display: none;">
                                 <option value="english">En</option>
                                 <option value="australia">Aus</option>
                                 <option value="brazil">Bra</option>
                                 <option value="argentina">Arg</option>
-                            </select>
-                            <div
-                                class="nice-select language-select"
-                                tabindex="0"
-                            ><span class="current">En</span>
-                                <ul class="list">
-                                    <li
-                                        data-value="english"
-                                        class="option selected"
-                                    >En</li>
-                                    <li
-                                        data-value="australia"
-                                        class="option"
-                                    >Aus</li>
-                                    <li
-                                        data-value="brazil"
-                                        class="option"
-                                    >Bra</li>
-                                    <li
-                                        data-value="argentina"
-                                        class="option"
-                                    >Arg</li>
-                                </ul>
-                            </div>
+                            </select><div class="nice-select language-select" tabindex="0"><span class="current">En</span><ul class="list"><li data-value="english" class="option selected">En</li><li data-value="australia" class="option">Aus</li><li data-value="brazil" class="option">Bra</li><li data-value="argentina" class="option">Arg</li></ul></div>
                             <div class="out-link dashboard-out-link d-none d-sm-flex align-items-center dropdown">
-                                <a
-                                    href="#dashboard"
-                                    class="dropdown-toggle"
-                                    role="button"
-                                    data-bs-toggle="dropdown"
-                                    data-bs-auto-close="outside"
-                                    aria-expanded="false"
-                                >
-                                    <img
-                                        src="daashboard/images/avatars/small-profile-avatar.png"
-                                        alt="Profile Avatar"
-                                    >
+                                <a href="#dashboard" class="dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+                                    <img src="dashboard/images/avatars/small-profile-avatar.png" alt="Profile Avatar">
                                 </a>
                                 <div class="dropdown-menu">
-                                    <a
-                                        href="#deposit"
-                                        class="dropdown-item dashboard-tab dashboard-tab-btn"
-                                    >Deposit</a>
-                                    <a
-                                        href="#withdraw"
-                                        class="dropdown-item dashboard-tab dashboard-tab-btn"
-                                    >Withdraw</a>
-                                    <a
-                                        href="#transaction"
-                                        class="dropdown-item dashboard-tab dashboard-tab-btn"
-                                    >Transaction</a>
-                                    <a
-                                        href="#profile"
-                                        class="dropdown-item dashboard-tab dashboard-tab-btn"
-                                    >Settings</a>
-                                    <a
-                                        href="#dashboard"
-                                        class="dropdown-item dashboard-tab dashboard-tab-btn"
-                                    >Log Out</a>
+                                    <a href="#deposit" class="dropdown-item dashboard-tab dashboard-tab-btn">Deposit</a>
+                                    <a href="#withdraw" class="dropdown-item dashboard-tab dashboard-tab-btn">Withdraw</a>
+                                    <a href="#transaction" class="dropdown-item dashboard-tab dashboard-tab-btn">Transaction</a>
+                                    <a href="#profile" class="dropdown-item dashboard-tab dashboard-tab-btn">Settings</a>
+                                    <a href="#dashboard" class="dropdown-item dashboard-tab dashboard-tab-btn">Log Out</a>
                                 </div>
                             </div>
-                            <button
-                                class="navbar-toggler"
-                                type="button"
-                                data-bs-toggle="collapse"
-                                data-bs-target="#primaryNav"
-                                aria-controls="primaryNav"
-                                aria-expanded="false"
-                                aria-label="Toggle Primary Nav"
-                            >
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#primaryNav" aria-controls="primaryNav" aria-expanded="false" aria-label="Toggle Primary Nav">
                                 <span class="icon-bar top-bar"></span>
                                 <span class="icon-bar middle-bar"></span>
                                 <span class="icon-bar bottom-bar"></span>
                             </button>
                         </div>
+
                    
                     </div>
                 </nav>
