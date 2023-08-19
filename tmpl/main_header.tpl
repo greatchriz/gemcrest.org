@@ -18,6 +18,26 @@
       <link rel="stylesheet" href="assets/css/vendor/dots.css">
       <!-- dashdoard main css -->
       <link rel="stylesheet" href="assets/css/main.css">
+      {literal}
+        <!-- Smartsupp Live Chat script -->
+        <script type="text/javascript">
+          var _smartsupp = _smartsupp || {};
+          _smartsupp.key = '947a9c45f172b928e020c4f5cfed8e64435ead03';
+          window.smartsupp || (function(d) {
+            var s, c, o = smartsupp = function() { o._.push(arguments) };
+            o._ = [];
+            s = d.getElementsByTagName('script')[0];
+            c = d.createElement('script');
+            c.type = 'text/javascript';
+            c.charset = 'utf-8';
+            c.async = true;
+            c.src = 'https://www.smartsuppchat.com/loader.js?';
+            s.parentNode.insertBefore(c, s);
+          })(document);
+        </script>
+      {/literal}
+
+        
     </head>
       <body>
         <div class="preloader">
