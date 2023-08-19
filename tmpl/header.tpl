@@ -51,18 +51,13 @@
           <div class="main-nav">
               <nav class="navbar navbar-expand-lg" id="mainNav">
                   <div class="container">
-                      <a class="navbar-brand" href="index.html">
+                      <a class="navbar-brand" href="/?a=home">
                           <img src="dashboard/images/logo.png" alt="Logo" class="logo">
                       </a>
                       <div class="d-flex flex-row align-items-center order-2 order-lg-3">
-                          <!-- <select class="language-select">
-                              <option value="english">En</option>
-                              <option value="australia">Aus</option>
-                              <option value="brazil">Bra</option>
-                              <option value="argentina">Arg</option>
-                          </select> -->
+                      
                           <div class="out-link dashboard-out-link d-sm-flex align-items-center dropdown">
-                              <a href="#dashboard" class="dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+                              <a href="/?a=account" class="dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
                                   <img src="dashboard/images/avatars/small-profile-avatar.png" alt="Profile Avatar">
                               </a>
                               <div class="dropdown-menu">
@@ -70,68 +65,12 @@
                                   <a href="/#withdraw" class="dropdown-item dashboard-tab dashboard-tab-btn">Withdraw</a>
                                   <a href="#transaction" class="dropdown-item dashboard-tab dashboard-tab-btn">Transaction</a>
                                   <a href="#profile" class="dropdown-item dashboard-tab dashboard-tab-btn">Settings</a>
-                                  <a href="#dashboard" class="dropdown-item dashboard-tab dashboard-tab-btn">Log Out</a>
+                                  <a href="/?a=logout" class="dropdown-item dashboard-tab dashboard-tab-btn">Log Out</a>
                               </div>
                           </div>
-                          <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#primaryNav" aria-controls="primaryNav" aria-expanded="false" aria-label="Toggle Primary Nav">
-                              <span class="icon-bar top-bar"></span>
-                              <span class="icon-bar middle-bar"></span>
-                              <span class="icon-bar bottom-bar"></span>
-                          </button> -->
+                         
                       </div>
-                      <!-- <div class="collapse navbar-collapse justify-content-center order-3 order-lg-2" id="primaryNav">
-                          <ul class="navbar-nav">
-                              <li class="nav-item">
-                                  <a class="nav-link" href="index.html">Home</a>
-                              </li>
-                              <li class="nav-item">
-                                  <a class="nav-link" href="about-us.html">About Us</a>
-                              </li>
-                              <li class="nav-item">
-                                  <a class="nav-link" href="investment-plan.html">Investment</a>
-                              </li>
-                              <li class="nav-item dropdown">
-                                  <a class="nav-link nav-link-active dropdown-toggle" href="#" id="dropdown-menu" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
-                                      Pages
-                                  </a>
-                                  <ul class="dropdown-menu" aria-labelledby="dropdown-menu">
-                                      <li>
-                                          <a class="dropdown-item" href="features.html">Features</a>
-                                      </li>
-                                      <li>
-                                          <a class="dropdown-item" href="faq.html">Faq</a>
-                                      </li>
-                                      <li>
-                                          <a class="dropdown-item" href="blog-two.html">Blog Two</a>
-                                      </li>
-                                      <li>
-                                          <a class="dropdown-item" href="blog-three.html">Blog Three</a>
-                                      </li>
-                                      <li>
-                                          <a class="dropdown-item" href="blog-single.html">Blog Single</a>
-                                      </li>
-                                      <li>
-                                          <a class="dropdown-item" href="terms-conditions.html">Terms & Conditions</a>
-                                      </li>
-                                      <li>
-                                          <a class="dropdown-item" href="referral-program.html">Referral Program</a>
-                                      </li>
-                                      <li>
-                                          <a class="dropdown-item dropdown-item-active" href="dashboard.html">Dashboard</a>
-                                      </li>
-                                      <li>
-                                          <a class="dropdown-item" href="404.html">Error</a>
-                                      </li>
-                                  </ul>
-                              </li>
-                              <li class="nav-item">
-                                  <a class="nav-link" href="blog-one.html">Blog</a>
-                              </li>
-                              <li class="nav-item">
-                                  <a class="nav-link" href="contact-us.html">Contact</a>
-                              </li>
-                          </ul>
-                      </div> -->
+
                   </div>
               </nav>
           </div>
