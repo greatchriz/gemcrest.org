@@ -386,7 +386,6 @@
                                         </a>
 
 
-                                        d-flex align-items-center dashboard-tab dashboard-tab-btn
                                         <a href="/?a=deposit_list" class="d-flex align-items-center dashboard-tab dashboard-tab-btn mt-0">
                                         <img src="dashboard/images/icons/deposit.png" alt="Dashboard"> Deposit List
                                         </a>
