@@ -57,14 +57,14 @@
                       <div class="d-flex flex-row align-items-center order-2 order-lg-3">
                       
                           <div class="out-link dashboard-out-link d-sm-flex align-items-center dropdown">
-                              <a href="/?a=account" class="dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+                              <a href="{"?a=account"|encurl}" class="dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
                                   <img src="dashboard/images/avatars/small-profile-avatar.png" alt="Profile Avatar">
                               </a>
                               <div class="dropdown-menu">
-                                  <a href="/#deposit" class="dropdown-item dashboard-tab dashboard-tab-btn">Deposit</a>
-                                  <a href="/#withdraw" class="dropdown-item dashboard-tab dashboard-tab-btn">Withdraw</a>
-                                  <a href="#transaction" class="dropdown-item dashboard-tab dashboard-tab-btn">Transaction</a>
-                                  <a href="#profile" class="dropdown-item dashboard-tab dashboard-tab-btn">Settings</a>
+                                  <a href="{"?a=deposit"|encurl}" class="dropdown-item dashboard-tab dashboard-tab-btn">Deposit</a>
+                                  <a href="?a=withdraw|encurl" class="dropdown-item dashboard-tab dashboard-tab-btn">Withdraw</a>
+                                  <a href="?a=history|encurl" class="dropdown-item dashboard-tab dashboard-tab-btn">Transactions</a>
+                                  <a href="?a=edit_|encurl" class="dropdown-item dashboard-tab dashboard-tab-btn">Settings</a>
                                   <a href="/?a=logout" class="dropdown-item dashboard-tab dashboard-tab-btn">Log Out</a>
                               </div>
                           </div>
@@ -100,31 +100,38 @@
                                 <p class="small">18 Oct 2021, 16:28 PM GMT +0</p>
                             </div>
                             <div class="dashboard-tab-btn-area p-30-20 mtf-30">
-                                <a href="#dashboard" class="dashboard-tab-btn dashboard-tab dashboard-tab-btn-active mt-0">
+                                <a href="{"?a=account"|encurl}" class="dashboard-tab-btn dashboard-tab dashboard-tab-btn-active mt-0">
                                     <img src="dashboard/images/icons/dashboard.png" alt="Dashboard"> Dashboard
                                 </a>
                                 <hr>
-                                <a href="/#deposit" class="d-flex align-items-center dashboard-tab dashboard-tab-btn">
+                                <a href="{"?a=deposit"|encurl}" class="d-flex align-items-center dashboard-tab dashboard-tab-btn">
                                     <img src="dashboard/images/icons/deposit.png" alt="Make Deposit"> Make Deposit
                                 </a>
-                                <hr>
-                                <a href="/#withdraw" class="d-flex align-items-center dashboard-tab dashboard-tab-btn">
-                                    <img src="dashboard/images/icons/withdraw.png" alt="Withdraw"> Withdraw
+
+                                <a href="{"?a=deposit_list"|encurl}" class="d-flex align-items-center dashboard-tab dashboard-tab-btn">
+                                    <img src="dashboard/images/icons/deposit.png" alt="Make Deposit"> Deposit List
                                 </a>
+
+
+
                                 <hr>
-                                <a href="#referrals" class="d-flex align-items-center dashboard-tab dashboard-tab-btn">
+                                    <a href="?a=withdraw|encurl" class="d-flex align-items-center dashboard-tab dashboard-tab-btn"><img src="dashboard/images/icons/withdraw.png" alt="Withdraw">Withdraw</a>
+
+                              
+                                <hr>
+                                <a href="?a=referals|encurl" class="d-flex align-items-center dashboard-tab dashboard-tab-btn">
                                     <img src="dashboard/images/icons/referrals.png" alt="Referrals"> Referrals
                                 </a>
                                 <hr>
-                                <a href="#transaction" class="d-flex align-items-center dashboard-tab dashboard-tab-btn">
-                                    <img src="dashboard/images/icons/transaction.png" alt="Transaction"> Transaction
+                                <a href="?a=history|encurl" class="d-flex align-items-center dashboard-tab dashboard-tab-btn">
+                                    <img src="dashboard/images/icons/transaction.png" alt="Transaction"> Transaction History
                                 </a>
                                 <hr>
-                                <a href="#profile" class="d-flex align-items-center dashboard-tab dashboard-tab-btn">
+                                <a href="/?a=edit_account" class="d-flex align-items-center dashboard-tab dashboard-tab-btn">
                                     <img src="dashboard/images/icons/edit-profile.png" alt="Edit Profile"> Edit Profile
                                 </a>
                                 <hr>
-                                <a href="#dashboard" class="d-flex align-items-center dashboard-tab dashboard-tab-btn mb-0">
+                                <a href="/?a=logout" class="d-flex align-items-center dashboard-tab dashboard-tab-btn mb-0">
                                     <img src="dashboard/images/icons/log-out.png" alt="Log Out"> Log Out
                                 </a>
                             </div>
