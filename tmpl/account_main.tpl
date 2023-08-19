@@ -43,7 +43,7 @@
             <div class="item">
                 <div class="icon-wrapper d-flex justify-content-center align-items-center mb-20">
                     <div class="icon">
-                        <img src="assets/images/icons/bitcoin.png" alt="Bitcoin">
+                        <img src="dashboard/images/icons/bitcoin.png" alt="Bitcoin">
                     </div>
                     <p class="small">Bitcoin</p>
                 </div>
@@ -55,7 +55,7 @@
             <div class="item">
                 <div class="icon-wrapper d-flex align-items-center justify-content-center mb-20">
                     <div class="icon">
-                        <img src="assets/images/icons/ethereum.png" alt="Ethereum">
+                        <img src="dashboard/images/icons/ethereum.png" alt="Ethereum">
                     </div>
                     <p class="small">Ethereum</p>
                 </div>
@@ -67,7 +67,7 @@
             <div class="item">
                 <div class="icon-wrapper d-flex justify-content-center align-items-center mb-20">
                     <div class="icon">
-                        <img src="assets/images/icons/neteller.png" alt="Neteller">
+                        <img src="dashboard/images/icons/neteller.png" alt="Neteller">
                     </div>
                     <p class="small">Neteller</p>
                 </div>
@@ -79,7 +79,7 @@
             <div class="item">
                 <div class="icon-wrapper d-flex justify-content-center align-items-center mb-20">
                     <div class="icon">
-                        <img src="assets/images/icons/paypal.png" alt="Paypal">
+                        <img src="dashboard/images/icons/paypal.png" alt="Paypal">
                     </div>
                     <p class="small">Paypal</p>
                 </div>
@@ -91,7 +91,7 @@
             <div class="item">
                 <div class="icon-wrapper d-flex justify-content-center align-items-center mb-20">
                     <div class="icon">
-                        <img src="assets/images/icons/perfect-money.png" alt="perfect-money">
+                        <img src="dashboard/images/icons/perfect-money.png" alt="perfect-money">
                     </div>
                     <p class="small">Perfect Money</p>
                 </div>
@@ -105,7 +105,7 @@
             <div class="item">
                 <div class="icon-wrapper d-flex justify-content-center align-items-center mb-20">
                     <div class="icon">
-                        <img src="assets/images/icons/bitcoin.png" alt="Bitcoin">
+                        <img src="dashboard/images/icons/bitcoin.png" alt="Bitcoin">
                     </div>
                     <p class="small">Bitcoin</p>
                 </div>
@@ -117,7 +117,7 @@
             <div class="item">
                 <div class="icon-wrapper d-flex align-items-center justify-content-center mb-20">
                     <div class="icon">
-                        <img src="assets/images/icons/ethereum.png" alt="Ethereum">
+                        <img src="dashboard/images/icons/ethereum.png" alt="Ethereum">
                     </div>
                     <p class="small">Ethereum</p>
                 </div>
@@ -129,7 +129,7 @@
             <div class="item">
                 <div class="icon-wrapper d-flex justify-content-center align-items-center mb-20">
                     <div class="icon">
-                        <img src="assets/images/icons/neteller.png" alt="Neteller">
+                        <img src="dashboard/images/icons/neteller.png" alt="Neteller">
                     </div>
                     <p class="small">Neteller</p>
                 </div>
@@ -141,7 +141,7 @@
             <div class="item">
                 <div class="icon-wrapper d-flex justify-content-center align-items-center mb-20">
                     <div class="icon">
-                        <img src="assets/images/icons/paypal.png" alt="Paypal">
+                        <img src="dashboard/images/icons/paypal.png" alt="Paypal">
                     </div>
                     <p class="small">Paypal</p>
                 </div>
@@ -153,7 +153,7 @@
             <div class="item">
                 <div class="icon-wrapper d-flex justify-content-center align-items-center mb-20">
                     <div class="icon">
-                        <img src="assets/images/icons/perfect-money.png" alt="perfect-money">
+                        <img src="dashboard/images/icons/perfect-money.png" alt="perfect-money">
                     </div>
                     <p class="small">Perfect Money</p>
                 </div>
@@ -206,7 +206,7 @@
             <div class="col-md-6 col-xxl-4">
                 <div class="plan-single-item plan-single-bronze wow fadeInUp" data-wow-duration="0.4s">
                     <div class="icon-box">
-                        <img src="assets/images/icons/bronze-plan.png" alt="Bronze Plan">
+                        <img src="dashboard/images/icons/bronze-plan.png" alt="Bronze Plan">
                     </div>
                     <h5 class="mb-35 mt-53">Bronze Plan</h5>
                     <h3 class="mb-20">50% <span>ROI</span></h3>
@@ -226,7 +226,7 @@
             <div class="col-md-6 col-xxl-4">
                 <div class="plan-single-item plan-single-silver wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="0.4s">
                     <div class="icon-box">
-                        <img src="assets/images/icons/silver-plan.png" alt="Silver Plan">
+                        <img src="dashboard/images/icons/silver-plan.png" alt="Silver Plan">
                     </div>
                     <h5 class="mb-35 mt-53">Silver Plan</h5>
                     <h3 class="mb-20">80% <span>ROI</span></h3>
@@ -246,7 +246,7 @@
             <div class="col-md-6 col-xxl-4">
                 <div class="plan-single-item plan-single-gold wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="0.4s">
                     <div class="icon-box">
-                        <img src="assets/images/icons/gold-plan.png" alt="Gold Plan">
+                        <img src="dashboard/images/icons/gold-plan.png" alt="Gold Plan">
                     </div>
                     <h5>Gold Plan</h5>
                     <h3>120% <span>ROI</span></h3>
@@ -277,7 +277,7 @@
                                     <span>USD</span>
                                 </div>
                             </div>
-                            <img src="assets/images/illustrations/deposit-pig.png" alt="Deposit">
+                            <img src="dashboard/images/illustrations/deposit-pig.png" alt="Deposit">
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -296,7 +296,7 @@
                                     <option value="euro">Euro</option>
                                 </select>
                             </div>
-                            <img src="assets/images/illustrations/payment-system.png" alt="Deposit">
+                            <img src="dashboard/images/illustrations/payment-system.png" alt="Deposit">
                         </div>
                     </div>
                 </div>
