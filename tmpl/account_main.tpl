@@ -5,7 +5,7 @@
         <h5>Your Balance</h5>
         <h2>$1516.00</h2>
         <div class="btn-group mt-60">
-            <a href="/?a=deposit" class="dashboard-tab primary-btn">Make a Deposit <i class="icon-right-arrow"></i></a>
+            <a href="/#deposit" class="dashboard-tab primary-btn">Make a Deposit <i class="icon-right-arrow"></i></a>
             <a href="/?a=withdraw" class="dashboard-tab primary-btn">Withdraw Funds <i class="icon-right-arrow"></i></a>
         </div>
     </div>

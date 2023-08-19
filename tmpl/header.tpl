@@ -66,8 +66,8 @@
                                   <img src="dashboard/images/avatars/small-profile-avatar.png" alt="Profile Avatar">
                               </a>
                               <div class="dropdown-menu">
-                                  <a href="#deposit" class="dropdown-item dashboard-tab dashboard-tab-btn">Deposit</a>
-                                  <a href="/?a=withdraw" class="dropdown-item dashboard-tab dashboard-tab-btn">Withdraw</a>
+                                  <a href="/#deposit" class="dropdown-item dashboard-tab dashboard-tab-btn">Deposit</a>
+                                  <a href="/#withdraw" class="dropdown-item dashboard-tab dashboard-tab-btn">Withdraw</a>
                                   <a href="#transaction" class="dropdown-item dashboard-tab dashboard-tab-btn">Transaction</a>
                                   <a href="#profile" class="dropdown-item dashboard-tab dashboard-tab-btn">Settings</a>
                                   <a href="#dashboard" class="dropdown-item dashboard-tab dashboard-tab-btn">Log Out</a>
@@ -165,11 +165,11 @@
                                     <img src="dashboard/images/icons/dashboard.png" alt="Dashboard"> Dashboard
                                 </a>
                                 <hr>
-                                <a href="#deposit" class="d-flex align-items-center dashboard-tab dashboard-tab-btn">
+                                <a href="/#deposit" class="d-flex align-items-center dashboard-tab dashboard-tab-btn">
                                     <img src="dashboard/images/icons/deposit.png" alt="Make Deposit"> Make Deposit
                                 </a>
                                 <hr>
-                                <a href="/?a=withdraw" class="d-flex align-items-center dashboard-tab dashboard-tab-btn">
+                                <a href="/#withdraw" class="d-flex align-items-center dashboard-tab dashboard-tab-btn">
                                     <img src="dashboard/images/icons/withdraw.png" alt="Withdraw"> Withdraw
                                 </a>
                                 <hr>
