@@ -1,314 +1,160 @@
-{include file="header.tpl" pagetitle="Referals" pageurl="referals"}
-
-<div class="flex items-center space-x-4 py-5 lg:py-6">
-  <h2 class="text-xl font-medium text-slate-800 dark:text-navy-50 lg:text-2xl">
-    Referals
-  </h2>
-</div>
-
-<div class="grid grid-cols-1 gap-4 sm:gap-5">
-  {if $upline.email != ""}
-    <div class="card rounded-sm shadow-sm px-4 py-4 sm:px-5 flex items-center justify-between">
-      <p class="font-bold text-sm">
-        Your upline
-      </p>
-
-      <p class="text-xs">
-        <a href=mailto:{$upline.email}>{$upline.name}</a>
-      </p>
-    </div>
-    <div class="my-4 h-px  bg-slate-200 dark:bg-navy-500"></div>
-  {/if}
-
-  <div class="card rounded-sm shadow-sm px-4 py-4 sm:px-5">
-    <div class="flex items-center justify-between">
-      <p class="font-bold text-sm">
-        Referrals
-      </p>
-
-      <p class="text-xs">
-        {$total_ref}
-      </p>
-    </div>
-    <div class="my-4 h-px  bg-slate-200 dark:bg-navy-500"></div>
-
-    <div class="flex items-center justify-between">
-      <p class="font-bold text-sm">
-        Active referrals
-      </p>
-
-      <p class="text-xs">
-        {$active_ref}
-      </p>
-    </div>
-    <div class="my-4 h-px  bg-slate-200 dark:bg-navy-500"></div>
-
-    <div class="flex items-center justify-between">
-      <p class="font-bold text-sm">
-        Total referral commission
-      </p>
-
-      <p class="text-xs">
-        {$currency_sign}{$commissions}
-      </p>
-    </div>
-    <div class="my-4 h-px  bg-slate-200 dark:bg-navy-500"></div>
-
-
-
+{include file="header.tpl"}
+<div class="dashboard-tab-content" id="referrals">
+  <div class="referral p-40-30 wow fadeInUp" data-wow-duration="0.4s">
+      <h4>Share The Referral Link</h4>
+      <p>You can also share your referral link by copying and sending it or sharing it on
+          your social media.</p>
+      <div class="row d-flex align-items-center mt-25">
+          <div class="col-md-8">
+              <div class="copy-link-wrapper">
+                  <input type="text" value="hyipo.com/referral=96578a32" id="copyLink" disabled="disabled">
+                  <button class="primary-btn">Copy Link</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="social-bar">
+                  <div class="social-box-third text-center text-md-end">
+                      <a href="#">
+                          <i class="fab fa-facebook-f"></i>
+                      </a>
+                      <a href="#">
+                          <i class="fab fa-twitter"></i>
+                      </a>
+                      <a href="#">
+                          <i class="fab fa-instagram"></i>
+                      </a>
+                      <a href="#" class="mr-0">
+                          <i class="fab fa-linkedin-in"></i>
+                      </a>
+                  </div>
+              </div>
+          </div>
+      </div>
   </div>
-  {if $settings.show_refstat}
-    <div class="card rounded-sm shadow-sm px-4 py-4 sm:px-5">
-      <h2 class="text-lg font-medium text-slate-800 dark:text-navy-50 lg:text-2xl my-4">
-        Referral ins/signups
-      </h2>
-
-      <div class="card rounded-sm border border-slate-150 px-4 py-4 shadow-none dark:border-navy-600 sm:px-5">
-
-        <form
-          method=post
-          name=opts
-        >
-          <input
-            type=hidden
-            name=a
-            value=referals
-          >
-
-          <p class="block text-sm font-semibold">
-            From
-          </p>
-          <div class="grid grid-cols-3 gap-4">
-           
-            <label class="block">
-              <select
-                class="form-select mt-1.5 w-full rounded-lg border border-slate-300 bg-white px-3 py-2 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:bg-navy-700 dark:hover:border-navy-400 dark:focus:border-accent"
-                name=month_from
-              >
-                {section name=month_from loop=$month}
-                  <option
-                    value={$smarty.section.month_from.index+1}
-                    {if $smarty.section.month_from.index+1 == $frm.month_from}selected{/if}
-                  >{$month[month_from]}
-                  </option>
-                {/section}
-              </select>
-            </label>
-
-            <label class="block">
-              <select
-                class="form-select mt-1.5 w-full rounded-lg border border-slate-300 bg-white px-3 py-2 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:bg-navy-700 dark:hover:border-navy-400 dark:focus:border-accent"
-                name="day_from"
-              >
-                {section name=day_from loop=$day}
-                  <option
-                    value={$smarty.section.day_from.index+1}
-                    {if $smarty.section.day_from.index+1 == $frm.day_from}selected{/if}
-                  >
-                    {$day[day_from]}
-                  </option>
-                {/section}
-              </select>
-            </label>
-
-            <label class="block">
-              <select
-                class="form-select mt-1.5 w-full rounded-lg border border-slate-300 bg-white px-3 py-2 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:bg-navy-700 dark:hover:border-navy-400 dark:focus:border-accent"
-                name="year_from"
-              >
-                {section name=year_from loop=$year}
-                  <option
-                    value={$year[year_from]}
-                    {if $year[year_from] == $frm.year_from}selected{/if}
-                  >
-                    {$year[year_from]}
-                  </option>
-                {/section}
-              </select>
-            </label>
+  <div class="row mtf-30">
+      <div class="col-lg-7">
+          <div class="referral-info d-flex align-items-center wow fadeInUp" data-wow-duration="0.4s">
+              <img src="dashboard/images/dashboard/referral.png" alt="Referral">
+              <div>
+                  <h5>Earned Referral</h5>
+                  <h4>$200.00</h4>
+              </div>
           </div>
-
-          <div class="my-4 h-px  bg-slate-200 dark:bg-navy-500"></div>
-
-
-          <p class="block text-sm font-semibold">
-            To
-          </p>
-          <div class="grid grid-cols-3 gap-4">
-            
-            <label class="block">
-              <select
-                class="form-select mt-1.5 w-full rounded-lg border border-slate-300 bg-white px-3 py-2 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:bg-navy-700 dark:hover:border-navy-400 dark:focus:border-accent"
-                name=month_to
-              >
-                {section name=month_to loop=$month}
-                  <option
-                    value={$smarty.section.month_to.index+1}
-                    {if $smarty.section.month_to.index+1 == $frm.month_to}selected{/if}
-                  >{$month[month_to]}
-                  </option>
-                {/section}
-              </select>
-            </label>
-
-            <label class="block">
-              <select
-                class="form-select mt-1.5 w-full rounded-lg border border-slate-300 bg-white px-3 py-2 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:bg-navy-700 dark:hover:border-navy-400 dark:focus:border-accent"
-                name="day_to"
-              >
-                {section name=day_to loop=$day}
-                  <option
-                    value={$smarty.section.day_to.index+1}
-                    {if $smarty.section.day_to.index+1 == $frm.day_to}selected{/if}
-                  >{$day[day_to]}
-                  </option>
-                {/section}
-              </select>
-            </label>
-
-            <label class="block">
-              <select
-                class="form-select mt-1.5 w-full rounded-lg border border-slate-300 bg-white px-3 py-2 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:bg-navy-700 dark:hover:border-navy-400 dark:focus:border-accent"
-                name="year_to"
-              >
-                
-                  {section name=year_to loop=$year}
-                    <option
-                      value={$year[year_to]}
-                      {if $year[year_to] == $frm.year_to}selected{/if}
-                    >{$year[year_to]}
-                    </option>
-                  {/section}
-                </select>
-            </label>
-          </div>
-
-          <div class="my-4 h-px  bg-slate-200 dark:bg-navy-500"></div>
-
-          <button
-            type="submit"
-            class="btn bg-gradient-to-br from-purple-500 to-indigo-600 font-medium text-white"
-          >
-            Go
-          </button>
-        </form>
-
       </div>
-
-      {if $show_refstat}
-        {section name=s loop=$refstat}
-          <div class="card rounded-sm border border-slate-150 px-4 py-4 shadow-none dark:border-navy-600 sm:px-5 mt-4">
-            <div class="flex items-center justify-between">
-              <p class="font-bold text-sm">
-                Date
-              </p>
-        
-              <p class="text-xs">
-                {$refstat[s].date}
-              </p>
-            </div>
-            <div class="my-2 h-px  bg-slate-200 dark:bg-navy-500"></div>
-
-            <div class="flex items-center justify-between">
-              <p class="font-bold text-sm">
-                Earnings
-              </p>
-        
-              <p class="text-xs">
-                {$refstat[s].income}
-              </p>
-            </div>
-            <div class="my-2 h-px  bg-slate-200 dark:bg-navy-500"></div>
-
-            <div class="flex items-center justify-between">
-              <p class="font-bold text-sm">
-                Sign Ups
-              </p>
-        
-              <p class="text-xs">
-                {$refstat[s].reg}
-              </p>
-            </div>
-            <div class="my-2 h-px  bg-slate-200 dark:bg-navy-500"></div>
-
+      <div class="col-lg-5">
+          <div class="referral-activities wow fadeInUp" data-wow-duration="0.4s">
+              <h5>Referral Activities</h5>
+              <p>Referrals<span>: 30</span></p>
+              <p>Active<span>: 25</span></p>
+              <p>Referral Level<span>: 3</span></p>
           </div>
-        {/section}
-      {else}
-        <div class="card rounded-sm border border-slate-150 px-4 py-4 shadow-none dark:border-navy-600 sm:px-5 mt-4">
-          <p class="font-bold text-sm">
-            No statistics found for this period
-          </p>
-        </div>
-      {/if}
-
-    </div>
-  {/if}
-
-
-  {if $settings.show_referals}
-    {if $show_referals}
-      <div class="card rounded-sm shadow-sm px-4 py-4 sm:px-5">
-        <h2 class="text-xl font-medium text-slate-800 dark:text-navy-50 lg:text-2xl">
-          Your referrals
-        </h2>
-        <table
-          cellspacing=1
-          cellpadding=1
-          border=0
-        >
-        <div class="my-4 h-px  bg-slate-200 dark:bg-navy-500"></div>
-
-          <tr>
-            <td class=inheader>Nickname</td>
-            <td class=inheader>E-mail</td>
-            <td class=inheader>Status</td>
-          </tr>
-          {section name=s loop=$referals}
-            <div class="my-4 h-px  bg-slate-200 dark:bg-navy-500"></div>
-
-            <tr>
-              <td class=item><b>{$referals[s].username}</b></td>
-              <td class=item><a href=mailto:{$referals[s].email}>{$referals[s].email}</a></td>
-              <td class=item>{if $referals[s].q_deposits > 0}Deposited{else}No deposit yet{/if}</td>
-            </tr>
-            {if $referals[s].ref_stats}
-              <div class="my-4 h-px  bg-slate-200 dark:bg-navy-500"></div>
-
-              <tr>
-                <td colspan=3>
-                  User referrals:
-                  {section name=l loop=$referals[s].ref_stats}
-                    <nobr>{$referals[s].ref_stats[l].cnt_active} active of {$referals[s].ref_stats[l].cnt} on level
-                      {$referals[s].ref_stats[l].level}{if !$smarty.section.l.last};{/if}</nobr>
-                  {/section}
-                </td>
-              </tr>
-            {/if}
-            {if $referals[s].came_from}
-              <div class="my-4 h-px  bg-slate-200 dark:bg-navy-500"></div>
-
-              <tr>
-                <td colspan=3>
-                  <a
-                    href="{$referals[s].came_from}"
-                    target=_blank
-                  >[User came from]</a>
-                </td>
-              </tr>
-            {/if}
-          {/section}
-          <tr>
-            <td colspan=3>&nbsp;</td>
-          </tr>
-          <tr>
-            <td colspan=3><b>2-10 level referrals:</b> {$cnt_other}</td>
-          </tr>
-          <tr>
-            <td colspan=3><b>2-10 level active referrals:</b> {$cnt_other_active}</td>
-          </tr>
-        </table>
       </div>
-    {/if}
-  {/if}
+  </div>
+  <div class="filter mtf-30">
+      <div class="row d-flex align-items-end">
+          <div class="col-lg-9">
+              <div class="row">
+                  <div class="col-sm-6">
+                      <div class="date-select wow fadeInUp" data-wow-duration="0.4s">
+                          <label for="referralFrom">Date From</label>
+                          <div class="img-input d-flex align-items-center">
+                              <img src="dashboard/images/icons/calendar.png" alt="Date Picker">
+                              <input type="text" name="referral_from" id="referralFrom" placeholder="Date From">
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-sm-6">
+                      <div class="date-select wow fadeInUp" data-wow-duration="0.4s">
+                          <label for="referralTo">Date To</label>
+                          <div class="img-input d-flex align-items-center">
+                              <img src="dashboard/images/icons/calendar.png" alt="Date Picker">
+                              <input type="text" name="referral_to" id="referralTo" placeholder="Date To">
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-3">
+              <div class="date-select wow fadeInUp" data-wow-duration="0.4s">
+                  <a href="#0" class="primary-btn">Filter <i class="icon-right-arrow"></i></a>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="referral-table wow fadeInUp" data-wow-duration="0.4s">
+      <div class="table-wrapper mtf-30">
+          <table class="table">
+              <thead>
+                  <tr>
+                      <th>Date & Time</th>
+                      <th>Level</th>
+                      <th>Username</th>
+                      <th>E-mail</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td>
+                          Feb 14, 2020 20:53
+                      </td>
+                      <td>Level 1</td>
+                      <td>Maxine24</td>
+                      <td>
+                          <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="e78e898188a7829f868a978b82c984888a">[email&#160;protected]</a>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>
+                          Feb 14, 2020 20:53
+                      </td>
+                      <td>Level 1</td>
+                      <td>Maxine24</td>
+                      <td>
+                          <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="21484f474e614459404c514d440f424e4c">[email&#160;protected]</a>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>
+                          Feb 14, 2020 20:53
+                      </td>
+                      <td>Level 1</td>
+                      <td>Maxine24</td>
+                      <td>
+                          <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="f69f989099b6938e979b869a93d895999b">[email&#160;protected]</a>
+                      </td>
+                  </tr>
+              </tbody>
+          </table>
+      </div>
+  </div>
+  <hr>
+  <div class="row d-flex align-items-center">
+      <div class="col-sm-6">
+          <p class="small text-center text-sm-start">Showing 1 to 5 of 22 entries</p>
+      </div>
+      <div class="col-sm-6">
+          <div class="pagination-wrapper d-flex justify-content-center justify-content-sm-end">
+              <nav aria-label="...">
+                  <ul class="pagination">
+                      <li class="page-item">
+                          <a class="page-link" href="#0" tabindex="-1">
+                              <i class="fas fa-angle-left"></i>
+                          </a>
+                      </li>
+                      <li class="page-item"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item">
+                          <a class="page-link" href="#0">2</a>
+                      </li>
+                      <li class="page-item"><a class="page-link" href="#0">3</a></li>
+                      <li class="page-item">
+                          <a class="page-link" href="#0">
+                              <i class="fas fa-angle-right"></i>
+                          </a>
+                      </li>
+                  </ul>
+              </nav>
+          </div>
+      </div>
+  </div>
 </div>
 {include file="footer.tpl"}
