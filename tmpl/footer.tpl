@@ -52,7 +52,7 @@
                 type="submit"
                 class="icon-button"
               ><img
-                  src="assets/images/icons/subscribe.png"
+                  src="dashboard/images/icons/subscribe.png"
                   alt="Subscribe"
                 > Subscribe</button>
             </div>
@@ -181,17 +181,17 @@
   data-cfasync="false"
   src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
 ></script>
-<script src="assets/vendor/jquery/jquery-3.6.0.min.js"></script>
-<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="assets/vendor/jquery-ui/js/jquery-ui.js"></script>
-<script src="assets/vendor/nice-select/js/jquery.nice-select.min.js"></script>
-<script src="assets/vendor/waypoint-js/waypoints.js"></script>
-<script src="assets/vendor/counter-up/counter-up.js"></script>
-<script src="assets/vendor/magnific-popup/js/jquery.magnific-popup.min.js"></script>
-<script src="assets/vendor/owl-carousel/js/owl.carousel.min.js"></script>
-<script src="assets/vendor/wow-js/wow.min.js"></script>
+<script src="dashboard/vendor/jquery/jquery-3.6.0.min.js"></script>
+<script src="dashboard/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="dashboard/vendor/jquery-ui/js/jquery-ui.js"></script>
+<script src="dashboard/vendor/nice-select/js/jquery.nice-select.min.js"></script>
+<script src="dashboard/vendor/waypoint-js/waypoints.js"></script>
+<script src="dashboard/vendor/counter-up/counter-up.js"></script>
+<script src="dashboard/vendor/magnific-popup/js/jquery.magnific-popup.min.js"></script>
+<script src="dashboard/vendor/owl-carousel/js/owl.carousel.min.js"></script>
+<script src="dashboard/vendor/wow-js/wow.min.js"></script>
 <!-- Main JS -->
-<script src="assets/js/main.js"></script>
+<script src="dashboard/js/main.js"></script>
 </body>
 
 </html>

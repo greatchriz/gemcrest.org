@@ -1,4 +1,4 @@
-{include file="header.tpl" pagetitle="Deposit" pageurl="deposit"}
+{include file="header.tpl" pagetitle="Dashboard" pageurl="account"}
 
 <div class="dashboard-tab-content" id="dashboard">
     <div class="balance-area p-40 wow fadeInUp" data-wow-duration="0.4s">
