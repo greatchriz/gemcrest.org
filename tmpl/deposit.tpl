@@ -1,3 +1,6 @@
+{include file="header.tpl"}
+
+
 {if $fatal}
 
   {if $fatal == 'one_per_month'}
@@ -29,6 +32,8 @@
       Sorry, you cannot invest this plan anymore<br><br>
     {/if}
   {/if}
+  <div class="dashboard-tab-content" id="deposit">
+
 
   <div class="deposit-form-wrapper text-center mt-60">
 
@@ -165,4 +170,9 @@
 
     </form>
   </div>
+
+</div>
+
 {/if}
+{include file="footer.tpl"}
+
