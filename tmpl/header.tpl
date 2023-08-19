@@ -141,11 +141,12 @@
                             class="navbar-brand"
                             href="index.html"
                         >
-                            <img
+                            <img src="assets/images/logo.svg" width="375px" height="95px" alt="site-logo" class="logo">
+                            {* <img
                                 src="assets/images/logo.svg"
                                 alt="Logo"
                                 class="logo"
-                            >
+                            > *}
                         </a>
                         <div class="d-flex flex-row align-items-center order-2 order-lg-3">
                             <select
@@ -231,115 +232,7 @@
                                 <span class="icon-bar bottom-bar"></span>
                             </button>
                         </div>
-                        <div
-                            class="collapse navbar-collapse justify-content-center order-3 order-lg-2"
-                            id="primaryNav"
-                        >
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a
-                                        class="nav-link"
-                                        href="index.html"
-                                    >Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a
-                                        class="nav-link"
-                                        href="about-us.html"
-                                    >About Us</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a
-                                        class="nav-link"
-                                        href="investment-plan.html"
-                                    >Investment</a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a
-                                        class="nav-link nav-link-active dropdown-toggle"
-                                        href="#"
-                                        id="dropdown-menu"
-                                        role="button"
-                                        data-bs-toggle="dropdown"
-                                        data-bs-auto-close="outside"
-                                        aria-expanded="false"
-                                    >
-                                        Pages
-                                    </a>
-                                    <ul
-                                        class="dropdown-menu"
-                                        aria-labelledby="dropdown-menu"
-                                    >
-                                        <li>
-                                            <a
-                                                class="dropdown-item"
-                                                href="features.html"
-                                            >Features</a>
-                                        </li>
-                                        <li>
-                                            <a
-                                                class="dropdown-item"
-                                                href="faq.html"
-                                            >Faq</a>
-                                        </li>
-                                        <li>
-                                            <a
-                                                class="dropdown-item"
-                                                href="blog-two.html"
-                                            >Blog Two</a>
-                                        </li>
-                                        <li>
-                                            <a
-                                                class="dropdown-item"
-                                                href="blog-three.html"
-                                            >Blog Three</a>
-                                        </li>
-                                        <li>
-                                            <a
-                                                class="dropdown-item"
-                                                href="blog-single.html"
-                                            >Blog Single</a>
-                                        </li>
-                                        <li>
-                                            <a
-                                                class="dropdown-item"
-                                                href="terms-conditions.html"
-                                            >Terms &amp; Conditions</a>
-                                        </li>
-                                        <li>
-                                            <a
-                                                class="dropdown-item"
-                                                href="referral-program.html"
-                                            >Referral Program</a>
-                                        </li>
-                                        <li>
-                                            <a
-                                                class="dropdown-item dropdown-item-active"
-                                                href="dashboard.html"
-                                            >Dashboard</a>
-                                        </li>
-                                        <li>
-                                            <a
-                                                class="dropdown-item"
-                                                href="404.html"
-                                            >Error</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item">
-                                    <a
-                                        class="nav-link"
-                                        href="blog-one.html"
-                                    >Blog</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a
-                                        class="nav-link"
-                                        href="contact-us.html"
-                                    >Contact</a>
-                                </li>
-                            </ul>
-                        </div>
+                   
                     </div>
                 </nav>
             </div>
