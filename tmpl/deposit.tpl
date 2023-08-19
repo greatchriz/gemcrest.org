@@ -119,15 +119,15 @@
         name=a
         value=deposit
       >
-      <h2 class="my-3 text-xl font-medium text-slate-800 dark:text-navy-50 lg:text-2xl">
-        Select Plan
-      </h2>
-
-      <div class="grid grid-cols-1 gap-4 sm:gap-5 lg:grid-cols-3 lg:gap-6">
-        {section name=plans loop=$plans}
-          {include file="a_plan.tpl" plans=$plans}
-        {/section}
+      <div class="deposit-range">
+        <div class="row neutral-bottom">
+          {section name=plans loop=$plans}
+            {include file="a_plan.tpl" plans=$plans}
+          {/section}
+        </div>
       </div>
+
+    
 
       <h2 class="my-3 text-xl font-medium text-slate-800 dark:text-navy-50 lg:text-2xl">
         Your Account Balance
