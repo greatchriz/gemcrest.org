@@ -356,24 +356,20 @@
                     <div class="row">
                         <div class="col-lg-4 col-xl-3">
                             <div class="dashboard-left-area">
+                               
                                 <div class="profile-area p-30-20">
                                     <div class="profile-avatar mb-30">
-                                        <img
-                                            src="daashboard/images/avatars/profile-avatar.png"
-                                            alt="Profile Avatar"
-                                        >
+                                        <img src="dashboard/images/avatars/profile-avatar.png" alt="Profile Avatar">
                                     </div>
                                     <h4 class="mb-17">
-                                        <a
-                                            href="#profile"
-                                            class="dashboard-tab dashboard-text-tab"
-                                        >Harry Shaw</a>
+                                        <a href="#profile" class="dashboard-tab dashboard-text-tab">Harry Shaw</a>
                                     </h4>
                                     <p>ID: 311190</p>
                                     <hr>
                                     <p class="mb-13">Last Sign In</p>
                                     <p class="small">18 Oct 2021, 16:28 PM GMT +0</p>
                                 </div>
+
                                 <div class="dashboard-tab-btn-area p-30-20 mtf-30">
 
                                     <a href="/?a=account" class="dashboard-tab-btn dashboard-tab dashboard-tab-btn-active mt-0">
@@ -426,6 +422,7 @@
                                         </a>
                                 
                                 </div>
+
                                 <div class="help-area p-30-20 mtf-30">
                                     <h5 class="text-center">Need Help?</h5>
                                     <p class="text-center">We’re here to help</p>
@@ -433,25 +430,20 @@
                                         <div class="single-item-wrapper">
                                             <div class="single-item">
                                                 <a href="tel:+17087362094">
-                                                    <img
-                                                        src="daashboard/images/icons/call.png"
-                                                        alt="Call Now"
-                                                    >
+                                                    <img src="dashboard/images/icons/call.png" alt="Call Now">
                                                 </a>
                                             </div>
                                         </div>
                                         <div class="single-item-wrapper">
                                             <div class="single-item">
                                                 <a href="mailto:info@example.com">
-                                                    <img
-                                                        src="daashboard/images/icons/live-chat.png"
-                                                        alt="Live Chat "
-                                                    >
+                                                    <img src="dashboard/images/icons/live-chat.png" alt="Live Chat ">
                                                 </a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
                         <div class="col-lg-8 col-xl-9">
