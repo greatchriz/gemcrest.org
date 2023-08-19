@@ -1,7 +1,4 @@
-{include file="header.tpl" pagetitle="Deposit" pageurl="deposit"}
 
-
-<div class="dashboard-tab-content" id="deposit">
 
 
 {if $fatal}
@@ -227,6 +224,3 @@
     {/literal}
 
   {/if}
-
-</div>
-{include file="footer.tpl"}
