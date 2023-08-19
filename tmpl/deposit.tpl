@@ -1,6 +1,3 @@
-
-
-
 {if $fatal}
 
   {if $fatal == 'one_per_month'}
@@ -9,108 +6,34 @@
 
 {else}
 
-  {literal}
-    <script language="javascript">
-      <!--
-        function openCalculator(id) {
+  {if $frm.say eq 'deposit_success'}
+    <h3>The deposit has been successfully saved.</h3>
+    <br><br>
+  {/if}
 
-          w = 225;
-          h = 400;
-          t = (screen.height - h - 30) / 2;
-          l = (screen.width - w - 30) / 2;
-          window.open('?a=calendar&type=' + id, 'calculator' + id, "top=" + t + ",left=" + l + ",width=" + w + ",height=" +
-            h + ",resizable=1,scrollbars=0");
+  {if $frm.say eq 'deposit_saved'}
+    <h3>The deposit has been saved. It will become active when the administrator checks statistics.</h3><br><br>
+  {/if}
 
-        {/literal}
-
-
-        
-      {if $qplans > 1}
-
-
-          
-        {literal}
-            for (i = 0; i < document.spendform.h_id.length; i++) {
-              if (document.spendform.h_id[i].value == id) {
-                document.spendform.h_id[i].checked = true;
-              }
-            }
-
-
-            
-        {/literal}
-
-
-          
-      {/if}
-
-
-        
-      {literal}
-
-        }
-
-        function updateCompound() {
-          var id = 0;
-          var tt = document.spendform.h_id.type;
-          if (tt && tt.toLowerCase() == 'hidden') {
-            id = document.spendform.h_id.value;
-          } else {
-            for (i = 0; i < document.spendform.h_id.length; i++) {
-              if (document.spendform.h_id[i].checked) {
-                id = document.spendform.h_id[i].value;
-              }
-            }
-          }
-
-          var cpObj = document.getElementById('compound_percents');
-          if (cpObj) {
-            while (cpObj.options.length != 0) {
-              cpObj.options[0] = null;
-            }
-          }
-
-          if (cps[id] && cps[id].length > 0) {
-            document.getElementById('coumpond_block').style.display = '';
-
-            for (i in cps[id]) {
-              cpObj.options[cpObj.options.length] = new Option(cps[id][i]);
-            }
-          } else {
-            document.getElementById('coumpond_block').style.display = 'none';
-          }
-        }
-        var cps = {};
-        -->
-      </script>
-    {/literal}
-
-    {if $frm.say eq 'deposit_success'}
-      <h3>The deposit has been successfully saved.</h3>
-      <br><br>
+  {if $errors}
+    {if $errors.less_min}
+      Sorry, you can deposit not less than {$currency_sign}{$errors.less_min} with selected processing<br><br>
     {/if}
-
-    {if $frm.say eq 'deposit_saved'}
-      <h3>The deposit has been saved. It will become active when the administrator checks statistics.</h3><br><br>
+    {if $errors.greater_max}
+      Sorry, you can deposit not greater than {$currency_sign}{$errors.greater_max} with selected processing<br><br>
     {/if}
-
-
-    {if $errors}
-      {if $errors.less_min}
-        Sorry, you can deposit not less than {$currency_sign}{$errors.less_min} with selected processing<br><br>
-      {/if}
-      {if $errors.greater_max}
-        Sorry, you can deposit not greater than {$currency_sign}{$errors.greater_max} with selected processing<br><br>
-      {/if}
-      {if $errors.ec_forbidden}
-        Sorry, deposit with selected processing is temproary forbidden.<br><br>
-      {/if}
-      {if $errors.cannot_invest_this_plan_anymore}
-        Sorry, you cannot invest this plan anymore<br><br>
-      {/if}
+    {if $errors.ec_forbidden}
+      Sorry, deposit with selected processing is temproary forbidden.<br><br>
     {/if}
+    {if $errors.cannot_invest_this_plan_anymore}
+      Sorry, you cannot invest this plan anymore<br><br>
+    {/if}
+  {/if}
+
+  <div class="deposit-form-wrapper text-center mt-60">
 
     <form
+      class="text-center"
       method=post
       name="spendform"
     >
@@ -119,108 +42,127 @@
         name=a
         value=deposit
       >
+
       <div class="deposit-range">
         <div class="row neutral-bottom">
           {section name=plans loop=$plans}
-            {include file="a_plan.tpl" plans=$plans}
+
+
+
+            <div class="col-md-6 col-xxl-4">
+              <div
+                class="plan-single-item plan-single-bronze wow fadeInUp"
+                data-wow-duration="0.4s"
+              >
+                <div class="icon-box">
+                  <img
+                    src="assets/images/icons/bronze-plan.png"
+                    alt="Bronze Plan"
+                  >
+                </div>
+                {if $qplans > 1}
+                  <input
+                    type=radio
+                    name=h_id
+                    value='{$plans[plans].id}'
+                    {if (($smarty.section.plans.first == 1) && ($frm.h_id eq '')) || ($frm.h_id == $plans[plans].id)}
+                      checked
+                    {/if}
+                    onclick="updateCompound()"
+                  >
+
+                {else}
+                  <input
+                    type=hidden
+                    name=h_id
+                    value='{$plans[plans].id}'
+                  >
+                {/if}
+
+                <h5 class="mb-35 mt-53">{$plans[plans].name}</h5>
+                <h3 class="mb-20">{$plans[plans].percent}<span>ROI</span></h3>
+                <p>{$plans[plans].description}</p>
+                <div class="d-flex align-item-center justify-content-between plan-range-details mt-25">
+                  <div class="align-items-center">
+                    <p class="small">Min. Invest</p>
+                    <h5>${$plans[plans].min_deposit}</h5>
+                  </div>
+                  <div>
+                    <p class="small">Max. Invest</p>
+                    <h5>${$plans[plans].max_deposit}</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           {/section}
         </div>
-      </div>
 
-    
-
-      <h2 class="my-3 text-xl font-medium text-slate-800 dark:text-navy-50 lg:text-2xl">
-        Your Account Balance
-      </h2>
-
-      <div class="grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-5 lg:grid-cols-2">
-
-        {include file="deposit_account_balance.tpl" title="Total Balance" balance=$ab_formated.total}
-
-
-        {* foreach ps as item p, then if p balance is greater than zero then include the deposit account balance and pass the neccessary variables *}
-
-        {section name=p loop=$ps}
-          {if $ps[p].balance > 0}
-            {include file="deposit_account_balance.tpl" title=$ps[p].name balance=$ps[p].balance}
-          {/if}
-        {/section}
-
-      </div>
-
-      <h2 class="my-3 text-lg font-medium text-slate-800 dark:text-navy-50 lg:text-xl">
-        Add Amount and Select Payment Method
-      </h2>
-
-      <div class="grid grid-cols-1 gap-4 sm:gap-5 lg:grid-cols-3 lg:gap-6">
-        <div>
-          <span>How Much are you Investing ?</span>
-          <label class="mt-1 flex -space-x-px">
+        <div class="row neutral-bottom">
+          <div class="col-md-6">
             <div
-              class="flex items-center justify-center rounded-l-lg border border-slate-300 px-3.5 font-inter dark:border-navy-450"
+              class="single-item p-30-20 wow fadeInUp"
+              data-wow-duration="0.4s"
             >
-              <span>$</span>
+              <h5>Deposit</h5>
+              <div class="input-label-group">
+                <label for="depositAmount">Enter Amount:</label>
+                <div class="input-content">
+                  <input
+                    type="number"
+                    name="deposit_amount"
+                    id="depositAmount"
+                    required="required"
+                    placeholder="$500"
+                  >
+                  <span>USD</span>
+                </div>
+              </div>
+              <img
+                src="assets/images/illustrations/deposit-pig.png"
+                alt="Deposit"
+              >
             </div>
-            <input
-              class="form-input w-full border border-slate-300 bg-transparent px-3 py-2 placeholder:text-slate-400/70 hover:z-10 hover:border-slate-400 focus:z-10 focus:border-primary dark:border-navy-450 dark:hover:border-navy-400 dark:focus:border-accent"
-              placeholder="Enter Price"
-              type="text"
-              name=amount
-              value='{$min_deposit}'
-            />
+          </div>
+          <div class="col-md-6">
             <div
-              class="flex items-center justify-center rounded-r-lg border border-slate-300 px-3.5 font-inter dark:border-navy-450"
+              class="single-item p-30-20 wow fadeInUp"
+              data-wow-duration="0.4s"
             >
-              <span>.00</span>
+              <h5>Payment System</h5>
+              <div class="input-label-group">
+                <label for="currency">Select Payment Method</label>
+                <select
+                  class="method-pick currency"
+                  id="currency"
+                >
+                  <option
+                    data-display="Bitcoin"
+                    value="Bitcoin"
+                  >Bitcoin
+                  </option>
+                  <option value="lite-coin">Lite Coin</option>
+                  <option value="ethereum">Ethereum</option>
+                  <option value="xem">xem</option>
+                  <option value="doge">Doge</option>
+                  <option value="usd">USD</option>
+                  <option value="euro">Euro</option>
+                </select>
+              </div>
+              <img
+                src="assets/images/illustrations/payment-system.png"
+                alt="Deposit"
+              >
             </div>
-          </label>
+          </div>
         </div>
-
-        <div>
-          <label class="block">
-            <span>Select Payment Method</span>
-            <select
-              class="form-select mt-1.5 w-full rounded-lg border border-slate-300 bg-white px-3 py-2 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:bg-navy-700 dark:hover:border-navy-400 dark:focus:border-accent"
-              name="type"
-            >
-              <optgroup label="Spend funds from the Account Balance">
-                {section name=p loop=$ps}
-                  {if $ps[p].balance > 0 and $ps[p].status == 1}
-                    <option value="account_{$ps[p].id}">{$ps[p].name}</option>
-                  {/if}
-                {/section}
-              </optgroup>
-              <optgroup label="Spend funds from External Wallet">
-                {section name=p loop=$ps}
-                  {if $ps[p].status}
-                    <option value="process_{$ps[p].id}">{$ps[p].name}</option>
-                  {/if}
-                {/section}
-              </optgroup>
-            </select>
-          </label>
-        </div>
+        <a
+          href="/?a=depositConfirmation"
+          class="dashboard-tab primary-btn mt-60"
+        >Invest
+          Now <i class="icon-right-arrow"></i></a>
       </div>
-
-
-      <button
-        type=submit
-        class="btn bg-gradient-to-br from-purple-500 to-indigo-600 font-medium text-white my-4"
-      >
-        Spend
-      </button>
 
     </form>
-    {literal}
-      <script language=javascript>
-        for (i = 0; i < document.spendform.type.length; i++) {
-          if ((document.spendform.type[i].value.match(/^process_/))) {
-            document.spendform.type[i].checked = true;
-            break;
-          }
-        }
-        updateCompound();
-      </script>
-    {/literal}
-
-  {/if}
+  </div>
+{/if}
