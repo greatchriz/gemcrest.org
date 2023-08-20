@@ -1,5 +1,5 @@
 {include file="header.tpl"}
-<div class="dashboard-tab-content" id="deposit">
+<div class="dashboard-tab-content">
   <div class="deposit-range">
       <div class="row neutral-bottom">
           <div class="col-md-6 col-xxl-4">

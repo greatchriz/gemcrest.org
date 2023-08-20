@@ -1,6 +1,6 @@
 {include file="header.tpl"}
 
-<div class="dashboard-tab-content" id="dashboard">
+<div class="dashboard-tab-content">
     <div class="balance-area p-40 wow fadeInUp" data-wow-duration="0.4s">
         <h5>Your Balance</h5>
         <h2>$1516.00</h2>
@@ -199,3 +199,4 @@
 
 
 {include file="footer.tpl"}
+
