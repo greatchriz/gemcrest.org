@@ -85,17 +85,32 @@
                 </div>
             </div>
         {/if}
-            <div class="col-md-6 col-xl-3">
-                <div class="single-item p-40">
-                    <h5>$7000.00</h5>
-                    <p class="small">Total Withdraw</p>
-                </div>
-            </div>
+      
         </div>
     </div>
     <div class="payment-balance mt-60 wow fadeInUp" data-wow-duration="0.4s">
         <h4>Payment Balance</h4>
-        <div class=" icon-item-wrapper mt-40">
+        <div class=" icon-item-wrapper">
+            {foreach from=$ps item=p}
+                
+                <div class="item">
+                    <div class="icon-wrapper d-flex justify-content-center align-items-center mb-20">
+                        <div class="icon">
+                            <img src="dashboard/images/icons/{$p.id}.png" alt="Bitcoin">
+                        </div>
+                        <p class="small">{$p.name}</p>
+                    </div>
+                    <p class="small mb-13">Balance:</p>
+                    {if $p.balance > 0}
+                    <h6 class="mb-13">{$currency_sign}{$p.balance}</h6>
+                    {else}
+                        <h6 class="mb-13">$0.00</h6>
+                    {/if}
+                </div>
+           
+            {/foreach}
+        </div>
+        {* <div class="icon-item-wrapper">
             <div class="item">
                 <div class="icon-wrapper d-flex justify-content-center align-items-center mb-20">
                     <div class="icon">
@@ -156,69 +171,7 @@
                 <p class="small mb-13">On Dep:</p>
                 <h6>$0.00</h6>
             </div>
-        </div>
-        <div class="icon-item-wrapper">
-            <div class="item">
-                <div class="icon-wrapper d-flex justify-content-center align-items-center mb-20">
-                    <div class="icon">
-                        <img src="dashboard/images/icons/bitcoin.png" alt="Bitcoin">
-                    </div>
-                    <p class="small">Bitcoin</p>
-                </div>
-                <p class="small mb-13">Balance:</p>
-                <h6 class="mb-13">$0.00</h6>
-                <p class="small mb-13">On Dep:</p>
-                <h6>$0.00</h6>
-            </div>
-            <div class="item">
-                <div class="icon-wrapper d-flex align-items-center justify-content-center mb-20">
-                    <div class="icon">
-                        <img src="dashboard/images/icons/ethereum.png" alt="Ethereum">
-                    </div>
-                    <p class="small">Ethereum</p>
-                </div>
-                <p class="small mb-13">Balance:</p>
-                <h6 class="mb-13">$0.00</h6>
-                <p class="small mb-13">On Dep:</p>
-                <h6>$0.00</h6>
-            </div>
-            <div class="item">
-                <div class="icon-wrapper d-flex justify-content-center align-items-center mb-20">
-                    <div class="icon">
-                        <img src="dashboard/images/icons/neteller.png" alt="Neteller">
-                    </div>
-                    <p class="small">Neteller</p>
-                </div>
-                <p class="small mb-13">Balance:</p>
-                <h6 class="mb-13">$0.00</h6>
-                <p class="small mb-13">On Dep:</p>
-                <h6>$0.00</h6>
-            </div>
-            <div class="item">
-                <div class="icon-wrapper d-flex justify-content-center align-items-center mb-20">
-                    <div class="icon">
-                        <img src="dashboard/images/icons/paypal.png" alt="Paypal">
-                    </div>
-                    <p class="small">Paypal</p>
-                </div>
-                <p class="small mb-13">Balance:</p>
-                <h6 class="mb-13">$0.00</h6>
-                <p class="small mb-13">On Dep:</p>
-                <h6>$0.00</h6>
-            </div>
-            <div class="item">
-                <div class="icon-wrapper d-flex justify-content-center align-items-center mb-20">
-                    <div class="icon">
-                        <img src="dashboard/images/icons/perfect-money.png" alt="perfect-money">
-                    </div>
-                    <p class="small">Perfect Money</p>
-                </div>
-                <p class="small mb-13">Balance:</p>
-                <h6 class="mb-13">$0.00</h6>
-                <p class="small mb-13">On Dep:</p>
-                <h6>$0.00</h6>
-            </div>
-        </div>
+        </div> *}
     </div>
     <div class="referral p-40-30 mt-60 wow fadeInUp" data-wow-duration="0.4s">
         <h4>Share The Referral Link</h4>
