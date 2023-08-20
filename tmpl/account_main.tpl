@@ -1,6 +1,6 @@
 {include file="header.tpl"}
 
-{loaddata name="user_notices" var=notices}
+{* {loaddata name="user_notices" var=notices}
 
 {if $notices}
     
@@ -43,7 +43,7 @@
         {/foreach}
         </div>
    
-{/if}
+{/if} *}
 
 <div class="dashboard-tab-content">
     <div class="balance-area p-40 wow fadeInUp" data-wow-duration="0.4s">
