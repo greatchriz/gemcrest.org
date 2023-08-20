@@ -139,7 +139,7 @@
                     <div class="container">
                         <a
                             class="navbar-brand"
-                            href="index.html"
+                            href="/?a=home"
                         >
                             <img src="assets/images/logo.svg" width="375px" height="95px" alt="site-logo" class="logo">
                             {* <img
@@ -182,35 +182,28 @@
                                 </ul>
                             </div>
                             <div class="out-link dashboard-out-link d-none d-sm-flex align-items-center dropdown">
-                                <a
-                                    href="#dashboard"
-                                    class="dropdown-toggle"
-                                    role="button"
-                                    data-bs-toggle="dropdown"
-                                    data-bs-auto-close="outside"
-                                    aria-expanded="false"
-                                >
-                                <img src="daashboard/images/avatars/small-profile-avatar.png" alt="Profile Avatar">
+                                <a href="#dashboard" class="dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+                                    <img src="dashboard/images/avatars/small-profile-avatar.png" alt="Profile Avatar">
                                 </a>
                                 <div class="dropdown-menu">
                                     <a
-                                        href="#deposit"
+                                        href="/?a=deposit"
                                         class="dropdown-item dashboard-tab dashboard-tab-btn"
                                     >Deposit</a>
                                     <a
-                                        href="#withdraw"
+                                        href="/?a=withdraw"
                                         class="dropdown-item dashboard-tab dashboard-tab-btn"
                                     >Withdraw</a>
                                     <a
-                                        href="#transaction"
+                                        href="/?a=history"
                                         class="dropdown-item dashboard-tab dashboard-tab-btn"
-                                    >Transaction</a>
+                                    >Transaction History</a>
                                     <a
-                                        href="#profile"
+                                        href="/?a=edit_profile"
                                         class="dropdown-item dashboard-tab dashboard-tab-btn"
-                                    >Settings</a>
+                                    >Profile</a>
                                     <a
-                                        href="#dashboard"
+                                        href="/?a=logout"
                                         class="dropdown-item dashboard-tab dashboard-tab-btn"
                                     >Log Out</a>
                                 </div>
@@ -228,6 +221,26 @@
                                 <span class="icon-bar middle-bar"></span>
                                 <span class="icon-bar bottom-bar"></span>
                             </button>
+                        </div>
+
+                        <div class="navbar-collapse justify-content-center order-3 order-lg-2 collapse" id="primaryNav" style="">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/?a=deposit">Deposit</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/?a=withdraw">Withdraw</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/?a=history">Transaction History</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/?a=edit_profile">Profile</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/?a=logout">Log Out</a>
+                                </li>
+                            </ul>
                         </div>
                    
                     </div>
