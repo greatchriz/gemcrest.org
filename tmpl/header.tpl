@@ -190,10 +190,7 @@
                                     data-bs-auto-close="outside"
                                     aria-expanded="false"
                                 >
-                                    <img
-                                        src="daashboard/images/avatars/small-profile-avatar.png"
-                                        alt="Profile Avatar"
-                                    >
+                                <img src="daashboard/images/avatars/small-profile-avatar.png" alt="Profile Avatar">
                                 </a>
                                 <div class="dropdown-menu">
                                     <a
