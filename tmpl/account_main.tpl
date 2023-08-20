@@ -68,24 +68,32 @@
                     <p class="small">Earn Total</p>
                 </div>
             </div>
+
+            <div class="col-md-6 col-xl-3">
+                <div class="single-item p-40">
+                    <h5>{$currency_sign}<b>{$ab_formated.withdraw_pending}</b></h5>
+                    <p class="small">Pending Withdrawal</p>
+                </div>
+            </div>
+
+
             {if $ab_formated.deposit != 0}
             <div class="col-md-6 col-xl-3">
                 <div class="single-item p-40">
                     <h5>{$currency_sign}<b>{$ab_formated.deposit}</b></h5>
-                    <p class="small">Total Depost</p>
+                    <p class="small">Total Deposit</p>
                 </div>
             </div>
-        {/if}
+            {/if}
 
-        {if $ab_formated.withdrawal > 0}
-            <div class="col-md-6 col-xl-3">
-                <div class="single-item p-40">
-                    <h5>{$currency_sign}<b>{$ab_formated.withdrawal}</b></h5>
-                    <p class="small">Withdrew Total</p>
+            {if $ab_formated.withdrawal > 0}
+                <div class="col-md-6 col-xl-3">
+                    <div class="single-item p-40">
+                        <h5>{$currency_sign}<b>{$ab_formated.withdrawal}</b></h5>
+                        <p class="small">Withdrew Total</p>
+                    </div>
                 </div>
-            </div>
-        {/if}
-      
+            {/if}                                                                               
         </div>
     </div>
     <div class="payment-balance mt-60 wow fadeInUp" data-wow-duration="0.4s">
