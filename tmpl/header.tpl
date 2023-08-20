@@ -189,50 +189,7 @@
         <section class="dashboard-area pb-120">
             <div class="container">
                 <div class="dashboard-wrapper">
-                    {loaddata name="user_notices" var=notices}
-
-                    {if $notices}
-                        
-                            <div class="newsletter-wrapper wow fadeInUp mb-24" data-wow-duration="0.4s" style="visibility: visible; animation-duration: 0.4s; animation-name: fadeInUp; padding: 30px;">
-                                {foreach from=$notices item=n}
-
-
-                                <div class="newsletter-inner-area" style="max-width: 100%; margin-bottom: 10px;">
-                                    
-                                    
-                                    
-                                    <form method="post" id="subscribeForm" autocomplete="off" class="mt-24">
-                                        <input
-                                        type=hidden
-                                        name=a
-                                        value=user_notices
-                                     >
-                                     <input
-                                        type=hidden
-                                        name=action
-                                        value=notified
-                                     >
-                                     <input
-                                        type=hidden
-                                        name=id
-                                        value={$n.id}
-                                     >
-                                        <div class="input-button-group-wrapper">
-                                            <div class="input-button-group" style="border: 1px solid #543F30;">
-                <div style="padding-left: 15px; padding-top: 20px;" class="d-flex justify-self-start">
-            <h4 class="mb-16">Subscribe Us</h4>
-            </div>
-                                                <input type="email" name="subscribe-email" placeholder="Your Email Address" required="required" id="subscribe" value="Join 14,000+ satisfied Fast Invest customers! Register and Subscribe to our newsletter to receive all the latest news and updates.">
-                                            </div>
-                                            <button type="submit" class="icon-button"><img src="assets/images/icons/subscribe.png" alt="Subscribe"> Dismiss</button>
-                                        </div>
-                                    </form>
-                                </div>
-
-                            {/foreach}
-                            </div>
-                       
-                    {/if}
+                   
 
                     <div class="row">
                         <div class="col-lg-4 col-xl-3">
