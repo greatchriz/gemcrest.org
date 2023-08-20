@@ -96,7 +96,7 @@
                 <div class="item">
                     <div class="icon-wrapper d-flex justify-content-center align-items-center mb-20">
                         <div class="icon">
-                            <img src="dashboard/images/icons/{$p.id}.png" alt="Bitcoin">
+                            <img src="images/{$p.id}.gif" alt="Bitcoin">
                         </div>
                         <p class="small">{$p.name}</p>
                     </div>
