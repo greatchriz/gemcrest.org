@@ -48,7 +48,7 @@
 <div class="dashboard-tab-content">
     <div class="balance-area p-40 wow fadeInUp" data-wow-duration="0.4s">
         <h5>Your Balance</h5>
-        <h2>$1516.00</h2>
+        <h2>{$currency_sign}<b>{$ab_formated.total}</b></h2>
         <div class="btn-group mt-60">
             <a href="/?a=deposit" class="dashboard-tab primary-btn">Make a Deposit <i class="icon-right-arrow"></i></a>
             <a href="/?a=withdraw" class="dashboard-tab primary-btn">Withdraw Funds <i class="icon-right-arrow"></i></a>
@@ -58,22 +58,33 @@
         <div class="row">
             <div class="col-md-6 col-xl-3">
                 <div class="single-item p-40">
-                    <h5>$5789.00</h5>
+                    <h5>{$currency_sign}<b>{$ab_formated.active_deposit}</b></h5>
                     <p class="small">Active Deposits</p>
                 </div>
             </div>
             <div class="col-md-6 col-xl-3">
                 <div class="single-item p-40">
-                    <h5>$2500.00</h5>
+                    <h5>{$currency_sign}<b>{$ab_formated.earning}</b></h5>
                     <p class="small">Earn Total</p>
                 </div>
             </div>
+            {if $ab_formated.deposit != 0}
             <div class="col-md-6 col-xl-3">
                 <div class="single-item p-40">
-                    <h5>$7000.00</h5>
+                    <h5>{$currency_sign}<b>{$ab_formated.deposit}</b></h5>
                     <p class="small">Total Depost</p>
                 </div>
             </div>
+        {/if}
+
+        {if $ab_formated.withdrawal > 0}
+            <div class="col-md-6 col-xl-3">
+                <div class="single-item p-40">
+                    <h5>{$currency_sign}<b>{$ab_formated.withdrawal}</b></h5>
+                    <p class="small">Withdrew Total</p>
+                </div>
+            </div>
+        {/if}
             <div class="col-md-6 col-xl-3">
                 <div class="single-item p-40">
                     <h5>$7000.00</h5>
