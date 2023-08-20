@@ -26,7 +26,7 @@
               <div class="col-md-6">
                   <div class="input-one">
                       <label for="firstName">First Name</label>
-                      <input type="text" name="first_name" id="firstName" required="required" placeholder="Harry">
+                      <input type="text" name="first_name" id="firstName" required="required" placeholder="{$userinfo.username}">
                   </div>
               </div>
               <div class="col-md-6">

@@ -267,12 +267,12 @@
                                         <img src="dashboard/images/avatars/profile-avatar.png" alt="Profile Avatar">
                                     </div>
                                     <h4 class="mb-17">
-                                        <a href="#profile" class="dashboard-tab dashboard-text-tab">Harry Shaw</a>
+                                        <a href="#profile" class="dashboard-tab dashboard-text-tab">{$userinfo.username}</a>
                                     </h4>
-                                    <p>ID: 311190</p>
+                                    <p>ID: 31119{$userinfo.id}</p>
                                     <hr>
                                     <p class="mb-13">Last Sign In</p>
-                                    <p class="small">18 Oct 2021, 16:28 PM GMT +0</p>
+                                    <p class="small">{$last_access|default:"n/a"}&nbsp;</p>
                                 </div>
 
                                 <div class="dashboard-tab-btn-area p-30-20 mtf-30">
