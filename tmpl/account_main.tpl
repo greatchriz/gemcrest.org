@@ -1,45 +1,5 @@
 {include file="header.tpl"}
-{literal}
-    <style>
-    /*    .tooltip {
-            position: relative;
-            display: inline-block;
-        }
 
-        .tooltip .tooltiptext {
-            visibility: hidden;
-            width: 140px;
-            background-color: #555;
-            color: #fff;
-            text-align: center;
-            border-radius: 6px;
-            padding: 5px;
-            position: absolute;
-            z-index: 1;
-            bottom: 150%;
-            left: 50%;
-            margin-left: -75px;
-            opacity: 0;
-            transition: opacity 0.3s;
-        }
-
-        .tooltip .tooltiptext::after {
-            content: "";
-            position: absolute;
-            top: 100%;
-            left: 50%;
-            margin-left: -5px;
-            border-width: 5px;
-            border-style: solid;
-            border-color: #555 transparent transparent transparent;
-        }
-
-        .tooltip:hover .tooltiptext {
-            visibility: visible;
-            opacity: 1;
-        }*/
-    </style>
-{/literal}
 
 
 {* {loaddata name="user_notices" var=notices}
@@ -229,40 +189,30 @@
             your social media.</p>
         <div class="row d-flex align-items-center mt-25">
             <div class="col-md-8">
+
                 <div class="copy-link-wrapper">
-                    <input type="text" value="gemcrest.org/?ref={$userinfo.username}" id="copyLinkTwo" disabled="disabled">
-                    <div class="tooltip">
-                        <button onclick="myFunction()" onmouseout="outFunc()" class="primary-btn">
-                            <span
-                                class="tooltiptext"
-                                id="myTooltip"
-                            >Copy to clipboard</span>Copy Link
-                        </button>
-
-                    </div>
-
-                    
-
+                    <input type="text" value="gemcrest.org/?ref={$userinfo.username}" id="copyLink" disabled="disabled">
+                    <button class="primary-btn" onclick="myFunction()">Copy Link</button>
                 </div>
+    
                 {literal}
 
-                <script>
-                    function myFunction() {
-                      var copyText = document.getElementById("copyLinkTwo");
-                      copyText.select();
-                      copyText.setSelectionRange(0, 99999);
-                      navigator.clipboard.writeText(copyText.value);
-                      
-                      var tooltip = document.getElementById("myTooltip");
-                      tooltip.innerHTML = "Copied: " + copyText.value;
-                    }
-                    
-                    function outFunc() {
-                      var tooltip = document.getElementById("myTooltip");
-                      tooltip.innerHTML = "Copy to clipboard";
-                    }
-                    </script>
+                    <script>
+                        function myFunction() {
+                            // Get the text field
+                            var copyText = document.getElementById("copyLinkTwo");
 
+                            // Select the text field
+                            copyText.select();
+                            copyText.setSelectionRange(0, 99999); // For mobile devices
+
+                            // Copy the text inside the text field
+                            navigator.clipboard.writeText(copyText.value);
+
+                            // Alert the copied text
+                            alert("Copied the text: " + copyText.value);
+                        }
+                    </script>
                     
                 {/literal}
 
