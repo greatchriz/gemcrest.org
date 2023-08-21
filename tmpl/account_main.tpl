@@ -46,7 +46,7 @@
 {/if} *}
 
 <div class="dashboard-tab-content">
-    <div class="balance-area p-40 wow fadeInUp" data-wow-duration="0.4s">
+    <div class="balance-area p-40 wow fadeInUp" data-wow-duration="0.4s" style="background-size: 200px;">
         <h5>Your Balance</h5>
         <h2>{$currency_sign}<b>{$ab_formated.total}</b></h2>
         <div class="btn-group mt-60">
