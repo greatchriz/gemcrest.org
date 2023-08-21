@@ -1,7 +1,7 @@
 {include file="header.tpl"}
 {literal}
     <style>
-        .tooltip {
+    /*    .tooltip {
             position: relative;
             display: inline-block;
         }
@@ -37,7 +37,7 @@
         .tooltip:hover .tooltiptext {
             visibility: visible;
             opacity: 1;
-        }
+        }*/
     </style>
 {/literal}
 
@@ -239,14 +239,9 @@
                             >Copy to clipboard</span>Copy Link
                         </button>
 
-                        {* <button
-                            onclick="myFunction()"
-                            onmouseout="outFunc()"
-                        >
-                            
-                            Copy text
-                        </button> *}
                     </div>
+
+                    
 
                 </div>
                 {literal}
