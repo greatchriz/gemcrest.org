@@ -189,34 +189,33 @@
             your social media.</p>
         <div class="row d-flex align-items-center mt-25">
             <div class="col-md-8">
-
                 <div class="copy-link-wrapper">
-                    <input type="text" value="gemcrest.org/?ref={$userinfo.username}" id="copyLink" disabled="disabled">
-                    <button class="primary-btn" onclick="myFunction()">Copy Link</button>
-                </div>
-    
-                {literal}
+                  <input type="text" value="gemcrest.org/?ref={$userinfo.username}" id="copyLink" disabled="disabled">
+                  <button class="primary-btn" onclick="myFunction()">Copy Link</button>
+              </div>
+  
+              
 
-                    <script>
-                        function myFunction() {
-                            // Get the text field
-                            var copyText = document.getElementById("copyLinkTwo");
+               <script>
+                  function myFunction() {
+                  // Get the text field
+                  var copyText = document.getElementById("copyLink");
 
-                            // Select the text field
-                            copyText.select();
-                            copyText.setSelectionRange(0, 99999); // For mobile devices
+                  // Select the text field
+                  copyText.select();
+                  copyText.setSelectionRange(0, 99999); // For mobile devices
 
-                            // Copy the text inside the text field
-                            navigator.clipboard.writeText(copyText.value);
+                  // Copy the text inside the text field
+                  navigator.clipboard.writeText(copyText.value);
 
-                            // Alert the copied text
-                            alert("Copied the text: " + copyText.value);
-                        }
-                    </script>
-                    
-                {/literal}
+                  // Alert the copied text
+                  alert("Copied the text: " + copyText.value);
+                }
+                </script>
+                  
+            
 
-            </div>
+          </div>	
             <div class="col-md-4">
                 <div class="social-bar">
                     <div class="social-box-third text-center text-md-end">

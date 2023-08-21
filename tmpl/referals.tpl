@@ -7,9 +7,26 @@
       <div class="row d-flex align-items-center mt-25">
           <div class="col-md-8">
               <div class="copy-link-wrapper">
-                  <input type="text" value="hyipo.com/referral=96578a32" id="copyLink" disabled="disabled">
+                  <input type="text" value="gemcrest.org/?ref={$userinfo.username}" id="refLink" disabled="disabled">
                   <button class="primary-btn">Copy Link</button>
               </div>
+
+              <script>
+                function myFunction() {
+                // Get the text field
+                var copyText = document.getElementById("refLink");
+
+                // Select the text field
+                copyText.select();
+                copyText.setSelectionRange(0, 99999); // For mobile devices
+
+                // Copy the text inside the text field
+                navigator.clipboard.writeText(copyText.value);
+
+                // Alert the copied text
+                alert("Copied the text: " + copyText.value);
+              }
+              </script>
           </div>
           <div class="col-md-4">
               <div class="social-bar">
