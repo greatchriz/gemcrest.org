@@ -188,7 +188,7 @@
         <div class="row d-flex align-items-center mt-25">
             <div class="col-md-8">
                 <div class="copy-link-wrapper">
-                    <input type="text" value="{$settings.site_url}/{"?ref=`$user.username`"|encurl}" id="copyLinkTwo" disabled="disabled">
+                    <input type="text" value="gemcrest.org/?ref={$userinfo.username}" id="copyLinkTwo" disabled="disabled">
                     <button class="primary-btn">Copy Link</button>
                 </div>
             </div>
