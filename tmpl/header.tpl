@@ -35,7 +35,7 @@
             <!-- Favicon -->
         <link
             rel="shortcut icon"
-            href="dashboard/images/favicon.png"
+            href="assets/images/favicon.png"
             type="image/x-icon"
         >
         <!-- Keywords For This Document -->

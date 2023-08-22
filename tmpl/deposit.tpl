@@ -245,8 +245,8 @@
         </div>
                     </div>
                 </div>
-                <button type="submit" class="dashboard-tab primary-btn mt-60">Spend</button>
-        </div>
+                <input type="submit" value="Spend" class="dashboard-tab primary-btn mt-60" />
+                     </div>
 
     </form>
 
