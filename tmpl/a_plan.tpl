@@ -10,7 +10,7 @@
         <div class="form-check">
           <input class="form-check-input position-static" type="radio" name="h_id" id="exampleRadios1" value='{$plans[plans].id}'
           {if (($smarty.section.plans.first == 1) && ($frm.h_id eq '')) || ($frm.h_id == $plans[plans].id)} checked {/if}
-       >
+       />
         </div>
   
   
