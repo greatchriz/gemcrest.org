@@ -12,9 +12,11 @@
             name="viewport"
             content="width=device-width, initial-scale=1.0"
         >
-        <!-- Title For This Document -->
-        <title>Hyipo &mdash; HYIP Investment HTML Template</title>
-        <!-- Favicon For This Document -->
+        <meta name="description" content="Welcome to Gemcrest - Your Trusted Partner in Crypto and Precious Metals Investments. Explore our services for secure and tailored financial solutions.">
+            <meta name="keywords" content="Gemcrest, cryptocurrency, precious metals, investments, financial solutions">
+            <meta name="author" content="Gemcrest Investment">
+            <title>Gemcrest Investment - Crypto and Precious Metals</title>
+            <!-- Favicon -->
         <link
             rel="shortcut icon"
             href="dashboard/images/favicon.png"
