@@ -4,7 +4,11 @@
     <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>HYIPLAB - HYIP Investment HTML template</title>
+        <meta name="description" content="Welcome to Gemcrest - Your Trusted Partner in Crypto and Precious Metals Investments. Explore our services for secure and tailored financial solutions.">
+          <meta name="keywords" content="Gemcrest, cryptocurrency, precious metals, investments, financial solutions">
+          <meta name="author" content="Gemcrest Investment">
+          <title>Gemcrest Investment - Crypto and Precious Metals</title>
+          <!-- Favicon -->
       <link rel="icon" type="image/png" href="assets/images/favicon.png" sizes="16x16">
       <!-- bootstrap 4  -->
       <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
