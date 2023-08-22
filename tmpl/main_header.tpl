@@ -3,16 +3,21 @@
 <html lang="en">
 
   <head>
-
+    {literal}
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9ZF696Y8V9"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-9ZF696Y8V9"
+    ></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-  gtag('config', 'G-9ZF696Y8V9');
-</script>
+        gtag('config', 'G-9ZF696Y8V9');
+    </script>
+
+{/literal}
     <meta charset="UTF-8">
     <meta
       name="viewport"
