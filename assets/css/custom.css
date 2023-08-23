@@ -13,12 +13,10 @@ a {
 
 
 .navbar-area {
-    background: #f04c5c;
-    background: -moz-linear-gradient(top, #f04c5c 0%, #e6245c 100%);
-    background: -webkit-linear-gradient(top, #f04c5c 0%,#e6245c 100%);
-    background: linear-gradient(to bottom, #f04c5c 0%,#e6245c 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f04c5c', endColorstr='#e6245c',GradientType=0 );
-    border-bottom: 5px solid #C20F4C;
+
+    border-bottom: 5px solid #420A6F;
+    padding: 5px 0px;
+    background: #420A6F url(../images/footer-bg.png) no-repeat center top;
     padding: 5px 0px;
 }
 
@@ -1159,14 +1157,13 @@ border-radius: 36px;
 
 .carousel-inner {
 	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f8663d+0,e01954+100 */
-	background: #f8663d; /* Old browsers */
-	background: -moz-linear-gradient(45deg, #f8663d 0%, #e01954 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(45deg, #f8663d 0%,#e01954 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(45deg, #f8663d 0%,#e01954 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8663d', endColorstr='#e01954',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    background-image: url(https://template.viserlab.com/hyiplab/demo/assets/images/bg/bg-5.jpg);
 	padding:40px;
 	border-radius:16px;
 	margin-top:-38px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 
@@ -1292,15 +1289,16 @@ border-radius: 36px;
 
 .plan-title h2 {
 	color:#f7643e;
-	font-size:30px;
+	font-size:26px;
 	text-transform:uppercase;
 	text-align:left;
 	line-height:24px;
+    font-weight: bold;
 	
 }
 
 .plan-title h2 span {
-	font-size:18px;
+	font-size:12px;
 	color:#4f3774;
 	display:block;
 }
@@ -3210,9 +3208,9 @@ color: #F9A535;
 .calc-block p {margin-bottom:0px;}
 
 .calc-block span {
+    font-size: 28px;
     color: #f25243;
-    font-size: 42px;
-    font-weight: 600;
+    font-weight: bold;
     display: block;
 }
 

@@ -608,12 +608,6 @@
                                   </div>
                                 </div>
                               </div>
-    
-                              <div class="col-lg-4">
-                                <figure>
-                                  <img src="assets/images/plan-bg.png" />
-                                </figure>
-                              </div>
                             </div>
                           </div>
                         </div>
