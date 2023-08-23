@@ -1634,7 +1634,7 @@
           </div>
         </section>
     
-        <section class="strategies">
+        <section class="strategies" >
           <div class="container">
             <div class="row">
               <div class="col-lg-6">
@@ -2000,7 +2000,7 @@
               </div>
     
               <div class="col-lg-5">
-                <div class="affiliates">
+                <div class="affiliates" style="background: none;">
                   <figure><img src="assets/images/affiliates.png" /></figure>
                   <div class="affiliates-box">
                     <h4>affiliate program</h4>
@@ -2015,7 +2015,8 @@
           </div>
         </section>
     
-        <section class="faq_area">
+        <section class="faq_area" style="background: #510267 url(../images/howto-bg.jpg) no-repeat right top;
+        ">
           <div class="container">
             <div class="row">
               <div class="col-lg-8">
