@@ -71,18 +71,11 @@
       </head>
     
       <body oncontextmenu="return false;">
-        <div class="alert alert-warning alert-dismissible fade show" role="alert">
-          <b>Metaverseprofit.org</b> is the only official domain url if you surf
-          other than this domain its a fake website and you will get scam
-          <button
-            type="button"
-            class="btn-close"
-            data-bs-dismiss="alert"
-            aria-label="Close"></button>
-        </div>
+     
     
         <!-- ========================= header start ========================= -->
-        <header class="header navbar-area">
+        <header class="header navbar-area" style="background: #510267 url(../images/about-bg2.png) no-repeat bottom center;
+        background-size: cover;">
           <div class="container">
             <div class="row">
               <div class="col-lg-6 col-sm-12">
