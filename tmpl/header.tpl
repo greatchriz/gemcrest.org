@@ -81,3 +81,7 @@
 
   
     <body oncontextmenu="return false;">
+
+      {include file="sections/header.tpl"}
+
+      {include file="sections/home-top-wrapper.tpl"}
