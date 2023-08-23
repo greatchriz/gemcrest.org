@@ -104,7 +104,7 @@
               <div class="col-lg-6 col-sm-12">
                 <div class="bannerright">
                   <h1 class="bounceInLeft wow">
-                    <span>Metaverse</span> crypto investments
+                    <span>Gemcrest</span> crypto investments
                   </h1>
                   <p>
                     Gemcrestcrypto is a sub-set of cryptocurrencies that

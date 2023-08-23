@@ -1217,7 +1217,7 @@
               within the crypto markets, attracting investors who want to
               get in early on what could turn out to become the next
               iteration of the internet. Early-stage versions of the
-              metaverse, such as Decentraland and Sandbox, are powered by
+              Gemcrest, such as Decentraland and Sandbox, are powered by
               cryptocurrencies that act as currencies in these virtual
               worlds. For investors, they offer an avenue to gain investment
               exposure to this new and fast-growing industry.
