@@ -1,5 +1,3 @@
-{include file="info_section_header.tpl"}
-
 {if $settings.index_last_add_funds}
 {loaddata name="transactions" limit=$settings.index_last_add_funds type="add_funds" var="last_add_funds"}
 {/if}
@@ -24,4 +22,3 @@
 {/foreach}
 </table>
 {/if}
-{include file="info_section_footer.tpl"}

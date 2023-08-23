@@ -1,68 +1,50 @@
+{literal}
+<script language="javascript"><!--
+function openCalculator(id)
+{
+  w = 225; h = 400;
+  t = (screen.height-h-30)/2;
+  l = (screen.width-w-30)/2;
+  window.open('?a=calendar&type=' + id, 'calculator' + id, "top="+t+",left="+l+",width="+w+",height="+h+",resizable=1,scrollbars=0");
+}
+--></script>
+{/literal}
+
 {foreach from=$index_plans item=p}
-  {if !$p.closed}
-    <div class="col-lg-4 col-md-6 md-mb-30 md-mb-0 sm-mb-30">
-      <div class="pricing-table white-bg">
-        <div class="pricing-table-header">
-          <h3 class="table-title">{$p.name|escape:html}</h3>
-        </div>
-        <div class="pricing-icon mb-40">
-          <img
-            src="assets/images/pricing/style1/2.png"
-            alt=""
-          >
-        </div>
+{if !$p.closed}
+<table cellspacing=1 cellpadding=2 border=0 width=100%>
+<tr>
+ <td colspan=3 align=center>{if $p.dsc != ''}<a href="{"?a=show_package_info&id=`$p.id`"|encurl}">{/if}<b>{$p.name|escape:html}</b></a></td>
+</tr>
+{if $p.plans}
+<tr>
+ <td class=inheader>Plan</td>
+ <td class=inheader width=200>Spent Amount ({$currency_sign})</td>
+ <td class=inheader width=100 nowrap><nobr>{$p.period} Profit (%)</nobr></td>
+</tr>
+{foreach from=$p.plans item=o}
+<tr>
+ <td class=item>{$o.name|escape:html}</td>
+ <td class=item align=right>{$o.deposit}</td>
+ <td class=item align=right>{$o.percent|string_format:"%.2f"}</td>
+</tr>
+{/foreach}
+{if $settings.enable_calculator and $p.period != 'Floating'}
+<tr>
+ <td colspan=3 align=right><a href="javascript:openCalculator('{$p.id}')">Calculate your profit &gt;&gt;</a></td>
+</tr>
+{/if}
+{/if}
+</table>
 
-        {if $p.plans}
-          {foreach from=$p.plans item=o}
-            <div class="pricing-table-price">
-              <div class="pricing-table-bags">
-                <span class="pricing-currency">%</span>
-                <span class="table-price-text">{$o.percent|string_format:"%.2f"}</span>
-                <span class="table-period">/ Daily</span>
-              </div>
-            </div>
-            <div class="pricing-table-body">
-              <ul>
-                <li><i class="fa fa-check"></i><span><b>Duration: </b>&nbsp; &nbsp; &nbsp; {$p.q_days|escape:html} Days</span></li>
-                <li><i class="fa fa-check"></i><span><b>Minimum Deposit:</b>&nbsp; &nbsp; &nbsp; ${$o.min_deposit}</span></li>
-                <li><i class="fa fa-check"></i><span><b>Maximum Deposit: </b>&nbsp; &nbsp; &nbsp; ${$o.max_deposit}</span></li>
-                <li><i class="fa fa-check"></i><span><b>Referral Bonus: </b>&nbsp; &nbsp; &nbsp;  10%</span></li>
-              </ul>
-            </div>
-          {/foreach}
-
-        {/if}
-        {if $userinfo.logged}
-          <form method=post>
-            <input
-              type=hidden
-              name=a
-              value=deposit
-            >
-            <div class="btn-part">
-              <input
-                type=submit
-                value="Make deposit"
-                class="readon price price2"
-              >
-            </div>
-            <input
-              type=hidden
-              name=h_id
-              value={$p.id}
-            >
-          </form>
-
-        {else}
-          <div class="btn-part">
-            <a
-              class="readon price price2"
-              href="/?a=login"
-            >Get Started</a>
-          </div>
-        {/if}
-
-      </div>
-    </div>
-  {/if}
+{if $userinfo.logged}
+<br>
+<form method=post>
+<input type=hidden name=a value=deposit>
+<input type=submit value="Make deposit" class=sbmt>
+<input type=hidden name=h_id value={$p.id}>
+</form>
+<br><br>
+{/if}
+{/if}
 {/foreach}

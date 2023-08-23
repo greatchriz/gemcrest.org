@@ -1,5 +1,3 @@
-{include file="info_section_header.tpl"}
-
 {if $settings.index_top_investors}
 <!-- Image Table: Start -->
 <table cellspacing=0 cellpadding=2 border=0 width=100%>
@@ -19,4 +17,3 @@
 {/foreach}
 </table>
 {/if}
-{include file="info_section_footer.tpl"}
