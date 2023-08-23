@@ -1769,7 +1769,8 @@
     
             <div class="row">
               <div class="col-lg-6 p-0">
-                <div class="statistics-bg">
+                <div class="statistics-bg" style="background: linear-gradient(to bottom, #f4f4f6 0%,#e8e9eb 100%);
+                ">
                   <div class="stat-title d-flex justify-content-between">
                     <div class="top-text">
                       <h4>statistics</h4>
@@ -1853,7 +1854,8 @@
               </div>
     
               <div class="col-lg-6 p-0">
-                <div class="statistics-bg statistics-bg2">
+                <div class="statistics-bg statistics-bg2" style="background: linear-gradient(to bottom, #f4f4f6 0%,#e8e9eb 100%);
+                ">
                   <div class="stat-title d-flex justify-content-between">
                     <div class="top-text">
                       <h4>statistics</h4>
