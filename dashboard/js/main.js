@@ -131,35 +131,35 @@
     $("#goldTotal").text(((strThree * 3) / 100) * 45 + " USD");
 
     // Form Validation
-    $('form').submit(function(e) {
-      e.preventDefault();
-      var fname = $('#contactName').val();
-      var message = $('#contactMessage').val();
-      var address = $('#contactEmail').val();
-      var enterCodeThree = $('#enterCodeThree').val();
-      $(".errorsms").remove();
-      if (fname.length < 1) {
-        $('#contactName').after('<p class="errorsms mdtxt">This field is required</p>');
-      }
-      if (message.length < 1) {
-        $('#contactMessage').after('<p class="errorsms mdtxt">This field is required</p>');
-      }
-      if (enterCodeThree.length < 1) {
-        $('#enterCodeThree').after('<p class="errorsms mdtxt">This field is required</p>');
-      }
-      if (address.length < 1) {
-        $('#contactEmail').after('<p class="errorsms mdtxt">This field is required</p>');
-      } else {
-        var regEx = /^[A-Z0-9][A-Z0-9._%+-]{0,63}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/;
-        var validEmail = regEx.test(address);
-      }
-      if (document.querySelector('.errorsms') == null) {
-        $('.errorget').html('Your Message is send!');
-        setTimeout(function() {
-          $(".errorget").hide(500);
-        }, 1500);
-      }
-    });
+    // $('form').submit(function(e) {
+    //   e.preventDefault();
+    //   var fname = $('#contactName').val();
+    //   var message = $('#contactMessage').val();
+    //   var address = $('#contactEmail').val();
+    //   var enterCodeThree = $('#enterCodeThree').val();
+    //   $(".errorsms").remove();
+    //   if (fname.length < 1) {
+    //     $('#contactName').after('<p class="errorsms mdtxt">This field is required</p>');
+    //   }
+    //   if (message.length < 1) {
+    //     $('#contactMessage').after('<p class="errorsms mdtxt">This field is required</p>');
+    //   }
+    //   if (enterCodeThree.length < 1) {
+    //     $('#enterCodeThree').after('<p class="errorsms mdtxt">This field is required</p>');
+    //   }
+    //   if (address.length < 1) {
+    //     $('#contactEmail').after('<p class="errorsms mdtxt">This field is required</p>');
+    //   } else {
+    //     var regEx = /^[A-Z0-9][A-Z0-9._%+-]{0,63}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/;
+    //     var validEmail = regEx.test(address);
+    //   }
+    //   if (document.querySelector('.errorsms') == null) {
+    //     $('.errorget').html('Your Message is send!');
+    //     setTimeout(function() {
+    //       $(".errorget").hide(500);
+    //     }, 1500);
+    //   }
+    // });
 
     // Investment Range Slider
     var output = $("output")[0];
