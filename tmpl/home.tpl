@@ -37,7 +37,7 @@
           href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" />
         <link rel="stylesheet" href="assets/css/LineIcons.2.0.css" />
         <link rel="stylesheet" href="assets/css/animate.css" />
-        <link rel="stylesheet" href="assets/css/custom.css?v7" />
+        <link rel="stylesheet" href="assets/css/custom.css" />
     
         <!-- ========================= JS here ========================= -->
       
@@ -758,11 +758,7 @@
                                 </div>
                               </div>
     
-                              <div class="col-lg-4">
-                                <figure>
-                                  <img src="assets/images/plan-bg.png" />
-                                </figure>
-                              </div>
+                              
                             </div>
                           </div>
                         </div>
@@ -913,11 +909,7 @@
                                 </div>
                               </div>
     
-                              <div class="col-lg-4">
-                                <figure>
-                                  <img src="assets/images/plan-bg.png" />
-                                </figure>
-                              </div>
+                              
                             </div>
                           </div>
                         </div>
@@ -1068,11 +1060,7 @@
                                 </div>
                               </div>
     
-                              <div class="col-lg-4">
-                                <figure>
-                                  <img src="assets/images/plan-bg.png" />
-                                </figure>
-                              </div>
+                              
                             </div>
                           </div>
                         </div>
@@ -1223,11 +1211,7 @@
                                 </div>
                               </div>
     
-                              <div class="col-lg-4">
-                                <figure>
-                                  <img src="assets/images/plan-bg.png" />
-                                </figure>
-                              </div>
+                              
                             </div>
                           </div>
                         </div>
@@ -1379,11 +1363,7 @@
                                 </div>
                               </div>
     
-                              <div class="col-lg-4">
-                                <figure>
-                                  <img src="assets/images/plan-bg.png" />
-                                </figure>
-                              </div>
+                              
                             </div>
                           </div>
                         </div>
@@ -1534,11 +1514,7 @@
                                 </div>
                               </div>
     
-                              <div class="col-lg-4">
-                                <figure>
-                                  <img src="assets/images/plan-bg.png" />
-                                </figure>
-                              </div>
+                              
                             </div>
                           </div>
                         </div>
