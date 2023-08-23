@@ -115,7 +115,7 @@
             </div>
 
             <div class="col-lg-9 p-0">
-              <div class="carousel-inner">
+              <div class="carousel-inner" style="background: #510267 url(../images/howto-bg.jpg) no-repeat right top;">
                 <div class="carousel-item active">
                   <div class="plan-top">
                     <div class="row">
