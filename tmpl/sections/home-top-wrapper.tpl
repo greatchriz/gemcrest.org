@@ -107,7 +107,7 @@
                     <span>Metaverse</span> crypto investments
                   </h1>
                   <p>
-                    Metaverse crypto is a sub-set of cryptocurrencies that
+                    Gemcrestcrypto is a sub-set of cryptocurrencies that
                     enable users of blockchain-powered virtual worlds to buy
                     and sell digital assets, such as virtual land, real
                     estate, or avatar items.

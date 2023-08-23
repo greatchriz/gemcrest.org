@@ -1213,7 +1213,7 @@
             <h2>About the company</h2>
             <h3>Investing to <span>metacoins</span></h3>
             <p>
-              Metaverse crypto tokens have emerged as a new sub-asset class
+              Gemcrestcrypto tokens have emerged as a new sub-asset class
               within the crypto markets, attracting investors who want to
               get in early on what could turn out to become the next
               iteration of the internet. Early-stage versions of the
@@ -1223,12 +1223,12 @@
               exposure to this new and fast-growing industry.
             </p>
             <p>
-              Metaverse crypto is a sub-set of cryptocurrencies that enable
+              Gemcrestcrypto is a sub-set of cryptocurrencies that enable
               users of blockchain-powered virtual worlds to buy and sell
               digital assets, such as virtual land, real estate, or avatar
               items. Like all crypto assets, however, they are high-risk
               investments, which means conducting thorough research is
-              essential before making the decision to add metaverse tokens
+              essential before making the decision to add Gemcresttokens
               into your crypto portfolio.
             </p>
             <a href="?a=howto" class="btn btn-warning"
