@@ -87,7 +87,7 @@ function checkform() {
                   </form>
   
                   <div class="form-footer">
-                    <a href="index-13.htm?a=forgot_password"
+                    <a href="/?a=forgot_password"
                       >Recover password information</a
                     >
                   </div>
