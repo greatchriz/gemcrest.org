@@ -74,7 +74,7 @@
                           href="/?a=signup"
                           >Sign Up</a
                         >
-                        <a class="btn btn-warning btn-lg" href="/?a=ogin"
+                        <a class="btn btn-warning btn-lg" href="/?a=login"
                           >Login</a
                         >
                       </div>
