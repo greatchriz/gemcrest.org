@@ -1,374 +1,243 @@
 {include file="header.tpl"}
 
-{loaddata name="user_notices" var=notices}
+
+
+{* {loaddata name="user_notices" var=notices}
 
 {if $notices}
-<ul style="color:red">
-{foreach from=$notices item=n}
-<li><b>{$n.title}</b> {$n.text|nl2br}
-<form method=post>
-<input type=hidden name=a value=user_notices>
-<input type=hidden name=action value=notified>
-<input type=hidden name=id value={$n.id}>
-<input type=submit value="Dismiss">
-</form>
-{/foreach}
-</ul>
-{/if}
+    
+        <div class="newsletter-wrapper wow fadeInUp mb-24" data-wow-duration="0.4s" style="visibility: visible; animation-duration: 0.4s; animation-name: fadeInUp; padding: 30px;">
+            {foreach from=$notices item=n}
 
-<h3>Your account:</h3><br>
 
-{if $settings.use_transaction_code ==1 && $userinfo.transaction_code == ''} <b>Note: currently you have not specified 
-a Transaction code. The Transaction code strengthens your funds security in our 
-system. The code is required to withdraw funds from your account{if $settings.internal_transfer_enabled} 
-and for internal transfer to another user account{/if}. Just do not change 'Transaction 
-code' in your account information if you do not want to use this feature. <a href=?a=edit_account>Click 
-here</a> to specify a new transaction code .</b> <br>
-<br>
-{/if}
-
-{if $userinfo.tfa_not_enabled} 
-<b>Security Note: please, activate <a href="{"?a=security"|encurl}">Two Factor Authentication</a> to keep your account safe.</b>
-{/if}
-
-{* <table cellspacing=0 cellpadding=2 border=0>
-<tr>
- <td>User:</td>
- <td>{$userinfo.username}</td>
-</tr><tr>
- <td>Registration Date:</td>
- <td>{$userinfo.create_account_date}</td>
-</tr><tr>
- <td>Last Access:</td>
- <td>{$last_access|default:"n/a"}&nbsp;</td>
-</tr><tr>
- <td>&nbsp;</td>
-</tr><tr>
- <td valign=top>Account Balance:</td>
- <td>{$currency_sign}<b>{$ab_formated.total}</b><br>
- <small>
-{foreach from=$ps item=p}
-   {if $p.balance > 0}{$currency_sign}{$p.balance} of {$p.name}<br>{/if}
-{/foreach}
-</tr><tr>
- <td>Earned Total:</td>
- <td>{$currency_sign}<b>{$ab_formated.earning}</b></td>
-</tr><tr>
- <td>Pending Withdrawal:</td>
- <td>{$currency_sign}<b>{$ab_formated.withdraw_pending}</b></td>
-</tr><tr>
- <td>Withdrew Total:</td>
- <td>{$currency_sign}<b>{$ab_formated.withdrawal}</b></td>
-</tr><tr>
- <td>Active Deposit:</td>
- <td>{$currency_sign}<b>{$ab_formated.active_deposit}</b></td>
-</tr><tr>
- <td>&nbsp;</td>
-</tr>
-{if $last_deposit}
-<tr>
- <td>Last Deposit:</td>
- <td>{$currency_sign}<b>{$last_deposit|default:"n/a"}</b> &nbsp; <small>{$last_deposit_date|default:"n/a"}</small></td>
-</tr>
-{/if}
-{if $ab_formated.deposit != 0}
-<tr>
- <td>Total Deposit:</td>
- <td>{$currency_sign}<b>{$ab_formated.deposit}</b></td>
-</tr>
-{/if}
-{if $last_withdrawal}
-<tr>
- <td>Last Withdrawal:</td>
- <td>{$currency_sign}<b>{$last_withdrawal|default:"n/a"}</b> &nbsp; <small>{$last_withdrawal_date|default:"n/a"}</small></td>
-</tr>
-{/if}
-{if $ab_formated.withdrawal > 0}
-<tr>
-    <td>Withdrew Total:</td>
- <td>{$currency_sign}<b>{$ab_formated.withdrawal}</b></td>
-</tr>
-{/if}
-<tr>
- <td>&nbsp;</td>
-</tr></table> *}
-
-<section class="subpage_wrap subpage_account about-sub">
-   <div class="container">
-     <div class="member-content">
-       <div class="row">
-         <div class="col-lg-3 col-sm-12">
-           <div class="member-menu">
-             <nav
-               class="navbar navbar-expand-lg pb-0 justify-content-center">
-               <button
-                 class="navbar-toggler mx-auto mb-3"
-                 type="button"
-                 data-bs-toggle="collapse"
-                 data-bs-target="#navbarSupportedContent1"
-                 aria-controls="navbarSupportedContent"
-                 aria-expanded="false"
-                 aria-label="Toggle navigation">
-                 <i class="bi bi-filter-right"></i>
-               </button>
-               <div
-                 class="collapse navbar-collapse"
-                 id="navbarSupportedContent1">
-                 <ul class="nav-menu">
-                   <li class="hvr-bob">
-                     <a href="/?a=account"
-                       ><div class="inner">
-                         <i class="bi bi-person-circle"></i> Account
-                       </div></a
-                     >
-                   </li>
-                   <li class="hvr-bob">
-                     <a href="/?a=deposit"
-                       ><div class="inner">
-                         <i class="bi bi-bank2"></i> Deposit
-                       </div></a
-                     >
-                   </li>
-
-                   <li class="hvr-bob">
-                     <a href="/?a=deposit_list"
-                       ><div class="inner">
-                         <i class="bi bi-bar-chart-line-fill"></i> Active
-                         Deposits
-                       </div></a
-                     >
-                   </li>
-                   <li class="hvr-bob">
-                     <a href="/?a=withdraw"
-                       ><div class="inner">
-                         <i class="bi bi-cash-stack"></i> Withdraw
-                       </div>
-                     </a>
-                   </li>
-                   <li class="hvr-bob">
-                     <a href="/?a=history&type=earning"
-                       ><div class="inner">
-                         <i class="bi bi-hourglass-bottom"></i> History
-                       </div></a
-                     >
-                   </li>
-                   <li class="hvr-bob">
-                     <a href="/?a=referals"
-                       ><div class="inner">
-                         <i class="bi bi-people-fill"></i> Referrals
-                       </div></a
-                     >
-                   </li>
-                   <li class="hvr-bob">
-                     <a href="/?a=referallinks"
-                       ><div class="inner">
-                         <i class="bi bi-badge-ad-fill"></i> Promo
-                       </div></a
-                     >
-                   </li>
-                   <li class="hvr-bob">
-                     <a href="/?a=security"
-                       ><div class="inner">
-                         <i class="bi bi-shield-lock-fill"></i> Security
-                       </div></a
-                     >
-                   </li>
-                   <li class="hvr-bob">
-                     <a href="/?a=edit_account"
-                       ><div class="inner">
-                         <i class="bi bi-gear-fill"></i> Settings
-                       </div></a
-                     >
-                   </li>
-                   <li class="hvr-bob">
-                     <a href="/?a=logout"
-                       ><div class="inner">
-                         <i class="bi bi-door-closed-fill"></i> Logout
-                       </div></a
-                     >
-                   </li>
-                 </ul>
-               </div>
-             </nav>
-           </div>
-         </div>
-
-         <div class="col-lg-9 col-sm-12">
-           <div class="accoount-top">
-             <div class="row">
-               <div class="col-lg-12">
-                 <div class="breadcrumbs">
-                   <a href="/?a=account">Dashboard</a>
-                 </div>
-               </div>
-             </div>
-           </div>
-
-           <div class="row">
-             <div class="col-lg-6 col-sm-12">
-               <div
-                 class="account-block2 mb-3 d-flex justify-content-between">
-                 <div class="block-info">
-                   <p><span>$0</span> Account Balance</p>
-                   <a href="/?a=withdraw" class="btn btn-primary"
-                     >Withdraw Funds</a
-                   >
-                 </div>
-                 <figure class="mb-0">
-                   <img src="assets/images/step3.png" />
-                 </figure>
-               </div>
-             </div>
-
-             <div class="col-lg-6 col-sm-12">
-               <div
-                 class="account-block2 mb-3 d-flex justify-content-between">
-                 <div class="block-info">
-                   <p><span>$0.00</span> Active Deposit</p>
-                   <a href="/?a=deposit" class="btn btn-primary"
-                     >Make a Deposit</a
-                   >
-                 </div>
-                 <figure class="mb-0">
-                   <img src="assets/images/step2.png" />
-                 </figure>
-               </div>
-             </div>
-           </div>
-
-           <div class="accoount-top">
-             <div class="row">
-               <div class="col-lg-4">
-                 <p>Registration Date <span>Aug-23-2023</span></p>
-               </div>
-
-               <div class="col-lg-4">
-                 <p>Last Access <span>Aug-23-2023 12:42:50 AM</span></p>
-               </div>
-
-               <div class="col-lg-4">
-                 <p>Your E-mail <span>great.chriz@gmail.com</span></p>
-               </div>
-             </div>
-           </div>
-
-           <div class="row">
-             <div class="col-lg-12 col-sm-12">
-               <div class="middle-account">
-                 <div class="row">
-                   <div class="col-lg-4 col-sm-12">
-                     <div class="account-block3">
-                       <div
-                         class="block-info d-flex justify-content-between">
-                         <p>Earned Total <span>$0.00</span></p>
-                         <figure>
-                           <img src="assets/images/acc1.png" />
-                         </figure>
-                       </div>
-                     </div>
-                   </div>
-                   <div class="col-lg-4 col-sm-12">
-                     <div class="account-block3">
-                       <div
-                         class="block-info d-flex justify-content-between">
-                         <p>Total Deposit <span>$100</span></p>
-                         <figure>
-                           <img src="assets/images/acc2.png" />
-                         </figure>
-                       </div>
-                     </div>
-                   </div>
-                   <div class="col-lg-4 col-sm-12">
-                     <div class="account-block3">
-                       <div
-                         class="block-info d-flex justify-content-between">
-                         <p>Withdrew Total <span>$100</span></p>
-                         <figure>
-                           <img src="assets/images/acc3.png" />
-                         </figure>
-                       </div>
-                     </div>
-                   </div>
-
-                   <div class="col-lg-4 col-sm-12">
-                     <div class="account-block3">
-                       <div
-                         class="block-info d-flex justify-content-between">
-                         <p>Pending Withdrawal <span>$100</span></p>
-                         <figure>
-                           <img src="assets/images/acc4.png" />
-                         </figure>
-                       </div>
-                     </div>
-                   </div>
-                   <div class="col-lg-4 col-sm-12">
-                     <div class="account-block3">
-                       <div
-                         class="block-info d-flex justify-content-between">
-                         <p>Last Deposit<span>$100</span></p>
-                         <figure>
-                           <img src="assets/images/acc5.png" />
-                         </figure>
-                       </div>
-                     </div>
-                   </div>
-                   <div class="col-lg-4 col-sm-12">
-                     <div class="account-block3">
-                       <div
-                         class="block-info d-flex justify-content-between">
-                         <p>Last Withdrawal <span>$100</span></p>
-                         <figure>
-                           <img src="assets/images/acc6.png" />
-                         </figure>
-                       </div>
-                     </div>
-                   </div>
-                 </div>
-               </div>
-             </div>
-           </div>
-
-           <div class="row">
-             <div class="col-lg-12 col-sm-12">
-               <div class="breadcrumbs">Refer New Members</div>
-
-               <div class="referral-block d-flex mb-3">
-                 <div class="input-group">
-                   <span class="input-group-text"
-                     ><i class="bi bi-link"></i
-                   ></span>
-                   <input
-                     type="text"
-                     id="copyTarget"
-                     class="form-control"
-                     value="" />
-                   <button
-                     class="btn btn-primary"
-                     type="button"
-                     id="copyButton">
-                     Copy Link
-                   </button>
-                 </div>
-                 <a
-                   href="index-21.htm?a=referallinks"
-                   class="btn btn-warning ms-2"
-                   style="margin-left: 5px"
-                   >Banners</a
+            <div class="newsletter-inner-area" style="max-width: 100%; margin-bottom: 10px;">
+                
+                
+                
+                <form method="post" id="subscribeForm" autocomplete="off" class="mt-24">
+                    <input
+                    type=hidden
+                    name=a
+                    value=user_notices
                  >
-               </div>
-             </div>
-           </div>
-         </div>
-       </div>
-     </div>
-   </div>
- </section>
+                 <input
+                    type=hidden
+                    name=action
+                    value=notified
+                 >
+                 <input
+                    type=hidden
+                    name=id
+                    value={$n.id}
+                 >
+                    <div class="input-button-group-wrapper">
+                        <div class="input-button-group" style="border: 1px solid #543F30;">
+<div style="padding-left: 15px; padding-top: 20px;" class="d-flex justify-self-start">
+<h4 class="mb-16">Subscribe Us</h4>
+</div>
+                            <input type="email" name="subscribe-email" placeholder="Your Email Address" required="required" id="subscribe" value="Join 14,000+ satisfied Fast Invest customers! Register and Subscribe to our newsletter to receive all the latest news and updates.">
+                        </div>
+                        <button type="submit" class="icon-button"><img src="assets/images/icons/subscribe.png" alt="Subscribe"> Dismiss</button>
+                    </div>
+                </form>
+            </div>
 
-{section name=p loop=$ps}
-  {if $ps[p].pending_col > 0}{$ps[p].pending_col} {$ps[p].name} deposit{if $ps[p].pending_col > 1}s{/if} of {$currency_sign}{$ps[p].pending_amount} total pending<br>{/if}
-{/section}
+        {/foreach}
+        </div>
+   
+{/if} *}
 
-<br><br>
+<div class="dashboard-tab-content">
+    <div class="balance-area p-40 wow fadeInUp" data-wow-duration="0.4s" style="background-size: 200px;">
+        <h5>Your Balance</h5>
+        <h2>{$currency_sign}<b>{$ab_formated.total}</b></h2>
+        <div class="btn-group mt-60">
+            <a href="/?a=deposit" class="dashboard-tab primary-btn">Make a Deposit <i class="icon-right-arrow"></i></a>
+            <a href="/?a=withdraw" class="dashboard-tab primary-btn">Withdraw Funds <i class="icon-right-arrow"></i></a>
+        </div>
+    </div>
+    <div class="balance-card mtf-30 wow fadeInUp" data-wow-duration="0.4s">
+        <div class="row">
+            <div class="col-md-6 col-xl-3">
+                <div class="single-item p-40">
+                    <h5>{$currency_sign}<b>{$ab_formated.active_deposit}</b></h5>
+                    <p class="small">Active Deposits</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-3">
+                <div class="single-item p-40">
+                    <h5>{$currency_sign}<b>{$ab_formated.earning}</b></h5>
+                    <p class="small">Earn Total</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-xl-3">
+                <div class="single-item p-40">
+                    <h5>{$currency_sign}<b>{$ab_formated.withdraw_pending}</b></h5>
+                    <p class="small">Pending Withdrawal</p>
+                </div>
+            </div>
+
+
+            {if $ab_formated.deposit != 0}
+            <div class="col-md-6 col-xl-3">
+                <div class="single-item p-40">
+                    <h5>{$currency_sign}<b>{$ab_formated.deposit}</b></h5>
+                    <p class="small">Total Deposit</p>
+                </div>
+            </div>
+            {/if}
+
+            {if $ab_formated.withdrawal > 0}
+                <div class="col-md-6 col-xl-3">
+                    <div class="single-item p-40">
+                        <h5>{$currency_sign}<b>{$ab_formated.withdrawal}</b></h5>
+                        <p class="small">Withdrew Total</p>
+                    </div>
+                </div>
+            {/if}                                                                               
+        </div>
+    </div>
+    <div class="payment-balance mt-60 wow fadeInUp" data-wow-duration="0.4s">
+        <h4>Payment Balance</h4>
+        <div class=" icon-item-wrapper">
+            {foreach from=$ps item=p}
+                
+                <div class="item">
+                    <div class="icon-wrapper d-flex justify-content-center align-items-center mb-20">
+                        <div class="icon">
+                            <img src="images/{$p.id}.gif" alt="Bitcoin">
+                        </div>
+                        <p class="small">{$p.name}</p>
+                    </div>
+                    <p class="small mb-13">Balance:</p>
+                    {if $p.balance > 0}
+                    <h6 class="mb-13">{$currency_sign}{$p.balance}</h6>
+                    {else}
+                        <h6 class="mb-13">$0.00</h6>
+                    {/if}
+                </div>
+           
+            {/foreach}
+        </div>
+        {* <div class="icon-item-wrapper">
+            <div class="item">
+                <div class="icon-wrapper d-flex justify-content-center align-items-center mb-20">
+                    <div class="icon">
+                        <img src="dashboard/images/icons/bitcoin.png" alt="Bitcoin">
+                    </div>
+                    <p class="small">Bitcoin</p>
+                </div>
+                <p class="small mb-13">Balance:</p>
+                <h6 class="mb-13">$0.00</h6>
+                <p class="small mb-13">On Dep:</p>
+                <h6>$0.00</h6>
+            </div>
+            <div class="item">
+                <div class="icon-wrapper d-flex align-items-center justify-content-center mb-20">
+                    <div class="icon">
+                        <img src="dashboard/images/icons/ethereum.png" alt="Ethereum">
+                    </div>
+                    <p class="small">Ethereum</p>
+                </div>
+                <p class="small mb-13">Balance:</p>
+                <h6 class="mb-13">$0.00</h6>
+                <p class="small mb-13">On Dep:</p>
+                <h6>$0.00</h6>
+            </div>
+            <div class="item">
+                <div class="icon-wrapper d-flex justify-content-center align-items-center mb-20">
+                    <div class="icon">
+                        <img src="dashboard/images/icons/neteller.png" alt="Neteller">
+                    </div>
+                    <p class="small">Neteller</p>
+                </div>
+                <p class="small mb-13">Balance:</p>
+                <h6 class="mb-13">$0.00</h6>
+                <p class="small mb-13">On Dep:</p>
+                <h6>$0.00</h6>
+            </div>
+            <div class="item">
+                <div class="icon-wrapper d-flex justify-content-center align-items-center mb-20">
+                    <div class="icon">
+                        <img src="dashboard/images/icons/paypal.png" alt="Paypal">
+                    </div>
+                    <p class="small">Paypal</p>
+                </div>
+                <p class="small mb-13">Balance:</p>
+                <h6 class="mb-13">$0.00</h6>
+                <p class="small mb-13">On Dep:</p>
+                <h6>$0.00</h6>
+            </div>
+            <div class="item">
+                <div class="icon-wrapper d-flex justify-content-center align-items-center mb-20">
+                    <div class="icon">
+                        <img src="dashboard/images/icons/perfect-money.png" alt="perfect-money">
+                    </div>
+                    <p class="small">Perfect Money</p>
+                </div>
+                <p class="small mb-13">Balance:</p>
+                <h6 class="mb-13">$0.00</h6>
+                <p class="small mb-13">On Dep:</p>
+                <h6>$0.00</h6>
+            </div>
+        </div> *}
+    </div>
+    <div class="referral p-40-30 mt-60 wow fadeInUp" data-wow-duration="0.4s">
+        <h4>Share The Referral Link</h4>
+        <p>You can also share your referral link by copying and sending it or sharing it on
+            your social media.</p>
+        <div class="row d-flex align-items-center mt-25">
+            <div class="col-md-8">
+                <div class="copy-link-wrapper">
+                  <input type="text" value="gemcrest.org/?ref={$userinfo.username}" id="copyLink" disabled="disabled">
+                  <button class="primary-btn" onclick="myFunction()">Copy Link</button>
+              </div>
+  
+              
+
+               <script>
+                  function myFunction() {
+                  // Get the text field
+                  var copyText = document.getElementById("copyLink");
+
+                  // Select the text field
+                  copyText.select();
+                  copyText.setSelectionRange(0, 99999); // For mobile devices
+
+                  // Copy the text inside the text field
+                  navigator.clipboard.writeText(copyText.value);
+
+                  // Alert the copied text
+                  alert("Copied the text: " + copyText.value);
+                }
+                </script>
+                  
+            
+
+          </div>	
+            <div class="col-md-4">
+                <div class="social-bar">
+                    <div class="social-box-third text-center text-md-end">
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="mr-0">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 {include file="footer.tpl"}
+

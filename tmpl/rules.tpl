@@ -1,50 +1,122 @@
-{include file="header.tpl"}
-<h3>Rules & Agreements.</h3>
-<br>
+{include file="main_header.tpl" current_page="home"}
 
-<p align=justify>
-
-Please read the following rules carefully before signing in.<br><br>
+{include file="inner-hero.tpl" title="Privacy" title2="Privacy" bg="bg-1.jpg"}
 
 
 
-You agree to be of legal age in your country to partake in this program, and in all the cases your minimal age must be 18 years.<br><br>
+<!-- blog-details-section start -->
+<section class="pt-150 pb-150">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="blog-details-wrapper">
+                    <div class="blog-details__content">
+                        <h4 class="blog-details__title">User Responsibilities:</h4>
+                        <p>
+                            1. You must be of legal age to use our services.<br>
+                            2. You are responsible for maintaining the confidentiality of your account information,
+                            including passwords.<br>
+                            3. You agree not to use our platform for any unlawful or unauthorized purposes.<br>
+                            4. You understand that investments in cryptocurrencies involve risks, and you are solely
+                            responsible for any investment decisions you make.
+                        </p>
+                    </div>
 
-{$site_name} is not available to the general public and is opened only to the qualified members of {$site_name}, the use of this site is restricted to our members and to individuals personally invited by them. Every deposit is considered to be a private transaction between the {$site_name} and its Member.<br><br>
-	
-As a private transaction, this program is exempt from the US Securities Act of 1933, the US Securities Exchange Act of 1934 and the US Investment Company Act of 1940 and all other rules, regulations and amendments thereof. We are not FDIC insured. We are not a licensed bank or a security firm.<br><br>
-  You agree that all information, communications, materials coming from {$site_name} 
-  are unsolicited and must be kept private, confidential and protected from any 
-  disclosure. Moreover, the information, communications and materials contained 
-  herein are not to be regarded as an offer, nor a solicitation for investments 
-  in any jurisdiction which deems non-public offers or solicitations unlawful, 
-  nor to any person to whom it will be unlawful to make such offer or solicitation.<br>
-  <br>
+                    <div class="blog-details__content">
+                        <h4 class="blog-details__title">Intellectual Property:</h4>
+                        <p>
+                            1. The content on our platform, including text, graphics, logos, and software, is protected
+                            by intellectual property rights and may not be used without prior written consent.<br>
+                            2. You may use the platform for personal, non-commercial purposes only.
+                        </p>
+                    </div>
 
-All the data giving by a member to {$site_name} will be only privately used and not disclosed to any third parties. {$site_name} is not responsible or liable for any loss of data.<br><br>
-  You agree to hold all principals and members harmless of any liability. You 
-  are investing at your own risk and you agree that a past performance is not 
-  an explicit guarantee for the same future performance. You agree that all information, 
-  communications and materials you will find on this site are intended to be regarded 
-  as an informational and educational matter and not an investment advice.<br>
-  <br>
-  We reserve the right to change the rules, commissions and rates of the program 
-  at any time and at our sole discretion without notice, especially in order to 
-  respect the integrity and security of the members' interests. You agree that 
-  it is your sole responsibility to review the current terms. <br>
-  <br>
+                    <div class="blog-details__content">
+                        <h4 class="blog-details__title">Privacy:</h4>
+                        <p>
+                            1. Your privacy is important to us. We collect and use your personal information according
+                            to our Privacy Policy.<br>
+                            2. By using our services, you consent to the collection and use of your data as outlined in
+                            our Privacy Policy.
+                        </p>
+                    </div>
 
-{$site_name} is not responsible or liable for any damages, losses and costs resulting from any violation of the conditions and terms and/or use of our website by a member. You guarantee to {$site_name} that you will not use this site in any illegal way and you agree to respect your local, national and international laws.<br><br>
+                    <!-- Continue this pattern for the remaining sections of the Terms and Conditions -->
 
-Don't post bad vote on Public Forums and at Gold Rating Site without contacting the administrator of our program FIRST. Maybe there was a technical problem with your transaction, so please always CLEAR the thing with the administrator.<br><br>
+                    <div class="blog-details__content">
+                        <h4 class="blog-details__title">Investment Risks:</h4>
+                        <p>
+                            1. Cryptocurrency investments are subject to market risks and volatility.<br>
+                            2. Our platform provides insights, but we do not guarantee profits or specific outcomes.<br>
+                            3. You are advised to conduct your own research and seek professional advice before making
+                            investment decisions.
+                        </p>
+                    </div>
 
-We will not tolerate SPAM or any type of UCE in this program. SPAM violators will be immediately and permanently removed from the program.<br><br>
+                    <div class="blog-details__content">
+                        <h4 class="blog-details__title">Service Availability:</h4>
+                        <p>
+                            1. We strive to provide uninterrupted services, but we may experience downtime due to
+                            technical issues or maintenance.<br>
+                            2. We are not responsible for any losses incurred during service interruptions.
+                        </p>
+                    </div>
 
-{$site_name} reserves the right to accept or decline any member for membership without explanation.<br><br>
+                    <div class="blog-details__content">
+                        <h4 class="blog-details__title">Limitation of Liability:</h4>
+                        <p>
+                            1. Gencrest and its affiliates are not liable for any direct, indirect, incidental, or
+                            consequential damages resulting from the use or inability to use our services.<br>
+                            2. You agree to indemnify and hold Gencrest harmless from any claims, losses, or damages
+                            arising from your use of our platform.
+                        </p>
+                    </div>
 
-If you do not agree with the above disclaimer, please do not go any further.
+                    <!-- Continue this pattern for the remaining sections of the Terms and Conditions -->
+
+                    <div class="blog-details__content">
+                        <h4 class="blog-details__title">Termination:</h4>
+                        <p>
+                            1. We reserve the right to terminate or suspend your account for violation of these
+                            terms.<br>
+                            2. You can terminate your account at any time by following the provided instructions.
+                        </p>
+                    </div>
+
+                    <div class="blog-details__content">
+                        <h4 class="blog-details__title">Changes to Terms:</h4>
+                        <p>
+                            1. Gencrest may update these terms from time to time. We will notify you of significant
+                            changes.<br>
+                            2. Continued use of our services after changes indicates your acceptance of the updated
+                            terms.
+                        </p>
+                    </div>
+
+                    <div class="blog-details__content">
+                        <h4 class="blog-details__title">Governing Law:</h4>
+                        <p>
+                            These terms are governed by the laws of [Jurisdiction], without regard to conflict of law
+                            principles.
+                        </p>
+                    </div>
+
+                    <div class="blog-details__content">
+                        <h4 class="blog-details__title">Contact Us:</h4>
+                        <p>
+                            For any questions or concerns regarding these terms, please contact us at
+                            legal@gencrest.com.
+                        </p>
+                    </div>
 
 
+                </div><!-- blog-details-wrapper end -->
 
-</p>
-{include file="footer.tpl"}
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- blog-details-section end -->
+
+{include file="main_footer.tpl"}
