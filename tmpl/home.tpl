@@ -2372,48 +2372,8 @@
             });
         </script>
     
-        <!-- HYIPexplorerCounter -->
-        <script
-          language="JavaScript"
-          src="mbtnjs/topright_ssl.js"
-          type="text/javascript"></script>
-        <script type="text/javascript">
-          show_topright("d", "12476", "metaverse_profit_limited");
-        </script>
-        <script type="text/javascript">
-          <!--
-          bd = "https://www.hyipexplorer.com/counter/counter.php?id=12871";
-          ur =
-            bd + "&w=" + screen.width + "&r=" + escape(document.referrer) + "&u=";
-          ur += escape(document.location) + "&t=" + escape(document.title);
-          ur += "&java=1" + "&sc_random=" + Math.random();
-          document.write('<img src="' + ur + '" height=1 width=1 border="0">'); //-->
-        </script>
-        <noscript
-          ><a href="http://www.hyipexplorer.com/"
-            ><img
-              src="https://www.counter.hyipexplorer.com/counter.php?id=12871"
-              alt="HYIP"
-              height="1"
-              width="1"
-              border="0" /></a
-        ></noscript>
-        <!-- HYIPexplorerCounter -->
-        <!--Start of Tawk.to Script-->
-        <script type="text/javascript">
-          var Tawk_API = Tawk_API || {},
-            Tawk_LoadStart = new Date();
-          (function () {
-            var s1 = document.createElement("script"),
-              s0 = document.getElementsByTagName("script")[0];
-            s1.async = true;
-            s1.src = "https://embed.tawk.to/64b28736cc26a871b0289131/1h5cm0c2q";
-            s1.charset = "UTF-8";
-            s1.setAttribute("crossorigin", "*");
-            s0.parentNode.insertBefore(s1, s0);
-          })();
-        </script>
-        <!--End of Tawk.to Script-->
+   
+       
       </body>
     </html>
     
