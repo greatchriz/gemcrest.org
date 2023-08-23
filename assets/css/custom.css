@@ -1157,13 +1157,10 @@ border-radius: 36px;
 
 .carousel-inner {
 	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f8663d+0,e01954+100 */
-    background: url(../images/bg-5.jpg);
+
 	padding:40px;
 	border-radius:16px;
 	margin-top:-38px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 
