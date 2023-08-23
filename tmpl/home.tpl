@@ -462,7 +462,11 @@
                     </div>
     
                     <div class="col-lg-9 p-0">
-                      <div class="carousel-inner">
+                      <div class="carousel-inner" style="background-image: url(assets/images/bg-5.jpg);                      background-size: cover;
+                      background-position: center;
+                      background-repeat: no-repeat;padding:40px;
+                      border-radius:16px;
+                      margin-top:-38px;">
                         <div class="carousel-item active">
                           <div class="plan-top">
                             <div class="row">
