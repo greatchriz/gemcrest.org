@@ -22,6 +22,10 @@ function checkform() {
 
 
 {if $frm.say eq 'invalid_login'}
+  <h3>Login error:</h3><br><br>
+  
+  Your login or password or turing image code is wrong. Please check this information.
+  {/if}  
   <section class="subpage_wrap">
     <div class="container">
       <div class="login-container2">
