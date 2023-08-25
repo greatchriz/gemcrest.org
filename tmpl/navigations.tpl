@@ -6,7 +6,8 @@
                 <!-- Application Logo -->
                 <div class="flex">
                     <a href="/">
-                    <img class="w-36 transition-transform duration-500 ease-in-out hover:rotate-[360deg]" src="images/logo.png" alt="logo">
+                    <img src="assets/images/logo.svg" width="375px" height="95px" alt="site-logo">
+                    {* <img class="w-36 transition-transform duration-500 ease-in-out hover:rotate-[360deg]" src="images/logo.png" alt="logo"> *}
                     </a>
                 </div>
                 <button
