@@ -384,26 +384,15 @@
                           <table class="table style--two">
                               <thead>
                                   <tr>
+                                    <th>Gateway</th>
                                       <th>Name</th>
                                       <th>Date</th>
                                       <th>Amount</th>
-                                      <th>Gateway</th>
                                   </tr>
                               </thead>
                               <tbody>
                                   <tr>
-                                      <td data-label="Name">
-                                          <div class="user">
-                                              <div class="thumb"><img
-                                                      src="assets/images/investor/1.jpg"
-                                                      alt="image"
-                                                  ></div>
-                                              <span>fahaddevs</span>
-                                          </div>
-                                      </td>
-                                      <td data-label="Date">Nov 22, 2020</td>
-                                      <td data-label="Amount">$ 5000</td>
-                                      <td data-label="Gateway">Stripe Hosted</td>
+                                    {include file="index_last_deposits.tpl"}
                                   </tr>
                               </tbody>
                           </table>
