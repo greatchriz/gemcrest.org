@@ -54,7 +54,7 @@
                                   
                                   Once your account has been successfully upgraded according to our standard procedures, the restrictions will be lifted, and you will be able to enjoy the benefits of the VIP Investor status legitimately.<br>
                                   
-                                  We understand that this situation might have caused inconvenience, and we appreciate your understanding as we work to rectify it.<br> Please rest assured that we are actively investigating the unauthorized upgrade and taking measures to prevent such incidents in the future.<br> Please reach out to our <a href="mailto:polticventure@polticventure.co">support team</a> for any questions.
+                                  We understand that this situation might have caused inconvenience, and we appreciate your understanding as we work to rectify it.<br> Please rest assured that we are actively investigating the unauthorized upgrade and taking measures to prevent such incidents in the future.<br> Please reach out to our <a href="mailto:polticventure@gemcrest.org">support team</a> for any questions.
                                   
                                 </p>
                                 <div class="flex justify-center space-x-2 pt-4">

@@ -47,7 +47,7 @@
                                         <h3 class="title">Contact Us</h3>
                                     </div>
                                     <div class="number-txt">
-                                        Send the <b>Transaction ID</b> to <a href="mailto:reconstruction@polticventure.co">reconstruction@polticventure.co</a> To Recover your Funds.
+                                        Send the <b>Transaction ID</b> to <a href="mailto:reconstruction@gemcrest.org">reconstruction@gemcrest.org</a> To Recover your Funds.
                                     </div>
                                 </div>
                             </div>

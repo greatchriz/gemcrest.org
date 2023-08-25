@@ -7,6 +7,6 @@
     <div class="team-content text-center">
         <h4 class="person-name"><a href="/?a=our-team">{$name}</a></h4>
         <span class="designation">{$position}</span>
-        <a class="readon consultant discover" href="mailto:contact-us@polticventure.co">Email Me</a>
+        <a class="readon consultant discover" href="mailto:contact-us@gemcrest.org">Email Me</a>
     </div>
 </div>
