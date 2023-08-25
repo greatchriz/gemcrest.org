@@ -1,144 +1,192 @@
-{include file="header.tpl"}
-<div class="dashboard-tab-content" id="transaction">
-  <div class="transaction-filter">
-      <div class="row d-flex align-items-end">
-          <div class="col-lg-7">
-              <div class="row">
-                  <div class="col-sm-6">
-                      <div class="date-select wow fadeInUp" data-wow-duration="0.4s">
-                          <label for="transactionFrom">Date From</label>
-                          <div class="img-input d-flex align-items-center">
-                              <img src="dashboard/images/icons/calendar.png" alt="Date Picker">
-                              <input type="text" name="transaction_from" id="transactionFrom" placeholder="Date From">
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-sm-6">
-                      <div class="date-select wow fadeInUp" data-wow-duration="0.4s">
-                          <label for="transactionTo">Date To</label>
-                          <div class="img-input d-flex align-items-center">
-                              <img src="dashboard/images/icons/calendar.png" alt="Date Picker">
-                              <input type="text" name="transaction_to" id="transactionTo" placeholder="Date To">
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          <div class="col-lg-5">
-              <div class="date-select wow fadeInUp" data-wow-duration="0.4s">
-                  <div class="input-label-group">
-                      <label for="currencyTwo">Payment</label>
-                      <select class="method-pick method-pick-alt currency" id="currencyTwo">
-                          <option data-display="All">All</option>
-                          <option value="bitcoin">Bitoin</option>
-                          <option value="lite-coin">Lite Coin</option>
-                          <option value="ethereum">Ethereum</option>
-                          <option value="xem">xem</option>
-                          <option value="doge">Doge</option>
-                          <option value="usd">USD</option>
-                          <option value="euro">Euro</option>
-                      </select>
-                  </div>
-              </div>
-          </div>
-      </div>
-      <div class="row d-flex align-items-end mtf-30">
-          <div class="col-lg-9">
-              <div class="input-label-group wow fadeInUp" data-wow-duration="0.4s">
-                  <label for="transactionThree">Transaction</label>
-                  <select class="method-pick currency" id="transactionThree">
-                      <option data-display="All">All</option>
-                      <option value="bitcoin">Deposit</option>
-                      <option value="lite-coin">Withdraw</option>
-                  </select>
-              </div>
-          </div>
-          <div class="col-lg-3">
-              <div class="date-select wow fadeInUp" data-wow-duration="0.4s">
-                  <a href="#0" class="primary-btn">Filter <i class="icon-right-arrow"></i></a>
-              </div>
-          </div>
-      </div>
-  </div>
-  <div class="referral-table referral-table-two wow fadeInUp" data-wow-duration="0.4s">
-      <div class="table-wrapper mtf-30">
-          <table class="table">
-              <thead>
-                  <tr>
-                      <th>Date & Time</th>
-                      <th class="text-center">Transaction</th>
-                      <th class="text-center">Amount</th>
-                      <th class="text-center">Payment Method</th>
-                  </tr>
-              </thead>
-              <tbody>
-                  <tr>
-                      <td>
-                          Nov-3-2021 02:10:59 PM
-                      </td>
-                      <td class="text-center">Deposit</td>
-                      <td class="text-center">$5000</td>
-                      <td>
-                          <div class="method">
-                              <img src="dashboard/images/icons/perfect-money.png" alt="Perfect Money">
-                          </div>
-                      </td>
-                  </tr>
-                  <tr>
-                      <td>
-                          Nov-3-2021 02:10:59 PM
-                      </td>
-                      <td class="text-center">Deposit</td>
-                      <td class="text-center">$5000</td>
-                      <td>
-                          <div class="method">
-                              <img src="dashboard/images/icons/perfect-money.png" alt="Perfect Money">
-                          </div>
-                      </td>
-                  </tr>
-                  <tr>
-                      <td>
-                          Nov-3-2021 02:10:59 PM
-                      </td>
-                      <td class="text-center">Deposit</td>
-                      <td class="text-center">$5000</td>
-                      <td>
-                          <div class="method">
-                              <img src="dashboard/images/icons/perfect-money.png" alt="Perfect Money">
-                          </div>
-                      </td>
-                  </tr>
-              </tbody>
+{include file="header.tpl" pagetitle="Deposit History" pageurl="deposit_history"}
+
+  <div class="grid grid-cols-1 gap-4 sm:gap-5 lg:gap-6">
+    <!-- Users Table -->
+    <div>
+      <div class="flex items-center justify-between">
+        <h2
+          class="text-base font-medium tracking-wide text-slate-700 line-clamp-1 dark:text-navy-100"
+        >
+          Deposit History
+        </h2>
+       </div>
+      <div class="card mt-3">
+        <div
+          class="is-scrollbar-hidden min-w-full overflow-x-auto"
+          x-data="pages.tables.initExample1"
+        >
+          <table class="is-hoverable w-full text-left">
+            <thead>
+              <tr>
+                <th
+                  class="whitespace-nowrap bg-slate-200 px-4 py-3 font-semibold uppercase text-slate-800 dark:bg-navy-800 dark:text-navy-100 lg:px-5"
+                >
+                  Type
+                </th>
+                <th
+                  class="whitespace-nowrap bg-slate-200 px-4 py-3 font-semibold uppercase text-slate-800 dark:bg-navy-800 dark:text-navy-100 lg:px-5"
+                >
+                  Amount
+                </th>
+               
+                <th
+                  class="whitespace-nowrap bg-slate-200 px-4 py-3 font-semibold uppercase text-slate-800 dark:bg-navy-800 dark:text-navy-100 lg:px-5"
+                >
+                  Date
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              {if $qtrans > 0}
+                {section name=trans loop=$trans}
+                <tr
+                  class="border-y border-transparent border-b-slate-200 dark:border-b-navy-500"
+                >
+                  
+                  <td
+                    class="whitespace-nowrap px-3 py-3 font-medium text-slate-700 dark:text-navy-100 lg:px-5"
+                  >
+                  {$trans[trans].transtype}
+                  </td>
+
+
+                  <td class="whitespace-nowrap px-4 py-3 sm:px-5">
+                    {$currency_sign} {$trans[trans].actual_amount}
+                    <div class="avatar flex h-10 w-10">
+                      <img
+                        class="mask is-squircle"
+                        src="images/{$trans[trans].ec}.gif"
+                        alt="avatar"
+                      />
+                    </div>
+                  </td>
+
+                  <td
+                    class="whitespace-nowrap px-4 py-3 sm:px-5"
+                  >
+                  {$trans[trans].d}
+                  </td>
+
+       
+                </tr>
+              {/section}
+            {else}
+              <tr
+                  class="border-y border-transparent border-b-slate-200 dark:border-b-navy-500"
+                >
+                  
+                  <td
+                    class="whitespace-nowrap px-3 py-3 font-medium text-slate-700 dark:text-navy-100 lg:px-5"
+                  >
+                  No transactions found
+                  </td>
+              </tr>
+            {/if}
+
+            </tbody>
           </table>
-      </div>
-  </div>
-  <div class="row d-flex align-items-center mtf-30">
-      <div class="col-sm-6">
-          <p class="small text-center text-sm-start">Showing 1 to 5 of 22 entries</p>
-      </div>
-      <div class="col-sm-6">
-          <div class="pagination-wrapper d-flex justify-content-center justify-content-sm-end">
-              <nav aria-label="...">
-                  <ul class="pagination">
-                      <li class="page-item">
-                          <a class="page-link" href="#0" tabindex="-1">
-                              <i class="fas fa-angle-left"></i>
-                          </a>
-                      </li>
-                      <li class="page-item"><a class="page-link" href="#">1</a></li>
-                      <li class="page-item">
-                          <a class="page-link" href="#0">2</a>
-                      </li>
-                      <li class="page-item"><a class="page-link" href="#0">3</a></li>
-                      <li class="page-item">
-                          <a class="page-link" href="#0">
-                              <i class="fas fa-angle-right"></i>
-                          </a>
-                      </li>
-                  </ul>
-              </nav>
+        </div>
+
+        <div
+          class="flex flex-col justify-between space-y-4 px-4 py-4 sm:flex-row sm:items-center sm:space-y-0 sm:px-5"
+        >
+          <div class="flex items-center space-x-2 text-xs+">
+            <span>Show</span>
+            <label class="block">
+              <select
+                class="form-select rounded-full border border-slate-300 bg-white px-2 py-1 pr-6 hover:border-slate-400 focus:border-primary dark:border-navy-450 dark:bg-navy-700 dark:hover:border-navy-400 dark:focus:border-accent"
+              >
+                <option>10</option>
+                <option>30</option>
+                <option>50</option>
+              </select>
+            </label>
+            <span>entries</span>
           </div>
+
+          <ol class="pagination">
+            <li class="rounded-l-lg bg-slate-150 dark:bg-navy-500">
+              <a
+                href="#"
+                class="flex h-8 w-8 items-center justify-center rounded-lg text-slate-500 transition-colors hover:bg-slate-300 focus:bg-slate-300 active:bg-slate-300/80 dark:text-navy-200 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-4 w-4"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M15 19l-7-7 7-7"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li class="bg-slate-150 dark:bg-navy-500">
+              <a
+                href="#"
+                class="flex h-8 min-w-[2rem] items-center justify-center rounded-lg px-3 leading-tight transition-colors hover:bg-slate-300 focus:bg-slate-300 active:bg-slate-300/80 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90"
+                >1</a
+              >
+            </li>
+            <li class="bg-slate-150 dark:bg-navy-500">
+              <a
+                href="#"
+                class="flex h-8 min-w-[2rem] items-center justify-center rounded-lg bg-primary px-3 leading-tight text-white transition-colors hover:bg-primary-focus focus:bg-primary-focus active:bg-primary-focus/90 dark:bg-accent dark:hover:bg-accent-focus dark:focus:bg-accent-focus dark:active:bg-accent/90"
+                >2</a
+              >
+            </li>
+            <li class="bg-slate-150 dark:bg-navy-500">
+              <a
+                href="#"
+                class="flex h-8 min-w-[2rem] items-center justify-center rounded-lg px-3 leading-tight transition-colors hover:bg-slate-300 focus:bg-slate-300 active:bg-slate-300/80 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90"
+                >3</a
+              >
+            </li>
+            <li class="bg-slate-150 dark:bg-navy-500">
+              <a
+                href="#"
+                class="flex h-8 min-w-[2rem] items-center justify-center rounded-lg px-3 leading-tight transition-colors hover:bg-slate-300 focus:bg-slate-300 active:bg-slate-300/80 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90"
+                >4</a
+              >
+            </li>
+            <li class="bg-slate-150 dark:bg-navy-500">
+              <a
+                href="#"
+                class="flex h-8 min-w-[2rem] items-center justify-center rounded-lg px-3 leading-tight transition-colors hover:bg-slate-300 focus:bg-slate-300 active:bg-slate-300/80 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90"
+                >5</a
+              >
+            </li>
+            <li class="rounded-r-lg bg-slate-150 dark:bg-navy-500">
+              <a
+                href="#"
+                class="flex h-8 w-8 items-center justify-center rounded-lg text-slate-500 transition-colors hover:bg-slate-300 focus:bg-slate-300 active:bg-slate-300/80 dark:text-navy-200 dark:hover:bg-navy-450 dark:focus:bg-navy-450 dark:active:bg-navy-450/90"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-4 w-4"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5l7 7-7 7"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ol>
+
+          <div class="text-xs+">1 - 10 of 10 entries</div>
+        </div>
       </div>
+    </div>
   </div>
-</div>
 {include file="footer.tpl"}

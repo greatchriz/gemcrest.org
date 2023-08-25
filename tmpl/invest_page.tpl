@@ -1,4 +1,4 @@
-{include file="main_header.tpl"}
+{include file="header.tpl"}
 
 {$settings.site_name} INVESTMENT PROGRAMS:<br><br>
 
@@ -8,4 +8,4 @@
 
 
 
-{include file="main_footer.tpl"}
+{include file="footer.tpl"}

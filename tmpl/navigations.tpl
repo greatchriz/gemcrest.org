@@ -6,7 +6,7 @@
                 <!-- Application Logo -->
                 <div class="flex">
                     <a href="/">
-                    <img class="w-36 transition-transform duration-500 ease-in-out hover:rotate-[360deg]" src="assets/images/logo-dark.svg" alt="logo">
+                    <img class="w-36 transition-transform duration-500 ease-in-out hover:rotate-[360deg]" src="images/logo.png" alt="logo">
                     </a>
                 </div>
                 <button
@@ -42,45 +42,28 @@
 
                         {include 
                             'navigation_item.tpl' 
-                            link='/?a=account'
+                            link='account'
                             icon='images/svg/home-icon.svg'
                             title='Dashboard'
                         }
 
                         {include 
                             'navigation_item.tpl' 
-                            link='/?a=upgrade-fee'
-                            icon='images/svg/home-icon.svg'
-                            title='Upgrade Fee'
-                        }
-
-                        {include 
-                        'navigation_item.tpl' 
-                        link='/?a=add_funds'
-                        icon='images/svg/deposit-icon.svg'
-                        title='Add Funds'
-                    }
-
-                
-
-                        
-                        {include 
-                            'navigation_item.tpl' 
-                            link='/?a=deposit'
+                            link='deposit'
                             icon='images/svg/deposit-icon.svg'
                             title='Deposit'
                         }
 
                         {include 
                             'navigation_item.tpl' 
-                            link='/?a=deposit_list'
+                            link='deposit_list'
                             icon='images/svg/depositlist-icon.svg'
                             title='Deposit List'
                         }
 
                         {include 
                             'navigation_item.tpl' 
-                            link='/?a=deposit_history'
+                            link='deposit_history'
                             icon='images/svg/history-icon.svg'
                             title='Deposit History'
                         }
@@ -88,7 +71,7 @@
 
                         {include 
                             'navigation_item.tpl' 
-                            link='/?a=history&type=earning'
+                            link='history&type=earning'
                             icon='images/svg/history-icon.svg'
                             title='Earning History'
                         }
@@ -97,14 +80,14 @@
 
                         {include 
                             'navigation_item.tpl' 
-                            link='/?a=withdraw'
+                            link='withdraw'
                             icon='images/svg/withdraw-icon.svg'
                             title='Withdraw'
                         }
 
                         {include 
                             'navigation_item.tpl' 
-                            link='/?a=withdraw_history'
+                            link='withdraw_history'
                             icon='images/svg/history-icon.svg'
                             title='Withdraw History'
                         }
@@ -112,28 +95,21 @@
                         {* referrals *}
                         {include 
                             'navigation_item.tpl' 
-                            link='/?a=referals'
+                            link='referals'
                             icon='images/svg/referal-icon.svg'
                             title='Referrals'
                         }
                         {include 
                             'navigation_item.tpl' 
-                            link='/?a=history&type=commissions'
+                            link='history&type=commissions'
                             icon='images/svg/history-icon.svg'
                             title='Referrals History'
-                        }
-
-                        {include 
-                            'navigation_item.tpl' 
-                            link='/?a=upgrade'
-                            icon='images/svg/user-icon.svg'
-                            title='Account Upgrade'
                         }
 
                         <!--edit_account-->
                         {include 
                             'navigation_item.tpl' 
-                            link='/?a=edit_account'
+                            link='edit_account'
                             icon='images/svg/user-icon.svg'
                             title='Edit Account'
                         }
@@ -141,7 +117,7 @@
                         <!--logout-->
                         {include 
                             'navigation_item.tpl' 
-                            link='/?a=logout'
+                            link='logout'
                             icon='images/svg/logout-icon.svg'
                             title='Logout'
                         }

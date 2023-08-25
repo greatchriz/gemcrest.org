@@ -1,59 +1,98 @@
-<!-- meta tags and other links -->
-  <!DOCTYPE html>
+<!DOCTYPE html>
     <html lang="en">
-    <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>HYIPLAB - HYIP Investment HTML template</title>
-      <link rel="icon" type="image/png" href="assets/images/favicon.png" sizes="16x16">
-      <!-- bootstrap 4  -->
-      <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
-      <!-- fontawesome 5  -->
-      <link rel="stylesheet" href="assets/css/all.min.css">
-      <!-- line-awesome webfont -->
-      <link rel="stylesheet" href="assets/css/line-awesome.min.css">
-      <link rel="stylesheet" href="assets/css/vendor/animate.min.css">
-      <!-- slick slider css -->
-      <link rel="stylesheet" href="assets/css/vendor/slick.css">
-      <link rel="stylesheet" href="assets/css/vendor/dots.css">
-      <!-- dashdoard main css -->
-      <link rel="stylesheet" href="assets/css/main.css">
-    </head>
-      <body>
-        <div class="preloader">
-          <div class="preloader-container">
-            <span class="animated-preloader"></span>
-          </div>
-        </div>
-      
-        <!-- scroll-to-top start -->
-        <div class="scroll-to-top">
-          <span class="scroll-icon">
-            <i class="fa fa-rocket" aria-hidden="true"></i>
-          </span>
-        </div>
-        <!-- scroll-to-top end -->
     
-      <div class="full-wh">
-        <!-- STAR ANIMATION -->
-        <div class="bg-animation">
-          <div id='stars'></div>
-          <div id='stars2'></div>
-          <div id='stars3'></div>
-          <div id='stars4'></div>
-        </div><!-- / STAR ANIMATION -->
-      </div>
-      <div class="page-wrapper">
+        <head>
+            <!-- Meta tags  -->
+            <meta charset="UTF-8" />
+            <meta
+                http-equiv="X-UA-Compatible"
+                content="IE=edge"
+            />
+            <meta
+                name="viewport"
+                content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+            />
     
-        <!-- account section start -->
-        <div class="account-section bg_img" data-background="assets/images/bg/bg-5.jpg">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-xl-5 col-lg-7">
-                <div class="account-card">
-                  <div class="account-card__header bg_img overlay--one" data-background="assets/images/bg/bg-6.jpg">
-                    <h2 class="section-title">Welcome to <span ><a class="base--color" href="/?a=home">Gemcrest</a></span></h2>
-                    <p>{$subheader}</p>
-                  </div>
-                  <div class="account-card__body">
-                    <h3 class="text-center">{$title}</h3>
+            <title>Dexfintech | Authentication</title>
+            <link
+                rel="icon"
+                type="image/png"
+                href="images/favicon.png"
+            />
+    
+            <!-- CSS Assets -->
+            <link
+                rel="stylesheet"
+                href="css/app.css"
+            />
+    
+            <!-- Javascript Assets -->
+            <script
+                src="js/app.js"
+                defer
+            ></script>
+    
+            <!-- Fonts -->
+            <link
+                rel="preconnect"
+                href="https://fonts.googleapis.com"
+            />
+            <link
+                rel="preconnect"
+                href="https://fonts.gstatic.com"
+                crossorigin
+            />
+            <link
+                href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+                rel="stylesheet"
+            />
+            <script>
+                /**
+                 * THIS SCRIPT REQUIRED FOR PREVENT FLICKERING IN SOME BROWSERS
+                 */
+                localStorage.getItem("_x_darkMode_on") === "true" &&
+                    document.documentElement.classList.add("dark");
+            </script>
+        </head>
+    
+        <body
+            x-data
+            class="is-header-blur"
+            x-bind="$store.global.documentBody"
+        >
+            
+    
+            <!-- Page Wrapper -->
+            <div
+                id="root"
+                class="min-h-100vh flex grow bg-slate-50 dark:bg-navy-900"
+                x-cloak
+            >
+                <div class="fixed top-0 hidden p-6 lg:block lg:px-12">
+                    <a
+                        href="#"
+                        class="flex items-center space-x-2"
+                    >
+                        <img
+                            class=""
+                            src="images/logo.png"
+                            alt="logo"
+                        />
+                    </a>
+                </div>
+                <div class="hidden w-full place-items-center lg:grid">
+                    <div class="w-full max-w-lg p-6">
+                        <img
+                            class="w-full"
+                            x-show="!$store.global.isDarkModeEnabled"
+                            src="images/illustrations/dashboard-check.svg"
+                            alt="image"
+                        />
+                        <img
+                            class="w-full"
+                            x-show="$store.global.isDarkModeEnabled"
+                            src="images/illustrations/dashboard-check-dark.svg"
+                            alt="image"
+                        />
+                    </div>
+                </div>
