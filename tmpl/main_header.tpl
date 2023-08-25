@@ -141,7 +141,7 @@
                 style="margin-top: 12px"
               >
                 <img
-                  src="assets/images/logo.svg"
+                  src="assets/images/main.svg"
                   width="375px"
                   height="95px"
                   alt="site-logo"
