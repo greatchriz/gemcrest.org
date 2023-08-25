@@ -75,8 +75,6 @@
                     >
 
                     <img src="assets/images/logo.svg" width="375px" height="95px" alt="site-logo">
-
-                      
                     </a>
                 </div>
                 <div class="hidden w-full place-items-center lg:grid">

@@ -3,11 +3,7 @@
   <div class="flex w-full max-w-sm grow flex-col justify-center p-5">
     <div class="text-center">
       <a href="?a=home">
-        <img
-          class="mx-auto lg:hidden"
-          src="images/logo.png"
-          alt="logo"
-        />
+        <img src="assets/images/logo.svg" width="375px" height="95px" alt="site-logo">
       </a>
       <div class="mt-4">
         <h2 class="text-2xl font-semibold text-slate-600 dark:text-navy-100">
