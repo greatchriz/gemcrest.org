@@ -7,20 +7,22 @@
     {foreach from=$last_deposits item=s}
 
         <tr>
-            <td data-label="Name">
+
+            <td data-label="Gateway">
                 <div class="user">
                     <div class="thumb"><img
                             src="images/{$s.ec}.gif"
                             alt="image"
                         ></div>
-                    <span>{$s.username}</span>
                 </div>
             </td>
+            <td data-label="Name">{$s.username}</td>
             <td data-label="Date">{$s.date}</td>
             <td data-label="Amount">{$currency_sign}{$s.amount}</td>
         </tr>
-
     {/foreach}
     {/if}
     
 
+   
+    

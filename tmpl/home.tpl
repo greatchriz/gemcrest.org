@@ -361,10 +361,11 @@
                           <table class="table style--two">
                               <thead>
                                   <tr>
-                                      <th>Name</th>
+                                      <th>Gateway</th>
+                                      <th>User Name</th>
                                       <th>Date</th>
                                       <th>Amount</th>
-                                      <th>Gateway</th>
+                                      
                                   </tr>
                               </thead>
                               <tbody>
@@ -402,76 +403,6 @@
                                       </td>
                                       <td data-label="Date">Nov 22, 2020</td>
                                       <td data-label="Amount">$ 5000</td>
-                                      <td data-label="Gateway">Stripe Hosted</td>
-                                  </tr>
-                                  <tr>
-                                      <td data-label="Name">
-                                          <div class="user">
-                                              <div class="thumb"><img
-                                                      src="assets/images/investor/2.jpg"
-                                                      alt="image"
-                                                  ></div>
-                                              <span>Jon Tulsa</span>
-                                          </div>
-                                      </td>
-                                      <td data-label="Date">Dec 11, 2020</td>
-                                      <td data-label="Amount">$ 1000</td>
-                                      <td data-label="Gateway">Stripe Hosted</td>
-                                  </tr>
-                                  <tr>
-                                      <td data-label="Name">
-                                          <div class="user">
-                                              <div class="thumb"><img
-                                                      src="assets/images/investor/3.jpg"
-                                                      alt="image"
-                                                  ></div>
-                                              <span>Thomas Okeyson</span>
-                                          </div>
-                                      </td>
-                                      <td data-label="Date">Dec 12, 2020</td>
-                                      <td data-label="Amount">$ 10000</td>
-                                      <td data-label="Gateway">Stripe Storefront</td>
-                                  </tr>
-                                  <tr>
-                                      <td data-label="Name">
-                                          <div class="user">
-                                              <div class="thumb"><img
-                                                      src="assets/images/investor/6.jpg"
-                                                      alt="image"
-                                                  ></div>
-                                              <span>Thomas Okeyson</span>
-                                          </div>
-                                      </td>
-                                      <td data-label="Date">Dec 12, 2020</td>
-                                      <td data-label="Amount">$ 6500</td>
-                                      <td data-label="Gateway">Stripe Hosted</td>
-                                  </tr>
-                                  <tr>
-                                      <td data-label="Name">
-                                          <div class="user">
-                                              <div class="thumb"><img
-                                                      src="assets/images/investor/7.jpg"
-                                                      alt="image"
-                                                  ></div>
-                                              <span>Thomas Okeyson</span>
-                                          </div>
-                                      </td>
-                                      <td data-label="Date">Dec 12, 2020</td>
-                                      <td data-label="Amount">$ 6500</td>
-                                      <td data-label="Gateway">Stripe Hosted</td>
-                                  </tr>
-                                  <tr>
-                                      <td data-label="Name">
-                                          <div class="user">
-                                              <div class="thumb"><img
-                                                      src="assets/images/investor/8.jpg"
-                                                      alt="image"
-                                                  ></div>
-                                              <span>Thomas Okeyson</span>
-                                          </div>
-                                      </td>
-                                      <td data-label="Date">Dec 12, 2020</td>
-                                      <td data-label="Amount">$ 6500</td>
                                       <td data-label="Gateway">Stripe Hosted</td>
                                   </tr>
                               </tbody>
