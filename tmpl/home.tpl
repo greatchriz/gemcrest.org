@@ -392,7 +392,7 @@
                               </thead>
                               <tbody>
                                   <tr>
-                                    {include file="index_last_deposits.tpl"}
+                                    {include file="index_last_withdrawals.tpl"}
                                   </tr>
                               </tbody>
                           </table>
