@@ -56,7 +56,7 @@
             <li>${$plans[plans].plans[options].min_deposit} <span class="badge base--bg text-dark">Minimum</span></li>
             <li>${$plans[plans].plans[options].max_deposit} <span class="badge base--bg text-dark">Maximum</span></li>
           </ul>
-          <a href="/?a=deposit" class="cmn-btn btn-md mt-4">Invest Now</a>
+          <a href="#0" class="cmn-btn btn-md mt-4">Invest Now</a>
         
         {/section}
         </div><!-- package-card end -->
