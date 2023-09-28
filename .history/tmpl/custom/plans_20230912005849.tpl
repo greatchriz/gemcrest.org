@@ -15,11 +15,7 @@
             </div>
           </div><!-- row end -->
           <div class="row justify-content-center mb-none-30">
-
-            {section name=plans loop=$plans}
-              {include file="home_plan.tpl" plans=$plans}
-            {/section}
-            {* <div class="col-xl-3 col-lg-4 col-md-6 mb-30">
+            <div class="col-xl-3 col-lg-4 col-md-6 mb-30">
               <div class="package-card text-center bg_img" data-background="assets/images/bg/bg-4.png">
                 <h4 class="package-card__title base--color mb-2">Slivesto</h4>
                 <ul class="package-card__features mt-4">
@@ -122,7 +118,7 @@
                 <div class="package-card__range mt-5 base--color">$100 - $500</div>
                 <a href="#0" class="cmn-btn btn-md mt-4">Invest Now</a>
               </div><!-- package-card end -->
-            </div> *}
+            </div>
           </div><!-- row end -->
         </div>
       </section>
