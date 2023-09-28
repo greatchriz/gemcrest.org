@@ -45,14 +45,12 @@
 
           <h4 class="package-card__title base--color mb-2">{$plans[plans].plans[options].name}</h4>
           <ul class="package-card__features mt-4">
-                      
-            <li>{$plans[plans].plans[options].q_days}Days
-                <span class="badge base--bg text-dark">Duration</span></li>
-            <li>{$plans[plans].plans[options].percent}%
-                <span class="badge base--bg text-dark">R.O.I</span></li>
-            <li>${$plans[plans].plans[options].min_deposit} <span class="badge base--bg text-dark">Minimum</span></li>
-            <li>${$plans[plans].plans[options].max_deposit} <span class="badge base--bg text-dark">Maximum</span></li>
+            <li>Return 6%</li>
+            <li>Every Week</li>
+            <li>For 5 Week</li>
+            <li>Total 30% + <span class="badge base--bg text-dark">Capital</span></li>
           </ul>
+          <div class="package-card__range mt-5 base--color">$200</div>
           <a href="#0" class="cmn-btn btn-md mt-4">Invest Now</a>
         
         {/section}
