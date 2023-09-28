@@ -43,7 +43,7 @@
         <div class="package-card text-center bg_img" data-background="assets/images/bg/bg-4.png">
         {section name=options loop=$plans[plans].plans}
 
-          <h4 class="package-card__title base--color mb-2">{$plans[plans].plans[parent].name}</h4>
+          <h4 class="package-card__title base--color mb-2">{$plans[plans].plans[options].name}</h4>
           <ul class="package-card__features mt-4">
                       
             <li>{$plans[plans].plans[options].description}Days
