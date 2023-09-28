@@ -197,7 +197,7 @@
                       value=$frm.sa 
                       icon='images/svg/form/question.svg'
                     }
-{* 
+
           {foreach item=p from=$mpay_accounts}
             {foreach item=ps from=$p.accounts}
               {include 
@@ -208,7 +208,7 @@
               icon='images/svg/form/wallet.svg'
               }
             {/foreach}
-          {/foreach} *}
+          {/foreach}
 
           <div class="mt-4 flex items-center space-x-2">
             <input
